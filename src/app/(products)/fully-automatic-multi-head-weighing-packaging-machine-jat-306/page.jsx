@@ -4,6 +4,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/fully-automatic-multi-head-weighing-packaging-machine-jat-306" },
   title: "Best Fully Automatic Multi-head Weighing, Packaging Machine",
   description:
     "Buy Fully Automatic Multi-head Weighing Packaging Machine from Jawla Advance Technology for fast, accurate and reliable packaging solutions. Get the best price today!",

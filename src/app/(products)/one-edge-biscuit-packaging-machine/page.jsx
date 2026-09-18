@@ -3,6 +3,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/one-edge-biscuit-packaging-machine" },
   title: "Best One-Edge Biscuit Packaging Machine - Jawla Advance Technology",
   description:
     "Buy high-quality One-edge Biscuit Packaging Machine with Dual Feeder for 50gm, 75gm & 100gm (JAT-311) from Jawla Advance Technology for fast and accurate biscuit packaging.",

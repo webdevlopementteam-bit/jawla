@@ -4,6 +4,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/horizontal-rotary-machine" },
   title:
     "Best Horizontal Rotary Machine Manufacturer – Jawla Advance Technology",
   description:

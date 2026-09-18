@@ -3,6 +3,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/ffs-half-pneumatic-packaging-machine" },
   title: "Buy FFS Half Pneumatic Packaging Machine in Delhi NCR",
   description:
     "Jawla Advance Technology presents the smart FFS Half Pneumatic Packaging Machine – effortless semi-auto pouch packing for namkeen, spices, pulses & granules. Budget-friendly power – Get quote now!",

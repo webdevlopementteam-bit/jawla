@@ -3,6 +3,13 @@ import Image from "next/image";
 import BlogForm from "@/components/BlogForm";
 import Link from "next/link";
 
+export const metadata = {
+  alternates: { canonical: "/normal-ffs-packaging-machine" },
+  title: "Normal FFS Packaging Machine: Complete Buying Guide (2026)",
+  description:
+    "A complete buying guide to Normal FFS Packaging Machines covering price, features and expert tips to help you choose the right machine in 2026.",
+};
+
 export default function FFSGuideHeaderSection() {
   const ffsFeatures = [
     "Forms pouches from roll film",

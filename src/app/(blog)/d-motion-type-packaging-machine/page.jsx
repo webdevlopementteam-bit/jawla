@@ -1,8 +1,14 @@
-"use client";
 import Image from "next/image";
 
 import Link from "next/link";
 import BlogForm from "@/components/BlogForm";
+
+export const metadata = {
+  alternates: { canonical: "/d-motion-type-packaging-machine" },
+  title: "D-Motion Type Packaging Machine Price in India 2026 | Jawla Advance",
+  description:
+    "Explore features, price and buying guide for D-Motion Type Packaging Machines in India. Get expert insights from Jawla Advance Technology.",
+};
 
 export default function page() {
   const steps = [

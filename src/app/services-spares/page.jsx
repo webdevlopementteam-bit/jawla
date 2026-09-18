@@ -1,6 +1,7 @@
 import React from "react";
 
 export const metadata = {
+  alternates: { canonical: "/services-spares" },
   title: "Services & Spares - Jawla Advance Technology",
   description:
     "Using highest quality components in the market, our machines are manufactured under the special care of our trained and seasoned workforce. The service",

@@ -3,6 +3,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/hotel-pack-packaging-machine" },
   title: "Buy Best Hotel Pack Packaging Machine - Jawla Advance",
   description:
     "Buy Hotel Pack Packaging Machine from Jawla Advance Technology for fast, precise, and hygienic packing of sachets. Best quality machines. Contact us today!",

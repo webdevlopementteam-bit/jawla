@@ -3,6 +3,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/horizontal-flow-wrap-pillow-pack-machine" },
   title: "Top Horizontal Flow Wrap Pillow Pack Machine - Jawla Advance",
   description:
     "Looking for Horizontal Flow Wrap Pillow Pack Machine? Jawla Advance Technology offers high-performance and durable machines for all industries. Shop now!",

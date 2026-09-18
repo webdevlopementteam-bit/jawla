@@ -3,6 +3,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/one-edge-packaging-machine-with-cream-biscuit-feeder" },
   title: "Best One-Edge Packaging Machine With Cream Biscuit Feeder",
   description:
     "Discover Jawla Advance Technology's One-Edge Packaging Machine With Cream Biscuit Feeder (JAT-313) – automatic cream feeding, high-speed packing for cream biscuits & cookies. Precise, reliable – Contact now!",

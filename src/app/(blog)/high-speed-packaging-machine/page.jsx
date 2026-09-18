@@ -3,6 +3,13 @@ import Image from "next/image";
 import BlogForm from "@/components/BlogForm";
 import Link from "next/link";
 
+export const metadata = {
+  alternates: { canonical: "/high-speed-packaging-machine" },
+  title: "What Is an FFS High Speed Packaging Machine and How Does It Work?",
+  description:
+    "Understand what an FFS High Speed Packaging Machine is, how it works, and why it is one of the most widely used automated packaging technologies today.",
+};
+
 export default function FFSHighSpeedPackagingGuide() {
   const machineImages = [
     { src: "/blog/p6.png", alt: "FFS High Speed Packaging Machine Front View" },

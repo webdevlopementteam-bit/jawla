@@ -11,6 +11,7 @@ const oxanium = Oxanium({
 });
 
 export const metadata = {
+  metadataBase: new URL("https://www.jawlaadvancetechnology.com"),
   title: "Jawla Advance Technology LLP - Best Packaging Machine Manufacturer",
   description:
     "Jawla Advance Technology LLP is leading best packaging machine manufacturer in Delhi NCR, specializing in high-performance, easy-to-operate packaging solutions.",

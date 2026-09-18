@@ -3,6 +3,7 @@ import Link from "next/link";
 import { blogPosts } from "@/lib/data";
 
 export const metadata = {
+  alternates: { canonical: "/blog" },
   title: "Blog - Jawla Advance Technology",
   description: "",
 };

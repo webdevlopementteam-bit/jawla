@@ -3,6 +3,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/normal-ffs-packaging-machine-jat-301" },
   title: "Best Normal FFS Packaging Machine - Jawla Advance Technology",
   description:
     "Buy high quality Normal FFS Packaging Machine from Jawla Advance Technology for fast, accurate and reliable packaging solutions. Contact us now!",

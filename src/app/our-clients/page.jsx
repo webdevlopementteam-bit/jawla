@@ -3,6 +3,7 @@ import { clients } from "@/lib/data";
 import Image from "next/image";
 
 export const metadata = {
+  alternates: { canonical: "/our-clients" },
   title: "OUR CLIENTS - Jawla Advance Technology",
   description:
     "OUR CLIENTS Home",

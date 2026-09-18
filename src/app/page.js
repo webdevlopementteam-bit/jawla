@@ -5,6 +5,10 @@ import HomeServicesSection from "@/sections/HomeServices";
 import TestimonialsSection from "@/sections/Testimonial";
 import React from "react";
 
+export const metadata = {
+  alternates: { canonical: "/" },
+};
+
 function page() {
   return (
     <>

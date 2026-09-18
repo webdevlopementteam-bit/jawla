@@ -3,6 +3,7 @@ import Image from "next/image";
 import { FaSquareCheck } from "react-icons/fa6";
 
 export const metadata = {
+  alternates: { canonical: "/about-us" },
   title: "Fully & Semi Automatic Packaging Machine - Jawla Advance Technology",
   description:
     "Get Fully Automatic Packaging Machine and Semi Automatic Packaging Machine from Jawla Advance Technology for high performance packaging solutions.",

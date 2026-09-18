@@ -10,6 +10,13 @@ import {
 import Link from "next/link";
 import BlogForm from "@/components/BlogForm";
 
+export const metadata = {
+  alternates: { canonical: "/hotel-pack-packaging-machines" },
+  title: "Best Hotel Pack Packaging Machine 2026: Top Picks & Buyer's Guide",
+  description:
+    "A complete 2026 buyer's guide to hotel pack packaging machines, covering machine types, output speed, sealing quality and common buying mistakes to avoid.",
+};
+
 export default function page() {
   return (
     <>

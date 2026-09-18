@@ -4,6 +4,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/collar-auger-filling-packaging-machine" },
   title: "Top Collar Auger Filling Packaging Machine | Jawla Advance",
   description:
     "Buy Collar Auger Filling Packaging Machine from Jawla Advance Technology for accurate and efficient powder packaging solutions. Get the best price today!",

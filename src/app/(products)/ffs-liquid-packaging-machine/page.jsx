@@ -3,6 +3,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/ffs-liquid-packaging-machine" },
   title: "Buy Best FFS Liquid Packaging Machine | Jawla Advance Technology",
   description:
     "Get advanced FFS Liquid Packaging Machine from Jawla Advance Technology for efficient and cost-effective packaging solution. Contact us now!",

@@ -3,6 +3,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/best-automatic-family-pack-rusk-packaging-machine" },
   title: "Best Automatic Family Pack Rusk Packaging Machine (JAT-312)",
   description:
     "Discover Jawla Advance Technology's Automatic Family Pack Rusk Packaging Machine – high-speed, precise packing for 50-400g family packs of rusk, biscuit & cake. Boost efficiency – Contact now!",

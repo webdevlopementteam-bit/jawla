@@ -3,6 +3,7 @@ import { applications } from "@/lib/data";
 import Image from "next/image";
 
 export const metadata = {
+  alternates: { canonical: "/applications" },
   title: "Applications - Jawla Advance Technology",
   description:
     "APPLICATIONS Home Chocolate Candies Coffee and Tea Biscuits and Cookies Detergent and Chemicals Industrial Items Namkeen and Snacks Liquid and Viscous Noodles",

@@ -3,6 +3,7 @@ import Image from "next/image";
 import { exhibitions } from "@/lib/data";
 
 export const metadata = {
+  alternates: { canonical: "/news-exhibition" },
   title: "News/Exhibition - Jawla Advance Technology",
   description:
     "We cordially invite you to visit Jawla Advance Technology LLP at the 8th World Mithai Namkeen Convention & Expo, from 19–21 December 2025 at Yashobhoomi,",

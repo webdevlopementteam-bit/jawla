@@ -4,6 +4,7 @@ import Link from "next/link";
 import { products } from "@/lib/data";
 
 export const metadata = {
+  alternates: { canonical: "/products" },
   title: "Products - Jawla Advance Technology",
   description:
     "PRODUCTS Home Normal FFS Packaging Machine (JAT-301) FFS Liquid Packaging Machine (JAT-301A) FFS High Speed Packaging Machine (JAT-302) FFS D-Motion Type",

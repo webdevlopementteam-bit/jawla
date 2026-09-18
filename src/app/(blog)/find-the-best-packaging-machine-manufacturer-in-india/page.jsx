@@ -3,6 +3,15 @@ import React from "react";
 import Image from "next/image";
 import BlogForm from "@/components/BlogForm";
 
+export const metadata = {
+  alternates: {
+    canonical: "/find-the-best-packaging-machine-manufacturer-in-india",
+  },
+  title: "How to Find the Best Packaging Machine Manufacturer in India 2026",
+  description:
+    "Learn how to evaluate and find the best packaging machine manufacturer in India in 2026, from build quality to after-sales service and spare parts support.",
+};
+
 export default function FindBestManufacturerHeaderSection() {
   const machineTypes = [
     {

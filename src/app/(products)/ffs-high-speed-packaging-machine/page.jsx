@@ -3,6 +3,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/ffs-high-speed-packaging-machine" },
   title: "Best FFS High Speed Packaging Machine | Jawla Advance Technology",
   description:
     "FFS High Speed Packaging Machine by Jawla Advance Technology offers fast, reliable and precise packaging solutions for food, pharma and industrial use.",

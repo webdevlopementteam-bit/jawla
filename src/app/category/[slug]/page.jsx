@@ -3,6 +3,13 @@ import { blogPosts } from "@/lib/data";
 import Link from "next/link";
 import Image from "next/image";
 
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  return {
+    alternates: { canonical: `/category/${slug}` },
+  };
+}
+
 export default async function Page({ params }) {
   const { slug } = await params;
   const data = blogPosts.filter((b) => b.category == slug.toUpperCase());

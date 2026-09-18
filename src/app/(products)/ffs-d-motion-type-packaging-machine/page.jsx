@@ -3,6 +3,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/ffs-d-motion-type-packaging-machine" },
   title: "Top FFS D-Motion Type Packaging Machine - Jawla Advance Technology",
   description:
     "Buy FFS D-Motion Type Packaging Machine from Jawla Advance Technology for fast, accurate, and reliable packaging solutions. Get the best price today!",

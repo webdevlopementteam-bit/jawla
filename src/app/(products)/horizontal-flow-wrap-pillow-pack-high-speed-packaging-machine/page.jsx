@@ -3,6 +3,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/horizontal-flow-wrap-pillow-pack-high-speed-packaging-machine" },
   title: "Top Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine",
   description:
     "Looking for High-Speed 2/4 Biscuit Pillow Packaging Machine? Buy Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine from Jawla Advance Technology. Contact today!  ",

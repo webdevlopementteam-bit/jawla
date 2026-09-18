@@ -3,6 +3,7 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
+  alternates: { canonical: "/collar-type-cup-filler-packaging-machine" },
   title: "Buy Collar Type Cup Filler Packaging Machine in Delhi",
   description:
     "Discover Jawla Advance Technology's Collar Type Cup Filler Packaging Machine (JAT-314) – precise volumetric filling for spices, dry fruits, snacks, pulses up to 100 packs/min. Zero waste, reliable – Contact now!",
