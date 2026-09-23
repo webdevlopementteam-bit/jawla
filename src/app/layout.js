@@ -20,6 +20,9 @@ export const metadata = {
     shortcut: "/logo/logo2.png",
     apple: "/logo/logo2.png",
   },
+  verification: {
+    google: "jN1haUl-peCS2as4Ec0NKTEJWKQjzRzQMgD2YHOuwJs",
+  },
 };
 export default function RootLayout({ children }) {
   return (
