@@ -22,14 +22,64 @@ function ContactUs() {
     message: "",
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isHuman, setIsHuman] = useState(false);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form Submitted:", formData);
+
+    // Robot checkbox validation
+    if (!isHuman) {
+      alert("Please confirm that you are not a robot.");
+      return;
+    }
+
+    setIsSubmitting(true);
+
+    try {
+      const formDataToSend = new FormData();
+
+      formDataToSend.append(
+        "access_key",
+        "341b1c15-a810-4253-bb25-62c834cc1a6d",
+      );
+
+      formDataToSend.append("firstName", formData.firstName);
+      formDataToSend.append("lastName", formData.lastName);
+      formDataToSend.append("email", formData.email);
+      formDataToSend.append("numbers", formData.numbers);
+      formDataToSend.append("message", formData.message);
+
+      formDataToSend.append(
+        "subject",
+        "New Contact Form Submission - Jawla Advance Technology",
+      );
+
+      formDataToSend.append("from_name", "Jawla Advance Technology Website");
+
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formDataToSend,
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        window.location.href = "/thank-you";
+      } else {
+        alert(data.message || "Something went wrong. Please try again.");
+      }
+    } catch (error) {
+      console.error("Form submission error:", error);
+      alert("Something went wrong. Please try again.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const scrollToMap = () => {
@@ -53,10 +103,12 @@ function ContactUs() {
               <div className="bg-[#e53935] text-white p-3 rounded-md shrink-0">
                 <FaPhone className="w-6 h-6" />
               </div>
+
               <div>
                 <h3 className="font-bold text-gray-900 text-lg mb-1 group-hover:text-[#e53935] transition-colors duration-300">
                   Landline
                 </h3>
+
                 <p className="text-gray-600 text-sm group-hover:text-[#e53935] transition-colors duration-300">
                   0129 - 2231 053
                 </p>
@@ -68,6 +120,7 @@ function ContactUs() {
               <div className="bg-[#e53935] text-white p-3 rounded-md shrink-0">
                 <FaMobileScreenButton className="w-6 h-6" />
               </div>
+
               <div>
                 <h3 className="font-bold text-gray-900 text-lg mb-1 group-hover:text-[#e53935] transition-colors duration-300">
                   Mobile
@@ -120,10 +173,12 @@ function ContactUs() {
               <div className="bg-[#e53935] text-white p-3 rounded-md shrink-0">
                 <FaEnvelope className="w-6 h-6" />
               </div>
+
               <div>
                 <h3 className="font-bold text-gray-900 text-lg mb-1 group-hover:text-[#e53935] transition-colors duration-300">
                   Email
                 </h3>
+
                 <span className="text-gray-600 text-sm break-all group-hover:text-[#e53935] transition-colors duration-300">
                   sales@jawlatechnology.in
                 </span>
@@ -195,6 +250,7 @@ function ContactUs() {
                         required
                         className="w-full px-3 py-2 border border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:ring-red-500 bg-gray-50/30 text-sm"
                       />
+
                       <span className="text-[11px] text-gray-400 mt-0.5 block">
                         First
                       </span>
@@ -208,6 +264,7 @@ function ContactUs() {
                         onChange={handleChange}
                         className="w-full px-3 py-2 border border-gray-200 rounded-md focus:outline-none focus:ring-1 focus:ring-red-500 bg-gray-50/30 text-sm"
                       />
+
                       <span className="text-[11px] text-gray-400 mt-0.5 block">
                         Last
                       </span>
@@ -262,12 +319,14 @@ function ContactUs() {
                   ></textarea>
                 </div>
 
-                {/* Mock reCAPTCHA Box */}
+                {/* I'm Not a Robot */}
                 <div className="bg-gray-50 border border-gray-200 rounded-md p-3 w-fit flex items-center gap-6 my-4">
                   <label className="flex items-center gap-3 cursor-pointer">
                     <input
                       type="checkbox"
-                      className="w-6 h-6 border-gray-300 rounded focus:ring-0"
+                      checked={isHuman}
+                      onChange={(e) => setIsHuman(e.target.checked)}
+                      className="w-6 h-6 border-gray-300 rounded focus:ring-0 cursor-pointer"
                     />
 
                     <span className="text-xs text-gray-700 font-medium">
@@ -293,9 +352,10 @@ function ContactUs() {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full bg-[#e53935] hover:bg-red-700 text-white font-semibold py-2.5 rounded-md transition duration-200 text-center"
+                  disabled={isSubmitting}
+                  className="w-full bg-[#e53935] hover:bg-red-700 disabled:bg-red-300 text-white font-semibold py-2.5 rounded-md transition duration-200 text-center"
                 >
-                  Submit
+                  {isSubmitting ? "Submitting..." : "Submit"}
                 </button>
               </form>
             </div>
