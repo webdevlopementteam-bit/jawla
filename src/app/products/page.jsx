@@ -5,15 +5,29 @@ import { products } from "@/lib/data";
 
 export const metadata = {
   alternates: { canonical: "/products" },
-  title: "Products - Jawla Advance Technology",
+  title:
+    "Buy Packaging Machine from Trusted Manufacturer and Supplier in Faridabad & Delhi NCR",
   description:
-    "PRODUCTS Home Normal FFS Packaging Machine (JAT-301) FFS Liquid Packaging Machine (JAT-301A) FFS High Speed Packaging Machine (JAT-302) FFS D-Motion Type",
+    "Explore 15+ models from a trusted packaging machine manufacturer in Faridabad & Delhi NCR. Powder, liquid, biscuit & snack packing machines. Call now.",
+  keywords: [
+    "Buy Packaging Machine",
+    "packaging machine manufacturer",
+    "packaging machine supplier",
+  ],
 };
 
 export default function ProductsGrid() {
   return (
     <section className="w-full bg-[#f9f9f9] py-12 px-4 sm:px-6 lg:px-12 font-sans">
       <div className="max-w-7xl mx-auto">
+        <p className="mb-8 text-sm leading-relaxed text-gray-700 sm:text-base">
+          <span className="font-bold text-black">Quick answer: </span>
+          Jawla Advance Technology LLP is a packaging machine manufacturer in
+          Ballabgarh, Faridabad, serving Delhi NCR, India and export markets. It
+          makes 15 models covering vertical FFS, liquid, auger, cup filler,
+          multi-head weighing and horizontal flow wrap machines for pack sizes
+          from 2 ml and 2 g sachets up to 10 kg bags.
+        </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {products.map((product, index) => {
             return (

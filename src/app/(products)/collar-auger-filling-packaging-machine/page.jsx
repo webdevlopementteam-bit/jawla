@@ -2,12 +2,19 @@ import React from "react";
 import Image from "next/image";
 import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
+import SuppliedProductContent from "@/components/SuppliedProductContent";
+import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/collar-auger-filling-packaging-machine" },
-  title: "Top Collar Auger Filling Packaging Machine | Jawla Advance",
+  title: "Best Collar Auger Filling Packaging Machine Manufacturer In Faridabad",
   description:
-    "Buy Collar Auger Filling Packaging Machine from Jawla Advance Technology for accurate and efficient powder packaging solutions. Get the best price today!",
+    "Collar auger filling packaging machine manufacturer in Faridabad & Delhi NCR. JAT-307 packs besan, maida & sattu, 10 g–10 kg. Get quote.",
+  keywords: [
+    "collar auger filling packaging machine",
+    "collar auger filling packaging machine manufacturer",
+    "collar auger filling packaging machine manufacturer In Faridabad",
+  ],
 };
 
 export default function ProductDetailSection() {
@@ -38,7 +45,22 @@ export default function ProductDetailSection() {
         />
       </section>
 
-      <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
+      <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
+        <h1 className="text-2xl md:text-3xl font-bold text-black">
+          Best Collar Auger Filling Packaging Machine Manufacturer - Jawla Advance Technology
+        </h1>
+      </section>
+
+      <SuppliedProductContent page={suppliedProductContent.auger} />
+      <section className="hidden w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
+        <p className="leading-relaxed">
+          <span className="font-bold text-black">Quick answer: </span>
+          Jawla Advance Technology LLP is a collar auger filling packaging
+          machine manufacturer in Faridabad, Delhi NCR. Its fully automatic
+          JAT-307 uses an auger screw to pack besan, maida, sattu, spices and
+          milk powder in 10 g to 10 kg pouches at 20 to 60 packets per minute,
+          with accurate weight and leak-proof seals.
+        </p>
         {/* Product Description */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">
@@ -163,7 +185,7 @@ export default function ProductDetailSection() {
             Jawla Advance Technology is a reputed name in the packaging
             machinery industry, known for manufacturing reliable and
             high-performance machines. The Collar Auger Filling Packaging
-            Machine (JAT-307) reflects the company's commitment to quality,
+            Machine (JAT-307) reflects the company&apos;s commitment to quality,
             innovation, and customer satisfaction.
           </p>
           <p className="leading-relaxed">

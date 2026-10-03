@@ -1,12 +1,19 @@
 import React from "react";
 import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
+import SuppliedProductContent from "@/components/SuppliedProductContent";
+import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/hotel-pack-packaging-machine" },
-  title: "Buy Best Hotel Pack Packaging Machine - Jawla Advance",
+  title: "Buy Hotel Pack Packaging Machine | Jawla Advance Technology",
   description:
-    "Buy Hotel Pack Packaging Machine from Jawla Advance Technology for fast, precise, and hygienic packing of sachets. Best quality machines. Contact us today!",
+    "Hotel pack packaging machine manufacturer in Faridabad & Delhi NCR. JAT-309 makes up to 80 pillow or tray packs/min for bakery & HoReCa. Call now.",
+  keywords: [
+    "hotel pack packaging machine",
+    "hotel pack packaging machine manufacturer",
+    "hotel pack packaging machine manufacturer In Faridabad",
+  ],
 };
 
 export default function ProductDetailSection() {
@@ -33,7 +40,22 @@ export default function ProductDetailSection() {
         />
       </section>
 
-      <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
+      <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
+        <h1 className="text-2xl md:text-3xl font-bold text-black">
+          Best Hotel Pack Packaging Machine Manufacturer - Jawla Advance Technology
+        </h1>
+      </section>
+
+      <SuppliedProductContent page={suppliedProductContent.hotel} />
+      <section className="hidden w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
+        <p className="leading-relaxed">
+          <span className="font-bold text-black">Quick answer: </span>
+          Jawla Advance Technology LLP is a hotel pack packaging machine
+          manufacturer in Faridabad, Delhi NCR. Its JAT-309 wraps biscuits,
+          cakes, cookies, chocolates, noodles and pasta in pillow or tray packs
+          at up to 80 packs per minute, running on a single-phase 2 HP gear motor
+          with about 3 kW power.
+        </p>
         {/* Product Description */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">

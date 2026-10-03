@@ -55,9 +55,9 @@ export default function HomeServicesSection() {
         {/* Top Header Section */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch mb-16">
           <div className="lg:col-span-6 lg:flex lg:items-center">
-            <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black tracking-tight leading-tight">
+            <h2 className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black tracking-tight leading-tight">
               Reliable Packaging Solutions
-            </h1>
+            </h2>
           </div>
 
           <div className="lg:col-span-6 lg:pl-8">

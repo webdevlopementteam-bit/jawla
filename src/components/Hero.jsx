@@ -22,11 +22,11 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto w-full">
         {/* Main Heading */}
-        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold uppercase tracking-tight leading-tight mb-5 sm:mb-6 lg:mb-8">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold uppercase tracking-tight leading-tight mb-5 sm:mb-6 lg:mb-8">
           WELCOME TO <span className="text-[#EC1C2C]">JAWLA ADVANCE</span>
           <br />
           <span className="text-[#EC1C2C]">TECHNOLOGY LLP</span>
-        </h1>
+        </h2>
 
         {/* Two Column Layout */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 sm:gap-6 lg:gap-8 items-center">

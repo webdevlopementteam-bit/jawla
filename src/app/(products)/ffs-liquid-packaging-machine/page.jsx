@@ -1,12 +1,19 @@
 import React from "react";
 import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
+import SuppliedProductContent from "@/components/SuppliedProductContent";
+import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/ffs-liquid-packaging-machine" },
-  title: "Buy Best FFS Liquid Packaging Machine | Jawla Advance Technology",
+  title: "Best Liquid Packaging Machine Manufacturer in Faridabad | Jawla Advance Technology",
   description:
-    "Get advanced FFS Liquid Packaging Machine from Jawla Advance Technology for efficient and cost-effective packaging solution. Contact us now!",
+    "Liquid packaging machine manufacturer in Faridabad & Delhi NCR. Pack oil, shampoo & syrups in 2–100 ml pouches at 50–60 pouches/min. Get price.",
+  keywords: [
+    "liquid packaging machine",
+    "liquid packaging machine manufacturer",
+    "liquid packaging machine manufacturer In Faridabad",
+  ],
 };
 
 export default function ProductDetailSection() {
@@ -28,7 +35,22 @@ export default function ProductDetailSection() {
           productTagline={"Quickly Sealing the Novelty of Liquid Products"}
         />
       </section>
-      <section className="w-full mx-auto px-4 sm:px-6 md:px-10 lg:px-16 py-8 sm:py-10 lg:py-12 space-y-8 sm:space-y-10 lg:space-y-12 border-t border-gray-200 text-left">
+
+      <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
+        <h1 className="text-2xl md:text-3xl font-bold text-black">
+          Best FFS Liquid Packaging Machine Manufacturer - Jawla Advance Technology
+        </h1>
+      </section>
+      <SuppliedProductContent page={suppliedProductContent.liquid} />
+      <section className="hidden w-full mx-auto px-4 sm:px-6 md:px-10 lg:px-16 py-8 sm:py-10 lg:py-12 space-y-8 sm:space-y-10 lg:space-y-12 border-t border-gray-200 text-left">
+        <p className="text-sm leading-relaxed text-gray-700 md:text-base">
+          <strong className="text-black">Quick answer: </strong>
+          Jawla Advance Technology LLP is a liquid packaging machine
+          manufacturer in Faridabad, Delhi NCR. Its FFS Liquid Packaging
+          Machine (JAT-301A) uses piston dosing to fill oil, shampoo, liquid
+          soap, syrups and lubricants into 2 ml to 100 ml pouches at 50 to 60
+          pouches per minute, with stainless steel contact parts.
+        </p>
         <div className="w-full mx-auto space-y-6 sm:space-y-7 lg:space-y-8">
           {/* Section Header */}
           <p className="text-[#E13538] font-semibold tracking-wide text-xs sm:text-lg md:text-xl lg:text-xl uppercase text-left">
@@ -36,10 +58,10 @@ export default function ProductDetailSection() {
           </p>
           {/* Main Title & Overview */}
           <div className="space-y-4">
-            <h1 className="text-xl md:text-2xl lg:text-2xl font-bold text-[#E13538] text-left">
+            <h3 className="text-xl md:text-2xl lg:text-2xl font-bold text-[#E13538] text-left">
               FFS Liquid Packaging Machine – Efficient & Accurate Liquid
               Packaging Solution
-            </h1>
+            </h3>
 
             <p className="text-sm md:text-base lg:text-base text-left">
               The{" "}

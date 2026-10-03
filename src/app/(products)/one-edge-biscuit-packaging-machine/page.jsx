@@ -1,12 +1,19 @@
 import React from "react";
 import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
+import SuppliedProductContent from "@/components/SuppliedProductContent";
+import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/one-edge-biscuit-packaging-machine" },
-  title: "Best One-Edge Biscuit Packaging Machine - Jawla Advance Technology",
+  title: "Top One-Edge Biscuit Packaging Machine Manufacturer In Faridabad",
   description:
-    "Buy high-quality One-edge Biscuit Packaging Machine with Dual Feeder for 50gm, 75gm & 100gm (JAT-311) from Jawla Advance Technology for fast and accurate biscuit packaging.",
+    "One-edge biscuit packaging machine manufacturer in Faridabad & Delhi NCR. JAT-311 dual feeder packs 50/75/100 g at up to 200 packs/min. Call now.",
+  keywords: [
+    "one-edge biscuit packaging machine",
+    "one-edge biscuit packaging machine manufacturer",
+    "one-edge biscuit packaging machine manufacturer In Faridabad",
+  ],
 };
 
 export default function ProductDetailSection() {
@@ -31,7 +38,22 @@ export default function ProductDetailSection() {
         />
       </section>
 
-      <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
+      <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
+        <h1 className="text-2xl md:text-3xl font-bold text-black">
+          Top One-Edge Biscuit Packaging Machine Manufacturer
+        </h1>
+      </section>
+
+      <SuppliedProductContent page={suppliedProductContent.oneEdgeBiscuit} />
+      <section className="hidden w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
+        <p className="leading-relaxed">
+          <span className="font-bold text-black">Quick answer: </span>
+          Jawla Advance Technology LLP is a one-edge biscuit packaging machine
+          manufacturer in Faridabad, Delhi NCR. Its JAT-311 with dual feeder
+          automatically groups and wraps biscuits into 50 g, 75 g and 100 g
+          one-edge packs at up to 200 packs per minute, using 250 mm film and
+          about 3 kW of power.
+        </p>
         {/* Product Description */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">

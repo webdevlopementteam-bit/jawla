@@ -2,13 +2,19 @@ import React from "react";
 import TopCard from "@/components/TopCard";
 
 import MainProductDetails from "@/components/MainProductDetails";
+import SuppliedProductContent from "@/components/SuppliedProductContent";
+import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/horizontal-rotary-machine" },
-  title:
-    "Best Horizontal Rotary Machine Manufacturer – Jawla Advance Technology",
+  title: "Top Horizontal Rotary Machine Manufacturer in Faridabad | Jawla Advance Technology",
   description:
-    "Buy high-quality Horizontal Rotary Machine from Jawla Advance Technology, offering durable, efficient, and high-speed packaging solutions. Contact us today!",
+    "Horizontal rotary machine manufacturer in Faridabad & Delhi NCR. JAT-305 packs tea, sugar, spices & pan masala in small pouches. Get price.",
+  keywords: [
+    "horizontal rotary machine",
+    "horizontal rotary machine manufacturer",
+    "horizontal rotary machine manufacturer In Faridabad",
+  ],
 };
 
 export default function ProductDetailSection() {
@@ -35,7 +41,22 @@ export default function ProductDetailSection() {
         />
       </section>
 
-      <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
+      <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
+        <h1 className="text-2xl md:text-3xl font-bold text-black">
+          Top Horizontal Rotary Machine Manufacturer - Jawla Advance Technology
+        </h1>
+      </section>
+
+      <SuppliedProductContent page={suppliedProductContent.rotary} />
+      <section className="hidden w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
+        <p className="leading-relaxed">
+          <span className="font-bold text-black">Quick answer: </span>
+          Jawla Advance Technology LLP is a horizontal rotary machine
+          manufacturer in Faridabad, Delhi NCR. Its JAT-305 uses a rotary
+          mechanism that forms, fills and seals small pouches in one synchronised
+          cycle, and is built for tea, sugar, spices, washing powder, mouth
+          freshener and pan masala sachets.
+        </p>
         {/* Product Description */}
         <div className="space-y-3">
           <h2 className="text-[#E13538] text-xl font-bold mb-3">
@@ -298,7 +319,7 @@ export default function ProductDetailSection() {
             .
           </p>
           <p className="leading-relaxed">
-            The machine's low maintenance requirement and long operational life
+            The machine&apos;s low maintenance requirement and long operational life
             make it a{" "}
             <span className="font-bold">
               cost-effective solution for industrial packaging operations
@@ -333,7 +354,7 @@ export default function ProductDetailSection() {
             <span className="font-bold">
               Horizontal Rotary Machine (JAT-305)
             </span>{" "}
-            reflects the company's commitment to innovation, performance, and
+            reflects the company&apos;s commitment to innovation, performance, and
             long-term reliability.
           </p>
           <p className="leading-relaxed">

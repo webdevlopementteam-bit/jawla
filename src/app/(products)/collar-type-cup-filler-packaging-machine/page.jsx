@@ -1,12 +1,19 @@
 import React from "react";
 import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
+import SuppliedProductContent from "@/components/SuppliedProductContent";
+import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/collar-type-cup-filler-packaging-machine" },
-  title: "Buy Collar Type Cup Filler Packaging Machine in Delhi",
+  title: "Buy Collar Type Cup Filler Packaging Machine | Jawla Advance Technology",
   description:
-    "Discover Jawla Advance Technology's Collar Type Cup Filler Packaging Machine (JAT-314) – precise volumetric filling for spices, dry fruits, snacks, pulses up to 100 packs/min. Zero waste, reliable – Contact now!",
+    "Collar type cup filler packaging machine manufacturer in Faridabad & Delhi NCR. JAT-314 packs rice, pulses & namkeen, 100 g–1 kg. Get quote.",
+  keywords: [
+    "collar type cup filler packaging machine",
+    "collar type cup filler packaging machine manufacturer",
+    "collar type cup filler packaging machine manufacturer In Faridabad",
+  ],
 };
 
 export default function ProductDetailSection() {
@@ -32,7 +39,22 @@ export default function ProductDetailSection() {
           productTagline={"High Degree of Tolerance with Optimum Runtime"}
         />
       </section>
-      <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
+
+      <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
+        <h1 className="text-2xl md:text-3xl font-bold text-black">
+          Top Collar Type Cup Filler Packaging Machine Manufacturer - Jawla Advance Technology
+        </h1>
+      </section>
+      <SuppliedProductContent page={suppliedProductContent.collarCup} />
+      <section className="hidden w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
+        <p className="leading-relaxed">
+          <span className="font-bold text-black">Quick answer: </span>
+          Jawla Advance Technology LLP is a collar type cup filler packaging
+          machine manufacturer in Faridabad, Delhi NCR. Its JAT-314 uses
+          volumetric cups to pack rice, pulses, namkeen, spices, dry fruits and
+          corn flakes in 100 g to 1 kg pouches at up to 80 packets per minute,
+          with a 450 mm film and centre side seal.
+        </p>
         {/* Product Description */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">

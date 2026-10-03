@@ -15,6 +15,7 @@ export default function ProductDetailSection() {
       <section className="w-full bg-white font-sans">
         {/* Top Red Header Container */}
         <TopCard
+          as="h1"
           title={"FFS D-Motion Type Packaging Machine"}
           image={"/PRODUCTS/ffs-d-motion-type-packaging-machine/top.png"}
         />

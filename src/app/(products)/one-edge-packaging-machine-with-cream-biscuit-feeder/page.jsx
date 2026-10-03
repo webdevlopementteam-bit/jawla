@@ -1,12 +1,18 @@
 import React from "react";
 import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
+import SuppliedProductContent from "@/components/SuppliedProductContent";
+import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/one-edge-packaging-machine-with-cream-biscuit-feeder" },
-  title: "Best One-Edge Packaging Machine With Cream Biscuit Feeder",
+  title: "Best one-edge packaging machine with cream biscuit feeder manufacturer",
   description:
-    "Discover Jawla Advance Technology's One-Edge Packaging Machine With Cream Biscuit Feeder (JAT-313) – automatic cream feeding, high-speed packing for cream biscuits & cookies. Precise, reliable – Contact now!",
+    "One-edge packaging machine with cream biscuit feeder manufacturer in Faridabad & Delhi NCR. JAT-313 makes 80–150 packs/min. Enquire now.",
+  keywords: [
+    "one-edge packaging machine with cream biscuit feeder manufacturer",
+    "one-edge packaging machine with cream biscuit feeder manufacturer In Faridabad",
+  ],
 };
 
 export default function ProductDetailSection() {
@@ -38,7 +44,22 @@ export default function ProductDetailSection() {
           }
         />
       </section>
-      <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
+
+      <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
+        <h1 className="text-2xl md:text-3xl font-bold text-black">
+          Best One-Edge Packaging Machine With Cream Biscuit Feeder Manufacturer
+        </h1>
+      </section>
+      <SuppliedProductContent page={suppliedProductContent.creamBiscuit} />
+      <section className="hidden w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
+        <p className="leading-relaxed">
+          <span className="font-bold text-black">Quick answer: </span>
+          Jawla Advance Technology LLP is a one-edge packaging machine with
+          cream biscuit feeder manufacturer in Faridabad, Delhi NCR. Its
+          servo-driven JAT-313 feeds shells, applies cream, sandwiches and wraps
+          cream biscuits into 50 g, 75 g and 100 g packs at 80 to 150 packs per
+          minute, built for 24/7 running.
+        </p>
         {/* Product Description */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">
@@ -188,7 +209,7 @@ export default function ProductDetailSection() {
                 suitable for sandwich cream biscuits?
               </p>
               <p className="leading-relaxed">
-                Yes, it's specifically designed for cream sandwiching with an
+                Yes, it&apos;s specifically designed for cream sandwiching with an
                 automatic cream feeder, shell feeding, and high-speed flow
                 wrapping for cream biscuits, cookies, and similar products.
               </p>

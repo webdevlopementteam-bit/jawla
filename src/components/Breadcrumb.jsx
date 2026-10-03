@@ -20,6 +20,11 @@ const pageNames = {
   "/category/uncategorized": "Category Uncategorized",
 };
 
+const quickAnswers = {
+  "/products":
+    "Jawla Advance Technology LLP is a packaging machine manufacturer in Ballabgarh, Faridabad, serving Delhi NCR, India and export markets. It makes 15 models covering vertical FFS, liquid, auger, cup filler, multi-head weighing and horizontal flow wrap machines for pack sizes from 2 ml and 2 g sachets up to 10 kg bags.",
+};
+
 export default function Breadcrumb() {
   const pathname = usePathname();
 
@@ -28,6 +33,8 @@ export default function Breadcrumb() {
 
   // Baaki sab pages par breadcrumb hide
   if (!pageTitle) return null;
+
+  const quickAnswer = quickAnswers[pathname];
 
   return (
     <section className="w-full bg-[#8C0013] text-white py-12 sm:py-16 px-6 sm:px-12 md:px-16 lg:px-24">
@@ -51,6 +58,14 @@ export default function Breadcrumb() {
 
           <span className="text-white">{pageTitle}</span>
         </div>
+
+        {/* Quick Answer */}
+        {quickAnswer && (
+          <p className="max-w-4xl text-sm sm:text-base leading-relaxed text-white/90">
+            <span className="font-bold text-white">Quick answer: </span>
+            {quickAnswer}
+          </p>
+        )}
       </div>
     </section>
   );

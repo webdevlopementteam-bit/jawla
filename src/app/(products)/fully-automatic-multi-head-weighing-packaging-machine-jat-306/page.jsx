@@ -1,14 +1,228 @@
 import React from "react";
-import Image from "next/image";
+import Link from "next/link";
 import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
-  alternates: { canonical: "/fully-automatic-multi-head-weighing-packaging-machine-jat-306" },
-  title: "Best Fully Automatic Multi-head Weighing, Packaging Machine",
+  alternates: {
+    canonical: "/fully-automatic-multi-head-weighing-packaging-machine-jat-306",
+  },
+  title: "Buy Fully Automatic Multi-Head Weighing Packaging Machine In Faridabad",
   description:
-    "Buy Fully Automatic Multi-head Weighing Packaging Machine from Jawla Advance Technology for fast, accurate and reliable packaging solutions. Get the best price today!",
+    "Fully automatic multi-head weighing packaging machine manufacturer in Faridabad & Delhi NCR. 100 g–1 kg, 40–400 packs/min. Request quote.",
+  keywords: [
+    "fully automatic multi-head weighing packaging machine",
+    "fully automatic multi-head weighing packaging machine manufacturer",
+    "fully automatic multi-head weighing packaging machine manufacturer In Faridabad",
+  ],
 };
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id":
+        "https://www.jawlaadvancetechnology.com/fully-automatic-multi-head-weighing-packaging-machine-jat-306#product",
+      name: "Fully Automatic Multi-Head Weighing Packaging Machine (JAT-306)",
+      model: "JAT-306",
+      sku: "JAT-306",
+      category: "Multi-Head Weighing Packaging Machine",
+      image:
+        "https://www.jawlaadvancetechnology.com/PRODUCTS/fully-automatic-multi-head-weighing-packaging-machine-jat-306/p1.png",
+      description:
+        "Fully automatic multi-head weighing packaging machine by a Faridabad manufacturer. 100 g to 1 kg, 40 to 400 packets per minute, 700 mm film, 1 HP servo motor.",
+      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
+      manufacturer: {
+        "@id": "https://www.jawlaadvancetechnology.com/#organization",
+      },
+      additionalProperty: [
+        { "@type": "PropertyValue", name: "Pack Size", value: "100 g to 1 kg" },
+        {
+          "@type": "PropertyValue",
+          name: "Output",
+          value: "40 to 400 packets per minute",
+        },
+        {
+          "@type": "PropertyValue",
+          name: "Maximum Film Width",
+          value: "700 mm",
+        },
+        {
+          "@type": "PropertyValue",
+          name: "Motor",
+          value: "1 HP three-phase servo motor",
+        },
+      ],
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.jawlaadvancetechnology.com/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Products",
+          item: "https://www.jawlaadvancetechnology.com/products",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "Multi-Head Weighing Packaging Machine",
+          item: "https://www.jawlaadvancetechnology.com/fully-automatic-multi-head-weighing-packaging-machine-jat-306",
+        },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What is a multi-head weighing packaging machine?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "A multi-head weighing packaging machine uses several small weigh buckets to measure product, picks the combination closest to the target weight, and drops it into a form fill seal packer. Jawla Advance Technology's JAT-306 does this automatically for 100 g to 1 kg pouches.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How does a multi-head weigher achieve such high accuracy?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Each bucket holds a portion of product and is weighed separately. In a fraction of a second, the controller checks many bucket combinations and releases the one closest to your target. This is far more accurate than cups or augers for irregular products like chips and cashews.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How much does a multi-head weighing packaging machine cost in India?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The Jawla Advance Technology JAT-306 is priced based on the number of heads, pack range and accessories. Because it cuts giveaway, many buyers recover part of the cost through saved product. Contact the Faridabad team for an exact quote.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Which products can the JAT-306 pack?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The JAT-306 packs chips, namkeen, bhujia, puffs, dry fruits like cashews, almonds, raisins and peanuts, seeds, grains, whole spices and fresh or processed vegetables. It is ideal for irregular, fragile or high-value products.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What pouch sizes and speed does the JAT-306 offer?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The JAT-306 packs 100 g to 1 kg pouches at 40 to 400 packets per minute, depending on product type and pouch size. Light snacks in small packs run faster, while heavy 1 kg packs run at the lower end.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What power supply does a multi-head weighing machine need?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Jawla Advance Technology's JAT-306 runs on a 1 HP three-phase servo motor with a quick AC speed control unit. Plan a stable three-phase connection at your site. Exact total load depends on configuration, so confirm with Jawla Advance Technology before installation.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is a multi-head weigher better than a cup filler?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "It depends on the product. For irregular or fragile items like chips, namkeen and cashews, a multi-head weigher is far more accurate. For uniform, free-flowing items like rice or pulses, a cup filler such as the JAT-314 is simpler and more economical.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is the JAT-306 suitable for chips and namkeen?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Chips and namkeen are light, irregular and fragile, which makes volume filling inaccurate. Multi-head weighing handles them gently and hits the target weight closely, so it is the preferred method for snack brands.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Who is the best fully automatic multi-head weighing packaging machine manufacturer in Faridabad and Delhi NCR?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best fully automatic multi-head weighing packaging machine manufacturers in Faridabad and Delhi NCR. It builds the JAT-306 in-house, runs weighing trials with your own product, and provides installation, calibration, operator training and fast local service.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does Jawla Advance Technology install and calibrate the JAT-306?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Jawla Advance Technology's engineers install the JAT-306, calibrate the weigher for your product and pack weights, and train operators on settings, changeovers and cleaning. Preventive maintenance, breakdown support and spares are available across Delhi NCR.",
+          },
+        },
+      ],
+    },
+  ],
+};
+
+const keySpecs = [
+  { feature: "Pack size", value: "100 g to 1 kg" },
+  {
+    feature: "Output",
+    value: "40 to 400 packets per minute (product dependent)",
+  },
+  { feature: "Weighing", value: "Multi-head combination weigher" },
+  { feature: "Maximum film width", value: "700 mm" },
+  { feature: "Sealing", value: "Centre seal, leak-proof" },
+  { feature: "Film draw", value: "Clutch-brake mechanism" },
+  { feature: "Speed control", value: "Quick AC speed control unit" },
+  { feature: "Motor", value: "1 HP three-phase servo motor (Crompton)" },
+  {
+    feature: "Body",
+    value: "Powder coated against moisture, dust and stress",
+  },
+  { feature: "Film", value: "Heat-sealable laminated roll film" },
+];
+
+const packableProducts = [
+  "Snacks: chips, namkeen, bhujia, puffs and extruded snacks",
+  "Dry fruits: cashews, almonds, raisins and peanuts",
+  "Seeds and grains: seeds, rice, pulses and similar products",
+  "Spices: whole spices and free-flowing spice products",
+  "Vegetables: fresh and processed vegetables",
+];
+
+const businessBenefits = [
+  "Accurate weight: combination weighing hits the target weight on every pack, which cuts costly giveaway.",
+  "High output: up to 400 packets per minute depending on the product.",
+  "Retail and bulk packs: one machine handles 100 g to 1 kg.",
+  "Hygienic packing: automatic handling reduces human contact with food.",
+  "Better shelf life: laminated film and strong seals block moisture and air.",
+  "Attractive packs: uniform pouches look professional in modern retail.",
+];
+
+const whyChooseReasons = [
+  "They can run trials with their own snacks or dry fruits at our factory.",
+  "Our engineers install the machine and calibrate the weigher for their product.",
+  "Operators receive complete training on settings, changeovers and cleaning.",
+  "Spare parts and service support are available locally.",
+  "We also supply food processors across India and export to international buyers.",
+];
+
+const buyersChecklist = [
+  "Product type: confirm your product is irregular or fragile, where multi-head weighing gives real value.",
+  "Target weights: list every pack weight from 100 g to 1 kg you need.",
+  "Accuracy trial: ask for a weighing test with your own product and check the variation.",
+  "Power: plan a three-phase supply for the 1 HP servo motor.",
+  "Film width: check your laminate fits the 700 mm maximum.",
+  "Calibration support: confirm the weigher will be calibrated on site.",
+];
+
+const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
+  question: `${index + 1}. ${item.name}`,
+  answer: item.acceptedAnswer.text,
+}));
 
 export default function ProductDetailSection() {
   return (
@@ -41,162 +255,205 @@ export default function ProductDetailSection() {
       </section>
 
       <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
-        {/* Product Description */}
+        {/* H1 + Quick Answer */}
         <div className="space-y-3">
-          <h2 className="text-[#E13538] text-xl font-bold mb-3">
-            Product Description
-          </h2>
+          <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">Top Fully Automatic Multi-Head Weighing Packaging Machine Manufacturer</h1>
           <p className="leading-relaxed">
-            The{" "}
-            <span className="font-bold">
-              JAT-306 Fully Automatic Multi-Head Weighing, Packaging Machine
-            </span>{" "}
-            is a high-performance solution designed for accurate weighing and
-            efficient packaging of a wide variety of products. Engineered with
-            advanced technology and durable construction, this machine is ideal
-            for packing dry fruits, seeds, spices, vegetables, and powdered or
-            granular products with maximum precision and speed.
+            <span className="font-bold text-black">Quick answer: </span>
+            Jawla Advance Technology LLP is a fully automatic multi-head
+            weighing packaging machine manufacturer in Faridabad, Delhi NCR.
+            Its JAT-306 weighs and packs chips, namkeen, dry fruits, seeds,
+            spices and vegetables in 100 g to 1 kg pouches at 40 to 400
+            packets per minute, with very low product giveaway.
           </p>
           <p className="leading-relaxed">
-            This{" "}
-            <span className="text-[#E13538] hover:text-red-800 font-bold">
-              fully automatic multi-head weighing and packaging machine
-            </span>{" "}
-            is specially developed to meet the demands of modern packaging
-            industries where consistency, hygiene, and productivity are
-            essential. It ensures reliable performance while maintaining product
-            freshness and attractive packaging.
+            Jawla Advance Technology LLP is a fully automatic multi-head
+            weighing packaging machine manufacturer in Faridabad and Delhi
+            NCR. Our JAT-306 weighs and packs chips, dry fruits, namkeen,
+            spices, seeds and vegetables into pouches from 100 g to 1 kg at
+            40 to 400 packets per minute. It combines precise multi-head
+            weighing with a vertical form fill seal packer, giving you
+            accurate retail packs with very little product giveaway.
           </p>
         </div>
 
-        {/* High Accuracy and Flexible Packaging Range */}
+        {/* Key Specifications */}
         <div className="space-y-3">
           <h2 className="text-[#E13538] text-xl font-bold mb-3">
-            High Accuracy and Flexible Packaging Range
+            Key Specifications
+          </h2>
+          <div className="overflow-x-auto border border-gray-200 rounded-sm">
+            <table className="w-full text-left border-collapse text-base text-gray-700">
+              <thead>
+                <tr className="bg-gray-50 border-b border-gray-200">
+                  <th className="p-3 font-bold text-black border-r border-gray-200 w-1/2">
+                    Feature
+                  </th>
+                  <th className="p-3 font-bold text-black w-1/2">JAT-306</th>
+                </tr>
+              </thead>
+              <tbody>
+                {keySpecs.map((spec, index) => (
+                  <tr key={index} className="border-b border-gray-200 last:border-b-0">
+                    <td className="p-3 font-semibold text-black border-r border-gray-200">
+                      {spec.feature}
+                    </td>
+                    <td className="p-3 text-gray-600">{spec.value}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        {/* What Is a Multi-Head Weighing Packaging Machine */}
+        <div className="space-y-3">
+          <h2 className="text-[#E13538] text-xl font-bold mb-3">
+            What Is a Multi-Head Weighing Packaging Machine?
           </h2>
           <p className="leading-relaxed">
-            The JAT-306 machine is capable of packing products in pouch and
-            sachet sizes ranging from{" "}
-            <span className="font-bold">100 grams to 1 kilogram</span>, making
-            it suitable for small and medium retail packs as well as bulk
-            packaging requirements. It supports a maximum film roll width of{" "}
-            <span className="font-bold">700 mm</span> and provides strong
-            central sealing for leak-proof and secure packaging.
-          </p>
-          <p className="leading-relaxed">
-            Its multi-head weighing system guarantees precise weight measurement
-            for every pouch, minimizing product wastage and ensuring uniform
-            packaging output.
+            A multi-head weigher has several small weigh buckets arranged in
+            a circle. Each bucket holds a part of the product. The
+            controller instantly checks different combinations of buckets
+            and releases the one closest to your target weight. This is why
+            multi-head machines are so accurate for irregular products like
+            chips, cashews and namkeen, where cups or augers cannot measure
+            well. The weighed product then drops into the FFS packer, which
+            forms, fills and seals the pouch.
           </p>
         </div>
 
-        {/* Advanced Technology and Smooth Operation */}
+        {/* Products You Can Pack */}
         <div className="space-y-3">
           <h2 className="text-[#E13538] text-xl font-bold mb-3">
-            Advanced Technology and Smooth Operation
+            Products You Can Pack
           </h2>
-          <p className="leading-relaxed">
-            Manufactured with a clutch-brake film draw mechanism and integrated
-            with a quick AC speed control unit, the machine delivers smooth and
-            continuous operation even at high production speeds. Depending on
-            the product category, it can produce{" "}
-            <span className="font-bold">40 to 400 packets per minute</span>,
-            making it a highly productive packaging solution.
-          </p>
-          <p className="leading-relaxed">
-            The machine uses heat-sealable laminated film rolls that help
-            preserve product freshness and extend shelf life. This makes it an
-            excellent choice for food products such as dry fruits, spices,
-            seeds, and vegetables.
-          </p>
-        </div>
-
-        {/* Strong Build and Long-Lasting Performance */}
-        <div className="space-y-3">
-          <h2 className="text-[#E13538] text-xl font-bold mb-3">
-            Strong Build and Long-Lasting Performance
-          </h2>
-          <p className="leading-relaxed">
-            The JAT-306 is powered by a{" "}
-            <span className="font-bold">
-              1 HP Crompton three-phase servo motor
-            </span>
-            , ensuring consistent performance with low power consumption. The
-            machine is powder-coated to withstand moisture, dust, and sudden
-            operational stress, making it suitable for harsh industrial
-            environments.
-          </p>
-          <p className="leading-relaxed">
-            Its robust structure reduces vibration and ensures stable
-            functioning during continuous packaging cycles. This enhances
-            machine life and minimizes maintenance requirements.
-          </p>
-        </div>
-
-        {/* Wide Range of Applications */}
-        <div className="space-y-3">
-          <h2 className="text-[#E13538] text-xl font-bold mb-3">
-            Wide Range of Applications
-          </h2>
-          <p className="leading-relaxed">
-            The Fully Automatic Multi-Head Weighing, Packaging Machine (JAT-306)
-            can be used for packaging:
-          </p>
           <ul className="list-disc pl-5 space-y-2">
-            <li>Dry fruits (cashews, almonds, raisins, peanuts)</li>
-            <li>Seeds and grains</li>
-            <li>Spices and powdered products</li>
-            <li>Fresh and processed vegetables</li>
-            <li>Snack foods and other free-flowing materials</li>
+            {packableProducts.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
           </ul>
           <p className="leading-relaxed pt-2">
-            It can also be used as a dry fruit packing machine and seeds packing
-            machine, providing versatility for manufacturers who deal with
-            multiple product categories.
+            The JAT-306 also works as a dedicated dry fruit packing machine
+            and seeds packing machine.
           </p>
         </div>
 
-        {/* Hygienic and Efficient Packaging */}
+        {/* Benefits for Your Business */}
         <div className="space-y-3">
           <h2 className="text-[#E13538] text-xl font-bold mb-3">
-            Hygienic and Efficient Packaging
+            Benefits for Your Business
+          </h2>
+          <ul className="list-disc pl-5 space-y-2">
+            {businessBenefits.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Built for Continuous Production */}
+        <div className="space-y-3">
+          <h2 className="text-[#E13538] text-xl font-bold mb-3">
+            Built for Continuous Production
           </h2>
           <p className="leading-relaxed">
-            Hygiene and product safety are key priorities in packaging. The
-            JAT-306 uses laminated packaging films and strong sealing mechanisms
-            to prevent contamination and moisture entry. This ensures that
-            products remain fresh, safe, and visually appealing for consumers.
-          </p>
-          <p className="leading-relaxed">
-            The machine's automated operation reduces human contact with the
-            product, improving hygiene standards and lowering the risk of
-            packaging errors.
+            The JAT-306 uses a clutch-brake film draw mechanism and a quick
+            AC speed control unit, so film moves smoothly even at high
+            speeds. The 1 HP three-phase servo motor gives consistent
+            performance with low power consumption. A powder-coated body
+            protects against moisture, dust and sudden operational stress,
+            and a robust structure keeps vibration low through long shifts.
           </p>
         </div>
 
-        {/* Trusted Quality from Jawla Advance Technology LLP */}
+        {/* Why Choose Jawla Advance Technology */}
         <div className="space-y-3">
           <h2 className="text-[#E13538] text-xl font-bold mb-3">
-            Trusted Quality from Jawla Advance Technology LLP
+            Why Choose Jawla Advance Technology as Your Multi-Head Weighing
+            Packaging Machine Manufacturer
           </h2>
           <p className="leading-relaxed">
-            <span className="font-bold">Jawla Advance Technology LLP</span> is a
-            well-known and trusted name in the packaging machinery industry. The
-            company is committed to manufacturing high-quality machines that
-            meet international standards and serve a wide range of industrial
-            applications.
+            As a multi-head weighing packaging machine manufacturer based in
+            Ballabgarh, Faridabad, we build and test every machine in-house.
+            Food brands across Delhi NCR choose us because:
           </p>
+          <ul className="list-disc pl-5 space-y-2">
+            {whyChooseReasons.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Multi-Head Weigher or Cup Filler */}
+        <div className="space-y-3">
+          <h2 className="text-[#E13538] text-xl font-bold mb-3">
+            Multi-Head Weigher or Cup Filler?
+          </h2>
           <p className="leading-relaxed">
-            The JAT-306 Fully Automatic Multi-Head Weighing, Packaging Machine
-            reflects their dedication to innovation, reliability, and customer
-            satisfaction. It is designed to fulfill the critical packaging needs
-            of food processing units, agricultural industries, and FMCG
-            manufacturers.
+            For free-flowing, uniform products like rice or pulses, our{" "}
+            <Link
+              href="/collar-type-cup-filler-packaging-machine"
+              className="text-[#E13538] font-bold hover:underline"
+            >
+              Collar Type Cup Filler (JAT-314)
+            </Link>{" "}
+            is a cost-effective choice. For irregular or fragile products
+            like chips and cashews, or when every gram of giveaway matters,
+            the multi-head weigher gives far better accuracy. Our team will
+            compare both for your product.
           </p>
+        </div>
+
+        {/* Who Uses the JAT-306 */}
+        <div className="space-y-3">
+          <h2 className="text-[#E13538] text-xl font-bold mb-3">
+            Who Uses the JAT-306 in Faridabad and Delhi NCR
+          </h2>
           <p className="leading-relaxed">
-            With superior performance, flexible usage, and strong construction,
-            this machine is the perfect investment for businesses looking to
-            enhance productivity and maintain premium packaging quality.
+            The JAT-306 is chosen by food brands where every gram counts.
+            Typical buyers include namkeen and chips makers in Delhi and
+            Ghaziabad, dry fruit packers in Old Delhi and Faridabad
+            supplying modern retail and gifting, seed companies in Sonipat
+            and Palwal, and frozen or fresh vegetable packers serving
+            supermarkets. For these products, a small overfill on every pack
+            quickly becomes a large monthly loss.
+          </p>
+        </div>
+
+        {/* Buyer's Checklist */}
+        <div className="space-y-3">
+          <h2 className="text-[#E13538] text-xl font-bold mb-3">
+            Buyer&apos;s Checklist Before You Order
+          </h2>
+          <ul className="list-disc pl-5 space-y-2">
+            {buyersChecklist.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+          <p className="leading-relaxed">
+            A serious multi-head weighing packaging machine manufacturer
+            will prove accuracy with your product before you buy.
+          </p>
+        </div>
+
+        {/* Get a Quote */}
+        <div className="space-y-3">
+          <h2 className="text-[#E13538] text-xl font-bold mb-3">
+            Get a Quote From a Trusted Fully Automatic Multi-Head Weighing
+            Packaging Machine Manufacturer
+          </h2>
+          <p className="leading-relaxed">
+            Share your product, pack weights and daily target. Contact our
+            team through the{" "}
+            <Link
+              href="/contact-us"
+              className="text-[#E13538] font-bold hover:underline"
+            >
+              website enquiry form
+            </Link>{" "}
+            for a detailed quote. Choose Jawla Advance Technology, the
+            multi-head weighing packaging machine manufacturer that snack
+            and dry fruit brands across Faridabad and Delhi NCR rely on.
           </p>
         </div>
 
@@ -205,64 +462,20 @@ export default function ProductDetailSection() {
           <h2 className="text-[#E13538] text-xl font-bold mb-4">FAQs</h2>
 
           <div className="space-y-6">
-            <div className="space-y-1">
-              <p className="font-bold text-gray-800">
-                1. What products can be packed using the Fully Automatic
-                Multi-Head Weighing, Packaging Machine (JAT-306)?
-              </p>
-              <p className="leading-relaxed">
-                The machine can pack dry fruits, seeds, spices, vegetables,
-                powders, and other free-flowing or granular food products.
-              </p>
-            </div>
-
-            <div className="space-y-1">
-              <p className="font-bold text-gray-800">
-                2. What is the packaging speed of this machine?
-              </p>
-              <p className="leading-relaxed">
-                Depending on the product type and pouch size, the machine can
-                produce between{" "}
-                <span className="font-bold">40 to 400 packets per minute</span>.
-              </p>
-            </div>
-
-            <div className="space-y-1">
-              <p className="font-bold text-gray-800">
-                3. What pouch sizes can the JAT-306 machine handle?
-              </p>
-              <p className="leading-relaxed">
-                It can pack products in pouches ranging from{" "}
-                <span className="font-bold">100 grams to 1 kilogram</span>,
-                making it suitable for retail and bulk packaging.
-              </p>
-            </div>
-
-            <div className="space-y-1">
-              <p className="font-bold text-gray-800">
-                4. Is the machine energy efficient and durable?
-              </p>
-              <p className="leading-relaxed">
-                Yes, it is powered by a 1 HP three-phase servo motor and has a
-                powder-coated body that resists moisture and operational stress,
-                ensuring long life and energy efficiency.
-              </p>
-            </div>
-
-            <div className="space-y-1">
-              <p className="font-bold text-gray-800">
-                5. Why choose Jawla Advance Technology LLP for packaging
-                machines?
-              </p>
-              <p className="leading-relaxed">
-                Jawla Advance Technology LLP offers high-quality, versatile, and
-                reliable packaging machines with strong after-sales support and
-                industry expertise.
-              </p>
-            </div>
+            {faqs.map((faq, index) => (
+              <div key={index} className="space-y-1">
+                <p className="font-bold text-gray-800">{faq.question}</p>
+                <p className="leading-relaxed">{faq.answer}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     </>
   );
 }

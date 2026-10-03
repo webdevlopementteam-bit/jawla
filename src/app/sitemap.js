@@ -1,15 +1,15 @@
 const BASE_URL = "https://www.jawlaadvancetechnology.com";
 
 const staticRoutes = [
-  { path: "/", priority: 1, changeFrequency: "weekly" },
-  { path: "/about-us", priority: 0.8, changeFrequency: "monthly" },
-  { path: "/applications", priority: 0.7, changeFrequency: "monthly" },
-  { path: "/blog", priority: 0.7, changeFrequency: "weekly" },
-  { path: "/contact-us", priority: 0.6, changeFrequency: "monthly" },
-  { path: "/news-exhibition", priority: 0.6, changeFrequency: "monthly" },
-  { path: "/our-clients", priority: 0.5, changeFrequency: "monthly" },
-  { path: "/products", priority: 0.9, changeFrequency: "weekly" },
-  { path: "/services-spares", priority: 0.6, changeFrequency: "monthly" },
+  { path: "/", priority: 1, changeFrequency: "daily" },
+  { path: "/about-us", priority: 0.8, changeFrequency: "daily" },
+  { path: "/applications", priority: 0.7, changeFrequency: "daily" },
+  { path: "/blog", priority: 0.7, changeFrequency: "daily" },
+  { path: "/contact-us", priority: 0.6, changeFrequency: "daily" },
+  { path: "/news-exhibition", priority: 0.6, changeFrequency: "daily" },
+  { path: "/our-clients", priority: 0.5, changeFrequency: "daily" },
+  { path: "/products", priority: 0.9, changeFrequency: "daily" },
+  { path: "/services-spares", priority: 0.6, changeFrequency: "daily" },
 ];
 
 const categoryRoutes = ["uncategorized", "blog"].map((slug) => `/category/${slug}`);
@@ -54,21 +54,21 @@ export default function sitemap() {
   const productEntries = productRoutes.map((path) => ({
     url: `${BASE_URL}${path}`,
     lastModified,
-    changeFrequency: "monthly",
+    changeFrequency: "daily",
     priority: 0.8,
   }));
 
   const blogEntries = blogRoutes.map((path) => ({
     url: `${BASE_URL}${path}`,
     lastModified,
-    changeFrequency: "monthly",
+    changeFrequency: "daily",
     priority: 0.6,
   }));
 
   const categoryEntries = categoryRoutes.map((path) => ({
     url: `${BASE_URL}${path}`,
     lastModified,
-    changeFrequency: "weekly",
+    changeFrequency: "daily",
     priority: 0.5,
   }));
 
