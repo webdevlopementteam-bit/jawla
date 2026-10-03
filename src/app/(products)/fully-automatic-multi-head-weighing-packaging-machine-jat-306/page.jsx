@@ -21,41 +21,6 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      "@id":
-        "https://www.jawlaadvancetechnology.com/fully-automatic-multi-head-weighing-packaging-machine-jat-306#product",
-      name: "Fully Automatic Multi-Head Weighing Packaging Machine (JAT-306)",
-      model: "JAT-306",
-      sku: "JAT-306",
-      category: "Multi-Head Weighing Packaging Machine",
-      image:
-        "https://www.jawlaadvancetechnology.com/PRODUCTS/fully-automatic-multi-head-weighing-packaging-machine-jat-306/p1.png",
-      description:
-        "Fully automatic multi-head weighing packaging machine by a Faridabad manufacturer. 100 g to 1 kg, 40 to 400 packets per minute, 700 mm film, 1 HP servo motor.",
-      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
-      manufacturer: {
-        "@id": "https://www.jawlaadvancetechnology.com/#organization",
-      },
-      additionalProperty: [
-        { "@type": "PropertyValue", name: "Pack Size", value: "100 g to 1 kg" },
-        {
-          "@type": "PropertyValue",
-          name: "Output",
-          value: "40 to 400 packets per minute",
-        },
-        {
-          "@type": "PropertyValue",
-          name: "Maximum Film Width",
-          value: "700 mm",
-        },
-        {
-          "@type": "PropertyValue",
-          name: "Motor",
-          value: "1 HP three-phase servo motor",
-        },
-      ],
-    },
-    {
       "@type": "BreadcrumbList",
       itemListElement: [
         {
@@ -219,7 +184,7 @@ const buyersChecklist = [
   "Calibration support: confirm the weigher will be calibrated on site.",
 ];
 
-const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));

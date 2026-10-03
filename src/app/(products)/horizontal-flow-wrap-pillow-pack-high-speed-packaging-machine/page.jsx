@@ -21,41 +21,6 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      "@id":
-        "https://www.jawlaadvancetechnology.com/horizontal-flow-wrap-pillow-pack-high-speed-packaging-machine#product",
-      name: "Horizontal Flow Wrap Pillow Pack High Speed Packaging Machine (JAT-310)",
-      model: "JAT-310",
-      sku: "JAT-310",
-      category: "Flow Wrap Packaging Machine",
-      image:
-        "https://www.jawlaadvancetechnology.com/PRODUCTS/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine/p1.png",
-      description:
-        "High speed horizontal flow wrap pillow pack machine by a Faridabad manufacturer for 2 and 4 biscuit packs, up to 300 packs per minute, automatic feeding.",
-      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
-      manufacturer: {
-        "@id": "https://www.jawlaadvancetechnology.com/#organization",
-      },
-      additionalProperty: [
-        {
-          "@type": "PropertyValue",
-          name: "Output",
-          value: "Up to 300 packs per minute",
-        },
-        {
-          "@type": "PropertyValue",
-          name: "Pack Formats",
-          value: "Single, 2-biscuit and 4-biscuit pillow packs",
-        },
-        {
-          "@type": "PropertyValue",
-          name: "Motor",
-          value: "2 HP single-phase gear motor",
-        },
-        { "@type": "PropertyValue", name: "Feeding", value: "Automatic" },
-      ],
-    },
-    {
       "@type": "BreadcrumbList",
       itemListElement: [
         {
@@ -216,7 +181,7 @@ const buyersChecklist = [
   "Spares plan: keep spare jaws and heaters, since high speed means more wear.",
 ];
 
-const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));

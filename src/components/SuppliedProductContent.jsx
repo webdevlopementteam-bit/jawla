@@ -3,32 +3,6 @@ export default function SuppliedProductContent({ page }) {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Product",
-        "@id": `https://www.jawlaadvancetechnology.com${page.url}#product`,
-        name: page.productName,
-        model: page.model,
-        sku: page.model,
-        category: page.category,
-        image: `https://www.jawlaadvancetechnology.com${page.image}`,
-        description: page.schemaDescription,
-        ...(page.weight && {
-          weight: {
-            "@type": "QuantitativeValue",
-            value: page.weight,
-            unitCode: "KGM",
-          },
-        }),
-        brand: { "@type": "Brand", name: "Jawla Advance Technology" },
-        manufacturer: {
-          "@id": "https://www.jawlaadvancetechnology.com/#organization",
-        },
-        additionalProperty: page.properties.map(([name, value]) => ({
-          "@type": "PropertyValue",
-          name,
-          value,
-        })),
-      },
-      {
         "@type": "BreadcrumbList",
         itemListElement: [
           {

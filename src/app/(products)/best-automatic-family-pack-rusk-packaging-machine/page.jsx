@@ -19,38 +19,6 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      "@id":
-        "https://www.jawlaadvancetechnology.com/best-automatic-family-pack-rusk-packaging-machine#product",
-      name: "Automatic Family Pack Biscuit or Rusk Packaging Machine (JAT-312)",
-      model: "JAT-312",
-      sku: "JAT-312",
-      category: "Bakery Packaging Machine",
-      image:
-        "https://www.jawlaadvancetechnology.com/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/p1.png",
-      description:
-        "Automatic family pack rusk packaging machine by a Faridabad manufacturer. 50 g to 400 g packs of rusk, biscuits and cakes, up to 60 packs per minute.",
-      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
-      manufacturer: {
-        "@id": "https://www.jawlaadvancetechnology.com/#organization",
-      },
-      weight: { "@type": "QuantitativeValue", value: 1300, unitCode: "KGM" },
-      additionalProperty: [
-        { "@type": "PropertyValue", name: "Pack Size", value: "50 g to 400 g" },
-        {
-          "@type": "PropertyValue",
-          name: "Output",
-          value: "Up to 60 packs per minute",
-        },
-        { "@type": "PropertyValue", name: "Power", value: "About 3 kW" },
-        {
-          "@type": "PropertyValue",
-          name: "Conveyor",
-          value: "8-foot loading conveyor",
-        },
-      ],
-    },
-    {
       "@type": "BreadcrumbList",
       itemListElement: [
         {
@@ -230,7 +198,7 @@ const maintenanceTips = [
   "Book preventive service before the festive season rush.",
 ];
 
-const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));

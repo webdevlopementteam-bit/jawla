@@ -19,40 +19,6 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      "@id":
-        "https://www.jawlaadvancetechnology.com/horizontal-flow-wrap-pillow-pack-machine#product",
-      name: "Horizontal Flow Wrap Pillow Pack Machine (JAT-308)",
-      model: "JAT-308",
-      sku: "JAT-308",
-      category: "Flow Wrap Packaging Machine",
-      image:
-        "https://www.jawlaadvancetechnology.com/PRODUCTS/horizontal-flow-wrap-pillow-pack-machine/p1.png",
-      description:
-        "Horizontal flow wrap pillow pack machine by a Faridabad manufacturer for biscuits, noodles, cakes, gur, towels and industrial parts. Film up to 550 mm.",
-      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
-      manufacturer: {
-        "@id": "https://www.jawlaadvancetechnology.com/#organization",
-      },
-      additionalProperty: [
-        {
-          "@type": "PropertyValue",
-          name: "Pack Style",
-          value: "Pillow pack, family pack, tray pack",
-        },
-        {
-          "@type": "PropertyValue",
-          name: "Maximum Film Width",
-          value: "550 mm",
-        },
-        {
-          "@type": "PropertyValue",
-          name: "Contact Parts",
-          value: "Stainless steel",
-        },
-      ],
-    },
-    {
       "@type": "BreadcrumbList",
       itemListElement: [
         {
@@ -223,7 +189,7 @@ const buyersChecklist = [
   "Service: confirm quick engineer support and spare jaws in Delhi NCR.",
 ];
 
-const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));

@@ -19,42 +19,6 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      "@id":
-        "https://www.jawlaadvancetechnology.com/normal-ffs-packaging-machine-jat-301#product",
-      name: "Normal FFS Packaging Machine (JAT-301)",
-      model: "JAT-301",
-      sku: "JAT-301",
-      category: "FFS Packaging Machine",
-      image:
-        "https://www.jawlaadvancetechnology.com/PRODUCTS/normal-ffs-packaging-machine-jat-301/p1.png",
-      description:
-        "Normal FFS packaging machine by a Faridabad manufacturer. Volumetric cup filler, 2 g to 200 g, 30 to 80 pouches per minute, centre, 3-side and 4-side seal.",
-      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
-      manufacturer: {
-        "@id": "https://www.jawlaadvancetechnology.com/#organization",
-      },
-      weight: { "@type": "QuantitativeValue", value: 500, unitCode: "KGM" },
-      additionalProperty: [
-        { "@type": "PropertyValue", name: "Pack Size", value: "2 g to 200 g" },
-        {
-          "@type": "PropertyValue",
-          name: "Output",
-          value: "30 to 80 pouches per minute",
-        },
-        {
-          "@type": "PropertyValue",
-          name: "Filling System",
-          value: "Volumetric cup filler",
-        },
-        {
-          "@type": "PropertyValue",
-          name: "Seal Type",
-          value: "Centre seal, 3-side seal, 4-side seal",
-        },
-      ],
-    },
-    {
       "@type": "BreadcrumbList",
       itemListElement: [
         {
@@ -218,7 +182,7 @@ const buyersChecklist = [
   "Training: will your operators be trained on changeovers and daily cleaning?",
 ];
 
-const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));

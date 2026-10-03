@@ -19,46 +19,6 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      "@id":
-        "https://www.jawlaadvancetechnology.com/ffs-high-speed-packaging-machine#product",
-      name: "FFS High Speed Packaging Machine (JAT-302)",
-      model: "JAT-302",
-      sku: "JAT-302",
-      category: "FFS Packaging Machine",
-      image:
-        "https://www.jawlaadvancetechnology.com/PRODUCTS/ffs-high-speed-packaging-machine/p1.png",
-      description:
-        "FFS high speed packaging machine by a Faridabad manufacturer. 2 g to 100 g, 100 to 450 pouches per minute, single phase, 1/2 HP motor, 200 mm film.",
-      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
-      manufacturer: {
-        "@id": "https://www.jawlaadvancetechnology.com/#organization",
-      },
-      weight: { "@type": "QuantitativeValue", value: 700, unitCode: "KGM" },
-      additionalProperty: [
-        {
-          "@type": "PropertyValue",
-          name: "Filling Capacity",
-          value: "2 g to 100 g (up to 200 g granules)",
-        },
-        {
-          "@type": "PropertyValue",
-          name: "Production Speed",
-          value: "100 to 450 pouches per minute",
-        },
-        {
-          "@type": "PropertyValue",
-          name: "Power",
-          value: "Single phase, 1/2 HP",
-        },
-        {
-          "@type": "PropertyValue",
-          name: "Maximum Roll Width",
-          value: "200 mm",
-        },
-      ],
-    },
-    {
       "@type": "BreadcrumbList",
       itemListElement: [
         {
@@ -227,7 +187,7 @@ const buyersChecklist = [
   "Train two operators: fast machines need confident operators on every shift.",
 ];
 
-const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));

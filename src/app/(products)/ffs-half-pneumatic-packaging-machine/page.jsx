@@ -19,37 +19,6 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Product",
-      "@id":
-        "https://www.jawlaadvancetechnology.com/ffs-half-pneumatic-packaging-machine#product",
-      name: "FFS Half Pneumatic Packaging Machine (JAT-304)",
-      model: "JAT-304",
-      sku: "JAT-304",
-      category: "Half Pneumatic Packaging Machine",
-      image:
-        "https://www.jawlaadvancetechnology.com/PRODUCTS/ffs-half-pneumatic-packaging-machine/p1.png",
-      description:
-        "Half pneumatic FFS packaging machine by a Faridabad manufacturer. 2 g to 300 g, up to 60 pouches per minute, cup filler, centre seal.",
-      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
-      manufacturer: {
-        "@id": "https://www.jawlaadvancetechnology.com/#organization",
-      },
-      additionalProperty: [
-        { "@type": "PropertyValue", name: "Pack Size", value: "2 g to 300 g" },
-        {
-          "@type": "PropertyValue",
-          name: "Output",
-          value: "Up to 60 pouches per minute",
-        },
-        {
-          "@type": "PropertyValue",
-          name: "Filling System",
-          value: "Volumetric cup filler",
-        },
-        { "@type": "PropertyValue", name: "Seal Type", value: "Centre seal" },
-      ],
-    },
-    {
       "@type": "BreadcrumbList",
       itemListElement: [
         {
@@ -228,7 +197,7 @@ const buyersChecklist = [
   "Upgrade path: ask how easily you can add a fully automatic model later.",
 ];
 
-const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));
