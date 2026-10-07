@@ -353,77 +353,7 @@ export const exhibitions = [
   },
 ];
 
-export const blogPosts = [
-  {
-    id: 1,
-    category: "UNCATEGORIZED",
-    title: "Best Hotel Pack Packaging Machine 2026: Top Picks & Buyer's Guide",
-    image: "/blog/p1.png",
-    excerpt:
-      "Every year, millions of sugar pouches, shampoo packs, and spice packets are consumed across hotels, restaurants, and hospitality businesses across India and globally. The Indian small-pack packaging industry alone is valued at over Rs. 4,200 crore and continues to grow...",
-    author: "JAWLA ADVANCE TECHNOLOGY",
-    date: "MAY 2, 2026",
-    slug: "/hotel-pack-packaging-machines",
-  },
-  {
-    id: 2,
-    category: "BLOG",
-    title:
-      "D-Motion Type Packaging Machine Price in India 2026 – Features & Buying Guide",
-    image: "/blog/p2.png",
-    excerpt:
-      "Why D-Motion Machines Are Transforming Indian Packaging in 2026 India's packaging industry crossed ₹3.7 lakh crore in market size in 2025, and it is growing at over 13% annually. At the center of this growth is one critical shift: manufacturers...",
-    author: "JAWLA ADVANCE TECHNOLOGY",
-    date: "MAY 1, 2026",
-    slug: "/d-motion-type-packaging-machine",
-  },
-  {
-    id: 3,
-    category: "BLOG",
-    title:
-      "Normal FFS Packaging Machine: Complete Buying Guide with Price, Features & Expert Tips (2026)",
-    image: "/blog/p3.png",
-    excerpt:
-      "A Normal FFS Packaging Machine is an automated system that forms, fills, and seals products in one continuous process—helping manufacturers reduce labor costs by up to 70%, increase production speed by 10x, and ensure consistent packaging quality. It is one...",
-    author: "JAWLA ADVANCE TECHNOLOGY",
-    date: "APRIL 30, 2026",
-    slug: "/normal-ffs-packaging-machine",
-  },
-  {
-    id: 4,
-    category: "BLOG",
-    title: "How to Find the Best Packaging Machine Manufacturer in India 2026",
-    image: "/blog/p4.png",
-    excerpt:
-      "Packaging is the first thing your customer sees — and the last thing most businesses think about seriously. That's a problem. Because when a pouch arrives at a retailer with a broken seal, or a batch gets rejected because of...",
-    author: "JAWLA ADVANCE TECHNOLOGY",
-    date: "APRIL 28, 2026",
-    slug: "/find-the-best-packaging-machine-manufacturer-in-india",
-  },
-  {
-    id: 5,
-    category: "BLOG",
-    title:
-      "Which is the Best Packaging Machine Manufacturer in India? (2026 Expert Guide)",
-    image: "/blog/p5.png",
-    excerpt:
-      "In today's competitive manufacturing environment, efficient packaging plays a crucial role in product safety, branding, and supply chain efficiency. Businesses across industries are rapidly adopting automated packaging solutions to improve productivity and maintain consistent product quality. This is why choosing...",
-    author: "JAWLA ADVANCE TECHNOLOGY",
-    date: "APRIL 6, 2026",
-    slug: "/best-packaging-machine-manufacturer-in-india",
-  },
-  {
-    id: 6,
-    category: "BLOG",
-    title: "What Is an FFS High Speed Packaging Machine and How Does It Work?",
-    image: "/blog/p6.png",
-    excerpt:
-      "In the modern packaging industry, automation has become essential for improving productivity and maintaining consistent packaging quality. One of the most widely used technologies for fast and efficient packaging is the FFS High Speed Packaging Machine. This advanced packaging system...",
-    author: "JAWLA ADVANCE TECHNOLOGY",
-    date: "APRIL 2, 2026",
-    slug: "/high-speed-packaging-machine",
-  },
-];
+export const blogPosts = [];
 
 // blog data
 

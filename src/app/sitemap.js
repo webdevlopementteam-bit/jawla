@@ -12,8 +12,6 @@ const staticRoutes = [
   { path: "/services-spares", priority: 0.6, changeFrequency: "daily" },
 ];
 
-const categoryRoutes = ["uncategorized", "blog"].map((slug) => `/category/${slug}`);
-
 const productRoutes = [
   "/best-automatic-family-pack-rusk-packaging-machine",
   "/collar-auger-filling-packaging-machine",
@@ -30,15 +28,6 @@ const productRoutes = [
   "/normal-ffs-packaging-machine-jat-301",
   "/one-edge-biscuit-packaging-machine",
   "/one-edge-packaging-machine-with-cream-biscuit-feeder",
-];
-
-const blogRoutes = [
-  "/best-packaging-machine-manufacturer-in-india",
-  "/d-motion-type-packaging-machine",
-  "/find-the-best-packaging-machine-manufacturer-in-india",
-  "/high-speed-packaging-machine",
-  "/hotel-pack-packaging-machines",
-  "/normal-ffs-packaging-machine",
 ];
 
 export default function sitemap() {
@@ -58,19 +47,5 @@ export default function sitemap() {
     priority: 0.8,
   }));
 
-  const blogEntries = blogRoutes.map((path) => ({
-    url: `${BASE_URL}${path}`,
-    lastModified,
-    changeFrequency: "daily",
-    priority: 0.6,
-  }));
-
-  const categoryEntries = categoryRoutes.map((path) => ({
-    url: `${BASE_URL}${path}`,
-    lastModified,
-    changeFrequency: "daily",
-    priority: 0.5,
-  }));
-
-  return [...staticEntries, ...productEntries, ...blogEntries, ...categoryEntries];
+  return [...staticEntries, ...productEntries];
 }

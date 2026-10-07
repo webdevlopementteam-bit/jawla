@@ -16,8 +16,6 @@ const pageNames = {
   "/news-exhibition": "News/Exhibition",
   "/blog": "Blog",
   "/contact-us": "Contact Us",
-  "/category/blog": "Category Blog",
-  "/category/uncategorized": "Category Uncategorized",
 };
 
 const quickAnswers = {

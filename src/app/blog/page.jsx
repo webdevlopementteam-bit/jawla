@@ -12,6 +12,12 @@ export default function BlogGrid() {
   return (
     <section className="bg-gray-100/60 min-h-screen py-12 px-4 md:px-8">
       <div className="max-w-7xl mx-auto">
+        {blogPosts.length === 0 && (
+          <p className="text-center text-gray-600 py-20">
+            No blog posts yet. Check back soon.
+          </p>
+        )}
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {blogPosts.map((post) => (
             <article
@@ -20,12 +26,9 @@ export default function BlogGrid() {
             >
               <div>
                 {/* Category */}
-                <Link
-                  className="text-[11px] font-semibold text-gray-600  uppercase tracking-wider block mb-3"
-                  href={`/category/${post.category.toLocaleLowerCase()}`}
-                >
+                <span className="text-[11px] font-semibold text-gray-600  uppercase tracking-wider block mb-3">
                   {post.category}
-                </Link>
+                </span>
 
                 {/* Title */}
                 <h2 className="text-[19px] font-bold text-black leading-snug tracking-tight mb-6 lg:h-[80px] lg:line-clamp-3 hover:text-[#D63438] transition-colors">
