@@ -363,7 +363,7 @@ export default function ProductDetailSection() {
             </li>
             <li>
               <Link
-                href="/horizontal-flow-wrap-pillow-pack-high-speed-packaging-machine"
+                href="/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine"
                 className="font-bold text-[#E13538] hover:underline"
               >
                 JAT-310 High Speed Flow Wrap Machine:

@@ -5,7 +5,7 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: {
-    canonical: "/horizontal-flow-wrap-pillow-pack-high-speed-packaging-machine",
+    canonical: "/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine",
   },
   title: "Best High Speed Flow Wrap Pillow Pack Machine Manufacturer",
   description:
@@ -39,7 +39,7 @@ const jsonLd = {
           "@type": "ListItem",
           position: 3,
           name: "High Speed Flow Wrap Pillow Pack Machine",
-          item: "https://www.jawlaadvancetechnology.com/horizontal-flow-wrap-pillow-pack-high-speed-packaging-machine",
+          item: "https://www.jawlaadvancetechnology.com/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine",
         },
       ],
     },

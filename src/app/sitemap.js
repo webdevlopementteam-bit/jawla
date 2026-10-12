@@ -21,7 +21,7 @@ const productRoutes = [
   "/ffs-high-speed-packaging-machine",
   "/ffs-liquid-packaging-machine",
   "/fully-automatic-multi-head-weighing-packaging-machine-jat-306",
-  "/horizontal-flow-wrap-pillow-pack-high-speed-packaging-machine",
+  "/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine",
   "/horizontal-flow-wrap-pillow-pack-machine",
   "/horizontal-rotary-machine",
   "/hotel-pack-packaging-machine",

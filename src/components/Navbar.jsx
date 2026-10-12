@@ -55,7 +55,7 @@ export default function Navbar() {
     },
     {
       name: "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine (JAT-310)",
-      slug: "horizontal-flow-wrap-pillow-pack-high-speed-packaging-machine",
+      slug: "horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine",
     },
     {
       name: "One-edge Biscuit Packaging Machine with Dual Feeder for 50gm, 75gm & 100gm (JAT-311)",

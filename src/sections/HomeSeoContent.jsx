@@ -36,7 +36,7 @@ const homeSeoSchema = {
           name: "What is the price of a packaging machine in India?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla's packaging machines range from approximately ₹[PRICE MIN] to ₹[PRICE MAX], depending on the model, speed, automation level and custom features. Entry-level FFS machines cost the least, while high-speed and biscuit lines cost more. Share your requirement for an exact quote.",
+            text: "The price of a packaging machine from Jawla Advance Technology depends on the model, speed, automation level and custom features you need. Entry-level FFS machines are the most affordable, while high-speed and biscuit packaging lines cost more. Share your product, pack size and daily output to get an exact quote.",
           },
         },
         {
@@ -81,10 +81,10 @@ const homeSeoSchema = {
         },
         {
           "@type": "Question",
-          name: "What warranty does Jawla offer on packaging machines?",
+          name: "What warranty does Jawla Advance Technology offer on packaging machines?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla's packaging machines come with a [WARRANTY]-month warranty on manufacturing defects, along with ongoing service, preventive maintenance options and genuine spare parts support from the Faridabad factory.",
+            text: "Every packaging machine from Jawla Advance Technology comes with a warranty against manufacturing defects, covering the machine and its auxiliary parts. This is backed by ongoing service, preventive maintenance options and genuine, tested spare parts supplied from the Faridabad factory.",
           },
         },
         {
@@ -92,7 +92,7 @@ const homeSeoSchema = {
           name: "How long does delivery take after ordering a packaging machine?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Standard Jawla models are usually dispatched within [WEEKS] weeks of order confirmation. Custom machines built for special products, pack sizes or line layouts may take longer, depending on the specifications agreed with the customer.",
+            text: "Jawla Advance Technology dispatches standard packaging machines quickly after order confirmation, and the exact delivery timeline is shared in your quotation. Custom machines built for special products, pack sizes or line layouts may take a little longer, depending on the specifications agreed with you.",
           },
         },
       ],
