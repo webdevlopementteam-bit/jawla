@@ -232,8 +232,11 @@ export default function ProductDetailSection() {
             </p>
             <p className="text-gray-700 mt-3">
               Jawla Advance Technology LLP is an FFS high speed packaging
-              machine manufacturer in Faridabad and Delhi NCR. Our FFS High
-              Speed Packaging Machine (JAT-302) produces 100 to 450 pouches
+              machine manufacturer in Faridabad and Delhi NCR. Our{" "}
+              <span className="font-bold text-black">
+                FFS High Speed Packaging Machine
+              </span>{" "}
+              (JAT-302) produces 100 to 450 pouches
               per minute, making it one of the fastest ways to pack small
               sachets of pan masala, mouth freshener, spices, tea and
               powders. It runs on single-phase power with a 1/2 HP motor, so
@@ -335,8 +338,12 @@ export default function ProductDetailSection() {
             </h2>
             <p className="text-gray-700">
               Speed is only useful if the machine runs without constant
-              stoppages. As an FFS high speed packaging machine manufacturer
-              with an in-house engineering team, we focus on long uptime:
+              stoppages. As an{" "}
+              <span className="font-bold text-black">
+                FFS high speed packaging machine
+              </span>{" "}
+              manufacturer with an in-house engineering team, we focus on
+              long uptime:
             </p>
             <ul className="list-disc list-inside space-y-1 pl-2 text-gray-700">
               {whyChooseReasons.map((item, index) => (
@@ -421,8 +428,12 @@ export default function ProductDetailSection() {
               ))}
             </ul>
             <p className="text-gray-700">
-              A reliable FFS high speed packaging machine manufacturer should
-              support all of these before and after the sale.
+              A reliable{" "}
+              <span className="font-bold text-black">
+                FFS high speed packaging machine
+              </span>{" "}
+              manufacturer should support all of these before and after the
+              sale.
             </p>
           </div>
 
@@ -442,9 +453,12 @@ export default function ProductDetailSection() {
               >
                 website enquiry form
               </Link>
-              . Jawla Advance Technology is the FFS high speed packaging
-              machine manufacturer trusted by sachet brands across Faridabad
-              and Delhi NCR.
+              . Jawla Advance Technology is the{" "}
+              <span className="font-bold text-black">
+                FFS high speed packaging machine
+              </span>{" "}
+              manufacturer trusted by sachet brands across Faridabad and
+              Delhi NCR.
             </p>
           </div>
 

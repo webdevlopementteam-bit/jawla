@@ -227,8 +227,11 @@ export default function ProductDetailSection() {
           </p>
           <p className="text-gray-700 leading-relaxed mt-3">
             Jawla Advance Technology LLP is a normal FFS packaging machine
-            manufacturer in Faridabad and Delhi NCR. Our Normal FFS Packaging
-            Machine (JAT-301) forms, fills and seals pouches of 2 g to 200 g
+            manufacturer in Faridabad and Delhi NCR. Our{" "}
+            <span className="font-bold text-black">
+              Normal FFS Packaging Machine
+            </span>{" "}
+            (JAT-301) forms, fills and seals pouches of 2 g to 200 g
             at 30 to 80 pouches per minute. It is the most popular choice for
             spice, tea, coffee and namkeen businesses that want reliable
             automatic packing at a sensible price.
@@ -346,8 +349,12 @@ export default function ProductDetailSection() {
             Machine Manufacturer
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            As a normal FFS packaging machine manufacturer based in
-            Ballabgarh, Faridabad, we build every JAT-301 in-house and test
+            As a{" "}
+            <span className="font-bold text-black">
+              normal FFS packaging machine
+            </span>{" "}
+            manufacturer based in Ballabgarh, Faridabad, we build every
+            JAT-301 in-house and test
             it before dispatch. Customers in Delhi, Gurugram, Noida,
             Ghaziabad and Palwal choose us because:
           </p>
@@ -422,8 +429,12 @@ export default function ProductDetailSection() {
             ))}
           </ul>
           <p className="text-gray-700 leading-relaxed mt-3">
-            A good normal FFS packaging machine manufacturer will answer all
-            six clearly and let you test before you pay.
+            A good{" "}
+            <span className="font-bold text-black">
+              normal FFS packaging machine
+            </span>{" "}
+            manufacturer will answer all six clearly and let you test before
+            you pay.
           </p>
         </div>
 
@@ -443,7 +454,10 @@ export default function ProductDetailSection() {
             >
               website enquiry form
             </Link>
-            . Jawla Advance Technology is the normal FFS packaging machine
+            . Jawla Advance Technology is the{" "}
+            <span className="font-bold text-black">
+              normal FFS packaging machine
+            </span>{" "}
             manufacturer that spice, tea and namkeen brands across Faridabad
             and Delhi NCR rely on.
           </p>

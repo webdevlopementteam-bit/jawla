@@ -1,3 +1,16 @@
+function renderWithBold(text) {
+  const parts = text.split(/\*\*(.+?)\*\*/g);
+  return parts.map((part, index) =>
+    index % 2 === 1 ? (
+      <span key={index} className="font-bold text-black">
+        {part}
+      </span>
+    ) : (
+      part
+    )
+  );
+}
+
 export default function SuppliedProductContent({ page }) {
   const schema = {
     "@context": "https://schema.org",
@@ -41,7 +54,7 @@ export default function SuppliedProductContent({ page }) {
       <article className="mx-auto max-w-6xl space-y-8">
         <p className="leading-relaxed">
           <span className="font-bold text-black">Quick answer: </span>
-          {page.quickAnswer}
+          {renderWithBold(page.quickAnswer)}
         </p>
         {page.sections.map((section) => (
           <section key={section.heading} className="space-y-4">
@@ -50,7 +63,7 @@ export default function SuppliedProductContent({ page }) {
             </h2>
             {section.paragraphs?.map((paragraph) => (
               <p key={paragraph} className="leading-relaxed">
-                {paragraph}
+                {renderWithBold(paragraph)}
               </p>
             ))}
             {section.specs && (

@@ -240,8 +240,11 @@ export default function ProductDetailSection() {
           </p>
           <p className="leading-relaxed">
             Jawla Advance Technology LLP is a half pneumatic packaging
-            machine manufacturer in Faridabad and Delhi NCR. Our FFS Half
-            Pneumatic Packaging Machine (JAT-304) packs masala, spices, tea,
+            machine manufacturer in Faridabad and Delhi NCR. Our FFS{" "}
+            <span className="font-bold text-black">
+              Half Pneumatic Packaging Machine
+            </span>{" "}
+            (JAT-304) packs masala, spices, tea,
             coffee, namkeen, detergent and other granular products in
             pouches from 2 g to 300 g. With cup filling at up to 60 pouches
             per minute and a strong centre seal, it gives small and medium
@@ -338,9 +341,12 @@ export default function ProductDetailSection() {
           </h2>
           <p className="leading-relaxed">
             Our team of skilled machinists builds each JAT-304 at our
-            factory in Sarurpur Industrial Area, Ballabgarh, Faridabad. As a
-            half pneumatic packaging machine manufacturer focused on food
-            packaging, we aim for three results: airtight sealing, maximum
+            factory in Sarurpur Industrial Area, Ballabgarh, Faridabad. As a{" "}
+            <span className="font-bold text-black">
+              half pneumatic packaging machine
+            </span>{" "}
+            manufacturer focused on food packaging, we aim for three
+            results: airtight sealing, maximum
             freshness and zero leakage.
           </p>
           <p className="leading-relaxed">
@@ -431,8 +437,11 @@ export default function ProductDetailSection() {
             ))}
           </ul>
           <p className="leading-relaxed">
-            An experienced half pneumatic packaging machine manufacturer
-            will help you plan all of this before delivery.
+            An experienced{" "}
+            <span className="font-bold text-black">
+              half pneumatic packaging machine
+            </span>{" "}
+            manufacturer will help you plan all of this before delivery.
           </p>
         </div>
 
@@ -452,9 +461,12 @@ export default function ProductDetailSection() {
             >
               website enquiry form
             </Link>
-            . Jawla Advance Technology is the half pneumatic packaging
-            machine manufacturer that spice, tea and namkeen units across
-            Faridabad and Delhi NCR trust.
+            . Jawla Advance Technology is the{" "}
+            <span className="font-bold text-black">
+              half pneumatic packaging machine
+            </span>{" "}
+            manufacturer that spice, tea and namkeen units across Faridabad
+            and Delhi NCR trust.
           </p>
         </div>
 
