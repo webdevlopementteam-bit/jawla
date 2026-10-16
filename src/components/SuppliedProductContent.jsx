@@ -1,14 +1,29 @@
-function renderWithBold(text) {
-  const parts = text.split(/\*\*(.+?)\*\*/g);
-  return parts.map((part, index) =>
-    index % 2 === 1 ? (
-      <span key={index} className="font-bold text-black">
-        {part}
-      </span>
-    ) : (
-      part
-    )
-  );
+import Link from "next/link";
+
+function renderRichText(text) {
+  const tokens = text.split(/(\*\*.+?\*\*|\[\[.+?\|.+?\]\])/g);
+  return tokens.map((token, index) => {
+    if (token.startsWith("**") && token.endsWith("**")) {
+      return (
+        <span key={index} className="font-bold text-black">
+          {token.slice(2, -2)}
+        </span>
+      );
+    }
+    if (token.startsWith("[[") && token.endsWith("]]")) {
+      const [label, href] = token.slice(2, -2).split("|");
+      return (
+        <Link
+          key={index}
+          href={href}
+          className="text-[#E13538] font-bold hover:underline"
+        >
+          {label}
+        </Link>
+      );
+    }
+    return token;
+  });
 }
 
 export default function SuppliedProductContent({ page }) {
@@ -54,7 +69,7 @@ export default function SuppliedProductContent({ page }) {
       <article className="mx-auto max-w-6xl space-y-8">
         <p className="leading-relaxed">
           <span className="font-bold text-black">Quick answer: </span>
-          {renderWithBold(page.quickAnswer)}
+          {renderRichText(page.quickAnswer)}
         </p>
         {page.sections.map((section) => (
           <section key={section.heading} className="space-y-4">
@@ -63,7 +78,7 @@ export default function SuppliedProductContent({ page }) {
             </h2>
             {section.paragraphs?.map((paragraph) => (
               <p key={paragraph} className="leading-relaxed">
-                {renderWithBold(paragraph)}
+                {renderRichText(paragraph)}
               </p>
             ))}
             {section.specs && (

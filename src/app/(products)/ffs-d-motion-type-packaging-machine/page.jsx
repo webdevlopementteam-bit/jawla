@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
@@ -68,8 +69,10 @@ export default function ProductDetailSection() {
             User-Friendly Operation
           </h2>
           <p className="leading-relaxed">
-            The FFS D-Motion Type Packaging Machine (JAT-303) provides its main
-            benefit through its operational design which operators can easily
+            The FFS{" "}
+            <span className="font-bold">D-Motion Type Packaging Machine</span>{" "}
+            (JAT-303) provides its main benefit through its operational
+            design which operators can easily
             handle. The control panel allows users to select packaging speed and
             pouch dimensions and sealing temperature which they need for their
             specific products.
@@ -90,9 +93,10 @@ export default function ProductDetailSection() {
           <p className="leading-relaxed">
             The process of filling and sealing needs to achieve complete
             accuracy because it is essential for delivering both product quality
-            and customer satisfaction. The JAT-303 D-Motion Type Packaging
-            Machine uses a precise filling system which delivers identical
-            product weight into each pouch.
+            and customer satisfaction. The JAT-303{" "}
+            <span className="font-bold">D-Motion Type Packaging Machine</span>{" "}
+            uses a precise filling system which delivers identical product
+            weight into each pouch.
           </p>
           <p className="leading-relaxed">
             The packaging system uses its advanced sealing technology to create
@@ -130,9 +134,12 @@ export default function ProductDetailSection() {
             Trusted Quality from Jawla Advance Technology
           </h2>
           <p className="leading-relaxed">
-            <span className="text-[#BB2426] font-bold">
+            <Link
+              href="/"
+              className="text-[#BB2426] font-bold hover:underline"
+            >
               Jawla Advance Technology
-            </span>{" "}
+            </Link>{" "}
             has established itself as a leading brand within the packaging
             machinery sector through its continuous delivery of dependable and
             groundbreaking products. The FFS D-Motion Type Packaging Machine
@@ -141,9 +148,22 @@ export default function ProductDetailSection() {
             satisfaction.
           </p>
           <p className="leading-relaxed">
-            The D-Motion Type Packaging Machine serves as an optimal business
-            solution because it combines advanced technology with strong
-            construction and multiple operational capabilities.
+            The{" "}
+            <span className="font-bold">D-Motion Type Packaging Machine</span>{" "}
+            serves as an optimal business solution because it combines
+            advanced technology with strong construction and multiple
+            operational capabilities.
+          </p>
+          <p className="leading-relaxed">
+            Share your product and pack requirements with our team through
+            the{" "}
+            <Link
+              href="/contact-us"
+              className="text-[#BB2426] font-bold hover:underline"
+            >
+              website enquiry form
+            </Link>{" "}
+            for a detailed quote on the D-Motion Type Packaging Machine.
           </p>
         </div>
 

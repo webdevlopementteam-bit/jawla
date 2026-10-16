@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const homeSeoSchema = {
   "@context": "https://schema.org",
   "@graph": [
@@ -137,10 +139,13 @@ export default function HomeSeoContent() {
 
         <div className="space-y-5 text-sm leading-relaxed text-gray-700 sm:text-base">
           <p>
-            Jawla Advance Technology LLP is a trusted Packaging Machines
-            Manufacturer in Delhi NCR, offering reliable, efficient, and
-            easy-to-operate packaging machines for different industries. As
-            an experienced Packaging Machines Manufacturer in Faridabad, we
+            Jawla Advance Technology LLP is a trusted{" "}
+            <span className="font-bold text-black">
+              Packaging Machines Manufacturer
+            </span>{" "}
+            in Delhi NCR, offering reliable, efficient, and easy-to-operate
+            packaging machines for different industries. As an experienced
+            Packaging Machines Manufacturer in Faridabad, we
             understand the changing requirements of modern packaging
             businesses and develop machines that deliver consistent
             performance and productivity.
@@ -164,8 +169,11 @@ export default function HomeSeoContent() {
 
         <div className="space-y-5 text-sm leading-relaxed text-gray-700 sm:text-base">
           <p>
-            Jawla Advance Technology LLP is a trusted Packaging Machine
-            Manufacturer in India, offering high-performance and
+            Jawla Advance Technology LLP is a trusted{" "}
+            <span className="font-bold text-black">
+              Packaging Machine Manufacturer
+            </span>{" "}
+            in India, offering high-performance and
             easy-to-operate packaging solutions for a wide range of
             industries. With years of industry experience, we focus on
             delivering reliable, efficient, and durable machines designed to
@@ -241,8 +249,19 @@ export default function HomeSeoContent() {
             sales@jawlatechnology.in
           </a>{" "}
           or visit our factory in Ballabgarh, Faridabad. Choose Jawla Advance
-          Technology, the best packaging machine manufacturer for businesses
-          that want reliable machines and dependable service.
+          Technology, the best{" "}
+          <span className="font-bold text-black">
+            packaging machine manufacturer
+          </span>{" "}
+          for businesses that want reliable machines and dependable service.
+          You can also reach us through our{" "}
+          <Link
+            href="/contact-us"
+            className="font-semibold text-[#BB2426] hover:underline"
+          >
+            contact page
+          </Link>
+          .
         </p>
 
         <h2 className="mb-6 mt-10 text-xl font-bold leading-tight tracking-tight text-black sm:mt-12 sm:text-2xl md:text-3xl">

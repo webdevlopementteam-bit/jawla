@@ -226,17 +226,26 @@ export default function ProductDetailSection() {
           <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">Best Horizontal Flow Wrap Pillow Pack Machine Manufacturer - Jawla Advance Technology</h1>
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
-            Jawla Advance Technology LLP is a horizontal flow wrap pillow
-            pack machine manufacturer in Faridabad, Delhi NCR. Its JAT-308
+            Jawla Advance Technology LLP is a{" "}
+            <span className="font-bold text-black">
+              Horizontal Flow Wrap Pillow Pack Machine
+            </span>{" "}
+            manufacturer in Faridabad, Delhi NCR. Its JAT-308
             wraps biscuits, chocolate bars, noodles, cakes, gur, towels,
             bearings and electronic parts into sealed pillow packs, using
             laminated film up to 550 mm wide and stainless steel contact
             parts.
           </p>
           <p className="leading-relaxed">
-            Jawla Advance Technology LLP is a horizontal flow wrap pillow
-            pack machine manufacturer in Faridabad and Delhi NCR. Our
-            JAT-308 wraps solid products such as biscuits, chocolate bars,
+            <Link
+              href="/"
+              className="text-[#BB2426] font-bold hover:underline"
+            >
+              Jawla Advance Technology
+            </Link>{" "}
+            LLP is a horizontal flow wrap pillow pack machine manufacturer
+            in Faridabad and Delhi NCR. Our JAT-308 wraps solid products
+            such as biscuits, chocolate bars,
             noodles, cakes, rusk, gur, towels, bearings and electronic parts
             into neat, sealed pillow packs. It is a versatile machine for
             food, FMCG, pharmaceutical and industrial units that need
@@ -327,8 +336,12 @@ export default function ProductDetailSection() {
             Pillow Pack Machine Manufacturer
           </h2>
           <p className="leading-relaxed">
-            As a horizontal flow wrap pillow pack machine manufacturer with
-            its own factory in Ballabgarh, Faridabad, we design, build and
+            As a{" "}
+            <span className="font-bold text-black">
+              Horizontal Flow Wrap Pillow Pack Machine
+            </span>{" "}
+            manufacturer with its own factory in Ballabgarh, Faridabad, we
+            design, build and
             test every JAT-308 in-house. Bakery, FMCG and industrial units
             across Delhi NCR choose us because:
           </p>
@@ -416,7 +429,10 @@ export default function ProductDetailSection() {
             ))}
           </ul>
           <p className="leading-relaxed">
-            An experienced horizontal flow wrap pillow pack machine
+            An experienced{" "}
+            <span className="font-bold text-black">
+              Horizontal Flow Wrap Pillow Pack Machine
+            </span>{" "}
             manufacturer will set up and test the machine for your exact
             products.
           </p>

@@ -225,16 +225,28 @@ export default function ProductDetailSection() {
           <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">Top Fully Automatic Multi-Head Weighing Packaging Machine Manufacturer</h1>
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
-            Jawla Advance Technology LLP is a fully automatic multi-head
-            weighing packaging machine manufacturer in Faridabad, Delhi NCR.
+            Jawla Advance Technology LLP is a{" "}
+            <span className="font-bold text-black">
+              Fully Automatic Multi-Head Weighing, Packaging Machine
+            </span>{" "}
+            manufacturer in Faridabad, Delhi NCR.
             Its JAT-306 weighs and packs chips, namkeen, dry fruits, seeds,
             spices and vegetables in 100 g to 1 kg pouches at 40 to 400
             packets per minute, with very low product giveaway.
           </p>
           <p className="leading-relaxed">
-            Jawla Advance Technology LLP is a fully automatic multi-head
-            weighing packaging machine manufacturer in Faridabad and Delhi
-            NCR. Our JAT-306 weighs and packs chips, dry fruits, namkeen,
+            <Link
+              href="/"
+              className="text-[#E13538] font-bold hover:underline"
+            >
+              Jawla Advance Technology
+            </Link>{" "}
+            LLP is a{" "}
+            <span className="font-bold text-black">
+              Fully Automatic Multi-Head Weighing, Packaging Machine
+            </span>{" "}
+            manufacturer in Faridabad and Delhi NCR. Our JAT-306 weighs and
+            packs chips, dry fruits, namkeen,
             spices, seeds and vegetables into pouches from 100 g to 1 kg at
             40 to 400 packets per minute. It combines precise multi-head
             weighing with a vertical form fill seal packer, giving you
@@ -338,8 +350,12 @@ export default function ProductDetailSection() {
             Packaging Machine Manufacturer
           </h2>
           <p className="leading-relaxed">
-            As a multi-head weighing packaging machine manufacturer based in
-            Ballabgarh, Faridabad, we build and test every machine in-house.
+            As a{" "}
+            <span className="font-bold text-black">
+              Multi-Head Weighing, Packaging Machine
+            </span>{" "}
+            manufacturer based in Ballabgarh, Faridabad, we build and test
+            every machine in-house.
             Food brands across Delhi NCR choose us because:
           </p>
           <ul className="list-disc pl-5 space-y-2">
@@ -396,8 +412,12 @@ export default function ProductDetailSection() {
             ))}
           </ul>
           <p className="leading-relaxed">
-            A serious multi-head weighing packaging machine manufacturer
-            will prove accuracy with your product before you buy.
+            A serious{" "}
+            <span className="font-bold text-black">
+              Fully Automatic Multi-Head Weighing, Packaging Machine
+            </span>{" "}
+            manufacturer will prove accuracy with your product before you
+            buy.
           </p>
         </div>
 

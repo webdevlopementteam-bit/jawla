@@ -222,16 +222,25 @@ export default function ProductDetailSection() {
           <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">Top Horizontal Flow Wrap Pillow Pack High Speed Packaging Machine Manufacturer</h1>
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
-            Jawla Advance Technology LLP is a horizontal flow wrap pillow
-            pack high speed packaging machine manufacturer in Faridabad,
+            Jawla Advance Technology LLP is a{" "}
+            <span className="font-bold text-black">
+              Horizontal Flow Wrap Pillow Pack High Speed Packaging Machine
+            </span>{" "}
+            manufacturer in Faridabad,
             Delhi NCR. Its fully automatic JAT-310 packs single, 2-biscuit
             and 4-biscuit pillow packs at up to 300 packs per minute, with
             automatic feeding and a single-phase 2 HP gear motor.
           </p>
           <p className="leading-relaxed">
-            Jawla Advance Technology LLP is a horizontal flow wrap pillow
-            pack high speed packaging machine manufacturer in Faridabad and
-            Delhi NCR. Our JAT-310 is a fully automatic flow wrap machine
+            <Link
+              href="/"
+              className="text-[#BB2426] font-bold hover:underline"
+            >
+              Jawla Advance Technology
+            </Link>{" "}
+            LLP is a horizontal flow wrap pillow pack high speed packaging
+            machine manufacturer in Faridabad and Delhi NCR. Our JAT-310 is
+            a fully automatic flow wrap machine
             built for biscuit makers who pack 2-biscuit and 4-biscuit packs
             in very high volumes. With automatic feeding and continuous
             sealing, it produces up to 300 packs per minute while handling
@@ -325,8 +334,12 @@ export default function ProductDetailSection() {
             Machine Manufacturer
           </h2>
           <p className="leading-relaxed">
-            As a high speed flow wrap machine manufacturer with its own
-            factory in Ballabgarh, Faridabad, we design every JAT-310 for
+            As a{" "}
+            <span className="font-bold text-black">
+              high speed flow wrap machine
+            </span>{" "}
+            manufacturer with its own factory in Ballabgarh, Faridabad, we
+            design every JAT-310 for
             continuous biscuit production. Bakery and biscuit units choose
             us because:
           </p>
@@ -432,8 +445,12 @@ export default function ProductDetailSection() {
             ))}
           </ul>
           <p className="leading-relaxed">
-            A proven high speed flow wrap machine manufacturer will match
-            the JAT-310 to your line before dispatch.
+            A proven{" "}
+            <span className="font-bold text-black">
+              high speed flow wrap machine
+            </span>{" "}
+            manufacturer will match the JAT-310 to your line before
+            dispatch.
           </p>
         </div>
 
@@ -452,8 +469,10 @@ export default function ProductDetailSection() {
             >
               website enquiry form
             </Link>{" "}
-            for a detailed quote. Choose Jawla Advance Technology, the
-            horizontal flow wrap pillow pack high speed packaging machine
+            for a detailed quote. Choose Jawla Advance Technology, the{" "}
+            <span className="font-bold text-black">
+              horizontal flow wrap pillow pack high speed packaging machine
+            </span>{" "}
             manufacturer that biscuit brands across Faridabad and Delhi NCR
             trust.
           </p>

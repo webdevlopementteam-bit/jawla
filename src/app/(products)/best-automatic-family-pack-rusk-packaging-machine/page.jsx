@@ -239,16 +239,25 @@ export default function ProductDetailSection() {
           <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">Best Automatic Family Pack Rusk Packaging Machine Manufacturer</h1>
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
-            Jawla Advance Technology LLP is an automatic family pack rusk
-            packaging machine manufacturer in Faridabad, Delhi NCR. Its
+            Jawla Advance Technology LLP is an{" "}
+            <span className="font-bold text-black">
+              Automatic Family Pack Rusk Packaging Machine
+            </span>{" "}
+            manufacturer in Faridabad, Delhi NCR. Its
             JAT-312 packs rusk, biscuits and cakes into 50 g to 400 g family
             packs at up to 60 packs per minute, with automatic feeding,
             centre sealing and a rust-proof, 1,300 kg frame.
           </p>
           <p className="leading-relaxed">
-            Jawla Advance Technology LLP is an automatic family pack rusk
-            packaging machine manufacturer in Faridabad and Delhi NCR. Our
-            JAT-312 packs rusk, biscuits and cakes into family-size packs
+            <Link
+              href="/"
+              className="text-[#E13538] font-bold hover:underline"
+            >
+              Jawla Advance Technology
+            </Link>{" "}
+            LLP is an automatic family pack rusk packaging machine
+            manufacturer in Faridabad and Delhi NCR. Our JAT-312 packs
+            rusk, biscuits and cakes into family-size packs
             from 50 g to 400 g at up to 60 packs per minute. Automatic
             feeding and precise sealing give bakeries neat, attractive packs
             with minimal crumbling, ready for retail shelves.
@@ -349,8 +358,12 @@ export default function ProductDetailSection() {
             Pack Rusk Packaging Machine Manufacturer
           </h2>
           <p className="leading-relaxed">
-            As an automatic family pack rusk packaging machine manufacturer
-            based in Ballabgarh, Faridabad, we build machines that match the
+            As an{" "}
+            <span className="font-bold text-black">
+              Automatic Family Pack Rusk Packaging Machine
+            </span>{" "}
+            manufacturer based in Ballabgarh, Faridabad, we build machines
+            that match the
             realities of Indian bakeries. Bakery owners choose us because:
           </p>
           <ul className="list-disc pl-5 space-y-2">
@@ -443,7 +456,10 @@ export default function ProductDetailSection() {
             ))}
           </ul>
           <p className="leading-relaxed">
-            A trusted automatic family pack rusk packaging machine
+            A trusted{" "}
+            <span className="font-bold text-black">
+              Automatic Family Pack Rusk Packaging Machine
+            </span>{" "}
             manufacturer will run your rusk on the machine before you buy.
           </p>
         </div>
