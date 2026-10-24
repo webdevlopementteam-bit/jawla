@@ -24,16 +24,16 @@ export default function ProductDetailSection() {
         {/* Top Red Header Container */}
         <TopCard
           title={"Collar Auger Filling Packaging Machine"}
-          image={"/PRODUCTS/collar-auger-filling-packaging-machine/top.png"}
+          image={"/PRODUCTS/collar-auger-filling-packaging-machine/top.webp"}
         />
 
         {/* Main Details Section */}
         <MainProductDetails
           MachineImage={
-            "/PRODUCTS/collar-auger-filling-packaging-machine/p1.png"
+            "/PRODUCTS/collar-auger-filling-packaging-machine/p1.webp"
           }
           sampleImage={
-            "/PRODUCTS/collar-auger-filling-packaging-machine/p2.png"
+            "/PRODUCTS/collar-auger-filling-packaging-machine/p2.webp"
           }
           productTitle={"Collar Auger Filling Packaging Machine (JAT-307)"}
           productDescription={

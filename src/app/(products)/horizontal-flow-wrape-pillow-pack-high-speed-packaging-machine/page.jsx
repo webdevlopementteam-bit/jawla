@@ -196,17 +196,17 @@ export default function ProductDetailSection() {
             "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine"
           }
           image={
-            "/PRODUCTS/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine/top.png"
+            "/PRODUCTS/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine/top.webp"
           }
         />
 
         {/* Main Details Section */}
         <MainProductDetails
           MachineImage={
-            "/PRODUCTS/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine/p1.png"
+            "/PRODUCTS/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine/p1.webp"
           }
           sampleImage={
-            "/PRODUCTS/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine/p2.png"
+            "/PRODUCTS/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine/p2.webp"
           }
           productTitle={
             "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine (JAT-310)"

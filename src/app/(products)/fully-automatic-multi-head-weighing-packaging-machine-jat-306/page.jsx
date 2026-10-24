@@ -197,17 +197,17 @@ export default function ProductDetailSection() {
         <TopCard
           title={"Fully Automatic Multi-head Weighing and Packaging Machine"}
           image={
-            "/PRODUCTS/fully-automatic-multi-head-weighing-packaging-machine-jat-306/top.png"
+            "/PRODUCTS/fully-automatic-multi-head-weighing-packaging-machine-jat-306/top.webp"
           }
         />
 
         {/* Main Details Section */}
         <MainProductDetails
           MachineImage={
-            "/PRODUCTS/fully-automatic-multi-head-weighing-packaging-machine-jat-306/p1.png"
+            "/PRODUCTS/fully-automatic-multi-head-weighing-packaging-machine-jat-306/p1.webp"
           }
           sampleImage={
-            "/PRODUCTS/fully-automatic-multi-head-weighing-packaging-machine-jat-306/p2.png"
+            "/PRODUCTS/fully-automatic-multi-head-weighing-packaging-machine-jat-306/p2.webp"
           }
           productTitle={
             "Fully Automatic Multi-head Weighing, Packaging Machine (JAT-306)"

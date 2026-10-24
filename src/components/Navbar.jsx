@@ -95,7 +95,7 @@ export default function Navbar() {
         <div className="flex-shrink-0">
           <Link href="/" className="flex items-center">
             <Image
-              src="/logo/logo.png"
+              src="/logo/logo.webp"
               alt="Jawla Advance Technology LLP"
               width={145}
               height={30}

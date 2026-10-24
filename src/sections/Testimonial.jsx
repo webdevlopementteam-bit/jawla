@@ -18,7 +18,7 @@ export default function TestimonialsSection() {
             {/* Background Image */}
             <div className="relative w-full h-[420px] sm:h-[480px] lg:h-[420px] rounded-2xl overflow-hidden shadow-lg">
               <Image
-                src="/home/TESTIMONIALS/t1.jpg"
+                src="/home/TESTIMONIALS/t1.webp"
                 alt="Customer Review Background"
                 fill
                 sizes="(max-width: 768px) 100vw,(max-width: 1200px) 100vw,  1200px"
@@ -44,7 +44,7 @@ export default function TestimonialsSection() {
                       {/* Author Image */}
                       <div className="w-11 h-11 sm:w-12 sm:h-12 overflow-hidden rounded-lg">
                         <Image
-                          src="/home/TESTIMONIALS/t2.png"
+                          src="/home/TESTIMONIALS/t2.webp"
                           alt={item.name}
                           width={48}
                           height={48}

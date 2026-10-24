@@ -55,7 +55,7 @@ export default function HomeAboutSection() {
             {/* Top Machine Card */}
             <div className="bg-gray-50 rounded-2xl p-4 sm:p-5 md:p-6 flex items-center justify-center border border-gray-100 min-h-[180px] sm:min-h-[200px] md:min-h-[220px]">
               <Image
-                src="/home/home_about/p1.png"
+                src="/home/home_about/p1.webp"
                 alt="Flow Wrap Packaging Machine"
                 width={350}
                 height={200}
@@ -106,7 +106,7 @@ export default function HomeAboutSection() {
           {/* Center Red Card: Featured Machine Image */}
           <div className="lg:col-span-4 bg-[#BB2426] rounded-2xl p-4 sm:p-5 md:p-6 flex items-center justify-center min-h-[320px] sm:min-h-[360px] md:min-h-[400px] lg:min-h-[420px] relative overflow-hidden shadow-xl">
             <Image
-              src="/home/home_about/p2.png"
+              src="/home/home_about/p2.webp"
               alt="Auger Filler Packaging Machine"
               width={380}
               height={400}
@@ -155,7 +155,7 @@ export default function HomeAboutSection() {
             {/* Bottom Machine Card */}
             <div className="bg-gray-50 rounded-2xl p-4 sm:p-5 md:p-6 flex items-center justify-center border border-gray-100 min-h-[180px] sm:min-h-[200px] md:min-h-[220px]">
               <Image
-                src="/home/home_about/p3.png"
+                src="/home/home_about/p3.webp"
                 alt="Horizontal Flow Packaging Machine"
                 width={350}
                 height={200}

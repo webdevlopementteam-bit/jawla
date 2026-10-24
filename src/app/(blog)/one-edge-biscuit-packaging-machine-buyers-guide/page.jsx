@@ -290,7 +290,7 @@ export default function OneEdgeBiscuitBuyersGuide() {
 
         <div className="relative w-full h-80 sm:h-96 md:h-[28rem] lg:h-[32rem] border border-gray-100 rounded-lg overflow-hidden bg-white my-6">
           <Image
-            src="/blog/p8.png"
+            src="/blog/p8.webp"
             alt="One-Edge Biscuit Packaging Machine"
             fill
             className="object-contain p-2"

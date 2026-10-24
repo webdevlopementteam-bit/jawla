@@ -209,13 +209,13 @@ export default function ProductDetailSection() {
         {/* Top Red Header Container */}
         <TopCard
           title={"FFS Half Pneumatic Packaging Machine"}
-          image={"/PRODUCTS/ffs-half-pneumatic-packaging-machine/top.png"}
+          image={"/PRODUCTS/ffs-half-pneumatic-packaging-machine/top.webp"}
         />
 
         {/* Main Details Section */}
         <MainProductDetails
-          MachineImage={"/PRODUCTS/ffs-half-pneumatic-packaging-machine/p1.png"}
-          sampleImage={"/PRODUCTS/ffs-half-pneumatic-packaging-machine/p2.png"}
+          MachineImage={"/PRODUCTS/ffs-half-pneumatic-packaging-machine/p1.webp"}
+          sampleImage={"/PRODUCTS/ffs-half-pneumatic-packaging-machine/p2.webp"}
           productTitle={"FFS Half Pneumatic Packaging Machine (JAT-304)"}
           productDescription={
             "Spices, Namkeen, Tea, Coffee, Heena, Powder, All granular & Detergent"

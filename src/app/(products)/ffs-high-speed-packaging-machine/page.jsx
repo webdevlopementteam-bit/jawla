@@ -199,13 +199,13 @@ export default function ProductDetailSection() {
         {/* Top Red Header Container */}
         <TopCard
           title={"FFS High Speed Packaging Machine"}
-          image={"/PRODUCTS/ffs-high-speed-packaging-machine/top.png"}
+          image={"/PRODUCTS/ffs-high-speed-packaging-machine/top.webp"}
         />
 
         {/* Main Details Section */}
         <MainProductDetails
-          MachineImage={"/PRODUCTS/ffs-high-speed-packaging-machine/p1.png"}
-          sampleImage={"/PRODUCTS/ffs-high-speed-packaging-machine/p2.png"}
+          MachineImage={"/PRODUCTS/ffs-high-speed-packaging-machine/p1.webp"}
+          sampleImage={"/PRODUCTS/ffs-high-speed-packaging-machine/p2.webp"}
           productTitle={"FFS High Speed Packaging Machine (JAT-302)"}
           productDescription={
             "Mouth Freshner, Paan masala, Spices, Namkeen, Tea, Coffee, Heena, Powder, All granular & Detergent"

@@ -23,13 +23,13 @@ export default function ProductDetailSection() {
         {/* Top Red Header Container */}
         <TopCard
           title={"One-edge Biscuit Packaging Machine"}
-          image={"/PRODUCTS/one-edge-biscuit-packaging-machine/top.png"}
+          image={"/PRODUCTS/one-edge-biscuit-packaging-machine/top.webp"}
         />
 
         {/* Main Details Section */}
         <MainProductDetails
-          MachineImage={"/PRODUCTS/one-edge-biscuit-packaging-machine/p1.png"}
-          sampleImage={"/PRODUCTS/one-edge-biscuit-packaging-machine/p2.png"}
+          MachineImage={"/PRODUCTS/one-edge-biscuit-packaging-machine/p1.webp"}
+          sampleImage={"/PRODUCTS/one-edge-biscuit-packaging-machine/p2.webp"}
           productTitle={
             "One-edge Biscuit Packaging Machine with Dual Feeder for 50gm, 75gm & 100gm (JAT-311)"
           }

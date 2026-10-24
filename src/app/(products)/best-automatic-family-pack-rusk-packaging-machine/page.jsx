@@ -211,17 +211,17 @@ export default function ProductDetailSection() {
         <TopCard
           title={"Automatic Family Pack Rusk Packaging Machine"}
           image={
-            "/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/top.png"
+            "/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/top.webp"
           }
         />
 
         {/* Main Details Section */}
         <MainProductDetails
           MachineImage={
-            "/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/p1.png"
+            "/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/p1.webp"
           }
           sampleImage={
-            "/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/p2.png"
+            "/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/p2.webp"
           }
           productTitle={
             "Automatic Family Pack Biscuit or Rusk Packaging Machine (JAT-312)"

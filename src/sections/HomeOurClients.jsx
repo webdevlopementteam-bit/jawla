@@ -10,13 +10,13 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 import "swiper/css";
 
 const clientLogos = [
-  { id: 1, src: "/home/OUR CLIENTS/c1.png", alt: "SBM Group" },
-  { id: 2, src: "/home/OUR CLIENTS/c2.jpg", alt: "Nathu's" },
-  { id: 3, src: "/home/OUR CLIENTS/c3.jpg", alt: "Priyagold" },
-  { id: 4, src: "/home/OUR CLIENTS/c4.png", alt: "Pankaj's" },
-  { id: 5, src: "/home/OUR CLIENTS/c5.jpg", alt: "Richlite" },
-  { id: 6, src: "/home/OUR CLIENTS/c6.jpg", alt: "A1 Bakery" },
-  { id: 7, src: "/home/OUR CLIENTS/c7.jpg", alt: "Client Logo 7" },
+  { id: 1, src: "/home/OUR CLIENTS/c1.webp", alt: "SBM Group" },
+  { id: 2, src: "/home/OUR CLIENTS/c2.webp", alt: "Nathu's" },
+  { id: 3, src: "/home/OUR CLIENTS/c3.webp", alt: "Priyagold" },
+  { id: 4, src: "/home/OUR CLIENTS/c4.webp", alt: "Pankaj's" },
+  { id: 5, src: "/home/OUR CLIENTS/c5.webp", alt: "Richlite" },
+  { id: 6, src: "/home/OUR CLIENTS/c6.webp", alt: "A1 Bakery" },
+  { id: 7, src: "/home/OUR CLIENTS/c7.webp", alt: "Client Logo 7" },
 ];
 
 export default function OurClientsSection() {

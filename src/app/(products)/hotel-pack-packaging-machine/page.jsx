@@ -23,13 +23,13 @@ export default function ProductDetailSection() {
         {/* Top Red Header Container */}
         <TopCard
           title={"Hotel Pack Packaging Machine"}
-          image={"/PRODUCTS/hotel-pack-packaging-machine/top.png"}
+          image={"/PRODUCTS/hotel-pack-packaging-machine/top.webp"}
         />
 
         {/* Main Details Section */}
         <MainProductDetails
-          MachineImage={"/PRODUCTS/hotel-pack-packaging-machine/p1.png"}
-          sampleImage={"/PRODUCTS/hotel-pack-packaging-machine/p2.png"}
+          MachineImage={"/PRODUCTS/hotel-pack-packaging-machine/p1.webp"}
+          sampleImage={"/PRODUCTS/hotel-pack-packaging-machine/p2.webp"}
           productTitle={"Hotel Pack Packaging Machine (JAT-309)"}
           productDescription={
             "Biscuit, Chocolate Bar, Noodles, Bearing, Maggi, Samtaing Towels, Scotch Bar, Gur, Cake, Tray Pack Items & Electronic Items etc."

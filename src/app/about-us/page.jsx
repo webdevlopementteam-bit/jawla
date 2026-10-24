@@ -39,7 +39,7 @@ export default function AboutUsSection() {
           <div className="lg:col-span-5 w-full border border-gray-200 rounded-2xl sm:rounded-3xl p-3 sm:p-4 shadow-sm bg-white">
             <div className="relative w-full h-[420px] sm:h-[520px] md:h-[580px] lg:h-[680px] rounded-xl sm:rounded-2xl overflow-hidden">
               <Image
-                src="/about/p1.png"
+                src="/about/p1.webp"
                 alt="Jawla Packaging Machine and Products"
                 fill
                 priority

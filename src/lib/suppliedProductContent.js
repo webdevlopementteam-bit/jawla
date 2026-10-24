@@ -1,7 +1,7 @@
 export const suppliedProductContent = {
   collarCup: {
     url: "/collar-type-cup-filler-packaging-machine",
-    image: "/PRODUCTS/collar-type-cup-filler-packaging-machine/p1.png",
+    image: "/PRODUCTS/collar-type-cup-filler-packaging-machine/p1.webp",
     productName: "Collar Type Cup Filler Packaging Machine (JAT-314)",
     model: "JAT-314",
     quickAnswer: "Jawla Advance Technology LLP is a **collar type cup filler packaging machine** manufacturer in Faridabad, Delhi NCR. Its JAT-314 uses volumetric cups to pack rice, pulses, namkeen, spices, dry fruits and corn flakes in 100 g to 1 kg pouches at up to 80 packets per minute, with a 450 mm film and centre side seal.",
@@ -37,7 +37,7 @@ export const suppliedProductContent = {
   },
   liquid: {
     url: "/ffs-liquid-packaging-machine",
-    image: "/PRODUCTS/ffs-liquid-packaging-machine/p1.png",
+    image: "/PRODUCTS/ffs-liquid-packaging-machine/p1.webp",
     productName: "FFS Liquid Packaging Machine (JAT-301A)", model: "JAT-301A", quickAnswer: "Jawla Advance Technology LLP is a **liquid packaging machine** manufacturer in Faridabad, Delhi NCR. Its FFS Liquid Packaging Machine (JAT-301A) uses piston dosing to fill oil, shampoo, liquid soap, syrups and lubricants into 2 ml to 100 ml pouches at 50 to 60 pouches per minute, with stainless steel contact parts.", category: "Liquid Packaging Machine", breadcrumb: "Liquid Packaging Machine",
     schemaDescription: "Automatic FFS liquid packaging machine by a Faridabad manufacturer. Piston dosing, 2 ml to 100 ml, 50 to 60 pouches per minute, stainless steel contact parts.",
     properties: [["Filling Range", "2 ml to 100 ml"], ["Output", "50 to 60 pouches per minute"], ["Filling System", "Piston dosing"], ["Contact Parts", "Anti-corrosion stainless steel"]],
@@ -68,7 +68,7 @@ export const suppliedProductContent = {
     ],
   },
   rotary: {
-    url: "/horizontal-rotary-machine", image: "/PRODUCTS/horizontal-rotary-machine/p1.png",
+    url: "/horizontal-rotary-machine", image: "/PRODUCTS/horizontal-rotary-machine/p1.webp",
     productName: "Horizontal Rotary Machine (JAT-305)", model: "JAT-305", quickAnswer: "Jawla Advance Technology LLP is a **horizontal rotary machine** manufacturer in Faridabad, Delhi NCR. Its JAT-305 uses a rotary mechanism that forms, fills and seals small pouches in one synchronised cycle, and is built for tea, sugar, spices, washing powder, mouth freshener and pan masala sachets.", category: "Rotary Pouch Packing Machine", breadcrumb: "Horizontal Rotary Machine",
     schemaDescription: "Horizontal rotary pouch packing machine by a Faridabad manufacturer for tea, sugar, spices, washing powder, mouth freshener and pan masala.",
     properties: [["Mechanism", "Rotary forming, filling and sealing"], ["Typical Products", "Tea, sugar, spices, washing powder, mouth freshener, pan masala"], ["Body", "Powder coated"]],
@@ -99,7 +99,7 @@ export const suppliedProductContent = {
     ],
   },
   auger: {
-    url: "/collar-auger-filling-packaging-machine", image: "/PRODUCTS/collar-auger-filling-packaging-machine/p1.png",
+    url: "/collar-auger-filling-packaging-machine", image: "/PRODUCTS/collar-auger-filling-packaging-machine/p1.webp",
     productName: "Collar Auger Filling Packaging Machine (JAT-307)", model: "JAT-307", quickAnswer: "Jawla Advance Technology LLP is a **collar auger filling packaging machine** manufacturer in Faridabad, Delhi NCR. Its fully automatic JAT-307 uses an auger screw to pack besan, maida, sattu, spices and milk powder in 10 g to 10 kg pouches at 20 to 60 packets per minute, with accurate weight and leak-proof seals.", weight: 1200, category: "Auger Filling Packaging Machine", breadcrumb: "Collar Auger Filling Packaging Machine",
     schemaDescription: "Collar auger filling packaging machine by a Faridabad manufacturer for besan, maida, sattu and fine powders. 10 g to 10 kg, 20 to 60 packets per minute.",
     properties: [["Pack Size", "10 g to 10 kg"], ["Output", "20 to 60 packets per minute"], ["Filling System", "Auger filler"], ["Maximum Film Width", "700 mm"]],
@@ -130,7 +130,7 @@ export const suppliedProductContent = {
     ],
   },
   hotel: {
-    url: "/hotel-pack-packaging-machine", image: "/PRODUCTS/hotel-pack-packaging-machine/p1.png",
+    url: "/hotel-pack-packaging-machine", image: "/PRODUCTS/hotel-pack-packaging-machine/p1.webp",
     productName: "Hotel Pack Packaging Machine (JAT-309)", model: "JAT-309", quickAnswer: "Jawla Advance Technology LLP is a **hotel pack packaging machine** manufacturer in Faridabad, Delhi NCR. Its JAT-309 wraps biscuits, cakes, cookies, chocolates, noodles and pasta in pillow or tray packs at up to 80 packs per minute, running on a single-phase 2 HP gear motor with about 3 kW power.", category: "Flow Wrap Packaging Machine", breadcrumb: "Hotel Pack Packaging Machine",
     schemaDescription: "Hotel pack packaging machine by a Faridabad manufacturer. Pillow and tray packs of biscuits, cakes and noodles at up to 80 packs per minute, 2 HP single-phase.",
     properties: [["Output", "Up to 80 packs per minute"], ["Pack Style", "Pillow pack and tray pack"], ["Motor", "2 HP gear motor, single phase"], ["Power Consumption", "About 3 kW"]],
@@ -161,7 +161,7 @@ export const suppliedProductContent = {
     ],
   },
   creamBiscuit: {
-    url: "/one-edge-packaging-machine-with-cream-biscuit-feeder", image: "/PRODUCTS/one-edge-packaging-machine-with-cream-biscuit-feeder/p1.png",
+    url: "/one-edge-packaging-machine-with-cream-biscuit-feeder", image: "/PRODUCTS/one-edge-packaging-machine-with-cream-biscuit-feeder/p1.webp",
     productName: "One-Edge Packaging Machine With Cream Biscuit Feeder (JAT-313)", model: "JAT-313", quickAnswer: "Jawla Advance Technology LLP is a **one-edge packaging machine with cream biscuit feeder** manufacturer in Faridabad, Delhi NCR. Its servo-driven JAT-313 feeds shells, applies cream, sandwiches and wraps cream biscuits into 50 g, 75 g and 100 g packs at 80 to 150 packs per minute, built for 24/7 running.", weight: 1400, category: "Biscuit Packaging Machine", breadcrumb: "Cream Biscuit Packaging Machine",
     schemaDescription: "Servo-driven one-edge packaging machine with cream biscuit feeder by a Faridabad manufacturer. 50 g, 75 g and 100 g packs at 80 to 150 packs per minute.",
     properties: [["Pack Sizes", "50 g, 75 g, 100 g"], ["Output", "80 to 150 packs per minute"], ["Drive", "Servo-driven"], ["Film Width", "250 mm"]],
@@ -192,7 +192,7 @@ export const suppliedProductContent = {
     ],
   },
   oneEdgeBiscuit: {
-    url: "/one-edge-biscuit-packaging-machine", image: "/PRODUCTS/one-edge-biscuit-packaging-machine/p1.png",
+    url: "/one-edge-biscuit-packaging-machine", image: "/PRODUCTS/one-edge-biscuit-packaging-machine/p1.webp",
     productName: "One-Edge Biscuit Packaging Machine with Dual Feeder (JAT-311)", model: "JAT-311", quickAnswer: "Jawla Advance Technology LLP is a **one-edge biscuit packaging machine** manufacturer in Faridabad, Delhi NCR. Its JAT-311 with dual feeder automatically groups and wraps biscuits into 50 g, 75 g and 100 g one-edge packs at up to 200 packs per minute, using 250 mm film and about 3 kW of power.", weight: 1400, category: "Biscuit Packaging Machine", breadcrumb: "One-Edge Biscuit Packaging Machine",
     schemaDescription: "One-edge biscuit packaging machine with dual feeder by a Faridabad manufacturer. 50 g, 75 g and 100 g packs, up to 200 packs per minute, 250 mm film.",
     properties: [["Pack Sizes", "50 g, 75 g, 100 g"], ["Output", "Up to 200 packs per minute"], ["Film Width", "250 mm"], ["Power", "About 3 kW"]],

@@ -23,17 +23,17 @@ export default function ProductDetailSection() {
         <TopCard
           title={"One-edge Packaging Machine with Cream Biscuit Feeder"}
           image={
-            "/PRODUCTS/one-edge-packaging-machine-with-cream-biscuit-feeder/top.png"
+            "/PRODUCTS/one-edge-packaging-machine-with-cream-biscuit-feeder/top.webp"
           }
         />
 
         {/* Main Details Section */}
         <MainProductDetails
           MachineImage={
-            "/PRODUCTS/one-edge-packaging-machine-with-cream-biscuit-feeder/p1.png"
+            "/PRODUCTS/one-edge-packaging-machine-with-cream-biscuit-feeder/p1.webp"
           }
           sampleImage={
-            "/PRODUCTS/one-edge-packaging-machine-with-cream-biscuit-feeder/p2.png"
+            "/PRODUCTS/one-edge-packaging-machine-with-cream-biscuit-feeder/p2.webp"
           }
           productTitle={
             "One-edge Packaging Machine with Cream Biscuit Feeder (JAT-313)"

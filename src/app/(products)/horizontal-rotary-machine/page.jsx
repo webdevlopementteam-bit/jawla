@@ -24,13 +24,13 @@ export default function ProductDetailSection() {
         {/* Top Red Header Container */}
         <TopCard
           title={"Horizontal Rotary Machine"}
-          image={"/PRODUCTS/horizontal-rotary-machine/top.png"}
+          image={"/PRODUCTS/horizontal-rotary-machine/top.webp"}
         />
 
         {/* Main Details Section */}
         <MainProductDetails
-          MachineImage={"/PRODUCTS/horizontal-rotary-machine/p1.png"}
-          sampleImage={"/PRODUCTS/horizontal-rotary-machine/p2.png"}
+          MachineImage={"/PRODUCTS/horizontal-rotary-machine/p1.webp"}
+          sampleImage={"/PRODUCTS/horizontal-rotary-machine/p2.webp"}
           productTitle={"Horizontal Rotary Machine (JAT-305)"}
           productDescription={
             "Tea, Washing Powder, Spices, Sugar, Mouth Freshner, Pan Masala, Khaini etc."

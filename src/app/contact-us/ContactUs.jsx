@@ -218,7 +218,7 @@ function ContactUs() {
             <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100 flex items-center justify-center min-h-[450px]">
               <div className="relative w-full h-full min-h-[380px]">
                 <Image
-                  src="/contact-us/p1.png"
+                  src="/contact-us/p1.webp"
                   alt="Customer Support Representative"
                   fill
                   className="object-contain object-center"

@@ -18,13 +18,13 @@ export default function ProductDetailSection() {
         <TopCard
           as="h1"
           title={"FFS D-Motion Type Packaging Machine"}
-          image={"/PRODUCTS/ffs-d-motion-type-packaging-machine/top.png"}
+          image={"/PRODUCTS/ffs-d-motion-type-packaging-machine/top.webp"}
         />
 
         {/* Main Details Section */}
         <MainProductDetails
-          MachineImage={"/PRODUCTS/ffs-d-motion-type-packaging-machine/p1.png"}
-          sampleImage={"/PRODUCTS/ffs-d-motion-type-packaging-machine/p2.png"}
+          MachineImage={"/PRODUCTS/ffs-d-motion-type-packaging-machine/p1.webp"}
+          sampleImage={"/PRODUCTS/ffs-d-motion-type-packaging-machine/p2.webp"}
           productTitle={"FFS D-Motion Type Packaging Machine (JAT-303)"}
           productDescription={
             "Pan Masala, Jeera, Mouth Freshner Powder, Fruit Balls, Gems any Small Pouch etc."

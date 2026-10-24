@@ -201,16 +201,16 @@ export default function ProductDetailSection() {
         {/* Top Red Header Container */}
         <TopCard
           title={"Horizontal Flow Wrap Pillow Pack Machine"}
-          image={"/PRODUCTS/horizontal-flow-wrap-pillow-pack-machine/top.png"}
+          image={"/PRODUCTS/horizontal-flow-wrap-pillow-pack-machine/top.webp"}
         />
 
         {/* Main Details Section */}
         <MainProductDetails
           MachineImage={
-            "/PRODUCTS/horizontal-flow-wrap-pillow-pack-machine/p1.png"
+            "/PRODUCTS/horizontal-flow-wrap-pillow-pack-machine/p1.webp"
           }
           sampleImage={
-            "/PRODUCTS/horizontal-flow-wrap-pillow-pack-machine/p2.png"
+            "/PRODUCTS/horizontal-flow-wrap-pillow-pack-machine/p2.webp"
           }
           productTitle={"Horizontal Flow Wrap Pillow Pack Machine (JAT-308)"}
           productDescription={

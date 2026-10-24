@@ -23,16 +23,16 @@ export default function ProductDetailSection() {
         {/* Top Red Header Container */}
         <TopCard
           title={"Collar Type Cup Filler Packaging Machine"}
-          image={"/PRODUCTS/collar-type-cup-filler-packaging-machine/top.png"}
+          image={"/PRODUCTS/collar-type-cup-filler-packaging-machine/top.webp"}
         />
 
         {/* Main Details Section */}
         <MainProductDetails
           MachineImage={
-            "/PRODUCTS/collar-type-cup-filler-packaging-machine/p1.png"
+            "/PRODUCTS/collar-type-cup-filler-packaging-machine/p1.webp"
           }
           sampleImage={
-            "/PRODUCTS/collar-type-cup-filler-packaging-machine/p2.png"
+            "/PRODUCTS/collar-type-cup-filler-packaging-machine/p2.webp"
           }
           productTitle={"Collar Type Cup Filler Packaging Machine (JAT-314)"}
           productDescription={"Spices, Namkeen, Rice, Pulses etc."}

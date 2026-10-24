@@ -194,14 +194,14 @@ export default function ProductDetailSection() {
         {/* Top Red Header Container */}
         <TopCard
           title={"Normal FFS Packaging Machine"}
-          image={"/PRODUCTS/normal-ffs-packaging-machine-jat-301/top.png"}
+          image={"/PRODUCTS/normal-ffs-packaging-machine-jat-301/top.webp"}
         />
 
         {/* Main Details Section */}
         <MainProductDetails
-          MachineImage={"/PRODUCTS/normal-ffs-packaging-machine-jat-301/p1.png"}
+          MachineImage={"/PRODUCTS/normal-ffs-packaging-machine-jat-301/p1.webp"}
           sampleImage={
-            "/PRODUCTS/normal-ffs-packaging-machine-jat-301/chutki.png"
+            "/PRODUCTS/normal-ffs-packaging-machine-jat-301/chutki.webp"
           }
           productTitle={"Normal FFS Packaging Machine (JAT-301)"}
           productDescription={

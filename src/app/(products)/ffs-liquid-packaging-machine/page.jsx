@@ -23,13 +23,13 @@ export default function ProductDetailSection() {
         {/* Top Red Header Container */}
         <TopCard
           title={"FFS Liquid Packaging Machine"}
-          image={"/PRODUCTS/normal-ffs-packaging-machine-jat-301/top.png"}
+          image={"/PRODUCTS/normal-ffs-packaging-machine-jat-301/top.webp"}
         />
 
         {/* Main Details Section */}
         <MainProductDetails
-          MachineImage={"/PRODUCTS/ffs-liquid-packaging-machine/p1.png"}
-          sampleImage={"/PRODUCTS/ffs-liquid-packaging-machine/p2.png"}
+          MachineImage={"/PRODUCTS/ffs-liquid-packaging-machine/p1.webp"}
+          sampleImage={"/PRODUCTS/ffs-liquid-packaging-machine/p2.webp"}
           productTitle={"FFS Liquid Packaging Machine (JAT-301A)"}
           productDescription={"Shampoo, Oils, Lubricant, Liquid Chocolate etc."}
           productTagline={"Quickly Sealing the Novelty of Liquid Products"}

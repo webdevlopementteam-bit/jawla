@@ -54,7 +54,7 @@ export default function Hero() {
             {/* Machine Image */}
             <div className="relative w-full h-44 sm:h-52 md:h-56 lg:h-60 xl:h-64 flex items-center justify-center">
               <Image
-                src="/home/hero_product.png"
+                src="/home/hero_product.webp"
                 alt="Packaging Machine"
                 width={400}
                 height={350}

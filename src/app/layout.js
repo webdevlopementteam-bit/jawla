@@ -16,9 +16,9 @@ export const metadata = {
   description:
     "Jawla Advance Technology LLP is leading best packaging machine manufacturer in Delhi NCR, specializing in high-performance, easy-to-operate packaging solutions.",
   icons: {
-    icon: "/logo/logo.png",
-    shortcut: "/logo/logo2.png",
-    apple: "/logo/logo2.png",
+    icon: "/logo/logo.webp",
+    shortcut: "/logo/logo2.webp",
+    apple: "/logo/logo2.webp",
   },
   verification: {
     google: "jN1haUl-peCS2as4Ec0NKTEJWKQjzRzQMgD2YHOuwJs",
