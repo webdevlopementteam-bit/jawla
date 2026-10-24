@@ -353,7 +353,19 @@ export const exhibitions = [
   },
 ];
 
-export const blogPosts = [];
+export const blogPosts = [
+  {
+    id: 1,
+    category: "BLOG",
+    title: "One-Edge Biscuit Packaging Machine: Complete Buyer's Guide In 2026",
+    image: "/blog/p8.png",
+    excerpt:
+      "If you make biscuits, packing is often the slowest step on your line. Learn how a one-edge biscuit packaging machine works, what to check before you buy, and what affects the price...",
+    author: "JAWLA ADVANCE TECHNOLOGY",
+    date: "OCTOBER 24, 2026",
+    slug: "/one-edge-biscuit-packaging-machine-buyers-guide",
+  },
+];
 
 // blog data
 

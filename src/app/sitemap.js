@@ -30,6 +30,8 @@ const productRoutes = [
   "/one-edge-packaging-machine-with-cream-biscuit-feeder",
 ];
 
+const blogRoutes = ["/one-edge-biscuit-packaging-machine-buyers-guide"];
+
 export default function sitemap() {
   const lastModified = new Date();
 
@@ -47,5 +49,12 @@ export default function sitemap() {
     priority: 0.8,
   }));
 
-  return [...staticEntries, ...productEntries];
+  const blogEntries = blogRoutes.map((path) => ({
+    url: `${BASE_URL}${path}`,
+    lastModified,
+    changeFrequency: "daily",
+    priority: 0.6,
+  }));
+
+  return [...staticEntries, ...productEntries, ...blogEntries];
 }
