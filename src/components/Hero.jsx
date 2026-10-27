@@ -36,7 +36,7 @@ export default function Hero() {
             <div className="flex gap-3 sm:gap-4 mb-4 sm:mb-5 lg:mb-6">
               {" "}
               <Link
-                href="/contact-us"
+                href="/contact"
                 className="flex-1 bg-zinc-700 hover:bg-[#BB2426] text-white font-medium text-sm sm:text-base py-2 sm:py-2.5 px-3 sm:px-4 rounded transition text-center"
               >
                 {" "}

@@ -448,7 +448,7 @@ export default function ProductDetailSection() {
               recommend the right configuration with a detailed quote.
               Contact our team through the{" "}
               <Link
-                href="/contact-us"
+                href="/contact"
                 className="text-[#E13538] font-bold hover:underline"
               >
                 website enquiry form

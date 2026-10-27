@@ -20,7 +20,7 @@ function MainProductDetails({
             {" "}
             <Link
               className="relative w-full h-[340px] sm:h-[400px] md:h-[440px] lg:h-[520px]"
-              href={"/contact-us"}
+              href={"/contact"}
             >
               <Image
                 src={MachineImage}

@@ -158,7 +158,7 @@ export default function ProductDetailSection() {
             Share your product and pack requirements with our team through
             the{" "}
             <Link
-              href="/contact-us"
+              href="/contact"
               className="text-[#BB2426] font-bold hover:underline"
             >
               website enquiry form

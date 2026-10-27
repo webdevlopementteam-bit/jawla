@@ -449,7 +449,7 @@ export default function ProductDetailSection() {
             the right cup set and configuration and send a detailed quote.
             Contact our team through the{" "}
             <Link
-              href="/contact-us"
+              href="/contact"
               className="text-red-600 hover:text-[#BB2426] font-semibold"
             >
               website enquiry form

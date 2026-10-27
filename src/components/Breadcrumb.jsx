@@ -10,11 +10,13 @@ const pageNames = {
   "/about-us": "About Us",
   "/products": "Products",
   "/applications": "Applications",
+  "/services-spare-parts": "Services & Spares",
   "/services-spares": "Services & Spares",
   "/services-and-spares": "Services & Spares",
   "/our-clients": "Our Clients",
   "/news-exhibition": "News/Exhibition",
   "/blog": "Blog",
+  "/contact": "Contact Us",
   "/contact-us": "Contact Us",
 };
 

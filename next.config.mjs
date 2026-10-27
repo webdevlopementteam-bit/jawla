@@ -39,16 +39,6 @@ const nextConfig = {
         destination: "/one-edge-biscuit-packaging-machine",
         permanent: true,
       },
-      {
-        source: "/services-spares",
-        destination: "/services-spare-parts",
-        permanent: true,
-      },
-      {
-        source: "/contact-us",
-        destination: "/contact",
-        permanent: true,
-      },
     ];
   },
 };

@@ -95,7 +95,7 @@ export default function HomeServicesSection() {
                 </div>
                 <div>
                   <Link
-                    href="/services-spares"
+                    href="/services-spare-parts"
                     className="bg-[#69727D] hover:bg-[#BB2426] text-white font-medium text-sm py-2.5 px-5 rounded-md transition-colors duration-200 inline-block"
                   >
                     Read More

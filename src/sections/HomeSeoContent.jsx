@@ -256,7 +256,7 @@ export default function HomeSeoContent() {
           for businesses that want reliable machines and dependable service.
           You can also reach us through our{" "}
           <Link
-            href="/contact-us"
+            href="/contact"
             className="font-semibold text-[#BB2426] hover:underline"
           >
             contact page

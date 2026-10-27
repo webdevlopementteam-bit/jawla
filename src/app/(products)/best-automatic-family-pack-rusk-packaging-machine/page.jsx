@@ -474,7 +474,7 @@ export default function ProductDetailSection() {
             Share your product, pack weights and daily target. Contact our
             team through the{" "}
             <Link
-              href="/contact-us"
+              href="/contact"
               className="text-[#E13538] font-bold hover:underline"
             >
               website enquiry form

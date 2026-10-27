@@ -689,7 +689,7 @@ export default function OneEdgeBiscuitBuyersGuide() {
                     </a>
                     , or use the{" "}
                     <Link
-                      href="/contact-us"
+                      href="/contact"
                       className="text-red-600 font-semibold hover:no-underline"
                     >
                       contact page

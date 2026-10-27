@@ -210,9 +210,9 @@ export default function Navbar() {
 
             <li>
               <Link
-                href="/services-spares"
+                href="/services-spare-parts"
                 className={`${navLinkClass} min-[1020px]:text-[11px] xl:text-[14px] font-semibold ${
-                  pathname === "/services-spares"
+                  pathname === "/services-spare-parts"
                     ? "text-[#FF474A]"
                     : "text-gray-800"
                 }`}
@@ -260,9 +260,9 @@ export default function Navbar() {
 
             <li>
               <Link
-                href="/contact-us"
+                href="/contact"
                 className={`${navLinkClass} min-[1020px]:text-[11px] xl:text-[14px] font-semibold ${
-                  pathname === "/contact-us"
+                  pathname === "/contact"
                     ? "text-[#FF474A]"
                     : "text-gray-800"
                 }`}
@@ -276,7 +276,7 @@ export default function Navbar() {
         {/* ENQUIRY NOW */}
         <div className="hidden min-[1020px]:flex flex-shrink-0 ml-2 xl:ml-6">
           <Link
-            href="/contact-us"
+            href="/contact"
             className="inline-flex items-center justify-center bg-[#E13538] text-white min-[1020px]:px-4 xl:px-6 min-[1020px]:py-2.5 xl:py-3 rounded-full min-[1020px]:text-[11px] xl:text-[13px] font-semibold uppercase tracking-wide shadow-md hover:bg-[#c92c30] hover:shadow-lg hover:-translate-y-0.5 transition-all duration-300 whitespace-nowrap"
           >
             Enquiry Now
@@ -525,10 +525,10 @@ export default function Navbar() {
                   {/* SERVICES */}
                   <li>
                     <Link
-                      href="/services-spares"
+                      href="/services-spare-parts"
                       onClick={closeMobileMenu}
                       className={`${mobileLinkClass} ${
-                        pathname === "/services-spares"
+                        pathname === "/services-spare-parts"
                           ? "!text-[#FF474A] bg-white/10"
                           : ""
                       }`}
@@ -585,10 +585,10 @@ export default function Navbar() {
                   {/* CONTACT */}
                   <li>
                     <Link
-                      href="/contact-us"
+                      href="/contact"
                       onClick={closeMobileMenu}
                       className={`${mobileLinkClass} ${
-                        pathname === "/contact-us"
+                        pathname === "/contact"
                           ? "!text-[#FF474A] bg-white/10"
                           : ""
                       }`}
@@ -600,7 +600,7 @@ export default function Navbar() {
                   {/* ENQUIRY */}
                   <li className="pt-4">
                     <Link
-                      href="/contact-us"
+                      href="/contact"
                       onClick={closeMobileMenu}
                       className="flex items-center justify-center w-full bg-[#E13538] text-white px-6 py-3 rounded-full text-sm font-bold uppercase tracking-wider shadow-md hover:bg-[#c92c30] transition-all"
                     >

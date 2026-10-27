@@ -5,11 +5,11 @@ const staticRoutes = [
   { path: "/about-us", priority: 0.8, changeFrequency: "daily" },
   { path: "/applications", priority: 0.7, changeFrequency: "daily" },
   { path: "/blog", priority: 0.7, changeFrequency: "daily" },
-  { path: "/contact-us", priority: 0.6, changeFrequency: "daily" },
+  { path: "/contact", priority: 0.6, changeFrequency: "daily" },
   { path: "/news-exhibition", priority: 0.6, changeFrequency: "daily" },
   { path: "/our-clients", priority: 0.5, changeFrequency: "daily" },
   { path: "/products", priority: 0.9, changeFrequency: "daily" },
-  { path: "/services-spares", priority: 0.6, changeFrequency: "daily" },
+  { path: "/services-spare-parts", priority: 0.6, changeFrequency: "daily" },
 ];
 
 const productRoutes = [
