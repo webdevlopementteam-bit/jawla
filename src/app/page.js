@@ -8,12 +8,12 @@ import React from "react";
 
 export const metadata = {
   alternates: { canonical: "/" },
-  title: "Best Packaging Machine Manufacturer | Jawla Advance Technology",
+  title: "Best Packaging Machine Manufacturer",
   description:
-    "Jawla Advance Technology LLP is a best packaging machine manufacturer in Faridabad & Delhi NCR. Offers FFS, flow wrap, auger & multi-head machines. Contact us now!",
+    "Jawla Advance Technology LLP is a best packaging machine manufacturer in Delhi NCR. Offers FFS, flow wrap, auger & multi-head machines. Contact us now!",
   keywords: [
     "Best Packaging Machine Manufacturer",
-    "Best Packaging Machine Manufacturer in Faridabad",
+    "Best Packaging Machine Manufacturer in Delhi NCR",
     "Jawla Advance Technology LLP",
   ],
 };

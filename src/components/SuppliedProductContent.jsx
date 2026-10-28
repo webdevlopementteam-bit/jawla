@@ -26,10 +26,44 @@ function renderRichText(text) {
   });
 }
 
+const SITE_URL = "https://www.jawlaadvancetechnology.com";
+
 export default function SuppliedProductContent({ page }) {
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
+      {
+        "@type": "Product",
+        "@id": `${SITE_URL}${page.url}#product`,
+        name: page.productName,
+        model: page.model,
+        sku: page.model,
+        category: page.category,
+        image: `${SITE_URL}${page.image}`,
+        description: page.schemaDescription,
+        ...(page.weight && {
+          weight: {
+            "@type": "QuantitativeValue",
+            value: page.weight,
+            unitCode: "KGM",
+          },
+        }),
+        brand: { "@type": "Brand", name: "Jawla Advance Technology" },
+        manufacturer: { "@id": `${SITE_URL}/#organization` },
+        offers: {
+          "@type": "Offer",
+          url: `${SITE_URL}${page.url}`,
+          priceCurrency: "INR",
+          availability: "https://schema.org/InStock",
+          itemCondition: "https://schema.org/NewCondition",
+          seller: { "@id": `${SITE_URL}/#organization` },
+        },
+        additionalProperty: page.properties.map(([name, value]) => ({
+          "@type": "PropertyValue",
+          name,
+          value,
+        })),
+      },
       {
         "@type": "BreadcrumbList",
         itemListElement: [

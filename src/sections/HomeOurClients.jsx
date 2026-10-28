@@ -30,9 +30,20 @@ export default function OurClientsSection() {
           OUR CLIENTS
         </span>
 
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black tracking-tight mb-7 sm:mb-9 md:mb-10 lg:mb-12">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black tracking-tight mb-4">
           Companies we&apos;ve Partnered
         </h2>
+
+        <p className="max-w-3xl mx-auto text-sm sm:text-base text-gray-600 leading-relaxed mb-7 sm:mb-9 md:mb-10 lg:mb-12">
+          <span className="font-semibold text-black">
+            Meet Us at Trade Shows:{" "}
+          </span>
+          We regularly exhibit at leading food and packaging events,
+          including AAHAR at Bharat Mandapam, ANUGA FoodTec India in
+          Mumbai, IndusFood Hospitality and the World Mithai Namkeen
+          Convention &amp; Expo in New Delhi. These shows let buyers see
+          our latest machines working live.
+        </p>
 
         {/* Carousel Area */}
         <div className="relative w-full mb-8 sm:mb-10 md:mb-11">

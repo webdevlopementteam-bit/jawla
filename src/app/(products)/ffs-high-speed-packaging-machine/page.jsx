@@ -5,19 +5,46 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/ffs-high-speed-packaging-machine" },
-  title: "Top FFS High Speed Packaging Machine | Jawla Advance Technology",
+  title: "Top FFS High Speed Packaging Machine",
   description:
-    "FFS high speed packaging machine manufacturer in Faridabad & Delhi NCR. JAT-302 makes 100–450 pouches/min, 2–100 g, single phase. Get quote.",
+    "FFS high speed packaging machine manufacturer in Delhi NCR. JAT-302 makes 100–450 pouches/min, 2–100 g, single phase. Get quote.",
   keywords: [
     "FFS high speed packaging machine",
     "FFS high speed packaging machine manufacturer",
-    "FFS high speed packaging machine manufacturer in Faridabad",
+    "FFS high speed packaging machine manufacturer in Delhi NCR",
   ],
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://www.jawlaadvancetechnology.com/ffs-high-speed-packaging-machine#product",
+      name: "FFS High Speed Packaging Machine (JAT-302)",
+      model: "JAT-302",
+      sku: "JAT-302",
+      category: "FFS Packaging Machine",
+      image: "https://www.jawlaadvancetechnology.com/PRODUCTS/ffs-high-speed-packaging-machine/p1.webp",
+      description: "FFS high speed packaging machine manufactured in Delhi NCR. JAT-302 makes 100 to 450 pouches per minute, 2 g to 100 g, single phase.",
+      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
+      manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      weight: { "@type": "QuantitativeValue", value: 700, unitCode: "KGM" },
+      additionalProperty: [
+        { "@type": "PropertyValue", name: "Filling capacity", value: "2 g to 100 g (up to 200 g for granules)" },
+        { "@type": "PropertyValue", name: "Production speed", value: "100 to 450 pouches per minute" },
+        { "@type": "PropertyValue", name: "Power requirement", value: "Single phase" },
+        { "@type": "PropertyValue", name: "Motor", value: "1/2 HP" },
+      ],
+      offers: {
+        "@type": "Offer",
+        url: "https://www.jawlaadvancetechnology.com/ffs-high-speed-packaging-machine",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+        itemCondition: "https://schema.org/NewCondition",
+        seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+    },
     {
       "@type": "BreadcrumbList",
       itemListElement: [
@@ -110,10 +137,10 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "Who is the best FFS high speed packaging machine manufacturer in Faridabad and Delhi NCR?",
+          name: "Who is the best FFS high speed packaging machine manufacturer in Delhi NCR?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best FFS high speed packaging machine manufacturers in Faridabad and Delhi NCR. It builds the JAT-302 in-house, lets buyers test their own sachets before ordering, and provides installation, operator training, genuine spares and fast local service.",
+            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best FFS high speed packaging machine manufacturers in Delhi NCR. It builds the JAT-302 in-house, lets buyers test their own sachets before ordering, and provides installation, operator training, genuine spares and fast local service.",
           },
         },
         {
@@ -187,7 +214,7 @@ const buyersChecklist = [
   "Train two operators: fast machines need confident operators on every shift.",
 ];
 
-const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));
@@ -224,23 +251,23 @@ export default function ProductDetailSection() {
             <p className="text-gray-700">
               <span className="font-bold text-black">Quick answer: </span>
               Jawla Advance Technology LLP, an FFS high speed packaging
-              machine manufacturer in Faridabad, makes the JAT-302, which
+              machine manufacturer in Delhi NCR, makes the JAT-302, which
               packs 2 g to 100 g sachets at 100 to 450 pouches per minute on
               single-phase power with a 1/2 HP motor. It suits pan masala,
               mouth freshener, spice and tea brands selling small sachets in
               high volume.
             </p>
             <p className="text-gray-700 mt-3">
-              Jawla Advance Technology LLP is an FFS high speed packaging
-              machine manufacturer in Faridabad and Delhi NCR. Our{" "}
+              Speed is the whole point of the{" "}
               <span className="font-bold text-black">
                 FFS High Speed Packaging Machine
               </span>{" "}
-              (JAT-302) produces 100 to 450 pouches
-              per minute, making it one of the fastest ways to pack small
-              sachets of pan masala, mouth freshener, spices, tea and
-              powders. It runs on single-phase power with a 1/2 HP motor, so
-              even compact units can achieve industrial-scale output.
+              (JAT-302): 100 to 450 pouches per minute, making it one of the
+              fastest ways to pack small sachets of pan masala, mouth
+              freshener, spices, tea and powders. It runs on single-phase
+              power with a 1/2 HP motor, so even compact units can achieve
+              industrial-scale output — built by Jawla Advance Technology LLP
+              in Delhi NCR.
             </p>
           </div>
 
@@ -404,7 +431,7 @@ export default function ProductDetailSection() {
           {/* Who Uses the JAT-302 */}
           <div className="space-y-4">
             <h2 className="text-[#E13538] text-xl font-bold">
-              Who Uses the JAT-302 in Faridabad and Delhi NCR
+              Who Uses the JAT-302 in Delhi NCR
             </h2>
             <p className="text-gray-700">
               The JAT-302 is chosen by brands that sell low-price sachets in
@@ -457,8 +484,7 @@ export default function ProductDetailSection() {
               <span className="font-bold text-black">
                 FFS high speed packaging machine
               </span>{" "}
-              manufacturer trusted by sachet brands across Faridabad and
-              Delhi NCR.
+              manufacturer trusted by sachet brands across Delhi NCR.
             </p>
           </div>
 

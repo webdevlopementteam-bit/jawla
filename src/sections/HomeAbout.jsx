@@ -38,7 +38,7 @@ export default function HomeAboutSection() {
             <p>
               Jawla Advance Technology LLP is a leading{" "}
               <i className="text-[#E13538] hover:text-[#BB2426] font-bold text-sm sm:text-md">
-                Packaging Machine Manufacturer in Faridabad
+                Packaging Machine Manufacturer in Delhi NCR
               </i>
               , specializing in high-performance, easy-to-operate packaging
               solutions for diverse industries. With years of experience and a
@@ -178,15 +178,23 @@ export default function HomeAboutSection() {
             {" "}
             Packaging Machinery That Drives Business Growth{" "}
           </h2>{" "}
-          <p className="mx-auto mb-6 text-sm leading-6 text-gray-700 sm:mb-8 sm:text-base sm:leading-7 md:mb-10 md:text-[15px] md:leading-7 lg:mb-12 lg:text-[16px] lg:leading-8">
-            Jawla Advance Technology LLP is a leading{" "}
+          <p className="mx-auto mb-4 text-sm leading-6 text-gray-700 sm:mb-5 sm:text-base sm:leading-7 md:text-[15px] md:leading-7 lg:text-[16px] lg:leading-8">
+            Jawla Advance Technology LLP is a trusted{" "}
             <span className="font-bold text-[#E13538]">
-              Packaging Machine Manufacturer in Delhi
+              Packaging Machine Manufacturer in India
             </span>
-            , specializing in high-performance, easy-to-operate packaging
-            solutions for diverse industries. With years of experience and a
-            commitment to quality, we deliver advanced and custom packaging
-            machines that enhance productivity and ensure product safety.
+            , offering high-performance and easy-to-operate packaging
+            solutions for a wide range of industries. With years of
+            industry experience, we focus on delivering reliable,
+            efficient, and durable machines designed to meet specific
+            packaging requirements.
+          </p>
+          <p className="mx-auto mb-6 text-sm leading-6 text-gray-700 sm:mb-8 sm:text-base sm:leading-7 md:mb-10 md:text-[15px] md:leading-7 lg:mb-12 lg:text-[16px] lg:leading-8">
+            Our advanced packaging machines are developed with a strong
+            focus on quality, productivity, and product safety. From
+            standard equipment to customized packaging solutions, our
+            experienced team works closely with clients to provide machines
+            that support smooth and efficient production processes.
           </p>
           {/* Product Cards */}{" "}
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 md:gap-7 lg:grid-cols-4">

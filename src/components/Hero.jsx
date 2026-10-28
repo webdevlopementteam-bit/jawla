@@ -21,6 +21,11 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto w-full">
+        {/* SEO Kicker (single H1 on the homepage) */}
+        <h1 className="text-xs sm:text-sm font-bold uppercase tracking-[0.2em] text-[#EC1C2C] mb-2 sm:mb-3">
+          Best Packaging Machine Manufacturer
+        </h1>
+
         {/* Main Heading */}
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold uppercase tracking-tight leading-tight mb-5 sm:mb-6 lg:mb-8">
           WELCOME TO <span className="text-[#EC1C2C]">JAWLA ADVANCE</span>
@@ -104,14 +109,23 @@ export default function Hero() {
               <strong className="text-white font-semibold">
                 Jawla Advance Technology LLP
               </strong>{" "}
-              is the Packaging Machines Manufacturer in Delhi NCR, fabricating
-              highly-functional, easy to use and effortless packaging machines
-              for industry verticals. Being famous Packaging Machines
-              Manufacturer in Faridabad, we have been successfully catering to
-              the variant and challenging needs of the packaging industry since
-              ages. Adopting quick response to the change and new possibilities
-              in the field, our talented workforce helps to deliver custom-made
-              packaging machines not only in India but also in worldwide.
+              is a trusted Packaging Machines Manufacturer in Delhi NCR,
+              offering reliable, efficient, and easy-to-operate packaging
+              machines for different industries. As an experienced Packaging
+              Machines Manufacturer in Delhi NCR, we understand the changing
+              requirements of modern packaging businesses and develop
+              machines that deliver consistent performance and productivity.
+            </p>
+            <p className="text-zinc-200 text-sm sm:text-sm md:text-base leading-relaxed max-w-3xl mt-3">
+              With a focus on quality, innovation, and practical machine
+              design, our skilled team provides custom packaging machine
+              solutions tailored to specific production requirements. We
+              continuously adopt new technologies and industry advancements
+              to improve machine efficiency and ease of operation. From
+              standard packaging equipment to customized solutions, Jawla
+              Advance Technology LLP serves businesses across India and
+              international markets, helping them achieve smoother and more
+              efficient packaging operations.
             </p>
           </div>
         </div>

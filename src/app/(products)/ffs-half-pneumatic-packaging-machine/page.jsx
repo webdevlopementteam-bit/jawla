@@ -5,19 +5,45 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/ffs-half-pneumatic-packaging-machine" },
-  title: "Buy FFS Half Pneumatic Packaging Machine | Jawla Advance Technology",
+  title: "Buy FFS Half Pneumatic Packaging Machine",
   description:
-    "Half pneumatic packaging machine manufacturer in Faridabad & Delhi NCR. JAT-304 packs 2–300 g at up to 60 pouches/min. Training included.",
+    "Half pneumatic packaging machine manufacturer in Delhi NCR. JAT-304 packs 2–300 g at up to 60 pouches/min. Training included.",
   keywords: [
     "half pneumatic packaging machine",
     "half pneumatic packaging machine manufacturer",
-    "half pneumatic packaging machine manufacturer In Faridabad",
+    "half pneumatic packaging machine manufacturer In Delhi NCR",
   ],
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://www.jawlaadvancetechnology.com/ffs-half-pneumatic-packaging-machine#product",
+      name: "FFS Half Pneumatic Packaging Machine (JAT-304)",
+      model: "JAT-304",
+      sku: "JAT-304",
+      category: "Half Pneumatic Packaging Machine",
+      image: "https://www.jawlaadvancetechnology.com/PRODUCTS/ffs-half-pneumatic-packaging-machine/p1.webp",
+      description: "Half pneumatic packaging machine manufactured in Delhi NCR. JAT-304 packs 2 g to 300 g at up to 60 pouches per minute.",
+      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
+      manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      additionalProperty: [
+        { "@type": "PropertyValue", name: "Pack size", value: "2 g to 300 g" },
+        { "@type": "PropertyValue", name: "Output", value: "Up to 60 pouches per minute" },
+        { "@type": "PropertyValue", name: "Filling system", value: "Volumetric cup filler" },
+        { "@type": "PropertyValue", name: "Sealing", value: "Centre seal, airtight and leak-proof" },
+      ],
+      offers: {
+        "@type": "Offer",
+        url: "https://www.jawlaadvancetechnology.com/ffs-half-pneumatic-packaging-machine",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+        itemCondition: "https://schema.org/NewCondition",
+        seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+    },
     {
       "@type": "BreadcrumbList",
       itemListElement: [
@@ -118,10 +144,10 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "Who is the best half pneumatic packaging machine manufacturer in Faridabad and Delhi NCR?",
+          name: "Who is the best half pneumatic packaging machine manufacturer in Delhi NCR?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best half pneumatic packaging machine manufacturers in Faridabad and Delhi NCR. It builds the JAT-304 in-house, lets buyers test their own product before ordering, and provides installation, full operator training, genuine spares and fast local service.",
+            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best half pneumatic packaging machine manufacturers in Delhi NCR. It builds the JAT-304 in-house, lets buyers test their own product before ordering, and provides installation, full operator training, genuine spares and fast local service.",
           },
         },
       ],
@@ -197,7 +223,7 @@ const buyersChecklist = [
   "Upgrade path: ask how easily you can add a fully automatic model later.",
 ];
 
-const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));
@@ -233,22 +259,22 @@ export default function ProductDetailSection() {
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
             Jawla Advance Technology LLP is a half pneumatic packaging
-            machine manufacturer in Faridabad, Delhi NCR. Its JAT-304 packs
+            machine manufacturer in Delhi NCR. Its JAT-304 packs
             masala, spices, tea, coffee, namkeen and detergent in 2 g to 300
             g pouches at up to 60 pouches per minute, with an airtight centre
             seal and full operator training included.
           </p>
           <p className="leading-relaxed">
-            Jawla Advance Technology LLP is a half pneumatic packaging
-            machine manufacturer in Faridabad and Delhi NCR. Our FFS{" "}
+            Cup filling plus a pneumatic seal cycle is what the FFS{" "}
             <span className="font-bold text-black">
               Half Pneumatic Packaging Machine
             </span>{" "}
-            (JAT-304) packs masala, spices, tea,
-            coffee, namkeen, detergent and other granular products in
-            pouches from 2 g to 300 g. With cup filling at up to 60 pouches
-            per minute and a strong centre seal, it gives small and medium
-            units airtight, leak-free packs at a budget-friendly price.
+            (JAT-304) runs on, packing masala, spices, tea, coffee, namkeen,
+            detergent and other granular products in pouches from 2 g to 300
+            g at up to 60 pouches per minute with a strong centre seal. Jawla
+            Advance Technology LLP builds it in Delhi NCR, giving small and
+            medium units airtight, leak-free packs at a budget-friendly
+            price.
           </p>
         </div>
 
@@ -413,7 +439,7 @@ export default function ProductDetailSection() {
         {/* Who Uses the JAT-304 */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">
-            Who Uses the JAT-304 in Faridabad and Delhi NCR
+            Who Uses the JAT-304 in Delhi NCR
           </h2>
           <p className="leading-relaxed">
             The JAT-304 is popular with first-time machine buyers. Typical
@@ -465,8 +491,8 @@ export default function ProductDetailSection() {
             <span className="font-bold text-black">
               half pneumatic packaging machine
             </span>{" "}
-            manufacturer that spice, tea and namkeen units across Faridabad
-            and Delhi NCR trust.
+            manufacturer that spice, tea and namkeen units across Delhi NCR
+            trust.
           </p>
         </div>
 

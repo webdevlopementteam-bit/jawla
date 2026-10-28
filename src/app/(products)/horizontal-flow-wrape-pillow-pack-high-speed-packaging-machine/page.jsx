@@ -9,17 +9,43 @@ export const metadata = {
   },
   title: "Best High Speed Flow Wrap Pillow Pack Machine Manufacturer",
   description:
-    "High speed horizontal flow wrap pillow pack machine manufacturer in Faridabad & Delhi NCR. JAT-310 packs 2/4 biscuits at up to 300 packs/min.",
+    "High speed horizontal flow wrap pillow pack machine manufacturer in Delhi NCR. JAT-310 packs 2/4 biscuits at up to 300 packs/min.",
   keywords: [
     "horizontal flow wrap pillow pack high speed packaging machine",
     "horizontal flow wrap pillow pack high speed packaging machine manufacturer",
-    "horizontal flow wrap pillow pack high speed packaging machine manufacturer In Faridabad",
+    "horizontal flow wrap pillow pack high speed packaging machine manufacturer In Delhi NCR",
   ],
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://www.jawlaadvancetechnology.com/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine#product",
+      name: "High Speed Flow Wrap Pillow Pack Machine (JAT-310)",
+      model: "JAT-310",
+      sku: "JAT-310",
+      category: "Horizontal Flow Wrap Machine",
+      image: "https://www.jawlaadvancetechnology.com/PRODUCTS/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine/p1.webp",
+      description: "High speed flow wrap pillow pack machine manufactured in Delhi NCR. JAT-310 wraps biscuits at up to 300 packs per minute in single, 2-biscuit and 4-biscuit formats.",
+      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
+      manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      additionalProperty: [
+        { "@type": "PropertyValue", name: "Output", value: "Up to 300 packs per minute" },
+        { "@type": "PropertyValue", name: "Pack formats", value: "Single, 2-biscuit and 4-biscuit pillow packs" },
+        { "@type": "PropertyValue", name: "Feeding", value: "Automatic feeding with long conveyor and hopper" },
+        { "@type": "PropertyValue", name: "Sealing", value: "Continuous sealing with temperature control" },
+      ],
+      offers: {
+        "@type": "Offer",
+        url: "https://www.jawlaadvancetechnology.com/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+        itemCondition: "https://schema.org/NewCondition",
+        seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+    },
     {
       "@type": "BreadcrumbList",
       itemListElement: [
@@ -112,10 +138,10 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "Who is the best horizontal flow wrap pillow pack high speed packaging machine manufacturer in Faridabad and Delhi NCR?",
+          name: "Who is the best horizontal flow wrap pillow pack high speed packaging machine manufacturer in Delhi NCR?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best horizontal flow wrap pillow pack high speed packaging machine manufacturers in Faridabad and Delhi NCR. It builds the JAT-310 in-house, lets biscuit makers test their own biscuits before ordering, and provides installation, training, spares and fast local service.",
+            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best horizontal flow wrap pillow pack high speed packaging machine manufacturers in Delhi NCR. It builds the JAT-310 in-house, lets biscuit makers test their own biscuits before ordering, and provides installation, training, spares and fast local service.",
           },
         },
         {
@@ -181,7 +207,7 @@ const buyersChecklist = [
   "Spares plan: keep spare jaws and heaters, since high speed means more wear.",
 ];
 
-const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));
@@ -226,25 +252,22 @@ export default function ProductDetailSection() {
             <span className="font-bold text-black">
               Horizontal Flow Wrap Pillow Pack High Speed Packaging Machine
             </span>{" "}
-            manufacturer in Faridabad,
-            Delhi NCR. Its fully automatic JAT-310 packs single, 2-biscuit
+            manufacturer in Delhi NCR. Its fully automatic JAT-310 packs single, 2-biscuit
             and 4-biscuit pillow packs at up to 300 packs per minute, with
             automatic feeding and a single-phase 2 HP gear motor.
           </p>
           <p className="leading-relaxed">
+            Automatic feeding paired with continuous sealing is what lets
+            the fully automatic JAT-310 produce up to 300 packs per minute
+            for biscuit makers who pack 2-biscuit and 4-biscuit packs in
+            very high volumes, handling fragile biscuits with care.{" "}
             <Link
               href="/"
               className="text-[#BB2426] font-bold hover:underline"
             >
               Jawla Advance Technology
             </Link>{" "}
-            LLP is a horizontal flow wrap pillow pack high speed packaging
-            machine manufacturer in Faridabad and Delhi NCR. Our JAT-310 is
-            a fully automatic flow wrap machine
-            built for biscuit makers who pack 2-biscuit and 4-biscuit packs
-            in very high volumes. With automatic feeding and continuous
-            sealing, it produces up to 300 packs per minute while handling
-            fragile biscuits with care.
+            LLP builds it in Delhi NCR.
           </p>
         </div>
 
@@ -422,7 +445,7 @@ export default function ProductDetailSection() {
         {/* Who Uses the JAT-310 */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">
-            Who Uses the JAT-310 in Faridabad and Delhi NCR
+            Who Uses the JAT-310 in Delhi NCR
           </h2>
           <p className="leading-relaxed">
             The JAT-310 is built for biscuit plants that sell small,
@@ -473,7 +496,7 @@ export default function ProductDetailSection() {
             <span className="font-bold text-black">
               horizontal flow wrap pillow pack high speed packaging machine
             </span>{" "}
-            manufacturer that biscuit brands across Faridabad and Delhi NCR
+            manufacturer that biscuit brands across Delhi NCR
             trust.
           </p>
         </div>

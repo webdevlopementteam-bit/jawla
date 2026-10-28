@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
 const homeSeoSchema = {
   "@context": "https://schema.org",
@@ -7,9 +8,9 @@ const homeSeoSchema = {
       "@type": "WebPage",
       "@id": "https://www.jawlaadvancetechnology.com/#webpage",
       url: "https://www.jawlaadvancetechnology.com/",
-      name: "Best Packaging Machine Manufacturer in Faridabad | Jawla",
+      name: "Best Packaging Machine Manufacturer in Delhi NCR | Jawla",
       description:
-        "Jawla Advance Technology LLP is a best packaging machine manufacturer in Faridabad & Delhi NCR. FFS, flow wrap, auger & multi-head machines. Get a quote.",
+        "Jawla Advance Technology LLP is a best packaging machine manufacturer in Delhi NCR. FFS, flow wrap, auger & multi-head machines. Get a quote.",
       isPartOf: { "@id": "https://www.jawlaadvancetechnology.com/#website" },
       about: { "@id": "https://www.jawlaadvancetechnology.com/#localbusiness" },
     },
@@ -19,10 +20,10 @@ const homeSeoSchema = {
       mainEntity: [
         {
           "@type": "Question",
-          name: "Who is the best packaging machine manufacturer in Faridabad?",
+          name: "Who is the best packaging machine manufacturer in Delhi NCR?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology LLP is one of the leading packaging machine manufacturers in Faridabad. It builds 15 models in-house at Sarurpur Industrial Area, Ballabgarh, serves 500+ clients in India and 25+ countries, and has its own installation and service team covering Delhi NCR.",
+            text: "Jawla Advance Technology LLP is one of the leading packaging machine manufacturers in Delhi NCR. It builds 15 models in-house at Sarurpur Industrial Area, Ballabgarh, serves 500+ clients in India and 25+ countries, and has its own installation and service team covering Delhi NCR.",
           },
         },
         {
@@ -102,28 +103,6 @@ const homeSeoSchema = {
   ],
 };
 
-const howToChoose = [
-  {
-    question: "What is the product type? ",
-    answer:
-      "Free-flowing granules suit cup fillers, fine or sticky powders need an auger filler, liquids need a piston filler, and solid items like biscuits need a flow wrap machine.",
-  },
-  {
-    question: "What pack weight do you need?",
-    answer: " Our machines cover everything from 2 g sachets to 10 kg bags.",
-  },
-  {
-    question: "How many packs per day?",
-    answer:
-      " Daily output decides whether a semi-automatic or a fully automatic machine gives you a better return.",
-  },
-  {
-    question: "Which pouch style?",
-    answer:
-      " Center seal, 3-side seal, 4-side seal, pillow pack, gusset or zipper pouch.",
-  },
-];
-
 const faqs = homeSeoSchema["@graph"][1].mainEntity.map((item) => ({
   question: item.name,
   answer: item.acceptedAnswer.text,
@@ -132,153 +111,88 @@ const faqs = homeSeoSchema["@graph"][1].mainEntity.map((item) => ({
 export default function HomeSeoContent() {
   return (
     <section className="w-full bg-white px-4 py-10 sm:px-6 sm:py-12 md:px-10 md:py-14 lg:px-16 lg:py-16">
-      <div className="mx-auto max-w-5xl">
-        <h1 className="mb-5 text-2xl font-bold leading-tight tracking-tight text-black sm:mb-6 sm:text-3xl md:text-4xl">
-          Best Packaging Machine Manufacturer
-        </h1>
+      <div className="mx-auto max-w-7xl">
+        {/* Get a Quote CTA */}
+        <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#BB2426] to-[#7a1618] px-6 py-10 text-white shadow-xl sm:px-10 sm:py-12 md:px-14 md:py-14">
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute -right-16 -top-16 h-56 w-56 rounded-full bg-white/10 sm:h-72 sm:w-72"
+          />
+          <div
+            aria-hidden="true"
+            className="pointer-events-none absolute -bottom-20 -left-10 h-48 w-48 rounded-full bg-black/10"
+          />
 
-        <div className="space-y-5 text-sm leading-relaxed text-gray-700 sm:text-base">
-          <p>
-            Jawla Advance Technology LLP is a trusted{" "}
-            <span className="font-bold text-black">
-              Packaging Machines Manufacturer
-            </span>{" "}
-            in Delhi NCR, offering reliable, efficient, and easy-to-operate
-            packaging machines for different industries. As an experienced
-            Packaging Machines Manufacturer in Faridabad, we
-            understand the changing requirements of modern packaging
-            businesses and develop machines that deliver consistent
-            performance and productivity.
-          </p>
-          <p>
-            With a focus on quality, innovation, and practical machine
-            design, our skilled team provides custom packaging machine
-            solutions tailored to specific production requirements. We
-            continuously adopt new technologies and industry advancements to
-            improve machine efficiency and ease of operation. From standard
-            packaging equipment to customized solutions, Jawla Advance
-            Technology LLP serves businesses across India and international
-            markets, helping them achieve smoother and more efficient
-            packaging operations.
-          </p>
-        </div>
+          <div className="relative">
+            <p className="mb-2 text-xs font-bold uppercase tracking-[0.2em] text-white/80 sm:text-sm">
+              Request a Quotation
+            </p>
+            <h2 className="mb-4 max-w-2xl text-2xl font-bold leading-tight tracking-tight sm:text-3xl md:text-4xl">
+              Get a Quote From the Best Packaging Machine Manufacturer
+            </h2>
+            <p className="max-w-2xl text-sm leading-relaxed text-white/90 sm:text-base">
+              Tell us your product, pack weight, pouch style and required
+              speed. Our team will suggest the right model and share a
+              detailed quotation. Choose Jawla Advance Technology, the best
+              packaging machine manufacturer for businesses that want
+              reliable machines and dependable service.
+            </p>
 
-        <h2 className="mb-4 mt-8 text-xl font-bold leading-tight tracking-tight text-black sm:mt-10 sm:text-2xl md:text-3xl">
-          Packaging Machinery That Drives Business Growth
-        </h2>
-
-        <div className="space-y-5 text-sm leading-relaxed text-gray-700 sm:text-base">
-          <p>
-            Jawla Advance Technology LLP is a trusted{" "}
-            <span className="font-bold text-black">
-              Packaging Machine Manufacturer
-            </span>{" "}
-            in India, offering high-performance and
-            easy-to-operate packaging solutions for a wide range of
-            industries. With years of industry experience, we focus on
-            delivering reliable, efficient, and durable machines designed to
-            meet specific packaging requirements.
-          </p>
-          <p>
-            Our advanced packaging machines are developed with a strong focus
-            on quality, productivity, and product safety. From standard
-            equipment to customized packaging solutions, our experienced team
-            works closely with clients to provide machines that support
-            smooth and efficient production processes.
-          </p>
-        </div>
-
-        <h3 className="mb-4 mt-8 text-lg font-bold leading-tight tracking-tight text-black sm:mt-10 sm:text-xl md:text-2xl">
-          How to Choose the Right Packaging Machine
-        </h3>
-
-        <ul className="space-y-3 text-sm leading-relaxed text-gray-700 sm:text-base">
-          {howToChoose.map((item, index) => (
-            <li key={index}>
-              <span className="font-semibold text-black">
-                {item.question}
+            {/* Contact chips */}
+            <div className="mt-7 flex flex-wrap gap-3 sm:mt-8 sm:gap-4">
+              <a
+                href="tel:+919990033381"
+                className="flex items-center gap-2.5 rounded-full bg-white/10 px-4 py-2.5 text-sm font-semibold backdrop-blur-sm transition-colors hover:bg-white/20 sm:text-base"
+              >
+                <FaPhoneAlt className="text-white/80" />
+                +91 99900 33381
+              </a>
+              <a
+                href="mailto:sales@jawlatechnology.in"
+                className="flex items-center gap-2.5 rounded-full bg-white/10 px-4 py-2.5 text-sm font-semibold backdrop-blur-sm transition-colors hover:bg-white/20 sm:text-base"
+              >
+                <FaEnvelope className="text-white/80" />
+                sales@jawlatechnology.in
+              </a>
+              <span className="flex items-center gap-2.5 rounded-full bg-white/10 px-4 py-2.5 text-sm font-semibold backdrop-blur-sm sm:text-base">
+                <FaMapMarkerAlt className="text-white/80" />
+                Ballabgarh, Faridabad
               </span>
-              {item.answer}
-            </li>
-          ))}
-        </ul>
-
-        <p className="mt-5 text-sm leading-relaxed text-gray-700 sm:text-base">
-          Share these details with us, and our engineers will recommend the
-          right model.
-        </p>
-
-        <h3 className="mb-4 mt-8 text-lg font-bold leading-tight tracking-tight text-black sm:mt-10 sm:text-xl md:text-2xl">
-          Meet Us at Trade Shows
-        </h3>
-        <p className="text-sm leading-relaxed text-gray-700 sm:text-base">
-          We regularly exhibit at leading food and packaging events,
-          including AAHAR at Bharat Mandapam, ANUGA FoodTec India in Mumbai,
-          IndusFood Hospitality and the World Mithai Namkeen Convention &amp;
-          Expo in New Delhi. These shows let buyers see our latest machines
-          working live.
-        </p>
-
-        <h3 className="mb-4 mt-8 text-lg font-bold leading-tight tracking-tight text-black sm:mt-10 sm:text-xl md:text-2xl">
-          What Our Customers Value Most
-        </h3>
-        <p className="text-sm leading-relaxed text-gray-700 sm:text-base">
-          Business owners who buy from us usually mention three things.
-          First, they could see the machine packing their own product before
-          paying. Second, our engineers reached their factory quickly when
-          they needed help. Third, spare parts were available without long
-          waits. These are the practical reasons a local, experienced
-          manufacturer saves money over the life of a machine.
-        </p>
-
-        <h3 className="mb-4 mt-8 text-lg font-bold leading-tight tracking-tight text-black sm:mt-10 sm:text-xl md:text-2xl">
-          Get a Quote From the Best Packaging Machine Manufacturer
-        </h3>
-        <p className="text-sm leading-relaxed text-gray-700 sm:text-base">
-          Tell us your product, pack weight, pouch style and required speed.
-          Our team will suggest the right model and share a detailed
-          quotation. Call{" "}
-          <a href="tel:+919990033381" className="font-semibold text-[#BB2426]">
-            +91 99900 33381
-          </a>
-          , email{" "}
-          <a
-            href="mailto:sales@jawlatechnology.in"
-            className="font-semibold text-[#BB2426]"
-          >
-            sales@jawlatechnology.in
-          </a>{" "}
-          or visit our factory in Ballabgarh, Faridabad. Choose Jawla Advance
-          Technology, the best{" "}
-          <span className="font-bold text-black">
-            packaging machine manufacturer
-          </span>{" "}
-          for businesses that want reliable machines and dependable service.
-          You can also reach us through our{" "}
-          <Link
-            href="/contact"
-            className="font-semibold text-[#BB2426] hover:underline"
-          >
-            contact page
-          </Link>
-          .
-        </p>
-
-        <h2 className="mb-6 mt-10 text-xl font-bold leading-tight tracking-tight text-black sm:mt-12 sm:text-2xl md:text-3xl">
-          FAQs
-        </h2>
-
-        <div className="space-y-5 sm:space-y-6">
-          {faqs.map((faq, index) => (
-            <div key={index} className="space-y-1.5 sm:space-y-2">
-              <h3 className="text-base font-bold text-black sm:text-lg">
-                {faq.question}
-              </h3>
-              <p className="text-sm leading-relaxed text-gray-700 sm:text-base">
-                {faq.answer}
-              </p>
             </div>
-          ))}
+
+            {/* CTA button */}
+            <div className="mt-8 sm:mt-9">
+              <Link
+                href="/contact"
+                className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-bold text-[#BB2426] shadow-md transition-transform hover:-translate-y-0.5 hover:shadow-lg sm:text-base"
+              >
+                Visit Our Contact Page
+                <span aria-hidden="true">&rarr;</span>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="mx-auto max-w-3xl">
+          <h2 className="mb-6 mt-10 text-xl font-bold leading-tight tracking-tight text-black sm:mt-12 sm:text-2xl md:text-3xl">
+            FAQs
+          </h2>
+
+          <div className="divide-y divide-gray-200 border-t border-gray-200">
+            {faqs.map((faq, index) => (
+              <details key={index} className="group py-4 sm:py-5">
+                <summary className="flex cursor-pointer list-none items-center justify-between gap-4 text-base font-bold text-black marker:content-none [&::-webkit-details-marker]:hidden sm:text-lg">
+                  <span>{faq.question}</span>
+                  <span className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full border border-[#BB2426] text-base font-bold leading-none text-[#BB2426] transition-transform duration-200 group-open:rotate-45 sm:h-7 sm:w-7">
+                    +
+                  </span>
+                </summary>
+                <p className="mt-3 text-sm leading-relaxed text-gray-700 sm:text-base">
+                  {faq.answer}
+                </p>
+              </details>
+            ))}
+          </div>
         </div>
       </div>
 

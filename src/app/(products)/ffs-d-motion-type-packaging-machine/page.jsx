@@ -10,6 +10,100 @@ export const metadata = {
     "Buy FFS D-Motion Type Packaging Machine from Jawla Advance Technology for fast, accurate, and reliable packaging solutions. Get the best price today!",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://www.jawlaadvancetechnology.com/ffs-d-motion-type-packaging-machine#product",
+      name: "FFS D-Motion Type Packaging Machine (JAT-303)",
+      model: "JAT-303",
+      sku: "JAT-303",
+      category: "FFS Packaging Machine",
+      image: "https://www.jawlaadvancetechnology.com/PRODUCTS/ffs-d-motion-type-packaging-machine/p1.webp",
+      description: "FFS D-Motion type packaging machine from Jawla Advance Technology. JAT-303 packs pan masala, jeera, mouth freshener powder, fruit balls and small pouches.",
+      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
+      manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      offers: {
+        "@type": "Offer",
+        url: "https://www.jawlaadvancetechnology.com/ffs-d-motion-type-packaging-machine",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+        itemCondition: "https://schema.org/NewCondition",
+        seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: "https://www.jawlaadvancetechnology.com/",
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Products",
+          item: "https://www.jawlaadvancetechnology.com/products",
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: "FFS D-Motion Type Packaging Machine",
+          item: "https://www.jawlaadvancetechnology.com/ffs-d-motion-type-packaging-machine",
+        },
+      ],
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "What products can be packed using the D-Motion Type Packaging Machine (JAT-303)?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The machine can pack spices, snacks, grains, flour, seeds, powders, detergents, and other free-flowing or granular products.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is the FFS D-Motion Type Packaging Machine easy to operate?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, it features a user-friendly control panel and simple settings, allowing easy operation with minimal training.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does this machine ensure accurate filling and strong sealing?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Absolutely. The machine provides precise filling and leak-proof sealing to maintain consistent packaging quality.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is the maintenance requirement for this machine?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The machine requires low maintenance due to its durable construction and high-quality components. Regular cleaning and routine servicing are sufficient.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Why choose Jawla Advance Technology for a D-Motion Type Packaging Machine?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Jawla Advance Technology offers reliable, high-performance packaging machines with strong after-sales support, customization options, and proven industrial expertise.",
+          },
+        },
+      ],
+    },
+  ],
+};
+
 export default function ProductDetailSection() {
   return (
     <>
@@ -229,6 +323,11 @@ export default function ProductDetailSection() {
           </div>
         </div>
       </section>
+
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
     </>
   );
 }

@@ -5,19 +5,46 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/normal-ffs-packaging-machine-jat-301" },
-  title: "Best Normal FFS Packaging Machine Manufacturer in Faridabad",
+  title: "Best Normal FFS Packaging Machine Manufacturer in Delhi NCR",
   description:
-    "Normal FFS packaging machine manufacturer in Faridabad & Delhi NCR. JAT-301 packs 2–200 g at 30–80 pouches/min for spices, tea & namkeen.",
+    "Normal FFS packaging machine manufacturer in Delhi NCR. JAT-301 packs 2–200 g at 30–80 pouches/min for spices, tea & namkeen.",
   keywords: [
     "normal FFS packaging machine",
     "normal FFS packaging machine manufacturer",
-    "normal FFS packaging machine manufacturer In Faridabad",
+    "normal FFS packaging machine manufacturer In Delhi NCR",
   ],
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://www.jawlaadvancetechnology.com/normal-ffs-packaging-machine-jat-301#product",
+      name: "Normal FFS Packaging Machine (JAT-301)",
+      model: "JAT-301",
+      sku: "JAT-301",
+      category: "FFS Packaging Machine",
+      image: "https://www.jawlaadvancetechnology.com/PRODUCTS/normal-ffs-packaging-machine-jat-301/p1.webp",
+      description: "Normal FFS packaging machine manufactured in Delhi NCR. JAT-301 packs 2 g to 200 g pouches at 30 to 80 pouches per minute for spices, tea and namkeen.",
+      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
+      manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      weight: { "@type": "QuantitativeValue", value: 500, unitCode: "KGM" },
+      additionalProperty: [
+        { "@type": "PropertyValue", name: "Pack size", value: "2 g to 200 g" },
+        { "@type": "PropertyValue", name: "Output", value: "30 to 80 pouches per minute" },
+        { "@type": "PropertyValue", name: "Filling system", value: "Volumetric cup filler" },
+        { "@type": "PropertyValue", name: "Seal types", value: "Centre seal, 3-side seal, 4-side seal" },
+      ],
+      offers: {
+        "@type": "Offer",
+        url: "https://www.jawlaadvancetechnology.com/normal-ffs-packaging-machine-jat-301",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+        itemCondition: "https://schema.org/NewCondition",
+        seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+    },
     {
       "@type": "BreadcrumbList",
       itemListElement: [
@@ -102,10 +129,10 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "Who is the best normal FFS packaging machine manufacturer in Faridabad and Delhi NCR?",
+          name: "Who is the best normal FFS packaging machine manufacturer in Delhi NCR?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best normal FFS packaging machine manufacturers in Faridabad and Delhi NCR. It builds the JAT-301 in-house, lets buyers test their own product before ordering, and provides installation, operator training, genuine spares and fast local service.",
+            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best normal FFS packaging machine manufacturers in Delhi NCR. It builds the JAT-301 in-house, lets buyers test their own product before ordering, and provides installation, operator training, genuine spares and fast local service.",
           },
         },
         {
@@ -113,7 +140,7 @@ const jsonLd = {
           name: "Does Jawla Advance Technology provide installation, training and service?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. Jawla Advance Technology's engineers install and commission the JAT-301 at your site, train your operators on running, changeovers and cleaning, and provide preventive maintenance, breakdown support and genuine spare parts. Service across Faridabad and Delhi NCR is fast because the team is based locally.",
+            text: "Yes. Jawla Advance Technology's engineers install and commission the JAT-301 at your site, train your operators on running, changeovers and cleaning, and provide preventive maintenance, breakdown support and genuine spare parts. Service across Delhi NCR is fast because the team is based locally.",
           },
         },
         {
@@ -182,7 +209,7 @@ const buyersChecklist = [
   "Training: will your operators be trained on changeovers and daily cleaning?",
 ];
 
-const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));
@@ -216,7 +243,7 @@ export default function ProductDetailSection() {
       <section className="max-w-7xl mx-auto px-6 py-12 space-y-12 border-t border-gray-200">
         {/* H1 + Quick Answer */}
         <div>
-          <h1 className="text-2xl sm:text-3xl font-bold text-black mb-4">Best Normal FFS Packaging Machine Manufacturer in Faridabad</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold text-black mb-4">Best Normal FFS Packaging Machine Manufacturer in Delhi NCR</h1>
           <p className="text-gray-700 leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
             Jawla Advance Technology LLP is a normal FFS packaging machine
@@ -226,15 +253,15 @@ export default function ProductDetailSection() {
             affordable choice for spice, tea, coffee and namkeen packers.
           </p>
           <p className="text-gray-700 leading-relaxed mt-3">
-            Jawla Advance Technology LLP is a normal FFS packaging machine
-            manufacturer in Faridabad and Delhi NCR. Our{" "}
+            A vertical form-fill-seal cycle is what makes the{" "}
             <span className="font-bold text-black">
               Normal FFS Packaging Machine
             </span>{" "}
-            (JAT-301) forms, fills and seals pouches of 2 g to 200 g
-            at 30 to 80 pouches per minute. It is the most popular choice for
-            spice, tea, coffee and namkeen businesses that want reliable
-            automatic packing at a sensible price.
+            (JAT-301) so versatile: film forms around the product, fills
+            2 g to 200 g, then seals, 30 to 80 times a minute. Jawla Advance
+            Technology LLP builds it as the most popular choice for spice,
+            tea, coffee and namkeen businesses that want reliable automatic
+            packing at a sensible price in Delhi NCR.
           </p>
         </div>
 
@@ -400,7 +427,7 @@ export default function ProductDetailSection() {
         {/* Who Uses the JAT-301 */}
         <div>
           <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            Who Uses the JAT-301 in Faridabad and Delhi NCR
+            Who Uses the JAT-301 in Delhi NCR
           </h2>
           <p className="text-gray-700 leading-relaxed">
             Most JAT-301 buyers are growing food businesses that have
@@ -458,8 +485,8 @@ export default function ProductDetailSection() {
             <span className="font-bold text-black">
               normal FFS packaging machine
             </span>{" "}
-            manufacturer that spice, tea and namkeen brands across Faridabad
-            and Delhi NCR rely on.
+            manufacturer that spice, tea and namkeen brands across Delhi NCR
+            rely on.
           </p>
         </div>
 

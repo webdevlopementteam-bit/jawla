@@ -610,7 +610,7 @@ export default function OneEdgeBiscuitBuyersGuide() {
           <strong className="font-bold text-gray-900">
             one-edge biscuit packaging machine manufacturer
           </strong>{" "}
-          in Faridabad, building packaging machines for more than 19 years.
+          in Delhi NCR, building packaging machines for more than 19 years.
           Here is what that means for you:
         </p>
         <ul className="list-disc pl-5 space-y-2 text-sm sm:text-[15px] md:text-base text-gray-800 mb-5">

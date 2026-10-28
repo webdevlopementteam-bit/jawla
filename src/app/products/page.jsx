@@ -6,9 +6,9 @@ import { products } from "@/lib/data";
 export const metadata = {
   alternates: { canonical: "/products" },
   title:
-    "Buy Packaging Machine from Trusted Manufacturer and Supplier in Faridabad & Delhi NCR",
+    "Buy Packaging Machine from Trusted Manufacturer and Supplier in Delhi NCR",
   description:
-    "Explore 15+ models from a trusted packaging machine manufacturer in Faridabad & Delhi NCR. Powder, liquid, biscuit & snack packing machines. Call now.",
+    "Explore 15+ models from a trusted packaging machine manufacturer in Delhi NCR. Powder, liquid, biscuit & snack packing machines. Call now.",
   keywords: [
     "Buy Packaging Machine",
     "packaging machine manufacturer",

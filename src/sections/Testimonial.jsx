@@ -94,15 +94,16 @@ export default function TestimonialsSection() {
             </h2>
 
             <p className="text-gray-600 text-sm sm:text-base leading-relaxed max-w-xl">
-              At{" "}
               <strong className="text-gray-900 font-bold">
-                Jawla Advance Technology LLP
-              </strong>
-              , we believe in delivering reliable, innovative, and
-              performance-driven technology solutions. Our commitment to
-              quality, timely delivery, and customer satisfaction has helped
-              businesses achieve smooth operations and long-term growth.
-              Here&apos;s what our clients say about working with us.
+                What our customers value most:
+              </strong>{" "}
+              Business owners who buy from us usually mention three things.
+              First, they could see the machine packing their own product
+              before paying. Second, our engineers reached their factory
+              quickly when they needed help. Third, spare parts were
+              available without long waits. These are the practical reasons
+              a local, experienced manufacturer saves money over the life of
+              a machine.
             </p>
           </div>
         </div>

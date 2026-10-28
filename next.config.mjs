@@ -3,6 +3,17 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "jawlaadvancetechnology.com",
+          },
+        ],
+        destination: "https://www.jawlaadvancetechnology.com/:path*",
+        permanent: true,
+      },
+      {
         source: "/hotel-pack-packaging-machines",
         destination: "/hotel-pack-packaging-machine",
         permanent: true,

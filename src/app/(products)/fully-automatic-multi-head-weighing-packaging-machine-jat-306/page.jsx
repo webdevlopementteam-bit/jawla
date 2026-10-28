@@ -7,19 +7,45 @@ export const metadata = {
   alternates: {
     canonical: "/fully-automatic-multi-head-weighing-packaging-machine-jat-306",
   },
-  title: "Buy Fully Automatic Multi-Head Weighing Packaging Machine In Faridabad",
+  title: "Buy Fully Automatic Multi-Head Weighing Packaging Machine In Delhi NCR",
   description:
-    "Fully automatic multi-head weighing packaging machine manufacturer in Faridabad & Delhi NCR. 100 g–1 kg, 40–400 packs/min. Request quote.",
+    "Fully automatic multi-head weighing packaging machine manufacturer in Delhi NCR. 100 g–1 kg, 40–400 packs/min. Request quote.",
   keywords: [
     "fully automatic multi-head weighing packaging machine",
     "fully automatic multi-head weighing packaging machine manufacturer",
-    "fully automatic multi-head weighing packaging machine manufacturer In Faridabad",
+    "fully automatic multi-head weighing packaging machine manufacturer In Delhi NCR",
   ],
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://www.jawlaadvancetechnology.com/fully-automatic-multi-head-weighing-packaging-machine-jat-306#product",
+      name: "Fully Automatic Multi-Head Weighing Packaging Machine (JAT-306)",
+      model: "JAT-306",
+      sku: "JAT-306",
+      category: "Multi-Head Weighing Packaging Machine",
+      image: "https://www.jawlaadvancetechnology.com/PRODUCTS/fully-automatic-multi-head-weighing-packaging-machine-jat-306/p1.webp",
+      description: "Fully automatic multi-head weighing packaging machine manufactured in Delhi NCR. JAT-306 packs 100 g to 1 kg at 40 to 400 packets per minute.",
+      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
+      manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      additionalProperty: [
+        { "@type": "PropertyValue", name: "Pack size", value: "100 g to 1 kg" },
+        { "@type": "PropertyValue", name: "Output", value: "40 to 400 packets per minute (product dependent)" },
+        { "@type": "PropertyValue", name: "Weighing", value: "Multi-head combination weigher" },
+        { "@type": "PropertyValue", name: "Maximum film width", value: "700 mm" },
+      ],
+      offers: {
+        "@type": "Offer",
+        url: "https://www.jawlaadvancetechnology.com/fully-automatic-multi-head-weighing-packaging-machine-jat-306",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+        itemCondition: "https://schema.org/NewCondition",
+        seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+    },
     {
       "@type": "BreadcrumbList",
       itemListElement: [
@@ -112,10 +138,10 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "Who is the best fully automatic multi-head weighing packaging machine manufacturer in Faridabad and Delhi NCR?",
+          name: "Who is the best fully automatic multi-head weighing packaging machine manufacturer in Delhi NCR?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best fully automatic multi-head weighing packaging machine manufacturers in Faridabad and Delhi NCR. It builds the JAT-306 in-house, runs weighing trials with your own product, and provides installation, calibration, operator training and fast local service.",
+            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best fully automatic multi-head weighing packaging machine manufacturers in Delhi NCR. It builds the JAT-306 in-house, runs weighing trials with your own product, and provides installation, calibration, operator training and fast local service.",
           },
         },
         {
@@ -184,7 +210,7 @@ const buyersChecklist = [
   "Calibration support: confirm the weigher will be calibrated on site.",
 ];
 
-const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));
@@ -229,28 +255,28 @@ export default function ProductDetailSection() {
             <span className="font-bold text-black">
               Fully Automatic Multi-Head Weighing, Packaging Machine
             </span>{" "}
-            manufacturer in Faridabad, Delhi NCR.
+            manufacturer in Delhi NCR.
             Its JAT-306 weighs and packs chips, namkeen, dry fruits, seeds,
             spices and vegetables in 100 g to 1 kg pouches at 40 to 400
             packets per minute, with very low product giveaway.
           </p>
           <p className="leading-relaxed">
+            Precise multi-head weighing combined with a vertical form fill
+            seal packer is what the{" "}
+            <span className="font-bold text-black">
+              Fully Automatic Multi-Head Weighing, Packaging Machine
+            </span>{" "}
+            (JAT-306) runs on, weighing and packing chips, dry fruits,
+            namkeen, spices, seeds and vegetables into pouches from 100 g to
+            1 kg at 40 to 400 packets per minute with very little product
+            giveaway.{" "}
             <Link
               href="/"
               className="text-[#E13538] font-bold hover:underline"
             >
               Jawla Advance Technology
             </Link>{" "}
-            LLP is a{" "}
-            <span className="font-bold text-black">
-              Fully Automatic Multi-Head Weighing, Packaging Machine
-            </span>{" "}
-            manufacturer in Faridabad and Delhi NCR. Our JAT-306 weighs and
-            packs chips, dry fruits, namkeen,
-            spices, seeds and vegetables into pouches from 100 g to 1 kg at
-            40 to 400 packets per minute. It combines precise multi-head
-            weighing with a vertical form fill seal packer, giving you
-            accurate retail packs with very little product giveaway.
+            LLP builds it in Delhi NCR.
           </p>
         </div>
 
@@ -388,7 +414,7 @@ export default function ProductDetailSection() {
         {/* Who Uses the JAT-306 */}
         <div className="space-y-3">
           <h2 className="text-[#E13538] text-xl font-bold mb-3">
-            Who Uses the JAT-306 in Faridabad and Delhi NCR
+            Who Uses the JAT-306 in Delhi NCR
           </h2>
           <p className="leading-relaxed">
             The JAT-306 is chosen by food brands where every gram counts.
@@ -438,7 +464,7 @@ export default function ProductDetailSection() {
             </Link>{" "}
             for a detailed quote. Choose Jawla Advance Technology, the
             multi-head weighing packaging machine manufacturer that snack
-            and dry fruit brands across Faridabad and Delhi NCR rely on.
+            and dry fruit brands across Delhi NCR rely on.
           </p>
         </div>
 

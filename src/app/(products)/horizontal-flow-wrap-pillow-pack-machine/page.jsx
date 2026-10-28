@@ -5,19 +5,45 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/horizontal-flow-wrap-pillow-pack-machine" },
-  title: "Best Horizontal Flow Wrap Pillow Pack Machine Manufacturer | Jawla Advance Technology",
+  title: "Best Horizontal Flow Wrap Pillow Pack Machine Manufacturer",
   description:
-    "Horizontal flow wrap pillow pack machine manufacturer in Faridabad & Delhi NCR. JAT-308 wraps biscuits, noodles, cakes & parts. Enquire now.",
+    "Horizontal flow wrap pillow pack machine manufacturer in Delhi NCR. JAT-308 wraps biscuits, noodles, cakes & parts. Enquire now.",
   keywords: [
     "horizontal flow wrap pillow pack machine",
     "horizontal flow wrap pillow pack machine manufacturer",
-    "horizontal flow wrap pillow pack machine manufacturer In Faridabad",
+    "horizontal flow wrap pillow pack machine manufacturer In Delhi NCR",
   ],
 };
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "Product",
+      "@id": "https://www.jawlaadvancetechnology.com/horizontal-flow-wrap-pillow-pack-machine#product",
+      name: "Horizontal Flow Wrap Pillow Pack Machine (JAT-308)",
+      model: "JAT-308",
+      sku: "JAT-308",
+      category: "Horizontal Flow Wrap Machine",
+      image: "https://www.jawlaadvancetechnology.com/PRODUCTS/horizontal-flow-wrap-pillow-pack-machine/p1.webp",
+      description: "Horizontal flow wrap pillow pack machine manufactured in Delhi NCR. JAT-308 wraps biscuits, bakery and tray-pack items in pillow, family and tray packs.",
+      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
+      manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      additionalProperty: [
+        { "@type": "PropertyValue", name: "Pack style", value: "Pillow pack, family pack, tray pack" },
+        { "@type": "PropertyValue", name: "Film", value: "Heat-sealable laminated roll film up to 550 mm wide" },
+        { "@type": "PropertyValue", name: "Sealing", value: "Continuous sealing, leak-proof and tamper-resistant" },
+        { "@type": "PropertyValue", name: "Contact parts", value: "High-grade stainless steel" },
+      ],
+      offers: {
+        "@type": "Offer",
+        url: "https://www.jawlaadvancetechnology.com/horizontal-flow-wrap-pillow-pack-machine",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+        itemCondition: "https://schema.org/NewCondition",
+        seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+    },
     {
       "@type": "BreadcrumbList",
       itemListElement: [
@@ -110,10 +136,10 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "Who is the best horizontal flow wrap pillow pack machine manufacturer in Faridabad and Delhi NCR?",
+          name: "Who is the best horizontal flow wrap pillow pack machine manufacturer in Delhi NCR?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best horizontal flow wrap pillow pack machine manufacturers in Faridabad and Delhi NCR. It builds the JAT-308 in-house, lets buyers test their own products before ordering, and provides installation, operator training, genuine spares and fast local service.",
+            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best horizontal flow wrap pillow pack machine manufacturers in Delhi NCR. It builds the JAT-308 in-house, lets buyers test their own products before ordering, and provides installation, operator training, genuine spares and fast local service.",
           },
         },
         {
@@ -189,7 +215,7 @@ const buyersChecklist = [
   "Service: confirm quick engineer support and spare jaws in Delhi NCR.",
 ];
 
-const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));
@@ -230,26 +256,26 @@ export default function ProductDetailSection() {
             <span className="font-bold text-black">
               Horizontal Flow Wrap Pillow Pack Machine
             </span>{" "}
-            manufacturer in Faridabad, Delhi NCR. Its JAT-308
+            manufacturer in Delhi NCR. Its JAT-308
             wraps biscuits, chocolate bars, noodles, cakes, gur, towels,
             bearings and electronic parts into sealed pillow packs, using
             laminated film up to 550 mm wide and stainless steel contact
             parts.
           </p>
           <p className="leading-relaxed">
+            Continuous sealing is what lets the JAT-308 wrap solid products
+            such as biscuits, chocolate bars, noodles, cakes, rusk, gur,
+            towels, bearings and electronic parts into neat, sealed pillow
+            packs — a versatile machine for food, FMCG, pharmaceutical and
+            industrial units that need attractive, hygienic packs at a
+            steady speed.{" "}
             <Link
               href="/"
               className="text-[#BB2426] font-bold hover:underline"
             >
               Jawla Advance Technology
             </Link>{" "}
-            LLP is a horizontal flow wrap pillow pack machine manufacturer
-            in Faridabad and Delhi NCR. Our JAT-308 wraps solid products
-            such as biscuits, chocolate bars,
-            noodles, cakes, rusk, gur, towels, bearings and electronic parts
-            into neat, sealed pillow packs. It is a versatile machine for
-            food, FMCG, pharmaceutical and industrial units that need
-            attractive, hygienic packs at a steady speed.
+            LLP builds it in Delhi NCR.
           </p>
         </div>
 
@@ -406,7 +432,7 @@ export default function ProductDetailSection() {
         {/* Who Uses the JAT-308 */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">
-            Who Uses the JAT-308 in Faridabad and Delhi NCR
+            Who Uses the JAT-308 in Delhi NCR
           </h2>
           <p className="leading-relaxed">
             The JAT-308 suits units that wrap solid items of many shapes.
@@ -455,7 +481,7 @@ export default function ProductDetailSection() {
             </Link>{" "}
             for a detailed quote. Choose Jawla Advance Technology, the
             horizontal flow wrap pillow pack machine manufacturer that
-            businesses across Faridabad and Delhi NCR trust.
+            businesses across Delhi NCR trust.
           </p>
         </div>
 

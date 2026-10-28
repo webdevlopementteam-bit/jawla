@@ -9,6 +9,28 @@ import {
 import { BsPeopleFill } from "react-icons/bs";
 import Link from "next/link";
 
+const howToChoose = [
+  {
+    question: "What is the product type?",
+    answer:
+      "Free-flowing granules suit cup fillers, fine or sticky powders need an auger filler, liquids need a piston filler, and solid items like biscuits need a flow wrap machine.",
+  },
+  {
+    question: "What pack weight do you need?",
+    answer: "Our machines cover everything from 2 g sachets to 10 kg bags.",
+  },
+  {
+    question: "How many packs per day?",
+    answer:
+      "Daily output decides whether a semi-automatic or a fully automatic machine gives you a better return.",
+  },
+  {
+    question: "Which pouch style?",
+    answer:
+      "Center seal, 3-side seal, 4-side seal, pillow pack, gusset or zipper pouch.",
+  },
+];
+
 const services = [
   {
     icon: FaGear,
@@ -104,6 +126,27 @@ export default function HomeServicesSection() {
               </div>
             );
           })}
+        </div>
+
+        {/* How to Choose the Right Packaging Machine */}
+        <div className="mt-16 border-t border-gray-100 pt-10 sm:pt-12">
+          <h3 className="text-xl sm:text-2xl font-bold text-black tracking-tight leading-tight mb-5">
+            How to Choose the Right Packaging Machine
+          </h3>
+          <ul className="space-y-3 text-sm sm:text-base text-[#2E2E2E] leading-relaxed">
+            {howToChoose.map((item, index) => (
+              <li key={index}>
+                <span className="font-semibold text-black">
+                  {item.question}{" "}
+                </span>
+                {item.answer}
+              </li>
+            ))}
+          </ul>
+          <p className="mt-4 text-sm sm:text-base text-[#2E2E2E] leading-relaxed">
+            Share these details with us, and our engineers will recommend
+            the right model.
+          </p>
         </div>
       </div>
     </section>

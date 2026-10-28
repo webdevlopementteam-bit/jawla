@@ -19,6 +19,33 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Product",
+      "@id": "https://www.jawlaadvancetechnology.com/best-automatic-family-pack-rusk-packaging-machine#product",
+      name: "Automatic Family Pack Rusk Packaging Machine (JAT-312)",
+      model: "JAT-312",
+      sku: "JAT-312",
+      category: "Rusk Packaging Machine",
+      image: "https://www.jawlaadvancetechnology.com/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/p1.webp",
+      description: "Automatic family pack rusk packaging machine manufactured in Faridabad & Delhi NCR. JAT-312 packs 50 g to 400 g rusk, biscuit and cake family packs.",
+      brand: { "@type": "Brand", name: "Jawla Advance Technology" },
+      manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      weight: { "@type": "QuantitativeValue", value: 1300, unitCode: "KGM" },
+      additionalProperty: [
+        { "@type": "PropertyValue", name: "Pack size", value: "50 g to 400 g family packs" },
+        { "@type": "PropertyValue", name: "Output", value: "Up to 60 packs per minute" },
+        { "@type": "PropertyValue", name: "Feeding", value: "Automatic, with pushing chain and feeder belt" },
+        { "@type": "PropertyValue", name: "Sealing", value: "Centre seal with front and back sealing" },
+      ],
+      offers: {
+        "@type": "Offer",
+        url: "https://www.jawlaadvancetechnology.com/best-automatic-family-pack-rusk-packaging-machine",
+        priceCurrency: "INR",
+        availability: "https://schema.org/InStock",
+        itemCondition: "https://schema.org/NewCondition",
+        seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+    },
+    {
       "@type": "BreadcrumbList",
       itemListElement: [
         {
@@ -198,7 +225,7 @@ const maintenanceTips = [
   "Book preventive service before the festive season rush.",
 ];
 
-const faqs = jsonLd["@graph"][1].mainEntity.map((item, index) => ({
+const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));
