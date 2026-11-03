@@ -2,9 +2,15 @@ import ContactUs from "./ContactUs";
 
 export const metadata = {
   alternates: { canonical: "/contact" },
-  title: "Contact Us - Jawla Advance Technology",
+  title: "Contact Jawla Advance Technology - Packaging Machine Manufacturer",
   description:
-    "CONTACT US Home Landline 0129 - 2231 053 Mobile 9990033381, 9212526784, 9212526785, 9743660324, 9990178413 Email sales@jawlatechnology.in Factory Plot",
+    "Get in touch with Jawla Advance Technology LLP, leading packaging machine manufacturer in Ballabgarh, Faridabad (Delhi NCR). Call +91-9990033381 or request a machine quote.",
+  keywords: [
+    "Packaging Machine Manufacturer",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
+    "Packaging Machine Supplier Delhi NCR",
+  ],
 };
 
 export default function page() {

@@ -6,13 +6,15 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/hotel-pack-packaging-machine" },
-  title: "Buy Hotel Pack Packaging Machine",
+  title: "Hotel Pack Packaging Machine (JAT-309) - Jawla Advance Technology",
   description:
-    "Hotel pack packaging machine manufacturer in Delhi NCR. JAT-309 makes up to 80 pillow or tray packs/min for bakery & HoReCa. Call now.",
+    "Buy Hotel Pack Packaging Machine (JAT-309) from Jawla Advance Technology. Versatile pillow and tray pack machine for hotel amenities, bakery & biscuits.",
   keywords: [
-    "hotel pack packaging machine",
-    "hotel pack packaging machine manufacturer",
-    "hotel pack packaging machine manufacturer In Delhi NCR",
+    "Hotel Pack Packaging Machine",
+    "Packaging Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
+    "Pillow Pack Packaging Machine",
   ],
 };
 
@@ -42,7 +44,7 @@ export default function ProductDetailSection() {
 
       <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
         <h1 className="text-2xl md:text-3xl font-bold text-black">
-          Best Hotel Pack Packaging Machine Manufacturer - Jawla Advance Technology
+          Hotel Pack Packaging Machine (JAT-309) - Jawla Advance Technology
         </h1>
       </section>
 

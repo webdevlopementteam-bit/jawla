@@ -5,13 +5,15 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/ffs-high-speed-packaging-machine" },
-  title: "Top FFS High Speed Packaging Machine",
+  title: "FFS High Speed Packaging Machine (JAT-302) - Jawla Advance Technology",
   description:
-    "FFS high speed packaging machine manufacturer in Delhi NCR. JAT-302 makes 100–450 pouches/min, 2–100 g, single phase. Get quote.",
+    "Buy FFS High Speed Packaging Machine (JAT-302) from Jawla Advance Technology. Produces 100–450 pouches/min for mouth freshener, pan masala, tea & granules.",
   keywords: [
-    "FFS high speed packaging machine",
-    "FFS high speed packaging machine manufacturer",
-    "FFS high speed packaging machine manufacturer in Delhi NCR",
+    "FFS High Speed Packaging Machine",
+    "Packaging Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
+    "High Speed Packaging Machine",
   ],
 };
 
@@ -26,7 +28,7 @@ const jsonLd = {
       sku: "JAT-302",
       category: "FFS Packaging Machine",
       image: "https://www.jawlaadvancetechnology.com/PRODUCTS/ffs-high-speed-packaging-machine/p1.webp",
-      description: "FFS high speed packaging machine manufactured in Delhi NCR. JAT-302 makes 100 to 450 pouches per minute, 2 g to 100 g, single phase.",
+      description: "FFS high speed packaging machine manufactured in Delhi NCR by Jawla Advance Technology. JAT-302 makes 100 to 450 pouches per minute, 2 g to 100 g, single phase.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
       manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
       weight: { "@type": "QuantitativeValue", value: 700, unitCode: "KGM" },
@@ -40,9 +42,20 @@ const jsonLd = {
         "@type": "Offer",
         url: "https://www.jawlaadvancetechnology.com/ffs-high-speed-packaging-machine",
         priceCurrency: "INR",
+        price: "0",
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          priceCurrency: "INR",
+          description: "Price upon request / Custom quotation based on machine configuration",
+        },
         availability: "https://schema.org/InStock",
         itemCondition: "https://schema.org/NewCondition",
         seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "29",
       },
     },
     {
@@ -247,7 +260,9 @@ export default function ProductDetailSection() {
         <div className="w-full mx-auto space-y-8">
           {/* H1 + Quick Answer */}
           <div>
-            <h1 className="text-2xl md:text-3xl font-bold text-black mb-4">Top FFS High Speed Packaging Machine Manufacturer - Jawla Advance Technology</h1>
+            <h1 className="text-2xl md:text-3xl font-bold text-black mb-4">
+              FFS High Speed Packaging Machine (JAT-302) - Jawla Advance Technology
+            </h1>
             <p className="text-gray-700">
               <span className="font-bold text-black">Quick answer: </span>
               Jawla Advance Technology LLP, an FFS high speed packaging

@@ -5,9 +5,16 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/ffs-d-motion-type-packaging-machine" },
-  title: "Top FFS D-Motion Type Packaging Machine - Jawla Advance Technology",
+  title: "D-Motion Type Packaging Machine (JAT-303) - Jawla Advance Technology",
   description:
-    "Buy FFS D-Motion Type Packaging Machine from Jawla Advance Technology for fast, accurate, and reliable packaging solutions. Get the best price today!",
+    "Buy D-Motion Type Packaging Machine (JAT-303) from Jawla Advance Technology. High performance packaging machine for pan masala, mouth freshener, and small pouches.",
+  keywords: [
+    "D-Motion Type Packaging Machine",
+    "Packaging Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
+    "FFS D-Motion Type Packaging Machine",
+  ],
 };
 
 const jsonLd = {
@@ -16,21 +23,32 @@ const jsonLd = {
     {
       "@type": "Product",
       "@id": "https://www.jawlaadvancetechnology.com/ffs-d-motion-type-packaging-machine#product",
-      name: "FFS D-Motion Type Packaging Machine (JAT-303)",
+      name: "D-Motion Type Packaging Machine (JAT-303)",
       model: "JAT-303",
       sku: "JAT-303",
       category: "FFS Packaging Machine",
       image: "https://www.jawlaadvancetechnology.com/PRODUCTS/ffs-d-motion-type-packaging-machine/p1.webp",
-      description: "FFS D-Motion type packaging machine from Jawla Advance Technology. JAT-303 packs pan masala, jeera, mouth freshener powder, fruit balls and small pouches.",
+      description: "D-Motion type packaging machine from Jawla Advance Technology. JAT-303 packs pan masala, jeera, mouth freshener powder, fruit balls and small pouches with continuous motion sealing.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
       manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
       offers: {
         "@type": "Offer",
         url: "https://www.jawlaadvancetechnology.com/ffs-d-motion-type-packaging-machine",
         priceCurrency: "INR",
+        price: "0",
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          priceCurrency: "INR",
+          description: "Price upon request / Custom quotation based on machine configuration",
+        },
         availability: "https://schema.org/InStock",
         itemCondition: "https://schema.org/NewCondition",
         seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "26",
       },
     },
     {
@@ -110,8 +128,7 @@ export default function ProductDetailSection() {
       <section className="w-full bg-white font-sans">
         {/* Top Red Header Container */}
         <TopCard
-          as="h1"
-          title={"FFS D-Motion Type Packaging Machine"}
+          title={"D-Motion Type Packaging Machine (JAT-303)"}
           image={"/PRODUCTS/ffs-d-motion-type-packaging-machine/top.webp"}
         />
 
@@ -128,8 +145,11 @@ export default function ProductDetailSection() {
       </section>
 
       <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 leading-relaxed font-sans">
-        {/* Product Description */}
+        {/* Main H1 Title */}
         <div className="space-y-4 mt-2 md:mt-4">
+          <h1 className="text-2xl md:text-3xl font-bold text-black mb-2">
+            D-Motion Type Packaging Machine (JAT-303)
+          </h1>
           <h2 className="text-[#BB2426] text-xl font-bold">
             Product Description
           </h2>

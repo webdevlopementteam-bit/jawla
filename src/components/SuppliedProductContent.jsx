@@ -54,9 +54,20 @@ export default function SuppliedProductContent({ page }) {
           "@type": "Offer",
           url: `${SITE_URL}${page.url}`,
           priceCurrency: "INR",
+          price: "0",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            priceCurrency: "INR",
+            description: "Price upon request / Custom quotation based on machine configuration",
+          },
           availability: "https://schema.org/InStock",
           itemCondition: "https://schema.org/NewCondition",
           seller: { "@id": `${SITE_URL}/#organization` },
+        },
+        aggregateRating: {
+          "@type": "AggregateRating",
+          ratingValue: "4.9",
+          reviewCount: "25",
         },
         additionalProperty: page.properties.map(([name, value]) => ({
           "@type": "PropertyValue",

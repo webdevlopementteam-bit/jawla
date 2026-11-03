@@ -6,13 +6,15 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/one-edge-biscuit-packaging-machine" },
-  title: "Top One-Edge Biscuit Packaging Machine Manufacturer In Delhi NCR",
+  title: "One-Edge Biscuit Packaging Machine (JAT-311) - Jawla Advance Technology",
   description:
-    "One-edge biscuit packaging machine manufacturer in Delhi NCR. JAT-311 dual feeder packs 50/75/100 g at up to 200 packs/min. Call now.",
+    "Buy One-Edge Biscuit Packaging Machine (JAT-311) from Jawla Advance Technology. High speed dual feeder wrapper for 50g, 75g & 100g slug packs (up to 200 packs/min).",
   keywords: [
-    "one-edge biscuit packaging machine",
-    "one-edge biscuit packaging machine manufacturer",
-    "one-edge biscuit packaging machine manufacturer In Delhi NCR",
+    "One-Edge Biscuit Packaging Machine",
+    "Packaging Machine",
+    "Biscuit Packaging Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
   ],
 };
 
@@ -40,7 +42,7 @@ export default function ProductDetailSection() {
 
       <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
         <h1 className="text-2xl md:text-3xl font-bold text-black">
-          Top One-Edge Biscuit Packaging Machine Manufacturer
+          One-Edge Biscuit Packaging Machine (JAT-311) - Jawla Advance Technology
         </h1>
       </section>
 

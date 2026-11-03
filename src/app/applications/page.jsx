@@ -4,15 +4,33 @@ import Image from "next/image";
 
 export const metadata = {
   alternates: { canonical: "/applications" },
-  title: "Applications - Jawla Advance Technology",
+  title:
+    "Packaging Machine Applications - Powder, Liquid & Food Packaging",
   description:
-    "APPLICATIONS Home Chocolate Candies Coffee and Tea Biscuits and Cookies Detergent and Chemicals Industrial Items Namkeen and Snacks Liquid and Viscous Noodles",
+    "Explore versatile packaging machine applications by Jawla Advance Technology. High-performance powder packaging machines, liquid packaging machines, snack & biscuit solutions.",
+  keywords: [
+    "Packaging Machine",
+    "Powder Packaging Machine",
+    "Liquid Packaging Machine",
+    "Fully Automatic Packaging Machine",
+    "Jawla Advance Technology",
+    "Packaging Machine Manufacturer",
+  ],
 };
 
 export default function ApplicationsSection() {
   return (
-    <section className="py-12 bg-[#FBFBFB]">
+    <section className="py-12 bg-[#FBFBFB] font-sans">
       <div className="max-w-[1500px] mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center max-w-4xl mx-auto mb-10">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 tracking-tight">
+            Packaging Machine Applications Across Diverse Industries
+          </h1>
+          <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+            From precision powder packaging machines and hygienic liquid packaging machines to high-speed biscuit wrapping and snack pouch packing, Jawla Advance Technology engineers specialized packaging solutions customized for your exact product characteristics.
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {applications.map((item) => (
             <div
@@ -23,7 +41,7 @@ export default function ApplicationsSection() {
               <div className="relative z-0 w-full h-48 sm:h-52 rounded-t-lg overflow-hidden">
                 <Image
                   src={item.path}
-                  alt={item.name}
+                  alt={`${item.name} Packaging Machine - Jawla Advance Technology`}
                   fill
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
@@ -40,6 +58,33 @@ export default function ApplicationsSection() {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* Detailed Application Information */}
+        <div className="mt-14 max-w-7xl mx-auto bg-white rounded-2xl border border-gray-200 p-6 sm:p-10 shadow-sm space-y-6">
+          <h2 className="text-xl sm:text-2xl font-bold text-gray-900">
+            Engineered Packaging Solutions for Dry, Granular & Liquid Products
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-gray-700 text-sm leading-relaxed">
+            <div className="p-4 rounded-xl bg-gray-50 border border-gray-100">
+              <h3 className="font-bold text-base text-[#bd2a2a] mb-2">Powders & Spices</h3>
+              <p>
+                Our <strong>powder packaging machines</strong> and collar auger systems prevent dust dissemination while delivering exact grammage for spices, turmeric, maida, coffee, and chemical powders.
+              </p>
+            </div>
+            <div className="p-4 rounded-xl bg-gray-50 border border-gray-100">
+              <h3 className="font-bold text-base text-[#bd2a2a] mb-2">Liquids & Viscous Products</h3>
+              <p>
+                Equipped with sanitary grade dosing cylinders, our <strong>liquid packaging machines</strong> seal edible oils, shampoo, sauces, and lubricants in tamper-evident, zero-leak pouches.
+              </p>
+            </div>
+            <div className="p-4 rounded-xl bg-gray-50 border border-gray-100">
+              <h3 className="font-bold text-base text-[#bd2a2a] mb-2">Snacks, Biscuits & Bakery</h3>
+              <p>
+                From horizontal flow wrap machines to multi-head weighing systems, we protect crispness and structure for namkeen, chips, biscuits, cookies, rusks, and toast.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

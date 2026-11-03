@@ -19,6 +19,36 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Article",
+      "@id":
+        "https://www.jawlaadvancetechnology.com/one-edge-biscuit-packaging-machine-buyers-guide/#article",
+      isPartOf: {
+        "@type": "WebPage",
+        "@id":
+          "https://www.jawlaadvancetechnology.com/one-edge-biscuit-packaging-machine-buyers-guide/#webpage",
+      },
+      headline:
+        "One-Edge Biscuit Packaging Machine: Complete Buyer's Guide In 2026",
+      description:
+        "Planning to buy a one-edge biscuit packaging machine? Learn how it works, what to check, and what affects price. Expert tips from Jawla Advance Technology.",
+      image: "https://www.jawlaadvancetechnology.com/blog/p8.webp",
+      author: {
+        "@type": "Organization",
+        name: "Jawla Advance Technology LLP",
+        url: "https://www.jawlaadvancetechnology.com",
+      },
+      publisher: {
+        "@type": "Organization",
+        name: "Jawla Advance Technology LLP",
+        logo: {
+          "@type": "ImageObject",
+          url: "https://www.jawlaadvancetechnology.com/logo/logo.webp",
+        },
+      },
+      mainEntityOfPage:
+        "https://www.jawlaadvancetechnology.com/one-edge-biscuit-packaging-machine-buyers-guide",
+    },
+    {
       "@type": "BreadcrumbList",
       itemListElement: [
         {

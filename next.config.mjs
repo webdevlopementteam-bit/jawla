@@ -45,6 +45,21 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/contact-us",
+        destination: "/contact",
+        permanent: true,
+      },
+      {
+        source: "/services-spares",
+        destination: "/services-spare-parts",
+        permanent: true,
+      },
+      {
+        source: "/services-and-spares",
+        destination: "/services-spare-parts",
+        permanent: true,
+      },
+      {
         source:
           "/index.php/one-edge-biscuit-packaging-machine-with-dual-feeder-for-50gm-75gm-100gm-jat-311",
         destination: "/one-edge-biscuit-packaging-machine",

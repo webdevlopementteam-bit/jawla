@@ -40,9 +40,9 @@ export default function Breadcrumb() {
     <section className="w-full bg-[#8C0013] text-white py-12 sm:py-16 px-6 sm:px-12 md:px-16 lg:px-24">
       <div className="max-w-7xl mx-auto flex flex-col items-start gap-3">
         {/* Page Title */}
-        <h1 className="text-2xl sm:text-3xl font-bold tracking-wide uppercase leading-tight">
+        <p className="text-2xl sm:text-3xl font-bold tracking-wide uppercase leading-tight">
           {pageTitle}
-        </h1>
+        </p>
 
         {/* Breadcrumb Links */}
         <div className="flex flex-wrap items-center gap-2 text-sm sm:text-base font-normal text-white/90">

@@ -4,15 +4,31 @@ import { exhibitions } from "@/lib/data";
 
 export const metadata = {
   alternates: { canonical: "/news-exhibition" },
-  title: "News/Exhibition - Jawla Advance Technology",
+  title: "Packaging Machine Exhibitions & Industry News",
   description:
-    "We cordially invite you to visit Jawla Advance Technology LLP at the 8th World Mithai Namkeen Convention & Expo, from 19–21 December 2025 at Yashobhoomi,",
+    "Explore upcoming trade expos, packaging machinery exhibitions, and industrial milestones from Jawla Advance Technology LLP across India.",
+  keywords: [
+    "Packaging Machine Exhibitions",
+    "Jawla Advance Technology",
+    "Packaging Machine Manufacturer",
+    "AAHAR Fair",
+    "FoodTec India",
+  ],
 };
 
 export default function ExhibitionsSection() {
   return (
-    <section className="bg-white py-12 text-[#1a1a1a]">
+    <section className="bg-white py-12 text-[#1a1a1a] font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center max-w-3xl mx-auto mb-10">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold uppercase tracking-tight text-black mb-3">
+            Trade Expos & Packaging Machine Exhibitions
+          </h1>
+          <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
+            Meet Jawla Advance Technology LLP live at premier industrial trade shows and food processing exhibitions across India to experience our high-speed packaging machinery in action.
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {exhibitions.map((item) => (
             <div key={item.id} className="flex flex-col space-y-4">

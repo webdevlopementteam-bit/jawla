@@ -7,13 +7,15 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/horizontal-rotary-machine" },
-  title: "Top Horizontal Rotary Machine Manufacturer in Delhi NCR",
+  title: "Horizontal Rotary Machine (JAT-305) - Jawla Advance Technology",
   description:
-    "Horizontal rotary machine manufacturer in Delhi NCR. JAT-305 packs tea, sugar, spices & pan masala in small pouches. Get price.",
+    "Buy Horizontal Rotary Machine (JAT-305) from Jawla Advance Technology. High speed rotary pouch packing machine for tea, sugar, spices & mouth freshener.",
   keywords: [
-    "horizontal rotary machine",
-    "horizontal rotary machine manufacturer",
-    "horizontal rotary machine manufacturer In Delhi NCR",
+    "Horizontal Rotary Machine",
+    "Packaging Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
+    "Rotary Pouch Packing Machine",
   ],
 };
 
@@ -43,7 +45,7 @@ export default function ProductDetailSection() {
 
       <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
         <h1 className="text-2xl md:text-3xl font-bold text-black">
-          Top Horizontal Rotary Machine Manufacturer - Jawla Advance Technology
+          Horizontal Rotary Machine (JAT-305) - Jawla Advance Technology
         </h1>
       </section>
 

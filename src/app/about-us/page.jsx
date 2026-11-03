@@ -4,9 +4,16 @@ import { FaSquareCheck } from "react-icons/fa6";
 
 export const metadata = {
   alternates: { canonical: "/about-us" },
-  title: "Fully & Semi Automatic Packaging Machine - Jawla Advance Technology",
+  title: "Fully & Semi Automatic Packaging Machine Manufacturer",
   description:
-    "Get Fully Automatic Packaging Machine and Semi Automatic Packaging Machine from Jawla Advance Technology for high performance packaging solutions.",
+    "Jawla Advance Technology is India's leading manufacturer of fully automatic packaging machines and semi automatic packaging machines with 19+ years of engineering excellence.",
+  keywords: [
+    "Fully Automatic Packaging Machine",
+    "Semi Automatic Packaging Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
+    "Packaging Machine",
+  ],
 };
 
 export default function AboutUsSection() {
@@ -60,6 +67,10 @@ export default function AboutUsSection() {
                 About Us
               </span>
             </div>
+
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 tracking-tight leading-tight mb-4">
+              Leading Manufacturer of Fully & Semi Automatic Packaging Machines
+            </h1>
 
             {/* Paragraph 1 */}
             <p className="text-gray-700 text-sm sm:text-base leading-7 sm:leading-8 mb-6">

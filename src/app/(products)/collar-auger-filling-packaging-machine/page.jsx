@@ -6,13 +6,15 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/collar-auger-filling-packaging-machine" },
-  title: "Best Collar Auger Filling Packaging Machine Manufacturer In Delhi NCR",
+  title: "Collar Auger Filling Packaging Machine (JAT-307) - Powder Packaging Machine",
   description:
-    "Collar auger filling packaging machine manufacturer in Delhi NCR. JAT-307 packs besan, maida & sattu, 10 g–10 kg. Get quote.",
+    "Buy Collar Auger Filling Packaging Machine (JAT-307) from Jawla Advance Technology. High accuracy powder packaging machine for besan, spices, maida & sattu (10g–10kg).",
   keywords: [
-    "collar auger filling packaging machine",
-    "collar auger filling packaging machine manufacturer",
-    "collar auger filling packaging machine manufacturer In Delhi NCR",
+    "Collar Auger Filling Packaging Machine",
+    "Powder Packaging Machine",
+    "Packaging Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
   ],
 };
 
@@ -46,7 +48,7 @@ export default function ProductDetailSection() {
 
       <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
         <h1 className="text-2xl md:text-3xl font-bold text-black">
-          Best Collar Auger Filling Packaging Machine Manufacturer - Jawla Advance Technology
+          Collar Auger Filling Packaging Machine (JAT-307) - Powder Packaging Machine
         </h1>
       </section>
 

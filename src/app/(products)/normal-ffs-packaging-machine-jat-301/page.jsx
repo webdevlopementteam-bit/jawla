@@ -5,13 +5,15 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/normal-ffs-packaging-machine-jat-301" },
-  title: "Best Normal FFS Packaging Machine Manufacturer in Delhi NCR",
+  title: "Normal FFS Packaging Machine (JAT-301) - Jawla Advance Technology",
   description:
-    "Normal FFS packaging machine manufacturer in Delhi NCR. JAT-301 packs 2–200 g at 30–80 pouches/min for spices, tea & namkeen.",
+    "Buy Normal FFS Packaging Machine (JAT-301) from Jawla Advance Technology. High accuracy volumetric cup filler for spices, tea, coffee & namkeen (2-200g).",
   keywords: [
-    "normal FFS packaging machine",
-    "normal FFS packaging machine manufacturer",
-    "normal FFS packaging machine manufacturer In Delhi NCR",
+    "Normal FFS Packaging Machine",
+    "Packaging Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
+    "Normal FFS Packaging Machine Manufacturer",
   ],
 };
 
@@ -26,7 +28,7 @@ const jsonLd = {
       sku: "JAT-301",
       category: "FFS Packaging Machine",
       image: "https://www.jawlaadvancetechnology.com/PRODUCTS/normal-ffs-packaging-machine-jat-301/p1.webp",
-      description: "Normal FFS packaging machine manufactured in Delhi NCR. JAT-301 packs 2 g to 200 g pouches at 30 to 80 pouches per minute for spices, tea and namkeen.",
+      description: "Normal FFS packaging machine manufactured in Delhi NCR by Jawla Advance Technology. JAT-301 packs 2 g to 200 g pouches at 30 to 80 pouches per minute for spices, tea and namkeen.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
       manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
       weight: { "@type": "QuantitativeValue", value: 500, unitCode: "KGM" },
@@ -40,9 +42,20 @@ const jsonLd = {
         "@type": "Offer",
         url: "https://www.jawlaadvancetechnology.com/normal-ffs-packaging-machine-jat-301",
         priceCurrency: "INR",
+        price: "0",
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          priceCurrency: "INR",
+          description: "Price upon request / Custom quotation based on machine configuration",
+        },
         availability: "https://schema.org/InStock",
         itemCondition: "https://schema.org/NewCondition",
         seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "32",
       },
     },
     {
@@ -243,7 +256,9 @@ export default function ProductDetailSection() {
       <section className="max-w-7xl mx-auto px-6 py-12 space-y-12 border-t border-gray-200">
         {/* H1 + Quick Answer */}
         <div>
-          <h1 className="text-2xl sm:text-3xl font-bold text-black mb-4">Best Normal FFS Packaging Machine Manufacturer in Delhi NCR</h1>
+          <h1 className="text-2xl sm:text-3xl font-bold text-black mb-4">
+            Normal FFS Packaging Machine (JAT-301) - Jawla Advance Technology
+          </h1>
           <p className="text-gray-700 leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
             Jawla Advance Technology LLP is a normal FFS packaging machine

@@ -6,13 +6,15 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/collar-type-cup-filler-packaging-machine" },
-  title: "Buy Collar Type Cup Filler Packaging Machine",
+  title: "Collar Type Cup Filler Packaging Machine (JAT-314) - Jawla Advance Technology",
   description:
-    "Collar type cup filler packaging machine manufacturer in Delhi NCR. JAT-314 packs rice, pulses & namkeen, 100 g–1 kg. Get quote.",
+    "Buy Collar Type Cup Filler Packaging Machine (JAT-314) from Jawla Advance Technology. High accuracy volumetric cup filler for rice, pulses, namkeen & spices (100g–1kg).",
   keywords: [
-    "collar type cup filler packaging machine",
-    "collar type cup filler packaging machine manufacturer",
-    "collar type cup filler packaging machine manufacturer In Delhi NCR",
+    "Collar Type Cup Filler Packaging Machine",
+    "Packaging Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
+    "Cup Filler Packaging Machine",
   ],
 };
 
@@ -42,7 +44,7 @@ export default function ProductDetailSection() {
 
       <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
         <h1 className="text-2xl md:text-3xl font-bold text-black">
-          Top Collar Type Cup Filler Packaging Machine Manufacturer - Jawla Advance Technology
+          Collar Type Cup Filler Packaging Machine (JAT-314) - Jawla Advance Technology
         </h1>
       </section>
       <SuppliedProductContent page={suppliedProductContent.collarCup} />

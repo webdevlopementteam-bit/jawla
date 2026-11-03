@@ -4,14 +4,31 @@ import { blogPosts } from "@/lib/data";
 
 export const metadata = {
   alternates: { canonical: "/blog" },
-  title: "Blog - Jawla Advance Technology",
-  description: "",
+  title: "Packaging Machine Buyer Guides & Insights",
+  description:
+    "Expert packaging machinery buying guides, FFS machine operating tips, and packaging automation insights by Jawla Advance Technology engineers.",
+  keywords: [
+    "Packaging Machine",
+    "Packaging Machine Guide",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
+    "One-Edge Biscuit Packaging Machine",
+  ],
 };
 
 export default function BlogGrid() {
   return (
-    <section className="bg-gray-100/60 min-h-screen py-12 px-4 md:px-8">
+    <section className="bg-gray-100/60 min-h-screen py-12 px-4 md:px-8 font-sans">
       <div className="max-w-7xl mx-auto">
+        <div className="text-center max-w-3xl mx-auto mb-10">
+          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 tracking-tight">
+            Packaging Machinery Insights & Buyer Guides
+          </h1>
+          <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+            Technical guides, operating manuals, and industry advice to help food, confectionery, and chemical manufacturers choose the right packaging machines.
+          </p>
+        </div>
+
         {blogPosts.length === 0 && (
           <p className="text-center text-gray-600 py-20">
             No blog posts yet. Check back soon.

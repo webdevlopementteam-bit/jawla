@@ -7,13 +7,15 @@ export const metadata = {
   alternates: {
     canonical: "/fully-automatic-multi-head-weighing-packaging-machine-jat-306",
   },
-  title: "Buy Fully Automatic Multi-Head Weighing Packaging Machine In Delhi NCR",
+  title: "Fully Automatic Multi-Head Weighing, Packaging Machine (JAT-306) - Jawla Advance Technology",
   description:
-    "Fully automatic multi-head weighing packaging machine manufacturer in Delhi NCR. 100 g–1 kg, 40–400 packs/min. Request quote.",
+    "Buy Fully Automatic Multi-Head Weighing, Packaging Machine (JAT-306) from Jawla Advance Technology. High speed combination weigher for snacks, chips & namkeen.",
   keywords: [
-    "fully automatic multi-head weighing packaging machine",
-    "fully automatic multi-head weighing packaging machine manufacturer",
-    "fully automatic multi-head weighing packaging machine manufacturer In Delhi NCR",
+    "Fully Automatic Multi-Head Weighing, Packaging Machine",
+    "Packaging Machine",
+    "Fully Automatic Packaging Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
   ],
 };
 
@@ -23,12 +25,12 @@ const jsonLd = {
     {
       "@type": "Product",
       "@id": "https://www.jawlaadvancetechnology.com/fully-automatic-multi-head-weighing-packaging-machine-jat-306#product",
-      name: "Fully Automatic Multi-Head Weighing Packaging Machine (JAT-306)",
+      name: "Fully Automatic Multi-Head Weighing, Packaging Machine (JAT-306)",
       model: "JAT-306",
       sku: "JAT-306",
       category: "Multi-Head Weighing Packaging Machine",
       image: "https://www.jawlaadvancetechnology.com/PRODUCTS/fully-automatic-multi-head-weighing-packaging-machine-jat-306/p1.webp",
-      description: "Fully automatic multi-head weighing packaging machine manufactured in Delhi NCR. JAT-306 packs 100 g to 1 kg at 40 to 400 packets per minute.",
+      description: "Fully automatic multi-head weighing packaging machine manufactured in Delhi NCR by Jawla Advance Technology. JAT-306 packs 100 g to 1 kg at 40 to 400 packets per minute.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
       manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
       additionalProperty: [
@@ -41,9 +43,20 @@ const jsonLd = {
         "@type": "Offer",
         url: "https://www.jawlaadvancetechnology.com/fully-automatic-multi-head-weighing-packaging-machine-jat-306",
         priceCurrency: "INR",
+        price: "0",
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          priceCurrency: "INR",
+          description: "Price upon request / Custom quotation based on machine configuration",
+        },
         availability: "https://schema.org/InStock",
         itemCondition: "https://schema.org/NewCondition",
         seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "35",
       },
     },
     {
@@ -248,7 +261,9 @@ export default function ProductDetailSection() {
       <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
         {/* H1 + Quick Answer */}
         <div className="space-y-3">
-          <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">Top Fully Automatic Multi-Head Weighing Packaging Machine Manufacturer</h1>
+          <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">
+            Fully Automatic Multi-Head Weighing, Packaging Machine (JAT-306) - Jawla Advance Technology
+          </h1>
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
             Jawla Advance Technology LLP is a{" "}

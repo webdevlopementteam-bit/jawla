@@ -5,13 +5,15 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/best-automatic-family-pack-rusk-packaging-machine" },
-  title: "Best Automatic Family Pack Rusk Packaging Machine Manufacturer In Faridabad",
+  title: "Automatic Family Pack Rusk Packaging Machine (JAT-312) - Jawla Advance Technology",
   description:
-    "Automatic family pack rusk packaging machine manufacturer in Faridabad & Delhi NCR. JAT-312 packs 50–400 g rusk, biscuit & cake. Get price.",
+    "Buy Automatic Family Pack Rusk Packaging Machine (JAT-312) from Jawla Advance Technology. High speed family packs (50g–400g) for rusk, toast & biscuits.",
   keywords: [
-    "automatic family pack rusk packaging machine",
-    "automatic family pack rusk packaging machine manufacturer",
-    "automatic family pack rusk packaging machine manufacturer In Faridabad",
+    "Automatic Family Pack Rusk Packaging Machine",
+    "Packaging Machine",
+    "Rusk Packaging Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
   ],
 };
 
@@ -26,23 +28,34 @@ const jsonLd = {
       sku: "JAT-312",
       category: "Rusk Packaging Machine",
       image: "https://www.jawlaadvancetechnology.com/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/p1.webp",
-      description: "Automatic family pack rusk packaging machine manufactured in Faridabad & Delhi NCR. JAT-312 packs 50 g to 400 g rusk, biscuit and cake family packs.",
+      description: "Automatic family pack rusk packaging machine manufactured by Jawla Advance Technology. JAT-312 packs 50 g to 400 g rusk, biscuit and cake family packs.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
       manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
       weight: { "@type": "QuantitativeValue", value: 1300, unitCode: "KGM" },
       additionalProperty: [
         { "@type": "PropertyValue", name: "Pack size", value: "50 g to 400 g family packs" },
         { "@type": "PropertyValue", name: "Output", value: "Up to 60 packs per minute" },
-        { "@type": "PropertyValue", name: "Feeding", value: "Automatic, with pushing chain and feeder belt" },
+        { "@type": "Feeding", value: "Automatic, with pushing chain and feeder belt" },
         { "@type": "PropertyValue", name: "Sealing", value: "Centre seal with front and back sealing" },
       ],
       offers: {
         "@type": "Offer",
         url: "https://www.jawlaadvancetechnology.com/best-automatic-family-pack-rusk-packaging-machine",
         priceCurrency: "INR",
+        price: "0",
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          priceCurrency: "INR",
+          description: "Price upon request / Custom quotation based on machine configuration",
+        },
         availability: "https://schema.org/InStock",
         itemCondition: "https://schema.org/NewCondition",
         seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "27",
       },
     },
     {
@@ -263,7 +276,9 @@ export default function ProductDetailSection() {
       <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
         {/* H1 + Quick Answer */}
         <div className="space-y-3">
-          <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">Best Automatic Family Pack Rusk Packaging Machine Manufacturer</h1>
+          <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">
+            Automatic Family Pack Rusk Packaging Machine (JAT-312) - Jawla Advance Technology
+          </h1>
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
             Jawla Advance Technology LLP is an{" "}

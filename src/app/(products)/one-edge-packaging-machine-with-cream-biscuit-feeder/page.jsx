@@ -6,12 +6,15 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/one-edge-packaging-machine-with-cream-biscuit-feeder" },
-  title: "Best one-edge packaging machine with cream biscuit feeder manufacturer",
+  title: "One-Edge Packaging Machine With Cream Biscuit Feeder (JAT-313) - Jawla Advance Technology",
   description:
-    "One-edge packaging machine with cream biscuit feeder manufacturer in Faridabad & Delhi NCR. JAT-313 makes 80–150 packs/min. Enquire now.",
+    "Buy One-Edge Packaging Machine With Cream Biscuit Feeder (JAT-313) from Jawla Advance Technology. Dedicated feeder for sandwich & cream biscuits (80–150 packs/min).",
   keywords: [
-    "one-edge packaging machine with cream biscuit feeder manufacturer",
-    "one-edge packaging machine with cream biscuit feeder manufacturer In Faridabad",
+    "One-Edge Packaging Machine With Cream Biscuit Feeder",
+    "Packaging Machine",
+    "Biscuit Packaging Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
   ],
 };
 
@@ -47,7 +50,7 @@ export default function ProductDetailSection() {
 
       <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
         <h1 className="text-2xl md:text-3xl font-bold text-black">
-          Best One-Edge Packaging Machine With Cream Biscuit Feeder Manufacturer
+          One-Edge Packaging Machine With Cream Biscuit Feeder (JAT-313) - Jawla Advance Technology
         </h1>
       </section>
       <SuppliedProductContent page={suppliedProductContent.creamBiscuit} />

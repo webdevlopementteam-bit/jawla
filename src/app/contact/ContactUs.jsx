@@ -93,6 +93,15 @@ function ContactUs() {
     <>
       <div className="bg-gray-50/50 min-h-screen py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto space-y-10">
+          <div>
+            <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-2">
+              Contact Jawla Advance Technology LLP
+            </h1>
+            <p className="text-gray-600 text-sm sm:text-base">
+              Connect with India's leading packaging machine manufacturer for technical specifications, product trials, and customized quotation support.
+            </p>
+          </div>
+
           {/* ================= 1. CONTACT INFO CARDS ================= */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
             {/* Landline */}

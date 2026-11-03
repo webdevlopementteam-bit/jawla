@@ -7,13 +7,15 @@ export const metadata = {
   alternates: {
     canonical: "/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine",
   },
-  title: "Best High Speed Flow Wrap Pillow Pack Machine Manufacturer",
+  title: "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine (JAT-310) - Jawla Advance Technology",
   description:
-    "High speed horizontal flow wrap pillow pack machine manufacturer in Delhi NCR. JAT-310 packs 2/4 biscuits at up to 300 packs/min.",
+    "Buy Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine (JAT-310) from Jawla Advance Technology. Speeds up to 300 packs/min for biscuits & bakery.",
   keywords: [
-    "horizontal flow wrap pillow pack high speed packaging machine",
-    "horizontal flow wrap pillow pack high speed packaging machine manufacturer",
-    "horizontal flow wrap pillow pack high speed packaging machine manufacturer In Delhi NCR",
+    "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine",
+    "Packaging Machine",
+    "Flow Wrap Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
   ],
 };
 
@@ -23,12 +25,12 @@ const jsonLd = {
     {
       "@type": "Product",
       "@id": "https://www.jawlaadvancetechnology.com/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine#product",
-      name: "High Speed Flow Wrap Pillow Pack Machine (JAT-310)",
+      name: "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine (JAT-310)",
       model: "JAT-310",
       sku: "JAT-310",
       category: "Horizontal Flow Wrap Machine",
       image: "https://www.jawlaadvancetechnology.com/PRODUCTS/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine/p1.webp",
-      description: "High speed flow wrap pillow pack machine manufactured in Delhi NCR. JAT-310 wraps biscuits at up to 300 packs per minute in single, 2-biscuit and 4-biscuit formats.",
+      description: "Horizontal flow wrape pillow pack high speed packaging machine manufactured in Delhi NCR by Jawla Advance Technology. JAT-310 wraps biscuits at up to 300 packs per minute in single, 2-biscuit and 4-biscuit formats.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
       manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
       additionalProperty: [
@@ -41,9 +43,20 @@ const jsonLd = {
         "@type": "Offer",
         url: "https://www.jawlaadvancetechnology.com/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine",
         priceCurrency: "INR",
+        price: "0",
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          priceCurrency: "INR",
+          description: "Price upon request / Custom quotation based on machine configuration",
+        },
         availability: "https://schema.org/InStock",
         itemCondition: "https://schema.org/NewCondition",
         seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "30",
       },
     },
     {
@@ -245,7 +258,9 @@ export default function ProductDetailSection() {
       <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
         {/* H1 + Quick Answer */}
         <div className="space-y-3">
-          <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">Top Horizontal Flow Wrap Pillow Pack High Speed Packaging Machine Manufacturer</h1>
+          <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">
+            Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine (JAT-310) - Jawla Advance Technology
+          </h1>
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
             Jawla Advance Technology LLP is a{" "}

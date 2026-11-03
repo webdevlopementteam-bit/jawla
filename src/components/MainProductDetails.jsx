@@ -24,7 +24,7 @@ function MainProductDetails({
             >
               <Image
                 src={MachineImage}
-                alt="ffs-liquid-packaging-machine"
+                alt={productTitle || "Packaging Machine - Jawla Advance Technology"}
                 fill
                 priority
                 sizes="(max-width: 767px) 100vw, (max-width: 1024px) 42vw, 42vw"

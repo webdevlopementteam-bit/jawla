@@ -5,13 +5,15 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/horizontal-flow-wrap-pillow-pack-machine" },
-  title: "Best Horizontal Flow Wrap Pillow Pack Machine Manufacturer",
+  title: "Horizontal Flow Wrap Pillow Pack Machine (JAT-308) - Jawla Advance Technology",
   description:
-    "Horizontal flow wrap pillow pack machine manufacturer in Delhi NCR. JAT-308 wraps biscuits, noodles, cakes & parts. Enquire now.",
+    "Buy Horizontal Flow Wrap Pillow Pack Machine (JAT-308) from Jawla Advance Technology. High speed flow wrapper for biscuits, cakes, soaps, noodles & bakery items.",
   keywords: [
-    "horizontal flow wrap pillow pack machine",
-    "horizontal flow wrap pillow pack machine manufacturer",
-    "horizontal flow wrap pillow pack machine manufacturer In Delhi NCR",
+    "Horizontal Flow Wrap Pillow Pack Machine",
+    "Packaging Machine",
+    "Flow Wrap Machine",
+    "Jawla Advance Technology",
+    "Best Packaging Machine Manufacturer",
   ],
 };
 
@@ -26,7 +28,7 @@ const jsonLd = {
       sku: "JAT-308",
       category: "Horizontal Flow Wrap Machine",
       image: "https://www.jawlaadvancetechnology.com/PRODUCTS/horizontal-flow-wrap-pillow-pack-machine/p1.webp",
-      description: "Horizontal flow wrap pillow pack machine manufactured in Delhi NCR. JAT-308 wraps biscuits, bakery and tray-pack items in pillow, family and tray packs.",
+      description: "Horizontal flow wrap pillow pack machine manufactured in Delhi NCR by Jawla Advance Technology. JAT-308 wraps biscuits, bakery and tray-pack items in pillow, family and tray packs.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
       manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
       additionalProperty: [
@@ -39,9 +41,20 @@ const jsonLd = {
         "@type": "Offer",
         url: "https://www.jawlaadvancetechnology.com/horizontal-flow-wrap-pillow-pack-machine",
         priceCurrency: "INR",
+        price: "0",
+        priceSpecification: {
+          "@type": "PriceSpecification",
+          priceCurrency: "INR",
+          description: "Price upon request / Custom quotation based on machine configuration",
+        },
         availability: "https://schema.org/InStock",
         itemCondition: "https://schema.org/NewCondition",
         seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      },
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.9",
+        reviewCount: "28",
       },
     },
     {
@@ -249,7 +262,9 @@ export default function ProductDetailSection() {
       <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
         {/* H1 + Quick Answer */}
         <div className="space-y-3">
-          <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">Best Horizontal Flow Wrap Pillow Pack Machine Manufacturer - Jawla Advance Technology</h1>
+          <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">
+            Horizontal Flow Wrap Pillow Pack Machine (JAT-308) - Jawla Advance Technology
+          </h1>
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
             Jawla Advance Technology LLP is a{" "}

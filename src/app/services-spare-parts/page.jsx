@@ -2,9 +2,16 @@ import React from "react";
 
 export const metadata = {
   alternates: { canonical: "/services-spare-parts" },
-  title: "Services & Spares - Jawla Advance Technology",
+  title: "Packaging Machine Spare Parts & Technical Services",
   description:
-    "Using highest quality components in the market, our machines are manufactured under the special care of our trained and seasoned workforce. The service",
+    "Genuine packaging machine spare parts, installation, operator training, and maintenance services across India by Jawla Advance Technology LLP.",
+  keywords: [
+    "Packaging Machine",
+    "Packaging Machine Spare Parts",
+    "Packaging Machine Maintenance",
+    "Jawla Advance Technology",
+    "Packaging Machine Manufacturer",
+  ],
 };
 
 export default function SparesAndServices() {
@@ -12,9 +19,9 @@ export default function SparesAndServices() {
     <section className="bg-white py-12 text-[#333333]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6">
         {/* Main Section Heading */}
-        <h2 className="text-2xl sm:text-3xl font-bold text-black tracking-tight">
-          Packaging Machine Spares parts and Services
-        </h2>
+        <h1 className="text-2xl sm:text-3xl font-bold text-black tracking-tight">
+          Packaging Machine Spare Parts and Maintenance Services
+        </h1>
 
         {/* Paragraph 1 */}
         <p className="text-sm sm:text-base leading-relaxed text-gray-700">
