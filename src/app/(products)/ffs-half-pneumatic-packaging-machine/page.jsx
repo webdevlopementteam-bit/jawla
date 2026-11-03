@@ -236,7 +236,9 @@ const buyersChecklist = [
   "Upgrade path: ask how easily you can add a fully automatic model later.",
 ];
 
-const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
+const faqs = (
+  jsonLd["@graph"].find((item) => item["@type"] === "FAQPage")?.mainEntity || []
+).map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));

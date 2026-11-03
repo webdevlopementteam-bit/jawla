@@ -285,7 +285,9 @@ const whyJawla = [
   "Full support: Installation, commissioning, operator training, genuine spare parts and quick service across Delhi NCR.",
 ];
 
-const faqs = jsonLd["@graph"][1].mainEntity.map((item) => ({
+const faqs = (
+  jsonLd["@graph"].find((item) => item["@type"] === "FAQPage")?.mainEntity || []
+).map((item) => ({
   question: item.name,
   answer: item.acceptedAnswer.text,
 }));

@@ -103,7 +103,9 @@ const homeSeoSchema = {
   ],
 };
 
-const faqs = homeSeoSchema["@graph"][1].mainEntity.map((item) => ({
+const faqs = (
+  homeSeoSchema["@graph"].find((item) => item["@type"] === "FAQPage")?.mainEntity || []
+).map((item) => ({
   question: item.name,
   answer: item.acceptedAnswer.text,
 }));

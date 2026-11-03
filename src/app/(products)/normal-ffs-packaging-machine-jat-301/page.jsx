@@ -222,7 +222,9 @@ const buyersChecklist = [
   "Training: will your operators be trained on changeovers and daily cleaning?",
 ];
 
-const faqs = jsonLd["@graph"][2].mainEntity.map((item, index) => ({
+const faqs = (
+  jsonLd["@graph"].find((item) => item["@type"] === "FAQPage")?.mainEntity || []
+).map((item, index) => ({
   question: `${index + 1}. ${item.name}`,
   answer: item.acceptedAnswer.text,
 }));
