@@ -6,7 +6,7 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/hotel-pack-packaging-machine" },
-  title: "Hotel Pack Packaging Machine (JAT-309) - Jawla Advance Technology",
+  title: "Hotel Pack Packaging Machine (JAT-309)",
   description:
     "Buy Hotel Pack Packaging Machine (JAT-309) from Jawla Advance Technology. Versatile pillow and tray pack machine for hotel amenities, bakery & biscuits.",
   keywords: [

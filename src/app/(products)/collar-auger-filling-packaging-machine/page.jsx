@@ -6,7 +6,7 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/collar-auger-filling-packaging-machine" },
-  title: "Collar Auger Filling Packaging Machine (JAT-307) - Powder Packaging Machine",
+  title: "Collar Auger Filling Packaging Machine (JAT-307)",
   description:
     "Buy Collar Auger Filling Packaging Machine (JAT-307) from Jawla Advance Technology. High accuracy powder packaging machine for besan, spices, maida & sattu (10g–10kg).",
   keywords: [

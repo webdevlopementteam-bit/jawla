@@ -7,7 +7,7 @@ export const metadata = {
   alternates: {
     canonical: "/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine",
   },
-  title: "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine (JAT-310) - Jawla Advance Technology",
+  title: "Horizontal Flow Wrap High Speed Pillow Pack Machine (JAT-310)",
   description:
     "Buy Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine (JAT-310) from Jawla Advance Technology. Speeds up to 300 packs/min for biscuits & bakery.",
   keywords: [

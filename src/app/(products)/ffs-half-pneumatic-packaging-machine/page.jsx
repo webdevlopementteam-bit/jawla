@@ -5,7 +5,7 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/ffs-half-pneumatic-packaging-machine" },
-  title: "Half Pneumatic Packaging Machine (JAT-304) - Jawla Advance Technology",
+  title: "Half Pneumatic Packaging Machine (JAT-304)",
   description:
     "Buy Half Pneumatic Packaging Machine (JAT-304) from Jawla Advance Technology. Packs 2g to 300g at up to 60 pouches/min with airtight pneumatic sealing.",
   keywords: [

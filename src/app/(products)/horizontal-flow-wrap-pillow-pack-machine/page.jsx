@@ -5,7 +5,7 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/horizontal-flow-wrap-pillow-pack-machine" },
-  title: "Horizontal Flow Wrap Pillow Pack Machine (JAT-308) - Jawla Advance Technology",
+  title: "Horizontal Flow Wrap Pillow Pack Machine (JAT-308)",
   description:
     "Buy Horizontal Flow Wrap Pillow Pack Machine (JAT-308) from Jawla Advance Technology. High speed flow wrapper for biscuits, cakes, soaps, noodles & bakery items.",
   keywords: [

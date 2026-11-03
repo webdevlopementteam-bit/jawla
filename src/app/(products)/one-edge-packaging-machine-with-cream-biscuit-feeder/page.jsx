@@ -6,7 +6,7 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/one-edge-packaging-machine-with-cream-biscuit-feeder" },
-  title: "One-Edge Packaging Machine With Cream Biscuit Feeder (JAT-313) - Jawla Advance Technology",
+  title: "One-Edge Packaging Machine With Cream Biscuit Feeder (JAT-313)",
   description:
     "Buy One-Edge Packaging Machine With Cream Biscuit Feeder (JAT-313) from Jawla Advance Technology. Dedicated feeder for sandwich & cream biscuits (80–150 packs/min).",
   keywords: [

@@ -5,7 +5,7 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/ffs-high-speed-packaging-machine" },
-  title: "FFS High Speed Packaging Machine (JAT-302) - Jawla Advance Technology",
+  title: "FFS High Speed Packaging Machine (JAT-302)",
   description:
     "Buy FFS High Speed Packaging Machine (JAT-302) from Jawla Advance Technology. Produces 100–450 pouches/min for mouth freshener, pan masala, tea & granules.",
   keywords: [

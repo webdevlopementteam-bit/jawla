@@ -5,8 +5,7 @@ import { products } from "@/lib/data";
 
 export const metadata = {
   alternates: { canonical: "/products" },
-  title:
-    "Packaging Machine - Fully & Semi Automatic Packaging Machines",
+  title: "Packaging Machines - Fully & Semi Automatic Systems",
   description:
     "Explore 15+ high-performance packaging machine models by Jawla Advance Technology. Featuring powder packaging machines, liquid packaging machines, FFS & flow wrap systems.",
   keywords: [

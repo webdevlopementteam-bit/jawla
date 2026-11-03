@@ -6,7 +6,7 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/ffs-liquid-packaging-machine" },
-  title: "Liquid Packaging Machine (JAT-301A) - Jawla Advance Technology",
+  title: "Liquid Packaging Machine (JAT-301A)",
   description:
     "Buy Liquid Packaging Machine (JAT-301A) from Jawla Advance Technology. Dosing oil, shampoo, lubricants, sauces & syrups (2ml–100ml) at 50–60 pouches/min.",
   keywords: [

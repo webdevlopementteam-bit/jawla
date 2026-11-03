@@ -7,7 +7,7 @@ export const metadata = {
   alternates: {
     canonical: "/fully-automatic-multi-head-weighing-packaging-machine-jat-306",
   },
-  title: "Fully Automatic Multi-Head Weighing, Packaging Machine (JAT-306) - Jawla Advance Technology",
+  title: "Fully Automatic Multi-Head Weighing Packaging Machine (JAT-306)",
   description:
     "Buy Fully Automatic Multi-Head Weighing, Packaging Machine (JAT-306) from Jawla Advance Technology. High speed combination weigher for snacks, chips & namkeen.",
   keywords: [

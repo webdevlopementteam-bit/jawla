@@ -5,7 +5,7 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/ffs-d-motion-type-packaging-machine" },
-  title: "D-Motion Type Packaging Machine (JAT-303) - Jawla Advance Technology",
+  title: "D-Motion Type Packaging Machine (JAT-303)",
   description:
     "Buy D-Motion Type Packaging Machine (JAT-303) from Jawla Advance Technology. High performance packaging machine for pan masala, mouth freshener, and small pouches.",
   keywords: [

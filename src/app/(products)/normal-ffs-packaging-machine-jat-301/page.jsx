@@ -5,7 +5,7 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/normal-ffs-packaging-machine-jat-301" },
-  title: "Normal FFS Packaging Machine (JAT-301) - Jawla Advance Technology",
+  title: "Normal FFS Packaging Machine (JAT-301)",
   description:
     "Buy Normal FFS Packaging Machine (JAT-301) from Jawla Advance Technology. High accuracy volumetric cup filler for spices, tea, coffee & namkeen (2-200g).",
   keywords: [

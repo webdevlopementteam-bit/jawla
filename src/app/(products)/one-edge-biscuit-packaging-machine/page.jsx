@@ -6,7 +6,7 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/one-edge-biscuit-packaging-machine" },
-  title: "One-Edge Biscuit Packaging Machine (JAT-311) - Jawla Advance Technology",
+  title: "One-Edge Biscuit Packaging Machine (JAT-311)",
   description:
     "Buy One-Edge Biscuit Packaging Machine (JAT-311) from Jawla Advance Technology. High speed dual feeder wrapper for 50g, 75g & 100g slug packs (up to 200 packs/min).",
   keywords: [

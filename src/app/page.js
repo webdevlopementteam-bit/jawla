@@ -8,7 +8,9 @@ import React from "react";
 
 export const metadata = {
   alternates: { canonical: "/" },
-  title: "Best Packaging Machine Manufacturer - Jawla Advance Technology",
+  title: {
+    absolute: "Best Packaging Machine Manufacturer | Jawla Advance Technology",
+  },
   description:
     "Jawla Advance Technology is the best packaging machine manufacturer in Delhi NCR & India. Leading supplier of automatic FFS, pouch packing, liquid, powder & flow wrap packaging machines.",
   keywords: [

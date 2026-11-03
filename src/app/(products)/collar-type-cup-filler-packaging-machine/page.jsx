@@ -6,7 +6,7 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/collar-type-cup-filler-packaging-machine" },
-  title: "Collar Type Cup Filler Packaging Machine (JAT-314) - Jawla Advance Technology",
+  title: "Collar Type Cup Filler Packaging Machine (JAT-314)",
   description:
     "Buy Collar Type Cup Filler Packaging Machine (JAT-314) from Jawla Advance Technology. High accuracy volumetric cup filler for rice, pulses, namkeen & spices (100g–1kg).",
   keywords: [

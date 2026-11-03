@@ -7,7 +7,7 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/horizontal-rotary-machine" },
-  title: "Horizontal Rotary Machine (JAT-305) - Jawla Advance Technology",
+  title: "Horizontal Rotary Machine (JAT-305)",
   description:
     "Buy Horizontal Rotary Machine (JAT-305) from Jawla Advance Technology. High speed rotary pouch packing machine for tea, sugar, spices & mouth freshener.",
   keywords: [

@@ -4,8 +4,7 @@ import Image from "next/image";
 
 export const metadata = {
   alternates: { canonical: "/applications" },
-  title:
-    "Packaging Machine Applications - Powder, Liquid & Food Packaging",
+  title: "Packaging Machine Applications - Powder, Liquid & Food",
   description:
     "Explore versatile packaging machine applications by Jawla Advance Technology. High-performance powder packaging machines, liquid packaging machines, snack & biscuit solutions.",
   keywords: [
