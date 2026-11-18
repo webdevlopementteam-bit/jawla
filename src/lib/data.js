@@ -365,6 +365,17 @@ export const blogPosts = [
     date: "OCTOBER 24, 2026",
     slug: "/one-edge-biscuit-packaging-machine-buyers-guide",
   },
+  {
+    id: 2,
+    category: "BLOG",
+    title: "Collar Auger Filling Packaging Machine: Complete Buyer's Guide 2026",
+    image: "/PRODUCTS/collar-auger-filling-packaging-machine/p1.webp",
+    excerpt:
+      "A collar auger filling packaging machine fills dry powders into bottles, jars, cans and pouches using a rotating auger screw. Learn how it works, types, price factors and how to choose...",
+    author: "JAWLA ADVANCE TECHNOLOGY",
+    date: "NOVEMBER 18, 2026",
+    slug: "/collar-auger-filling-packaging-machine-buyers-guide-2026",
+  },
 ];
 
 // blog data
