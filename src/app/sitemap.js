@@ -30,7 +30,10 @@ const productRoutes = [
   "/one-edge-packaging-machine-with-cream-biscuit-feeder",
 ];
 
-const blogRoutes = ["/one-edge-biscuit-packaging-machine-buyers-guide"];
+const blogRoutes = [
+  "/one-edge-biscuit-packaging-machine-buyers-guide",
+  "/collar-auger-filling-packaging-machine-buyers-guide-2026",
+];
 
 export default function sitemap() {
   const lastModified = new Date();
