@@ -376,6 +376,17 @@ export const blogPosts = [
     date: "NOVEMBER 18, 2026",
     slug: "/collar-auger-filling-packaging-machine-buyers-guide-2026",
   },
+  {
+    id: 3,
+    category: "BLOG",
+    title: "Complete Guide to Purchasing a Liquid Packaging Machine in Delhi NCR",
+    image: "/PRODUCTS/ffs-liquid-packaging-machine/p1.webp",
+    excerpt:
+      "Buying the right Liquid Packaging Machine is an important investment for manufacturers that pack water, edible oil, juices, sauces, syrups, shampoo and liquid soap. Learn what to check before you buy...",
+    author: "JAWLA ADVANCE TECHNOLOGY",
+    date: "NOVEMBER 20, 2026",
+    slug: "/liquid-packaging-machine-supplier-in-delhi-ncr",
+  },
 ];
 
 // blog data

@@ -33,6 +33,7 @@ const productRoutes = [
 const blogRoutes = [
   "/one-edge-biscuit-packaging-machine-buyers-guide",
   "/collar-auger-filling-packaging-machine-buyers-guide-2026",
+  "/liquid-packaging-machine-supplier-in-delhi-ncr",
 ];
 
 export default function sitemap() {
