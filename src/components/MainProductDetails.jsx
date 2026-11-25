@@ -9,6 +9,8 @@ function MainProductDetails({
   productTitle,
   productDescription,
   productTagline,
+  showRating = true,
+  children,
 }) {
   return (
     <>
@@ -40,36 +42,45 @@ function MainProductDetails({
               {productTitle}
             </h2>
             {/* Rating Stars */}
-            <div className="flex items-center gap-1 text-yellow-500 text-xs sm:text-sm">
-              {[...Array(5)].map((_, index) => (
-                <FaStar key={index} />
-              ))}
-            </div>
-            {/* Packing Products */}
-            <h3 className="text-black font-bold text-sm sm:text-base md:text-base lg:text-lg pt-1 sm:pt-2">
-              Packing Products
-            </h3>
-            {/* Description */}
-            <p className="text-gray-500 text-sm sm:text-base md:text-sm lg:text-base leading-relaxed max-w-2xl">
-              {productDescription}
-            </p>
-            <p className="text-gray-500 font-bold text-sm sm:text-base md:text-sm lg:text-base leading-relaxed pt-1">
-              {productTagline}
-            </p>
-            {/* Sample Products Image */}{" "}
-            <div className="pt-2 sm:pt-4">
-              {" "}
-              <div className="relative w-full max-w-2xl h-64 sm:h-72 md:h-68 lg:h-80">
-                {" "}
-                <Image
-                  src={sampleImage}
-                  alt="Sample Packaging Products"
-                  fill
-                  sizes="(max-width: 767px) 100vw, (max-width: 1024px) 60vw, 650px"
-                  className="object-contain object-left"
-                />{" "}
-              </div>{" "}
-            </div>
+            {showRating && (
+              <div className="flex items-center gap-1 text-yellow-500 text-xs sm:text-sm">
+                {[...Array(5)].map((_, index) => (
+                  <FaStar key={index} />
+                ))}
+              </div>
+            )}
+
+            {children ? (
+              children
+            ) : (
+              <>
+                {/* Packing Products */}
+                <h3 className="text-black font-bold text-sm sm:text-base md:text-base lg:text-lg pt-1 sm:pt-2">
+                  Packing Products
+                </h3>
+                {/* Description */}
+                <p className="text-gray-500 text-sm sm:text-base md:text-sm lg:text-base leading-relaxed max-w-2xl">
+                  {productDescription}
+                </p>
+                <p className="text-gray-500 font-bold text-sm sm:text-base md:text-sm lg:text-base leading-relaxed pt-1">
+                  {productTagline}
+                </p>
+                {/* Sample Products Image */}
+                {sampleImage && (
+                  <div className="pt-2 sm:pt-4">
+                    <div className="relative w-full max-w-2xl h-64 sm:h-72 md:h-68 lg:h-80">
+                      <Image
+                        src={sampleImage}
+                        alt="Sample Packaging Products"
+                        fill
+                        sizes="(max-width: 767px) 100vw, (max-width: 1024px) 60vw, 650px"
+                        className="object-contain object-left"
+                      />
+                    </div>
+                  </div>
+                )}
+              </>
+            )}
           </div>
         </div>
       </div>
