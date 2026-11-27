@@ -38,9 +38,11 @@ function MainProductDetails({
           {/* Right Product Specifications */}
           <div className="md:col-span-7 w-full space-y-3 sm:space-y-4 md:space-y-3 lg:space-y-4">
             {/* Product Title */}
-            <h2 className="text-lg sm:text-xl md:text-xl lg:text-2xl font-bold text-[#bd2a2a] tracking-tight leading-snug">
-              {productTitle}
-            </h2>
+            {productTitle && (
+              <h2 className="text-lg sm:text-xl md:text-xl lg:text-2xl font-bold text-[#bd2a2a] tracking-tight leading-snug">
+                {productTitle}
+              </h2>
+            )}
             {/* Rating Stars */}
             {showRating && (
               <div className="flex items-center gap-1 text-yellow-500 text-xs sm:text-sm">

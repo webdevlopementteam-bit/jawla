@@ -7,12 +7,6 @@ export const metadata = {
   title: "Our Clients - Trusted by 500+ Brands Worldwide",
   description:
     "Discover 500+ esteemed clients and food packaging brands across India and 25+ countries trusting Jawla Advance Technology packaging machines.",
-  keywords: [
-    "Packaging Machine Clients",
-    "Jawla Advance Technology",
-    "Best Packaging Machine Manufacturer",
-    "Packaging Machine Manufacturer in India",
-  ],
 };
 
 export default function page() {

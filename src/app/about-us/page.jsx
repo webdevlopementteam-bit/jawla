@@ -10,9 +10,6 @@ export const metadata = {
   keywords: [
     "Fully Automatic Packaging Machine",
     "Semi Automatic Packaging Machine",
-    "Jawla Advance Technology",
-    "Best Packaging Machine Manufacturer",
-    "Packaging Machine",
   ],
 };
 

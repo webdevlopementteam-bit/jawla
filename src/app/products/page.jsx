@@ -8,15 +8,6 @@ export const metadata = {
   title: "Packaging Machines - Fully & Semi Automatic Systems",
   description:
     "Explore 15+ high-performance packaging machine models by Jawla Advance Technology. Featuring powder packaging machines, liquid packaging machines, FFS & flow wrap systems.",
-  keywords: [
-    "Packaging Machine",
-    "Liquid Packaging Machine",
-    "Powder Packaging Machine",
-    "Fully Automatic Packaging Machine",
-    "Semi Automatic Packaging Machine",
-    "Best Packaging Machine Manufacturer",
-    "Jawla Advance Technology",
-  ],
 };
 
 export default function ProductsGrid() {

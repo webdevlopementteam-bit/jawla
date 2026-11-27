@@ -1,54 +1,136 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
+import { FaStar } from "react-icons/fa";
 import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/normal-ffs-packaging-machine" },
-  title: "Normal FFS Packaging Machine",
+  title: "Best Normal FFS Packaging Machine Manufacturer & Supplier in Delhi NCR",
   description:
-    "Buy Normal FFS Packaging Machine from Jawla Advance Technology. High accuracy volumetric cup filler for spices, tea, coffee & namkeen (2-200g).",
+    "Buy Normal FFS Packaging Machine from Jawla Advance Technology, a trusted manufacturer and supplier in Delhi NCR. Explore efficient packaging solutions.",
   keywords: [
     "Normal FFS Packaging Machine",
-    "Packaging Machine",
-    "Jawla Advance Technology",
-    "Best Packaging Machine Manufacturer",
-    "Normal FFS Packaging Machine Manufacturer",
+    "Normal FFS Packaging Machine Manufacturer In Delh Ncr",
+    "Normal FFS Packaging Machine Supplier IN delhi Ncr",
   ],
 };
+
+const technicalSpecs = [
+  { specification: "Machine Type", details: "Normal FFS Packaging Machine" },
+  { specification: "Usage", details: "Industrial" },
+  { specification: "Material", details: "Mild Steel" },
+  { specification: "Automatic Grade", details: "Semi-Automatic" },
+  { specification: "Computerized", details: "No" },
+  { specification: "Control System", details: "Frequency Speed Control" },
+  { specification: "Drive Type", details: "Electric" },
+  { specification: "Voltage", details: "220 Volt" },
+  { specification: "Feature", details: "Highly Efficient" },
+  { specification: "Warranty", details: "1 Year" },
+  { specification: "Packaging Range", details: "2 g to 200 g" },
+  { specification: "Production Capacity", details: "30–80 pouches per minute" },
+  { specification: "Filling System", details: "Volumetric Cup Filler" },
+  {
+    specification: "Sealing Type",
+    details: "Centre Seal, 3-Side Seal, 4-Side Seal",
+  },
+  { specification: "Approx. Machine Weight", details: "500 kg" },
+];
+
+const tradeInfo = [
+  { label: "Minimum Order Quantity", value: "1 Unit" },
+  { label: "Payment Terms", value: "Cash in Advance (CID)" },
+  { label: "Supply Ability", value: "50 Units per Month" },
+  { label: "Delivery Time", value: "10 Days" },
+  { label: "Main Domestic Market", value: "All India" },
+];
+
+const faqs = [
+  {
+    question: "1. What is a Normal FFS Packaging Machine used for?",
+    answer:
+      "It is used to form pouches, fill them with products and seal them for packaging.",
+  },
+  {
+    question: "2. What is the price of this packaging machine?",
+    answer:
+      "The listed price is ₹1,50,000 per unit. Taxes and transportation charges should be confirmed separately.",
+  },
+  {
+    question: "3. Is this machine fully automatic?",
+    answer: "No. The machine has a semi-automatic operating system.",
+  },
+  {
+    question: "4. What is the packaging range of the machine?",
+    answer:
+      "The stated packaging range is 2 g to 200 g, subject to configuration and product requirements.",
+  },
+  {
+    question: "5. What is the production capacity?",
+    answer:
+      "The stated production capacity is 30–80 pouches per minute. Actual output may vary depending on the product and operating conditions.",
+  },
+  {
+    question: "6. Which sealing options are available?",
+    answer:
+      "The stated options include centre seal, 3-side seal and 4-side seal.",
+  },
+  {
+    question: "7. What type of filling system does it use?",
+    answer:
+      "The machine is specified with a volumetric cup filling system.",
+  },
+  {
+    question: "8. What is the warranty period?",
+    answer: "The machine comes with a one-year warranty.",
+  },
+  {
+    question: "9. Where can I buy this packaging machine in Delhi NCR?",
+    answer:
+      "You can contact Jawla Advance Technology LLP in Ballabgarh, Faridabad, Haryana, to discuss specifications, pricing and availability.",
+  },
+  {
+    question:
+      "10. What should I check before purchasing a Normal FFS Packaging Machine?",
+    answer:
+      "Check the product type, pouch size, filling range, sealing style, production capacity, machine material, warranty and overall price before making a purchase.",
+  },
+];
 
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Product",
-      "@id": "https://www.jawlaadvancetechnology.com/normal-ffs-packaging-machine#product",
+      "@id":
+        "https://www.jawlaadvancetechnology.com/normal-ffs-packaging-machine#product",
       name: "Normal FFS Packaging Machine",
       category: "FFS Packaging Machine",
-      image: "https://www.jawlaadvancetechnology.com/PRODUCTS/normal-ffs-packaging-machine-jat-301/p1.webp",
-      description: "Normal FFS packaging machine manufactured in Delhi NCR by Jawla Advance Technology. Normal FFS Packaging Machine packs 2 g to 200 g pouches at 30 to 80 pouches per minute for spices, tea and namkeen.",
+      image:
+        "https://www.jawlaadvancetechnology.com/PRODUCTS/normal-ffs-packaging-machine-jat-301/p1.webp",
+      description:
+        "Normal FFS packaging machine manufactured and supplied in Delhi NCR by Jawla Advance Technology. Semi-automatic mild steel machine with volumetric cup filler for 2 g to 200 g pouches at 30–80 pouches per minute.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
-      manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+      manufacturer: {
+        "@id": "https://www.jawlaadvancetechnology.com/#organization",
+      },
       weight: { "@type": "QuantitativeValue", value: 500, unitCode: "KGM" },
-      additionalProperty: [
-        { "@type": "PropertyValue", name: "Pack size", value: "2 g to 200 g" },
-        { "@type": "PropertyValue", name: "Output", value: "30 to 80 pouches per minute" },
-        { "@type": "PropertyValue", name: "Filling system", value: "Volumetric cup filler" },
-        { "@type": "PropertyValue", name: "Seal types", value: "Centre seal, 3-side seal, 4-side seal" },
-      ],
+      additionalProperty: technicalSpecs.map((spec) => ({
+        "@type": "PropertyValue",
+        name: spec.specification,
+        value: spec.details,
+      })),
       offers: {
         "@type": "Offer",
         url: "https://www.jawlaadvancetechnology.com/normal-ffs-packaging-machine",
         priceCurrency: "INR",
-        price: "0",
-        priceSpecification: {
-          "@type": "PriceSpecification",
-          priceCurrency: "INR",
-          description: "Price upon request / Custom quotation based on machine configuration",
-        },
+        price: "150000",
         availability: "https://schema.org/InStock",
         itemCondition: "https://schema.org/NewCondition",
-        seller: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
+        seller: {
+          "@id": "https://www.jawlaadvancetechnology.com/#organization",
+        },
       },
       aggregateRating: {
         "@type": "AggregateRating",
@@ -81,151 +163,17 @@ const jsonLd = {
     },
     {
       "@type": "FAQPage",
-      mainEntity: [
-        {
-          "@type": "Question",
-          name: "What is a normal FFS packaging machine and how does it work?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "A normal FFS packaging machine is a vertical form fill seal machine that makes pouches from a roll of laminated film. It shapes the film into a tube, drops a measured quantity of product in, and seals and cuts the pouch in one continuous cycle. Jawla Advance Technology's Normal FFS Packaging Machine does this at 30 to 80 pouches per minute.",
-          },
+      mainEntity: faqs.map((faq) => ({
+        "@type": "Question",
+        name: faq.question,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: faq.answer,
         },
-        {
-          "@type": "Question",
-          name: "How much does a normal FFS packaging machine cost in India?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "A normal FFS packaging machine from Jawla Advance Technology is priced based on pack range, seal type and accessories. The final price depends on your product and pouch sizes, so share them with the Faridabad team for an exact quote.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Which products can I pack with the Jawla Advance Technology Normal FFS Packaging Machine?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "The Normal FFS Packaging Machine packs free-flowing powders and granules. Common products are spices, masala, tea, coffee, namkeen, heena, detergent, daal, pulses, sugar, salt and seeds. It is not ideal for sticky flours like besan, which pack better on an auger filler such as the Collar Auger Filling Packaging Machine.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "What pouch sizes can the Normal FFS Packaging Machine make?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "The Normal FFS Packaging Machine fills pouches from 2 g to 200 g. You change the pack weight by changing or adjusting the volumetric cups. It can make centre seal, 3-side seal and 4-side seal pouches, so one machine can serve several pack sizes and pouch styles.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How many pouches per minute can a normal FFS machine pack?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Jawla Advance Technology's normal FFS machine packs 30 to 80 pouches per minute. Smaller, lighter pouches run at the higher end, while larger or slower-flowing products run at the lower end. At full speed that is roughly 1,800 to 4,800 pouches an hour from one operator.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Which is better for my business, normal FFS or high speed FFS?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Choose the Normal FFS Packaging Machine if you pack 2 g to 200 g pouches at moderate volume and want lower cost. Choose the FFS High Speed Packaging Machine if you sell very small sachets, like pan masala or mouth freshener, in huge volumes, because it runs at 100 to 450 pouches per minute.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Can a normal FFS machine pack sticky powders like besan or maida?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Not reliably. Sticky and very fine powders do not fill volumetric cups evenly, which causes weight variation. For besan, maida and sattu, Jawla Advance Technology recommends the Collar Auger Filling Packaging Machine, which uses a rotating screw to measure each pouch accurately.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Who is the best normal FFS packaging machine manufacturer in Delhi NCR?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best normal FFS packaging machine manufacturers in Delhi NCR. It builds the Normal FFS Packaging Machine in-house, lets buyers test their own product before ordering, and provides installation, operator training, genuine spares and fast local service.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "Does Jawla Advance Technology provide installation, training and service?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Yes. Jawla Advance Technology's engineers install and commission the Normal FFS Packaging Machine at your site, train your operators on running, changeovers and cleaning, and provide preventive maintenance, breakdown support and genuine spare parts. Service across Delhi NCR is fast because the team is based locally.",
-          },
-        },
-        {
-          "@type": "Question",
-          name: "How do I maintain a normal FFS packaging machine?",
-          acceptedAnswer: {
-            "@type": "Answer",
-            text: "Clean the hopper and cups after every shift, wipe the sealing jaws regularly, lubricate moving parts on schedule and use good-quality laminated film. Book a preventive service before your peak season. With this routine, the Normal FFS Packaging Machine runs with very little unplanned downtime.",
-          },
-        },
-      ],
+      })),
     },
   ],
 };
-
-const keySpecs = [
-  { feature: "Pack size", value: "2 g to 200 g" },
-  { feature: "Output", value: "30 to 80 pouches per minute" },
-  { feature: "Filling system", value: "Volumetric cup filler" },
-  { feature: "Seal types", value: "Centre seal, 3-side seal, 4-side seal" },
-  { feature: "Machine weight", value: "About 500 kg" },
-  { feature: "Body finish", value: "Electrostatic powder coating" },
-  { feature: "Film", value: "Heat-sealable laminated roll film" },
-];
-
-const packableProducts = [
-  "Spices and masala powders",
-  "Tea and coffee",
-  "Namkeen and small snacks",
-  "Heena and other powders",
-  "Detergent and washing powder",
-  "Daal, pulses, lentils and granules",
-  "Sugar, salt and seeds",
-];
-
-const businessBenefits = [
-  "Replace manual packing: one machine can pack thousands of pouches per shift.",
-  "Consistent weight: cup filling keeps every pack uniform.",
-  "Flexible pouch styles: centre seal, 3-side seal or 4-side seal.",
-  "Low running cost: efficient motors and low maintenance needs.",
-  "Easy operation: simple controls with minimal training.",
-];
-
-const whyChooseReasons = [
-  "They can visit our factory and see the machine pack their own product.",
-  "Our engineers install and commission the machine and train the operators.",
-  "Spare parts such as sealing jaws, heaters and cups are kept in stock.",
-  "Service visits across Delhi NCR are quick.",
-  "We also supply across India and export to international buyers.",
-];
-
-const maintenanceTips = [
-  "Clean the hopper and cups at the end of each shift.",
-  "Check sealing jaws for residue and wipe them regularly.",
-  "Lubricate moving parts as per the maintenance schedule.",
-  "Use good-quality laminated film for clean, strong seals.",
-  "Book preventive service before peak season.",
-];
-
-const buyersChecklist = [
-  "Pack range: does the machine cover every pouch weight you sell today and plan to sell next year?",
-  "Real output: what speed will it achieve with your product, not just the brochure maximum?",
-  "Seal quality: can you see and test sample pouches made with your own product and film?",
-  "Service distance: how quickly can an engineer reach your factory when the machine stops?",
-  "Spare parts: are sealing jaws, heaters and cups kept in stock, and at what cost?",
-  "Training: will your operators be trained on changeovers and daily cleaning?",
-];
-
-const faqs = (
-  jsonLd["@graph"].find((item) => item["@type"] === "FAQPage")?.mainEntity || []
-).map((item, index) => ({
-  question: `${index + 1}. ${item.name}`,
-  answer: item.acceptedAnswer.text,
-}));
 
 export default function ProductDetailSection() {
   return (
@@ -235,73 +183,303 @@ export default function ProductDetailSection() {
         <TopCard
           title={"Normal FFS Packaging Machine"}
           image={"/PRODUCTS/normal-ffs-packaging-machine-jat-301/top.webp"}
+          as="h1"
         />
 
-        {/* Main Details Section */}
+        {/* Main Details Section: Left Machine Image + Right Technical Specifications */}
         <MainProductDetails
           MachineImage={"/PRODUCTS/normal-ffs-packaging-machine-jat-301/p1.webp"}
-          sampleImage={
-            "/PRODUCTS/normal-ffs-packaging-machine-jat-301/chutki.webp"
-          }
-          productTitle={"Normal FFS Packaging Machine"}
-          productDescription={
-            "Spices, Namkeen, Tea, Coffee, Heena, Powder, All granular & Detergent"
-          }
-          productTagline={
-            "Electrostatically Powerful and Highly-Conventional in use"
-          }
-        />
+          productTitle={""}
+          showRating={false}
+        >
+          <div className="space-y-3">
+            <h2 className="text-black font-bold text-lg sm:text-xl">
+              Technical Specifications of Normal FFS Packaging Machine
+            </h2>
+            <div className="flex items-center gap-1 text-yellow-500 text-xs sm:text-sm">
+              {[...Array(5)].map((_, index) => (
+                <FaStar key={index} />
+              ))}
+            </div>
+            <div className="overflow-x-auto border border-gray-200 rounded-lg">
+              <table className="w-full border-collapse text-left text-sm sm:text-base">
+                <thead>
+                  <tr className="bg-gray-100 border-b border-gray-200">
+                    <th className="py-2 px-4 font-bold text-gray-900">
+                      Specification
+                    </th>
+                    <th className="py-2 px-4 font-bold text-gray-900">
+                      Details
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {technicalSpecs.map((spec) => (
+                    <tr
+                      key={spec.specification}
+                      className="border-b border-gray-100 last:border-b-0"
+                    >
+                      <td className="py-2 px-4 font-medium text-gray-800">
+                        {spec.specification}
+                      </td>
+                      <td className="py-2 px-4 text-gray-700">
+                        {spec.details}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div className="mt-5 flex flex-wrap items-center gap-4">
+              <Link
+                href="/contact"
+                className="inline-block bg-[#BB2426] hover:bg-[#9e1d1f] text-white font-semibold px-6 py-2.5 rounded-lg transition-colors"
+              >
+                Get a Free Quote
+              </Link>
+              <span className="text-sm sm:text-base font-semibold text-gray-800">
+                Price: ₹1,50,000 per unit
+              </span>
+            </div>
+          </div>
+        </MainProductDetails>
+
+        {/* Sample Product Image Below */}
+        <div className="w-full max-w-7xl mx-auto pb-10 px-4 sm:px-6 lg:px-8 xl:px-12">
+          <h2 className="text-2xl sm:text-3xl font-bold text-black mb-4">
+            Normal FFS Packaging Machine Manufacturer &amp; Supplier in Delhi NCR
+          </h2>
+          <h3 className="text-black font-bold text-base sm:text-lg mb-3">
+            Packing Products
+          </h3>
+          <div className="relative w-full max-w-3xl h-64 sm:h-72 md:h-80">
+            <Image
+              src="/PRODUCTS/normal-ffs-packaging-machine-jat-301/chutki.webp"
+              alt="Sample Packaging Products - Normal FFS Packaging Machine"
+              fill
+              sizes="(max-width: 767px) 100vw, 768px"
+              className="object-contain object-left"
+            />
+          </div>
+        </div>
       </section>
 
-      <section className="max-w-7xl mx-auto px-6 py-12 space-y-12 border-t border-gray-200">
-        {/* H1 + Quick Answer */}
+      <section className="max-w-7xl mx-auto px-6 py-12 space-y-10 border-t border-gray-200">
         <div>
-          <h1 className="text-2xl sm:text-3xl font-bold text-black mb-4">
-            Normal FFS Packaging Machine - Jawla Advance Technology
-          </h1>
           <p className="text-gray-700 leading-relaxed">
-            <span className="font-bold text-black">Quick answer: </span>
-            Jawla Advance Technology LLP is a normal FFS packaging machine
-            manufacturer in Ballabgarh, Faridabad, serving all of Delhi NCR.
-            Its Normal FFS Packaging Machine forms, fills and seals 2 g to 200 g pouches at
-            30 to 80 pouches per minute, which makes it a practical,
-            affordable choice for spice, tea, coffee and namkeen packers.
+            Jawla Advance Technology LLP offers a reliable{" "}
+            <Link
+              href="/"
+              className="text-red-600 hover:text-[#BB2426] font-semibold"
+            >
+              Normal FFS Packaging Machine
+            </Link>{" "}
+            for businesses that need an efficient solution for pouch packaging.
+            Designed for industrial applications, this machine helps fill and
+            seal products in flexible packaging material. It is suitable for
+            manufacturers looking for consistent packaging performance, easy
+            operation and controlled production.
           </p>
           <p className="text-gray-700 leading-relaxed mt-3">
-            A vertical form-fill-seal cycle is what makes the{" "}
-            <span className="font-bold text-black">
-              Normal FFS Packaging Machine
-            </span>{" "}
- so versatile: film forms around the product, fills
-            2 g to 200 g, then seals, 30 to 80 times a minute. Jawla Advance
-            Technology LLP builds it as the most popular choice for spice,
-            tea, coffee and namkeen businesses that want reliable automatic
-            packing at a sensible price in Delhi NCR.
+            As a Normal FFS Packaging Machine Manufacturer &amp; Supplier in
+            Delhi NCR, Jawla Advance Technology provides packaging solutions for
+            different industrial requirements. The machine comes with a
+            semi-automatic operating system, electric drive and frequency speed
+            control to support smooth packaging operations.
           </p>
         </div>
 
-        {/* Key Specifications */}
-        <div>
-          <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            Key Specifications
+        <div className="space-y-3">
+          <h2 className="text-xl sm:text-2xl font-bold text-[#BB2426]">
+            Normal FFS Packaging Machine Price
           </h2>
-          <div className="overflow-x-auto">
-            <table className="w-full border-collapse text-left">
+          <p className="text-gray-700 leading-relaxed">
+            The price of the Normal FFS Packaging Machine offered by Jawla
+            Advance Technology is:
+          </p>
+          <p className="text-lg font-bold text-black">
+            Price: ₹1,50,000 per unit
+          </p>
+          <p className="text-gray-700 leading-relaxed">
+            The final purchase cost may depend on the machine configuration,
+            packaging requirements, applicable taxes, transportation and any
+            additional specifications. Buyers should confirm the complete
+            quotation, including GST and delivery charges, before placing an
+            order.
+          </p>
+        </div>
+
+        <div>
+          <h2 className="text-xl sm:text-2xl font-bold text-[#BB2426] mb-3">
+            What Is a Normal FFS Packaging Machine?
+          </h2>
+          <p className="text-gray-700 leading-relaxed">
+            A Normal FFS Packaging Machine is used to form pouches from
+            packaging film, fill them with a product and seal them. FFS stands
+            for Form, Fill and Seal. The machine performs these packaging steps
+            in a connected process, reducing the need for separate manual
+            pouch-making and sealing operations.
+          </p>
+          <p className="text-gray-700 leading-relaxed mt-3">
+            It can be used for packing products in small quantities, depending
+            on the product type and machine configuration. The packaging range
+            and output requirements can be discussed before placing an order to
+            ensure the machine is suitable for your production needs.
+          </p>
+        </div>
+
+        <div>
+          <h2 className="text-xl sm:text-2xl font-bold text-[#BB2426] mb-3">
+            Key Features of the Machine
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-3">
+            The machine is designed to support practical industrial packaging
+            requirements. Its key features include:
+          </p>
+          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+            <li>
+              <span className="font-semibold text-black">
+                Semi-Automatic Operation:
+              </span>{" "}
+              Offers controlled operation for packaging tasks.
+            </li>
+            <li>
+              <span className="font-semibold text-black">
+                Frequency Speed Control:
+              </span>{" "}
+              Helps adjust machine speed according to production requirements.
+            </li>
+            <li>
+              <span className="font-semibold text-black">Electric Drive:</span>{" "}
+              Uses an electric drive system for machine operation.
+            </li>
+            <li>
+              <span className="font-semibold text-black">
+                Mild Steel Construction:
+              </span>{" "}
+              Built with mild steel material.
+            </li>
+            <li>
+              <span className="font-semibold text-black">Industrial Use:</span>{" "}
+              Suitable for businesses involved in product manufacturing and
+              packaging.
+            </li>
+            <li>
+              <span className="font-semibold text-black">
+                Efficient Performance:
+              </span>{" "}
+              Designed to support consistent packaging operations.
+            </li>
+            <li>
+              <span className="font-semibold text-black">
+                One-Year Warranty:
+              </span>{" "}
+              Comes with a one-year warranty.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h2 className="text-xl sm:text-2xl font-bold text-[#BB2426] mb-3">
+            Applications of the Machine
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-3">
+            This packaging equipment can be considered for businesses that need
+            to pack products in small pouches. Depending on the product and
+            packaging material, applications may include:
+          </p>
+          <ul className="list-disc pl-6 space-y-1.5 text-gray-700">
+            <li>Food and snack products</li>
+            <li>Granules and powder-based products</li>
+            <li>Seeds and similar small items</li>
+            <li>Industrial materials suitable for pouch packaging</li>
+            <li>Other products that require measured filling and sealed pouches</li>
+          </ul>
+          <p className="text-gray-700 leading-relaxed mt-3">
+            The right machine configuration depends on the product&apos;s size,
+            weight, flow properties and packaging requirements.
+          </p>
+        </div>
+
+        <div>
+          <h2 className="text-xl sm:text-2xl font-bold text-[#BB2426] mb-3">
+            How Does the Packaging Process Work?
+          </h2>
+          <p className="text-gray-700 leading-relaxed">
+            The machine follows a Form, Fill and Seal process. First, packaging
+            film is placed in the machine and shaped into a pouch. The product
+            is then measured and filled into the pouch through the filling
+            system. Finally, the pouch is sealed according to the selected
+            sealing arrangement.
+          </p>
+          <p className="text-gray-700 leading-relaxed mt-3">
+            This process helps businesses manage pouch formation, filling and
+            sealing through one packaging setup. Operators should follow the
+            recommended operating instructions and safety guidelines for proper
+            machine use.
+          </p>
+        </div>
+
+        <div>
+          <h2 className="text-xl sm:text-2xl font-bold text-[#BB2426] mb-3">
+            Why Choose Jawla Advance Technology?
+          </h2>
+          <p className="text-gray-700 leading-relaxed mb-3">
+            <Link
+              href="/contact"
+              className="text-red-600 hover:text-[#BB2426] font-semibold"
+            >
+              Jawla Advance Technology
+            </Link>{" "}
+            LLP provides industrial packaging machinery for businesses with
+            different production requirements. Buyers can discuss their product
+            type, pouch size and packaging needs before selecting a suitable
+            machine.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-3">
+            As a Normal FFS Packaging Machine Manufacturer &amp; Supplier in
+            Delhi NCR, the company offers:
+          </p>
+          <ul className="list-disc pl-6 space-y-1.5 text-gray-700">
+            <li>Industrial packaging machine solutions</li>
+            <li>Mild steel machine construction</li>
+            <li>Semi-automatic operation</li>
+            <li>Frequency speed control</li>
+            <li>One-year warranty</li>
+            <li>Support for discussing machine specifications and requirements</li>
+          </ul>
+          <p className="text-gray-700 leading-relaxed mt-3">
+            The company is based in Ballabgarh, Faridabad, Haryana, and serves
+            customers across India.
+          </p>
+        </div>
+
+        <div className="space-y-4">
+          <h2 className="text-xl sm:text-2xl font-bold text-[#BB2426]">
+            Trade Information
+          </h2>
+          <div className="overflow-x-auto border border-gray-200 rounded-lg max-w-2xl">
+            <table className="w-full border-collapse text-left text-sm sm:text-base">
               <thead>
-                <tr className="border-b border-gray-200">
-                  <th className="py-2 pr-4 font-bold text-gray-900">
-                    Feature
+                <tr className="bg-gray-100 border-b border-gray-200">
+                  <th className="py-2.5 px-4 font-bold text-gray-900">
+                    Trade Details
                   </th>
-                  <th className="py-2 font-bold text-gray-900">Specification</th>
+                  <th className="py-2.5 px-4 font-bold text-gray-900">
+                    Information
+                  </th>
                 </tr>
               </thead>
               <tbody>
-                {keySpecs.map((spec, index) => (
-                  <tr key={index} className="border-b border-gray-100">
-                    <td className="py-2 pr-4 text-gray-700">
-                      {spec.feature}
+                {tradeInfo.map((row) => (
+                  <tr
+                    key={row.label}
+                    className="border-b border-gray-100 last:border-b-0"
+                  >
+                    <td className="py-2.5 px-4 font-medium text-gray-800">
+                      {row.label}
                     </td>
-                    <td className="py-2 text-gray-700">{spec.value}</td>
+                    <td className="py-2.5 px-4 text-gray-700">{row.value}</td>
                   </tr>
                 ))}
               </tbody>
@@ -309,217 +487,39 @@ export default function ProductDetailSection() {
           </div>
         </div>
 
-        {/* What Is a Normal FFS Packaging Machine */}
         <div>
-          <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            What Is a Normal FFS Packaging Machine?
-          </h2>
-          <p className="text-gray-700 leading-relaxed">
-            FFS means Form Fill Seal. A normal FFS machine is a vertical
-            pouch packing machine that pulls laminated film from a roll,
-            forms it into a pouch, fills a measured quantity of product and
-            seals it, all in one continuous cycle. &quot;Normal&quot; refers
-            to the standard-speed version, which balances output, accuracy
-            and cost for small and medium units.
-          </p>
-        </div>
-
-        {/* Products You Can Pack */}
-        <div>
-          <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            Products You Can Pack
-          </h2>
-          <p className="text-gray-700 leading-relaxed">
-            The Normal FFS Packaging Machine works with free-flowing powders and granules:
-          </p>
-          <ul className="list-disc list-inside text-gray-700 mt-3 space-y-1">
-            {packableProducts.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-          <p className="text-gray-700 leading-relaxed mt-3">
-            This makes one machine useful as a namkeen packing machine, a
-            spice powder packing machine and a granule packing machine.
-          </p>
-        </div>
-
-        {/* How the Cup Filling System Works */}
-        <div>
-          <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            How the Cup Filling System Works
-          </h2>
-          <p className="text-gray-700 leading-relaxed">
-            The machine uses a volumetric cup filler. A rotating plate
-            carries adjustable cups under the product hopper. Each cup fills
-            to a set volume and drops its contents into the pouch as it
-            forms. Changing the cup size changes the pack weight. This
-            system is simple, fast and very reliable for products that flow
-            freely.
-          </p>
-        </div>
-
-        {/* Built to Last */}
-        <div>
-          <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            Built to Last
-          </h2>
-          <p className="text-gray-700 leading-relaxed">
-            The Normal FFS Packaging Machine weighs about 500 kg, so it stays stable at full speed
-            and vibrates less. The outer body has electrostatic powder
-            coating that resists scratches, rust and dust. A continuous
-            sealing mechanism gives strong seals that stop leakage and keep
-            products fresh.
-          </p>
-        </div>
-
-        {/* Benefits for Your Business */}
-        <div>
-          <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            Benefits for Your Business
-          </h2>
-          <ul className="list-disc list-inside text-gray-700 mt-1 space-y-1">
-            {businessBenefits.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </div>
-
-        {/* Why Choose Jawla Advance Technology */}
-        <div>
-          <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            Why Choose Jawla Advance Technology as Your Normal FFS Packaging
-            Machine Manufacturer
-          </h2>
-          <p className="text-gray-700 leading-relaxed">
-            As a{" "}
-            <span className="font-bold text-black">
-              normal FFS packaging machine
-            </span>{" "}
-            manufacturer based in Ballabgarh, Faridabad, we build every
-            Normal FFS Packaging Machine in-house and test
-            it before dispatch. Customers in Delhi, Gurugram, Noida,
-            Ghaziabad and Palwal choose us because:
-          </p>
-          <ul className="list-disc list-inside text-gray-700 mt-3 space-y-1">
-            {whyChooseReasons.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </div>
-
-        {/* Normal FFS or High Speed FFS */}
-        <div>
-          <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            Normal FFS or High Speed FFS?
-          </h2>
-          <p className="text-gray-700 leading-relaxed">
-            The Normal FFS Packaging Machine suits most small and medium units with outputs up to
-            80 pouches per minute. If you pack very small sachets in large
-            volumes, such as pan masala or mouth freshener, our{" "}
-            <Link
-              href="/ffs-high-speed-packaging-machine"
-              className="text-red-600 hover:text-[#BB2426] font-semibold"
-            >
-              FFS High Speed Packaging Machine
-            </Link>{" "}
-            can produce 100 to 450 pouches per minute. Our team will help you
-            compare both based on your daily target.
-          </p>
-        </div>
-
-        {/* Maintenance Tips */}
-        <div>
-          <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            Maintenance Tips
-          </h2>
-          <ul className="list-disc list-inside text-gray-700 mt-1 space-y-1">
-            {maintenanceTips.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </div>
-
-        {/* Who Uses the Normal FFS Packaging Machine */}
-        <div>
-          <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            Who Uses the Normal FFS Packaging Machine in Delhi NCR
-          </h2>
-          <p className="text-gray-700 leading-relaxed">
-            Most Normal FFS Packaging Machine buyers are growing food businesses that have
-            outgrown hand packing. Typical users include masala and spice
-            grinders in Faridabad and Palwal, tea and coffee packers in
-            Delhi, namkeen makers in Ghaziabad and Noida, and detergent units
-            in the industrial belts of Gurugram and Sonipat. Many are family
-            businesses packing 5,000 to 30,000 pouches a day who want a
-            machine that is simple to run, easy to service and fast to pay
-            back.
-          </p>
-        </div>
-
-        {/* Buyer's Checklist */}
-        <div>
-          <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            Buyer&apos;s Checklist Before You Order
-          </h2>
-          <p className="text-gray-700 leading-relaxed">
-            Ask these questions before you buy any FFS machine, from us or
-            anyone else:
-          </p>
-          <ul className="list-disc list-inside text-gray-700 mt-3 space-y-1">
-            {buyersChecklist.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-          <p className="text-gray-700 leading-relaxed mt-3">
-            A good{" "}
-            <span className="font-bold text-black">
-              normal FFS packaging machine
-            </span>{" "}
-            manufacturer will answer all six clearly and let you test before
-            you pay.
-          </p>
-        </div>
-
-        {/* Request a Price */}
-        <div>
-          <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            Request a Price From a Trusted Normal FFS Packaging Machine
-            Manufacturer
-          </h2>
-          <p className="text-gray-700 leading-relaxed">
-            Share your product, pack weights and seal style. We will suggest
-            the right cup set and configuration and send a detailed quote.
-            Contact our team through the{" "}
-            <Link
-              href="/contact"
-              className="text-red-600 hover:text-[#BB2426] font-semibold"
-            >
-              website enquiry form
-            </Link>
-            . Jawla Advance Technology is the{" "}
-            <span className="font-bold text-black">
-              normal FFS packaging machine
-            </span>{" "}
-            manufacturer that spice, tea and namkeen brands across Delhi NCR
-            rely on.
-          </p>
-        </div>
-
-        {/* FAQs */}
-        <div>
-          <h2 className="text-xl  sm:text-xl  md:2xl font-bold text-[#BB2426] mb-4">
-            FAQs
+          <h2 className="text-xl sm:text-2xl font-bold text-[#BB2426] mb-4">
+            Frequently Asked Questions
           </h2>
           <div className="space-y-6">
             {faqs.map((faq, index) => (
               <div key={index}>
-                <h3 className="font-semibold text-gray-900">
-                  {faq.question}
-                </h3>
+                <h3 className="font-semibold text-gray-900">{faq.question}</h3>
                 <p className="text-gray-700 mt-1">{faq.answer}</p>
               </div>
             ))}
           </div>
+        </div>
+
+        <div>
+          <h2 className="text-xl sm:text-2xl font-bold text-[#BB2426] mb-3">
+            Set Up Your Normal ffs Packaging machine Form Jawla Advance
+            Technology
+          </h2>
+          <p className="text-gray-700 leading-relaxed">
+            If you are looking for a Normal FFS Packaging Machine Manufacturer
+            &amp; Supplier in Delhi NCR,{" "}
+            <Link
+              href="/contact"
+              className="text-red-600 hover:text-[#BB2426] font-semibold"
+            >
+              contact Jawla Advance Technology LLP
+            </Link>{" "}
+            to discuss your packaging requirements and request a quotation.
+            Share your product details, required pouch size and expected
+            production capacity to help identify a suitable machine
+            configuration.
+          </p>
         </div>
       </section>
 

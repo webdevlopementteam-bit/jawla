@@ -7,13 +7,6 @@ export const metadata = {
   title: "Packaging Machine Buyer Guides & Insights",
   description:
     "Expert packaging machinery buying guides, FFS machine operating tips, and packaging automation insights by Jawla Advance Technology engineers.",
-  keywords: [
-    "Packaging Machine",
-    "Packaging Machine Guide",
-    "Jawla Advance Technology",
-    "Best Packaging Machine Manufacturer",
-    "One-Edge Biscuit Packaging Machine",
-  ],
 };
 
 export default function BlogGrid() {

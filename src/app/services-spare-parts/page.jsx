@@ -5,13 +5,6 @@ export const metadata = {
   title: "Packaging Machine Spare Parts & Technical Services",
   description:
     "Genuine packaging machine spare parts, installation, operator training, and maintenance services across India by Jawla Advance Technology LLP.",
-  keywords: [
-    "Packaging Machine",
-    "Packaging Machine Spare Parts",
-    "Packaging Machine Maintenance",
-    "Jawla Advance Technology",
-    "Packaging Machine Manufacturer",
-  ],
 };
 
 export default function SparesAndServices() {

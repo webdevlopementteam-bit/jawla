@@ -16,11 +16,6 @@ export const metadata = {
   keywords: [
     "Best Packaging Machine Manufacturer",
     "Jawla Advance Technology",
-    "Packaging Machine",
-    "Liquid Packaging Machine",
-    "Powder Packaging Machine",
-    "Fully Automatic Packaging Machine",
-    "Semi Automatic Packaging Machine",
     "Best Packaging Machine Manufacturer in Delhi NCR",
   ],
 };

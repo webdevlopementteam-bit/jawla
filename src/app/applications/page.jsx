@@ -7,14 +7,6 @@ export const metadata = {
   title: "Packaging Machine Applications - Powder, Liquid & Food",
   description:
     "Explore versatile packaging machine applications by Jawla Advance Technology. High-performance powder packaging machines, liquid packaging machines, snack & biscuit solutions.",
-  keywords: [
-    "Packaging Machine",
-    "Powder Packaging Machine",
-    "Liquid Packaging Machine",
-    "Fully Automatic Packaging Machine",
-    "Jawla Advance Technology",
-    "Packaging Machine Manufacturer",
-  ],
 };
 
 export default function ApplicationsSection() {

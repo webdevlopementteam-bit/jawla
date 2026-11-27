@@ -7,13 +7,6 @@ export const metadata = {
   title: "Packaging Machine Exhibitions & Industry News",
   description:
     "Explore upcoming trade expos, packaging machinery exhibitions, and industrial milestones from Jawla Advance Technology LLP across India.",
-  keywords: [
-    "Packaging Machine Exhibitions",
-    "Jawla Advance Technology",
-    "Packaging Machine Manufacturer",
-    "AAHAR Fair",
-    "FoodTec India",
-  ],
 };
 
 export default function ExhibitionsSection() {

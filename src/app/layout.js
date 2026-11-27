@@ -16,33 +16,9 @@ export const metadata = {
   title: {
     default:
       "Jawla Advance Technology - Best Packaging Machine Manufacturer",
-    template: "%s | Jawla Advance Technology",
   },
   description:
     "Jawla Advance Technology is the best packaging machine manufacturer in Delhi NCR & India. Explore fully & semi-automatic, FFS, powder, liquid, flow wrap & biscuit packing machines.",
-  keywords: [
-    "Best Packaging Machine Manufacturer",
-    "Jawla Advance Technology",
-    "Packaging Machine",
-    "Liquid Packaging Machine",
-    "Powder Packaging Machine",
-    "Fully Automatic Packaging Machine",
-    "Semi Automatic Packaging Machine",
-    "Normal FFS Packaging Machine",
-    "FFS High Speed Packaging Machine",
-    "D-Motion Type Packaging Machine",
-    "Half Pneumatic Packaging Machine",
-    "Horizontal Rotary Machine",
-    "Fully Automatic Multi-Head Weighing, Packaging Machine",
-    "Collar Auger Filling Packaging Machine",
-    "Horizontal Flow Wrap Pillow Pack Machine",
-    "Hotel Pack Packaging Machine",
-    "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine",
-    "One-Edge Biscuit Packaging Machine",
-    "Automatic Family Pack Rusk Packaging Machine",
-    "One-Edge Packaging Machine With Cream Biscuit Feeder",
-    "Collar Type Cup Filler Packaging Machine",
-  ],
   icons: {
     icon: "/logo/logo.webp",
     shortcut: "/logo/logo2.webp",
