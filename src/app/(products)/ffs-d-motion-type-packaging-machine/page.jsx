@@ -23,12 +23,10 @@ const jsonLd = {
     {
       "@type": "Product",
       "@id": "https://www.jawlaadvancetechnology.com/ffs-d-motion-type-packaging-machine#product",
-      name: "D-Motion Type Packaging Machine (JAT-303)",
-      model: "JAT-303",
-      sku: "JAT-303",
+      name: "D-Motion Type Packaging Machine",
       category: "FFS Packaging Machine",
       image: "https://www.jawlaadvancetechnology.com/PRODUCTS/ffs-d-motion-type-packaging-machine/p1.webp",
-      description: "D-Motion type packaging machine from Jawla Advance Technology. JAT-303 packs pan masala, jeera, mouth freshener powder, fruit balls and small pouches with continuous motion sealing.",
+      description: "D-Motion type packaging machine from Jawla Advance Technology. Packs pan masala, jeera, mouth freshener powder, fruit balls and small pouches with continuous motion sealing.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
       manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
       offers: {

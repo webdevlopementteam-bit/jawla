@@ -5,9 +5,9 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/best-automatic-family-pack-rusk-packaging-machine" },
-  title: "Automatic Family Pack Rusk Packaging Machine (JAT-312)",
+  title: "Automatic Family Pack Rusk Packaging Machine",
   description:
-    "Buy Automatic Family Pack Rusk Packaging Machine (JAT-312) from Jawla Advance Technology. High speed family packs (50g–400g) for rusk, toast & biscuits.",
+    "Buy Automatic Family Pack Rusk Packaging Machine from Jawla Advance Technology. High speed family packs (50g–400g) for rusk, toast & biscuits.",
   keywords: [
     "Automatic Family Pack Rusk Packaging Machine",
     "Packaging Machine",
@@ -23,12 +23,10 @@ const jsonLd = {
     {
       "@type": "Product",
       "@id": "https://www.jawlaadvancetechnology.com/best-automatic-family-pack-rusk-packaging-machine#product",
-      name: "Automatic Family Pack Rusk Packaging Machine (JAT-312)",
-      model: "JAT-312",
-      sku: "JAT-312",
+      name: "Automatic Family Pack Rusk Packaging Machine",
       category: "Rusk Packaging Machine",
       image: "https://www.jawlaadvancetechnology.com/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/p1.webp",
-      description: "Automatic family pack rusk packaging machine manufactured by Jawla Advance Technology. JAT-312 packs 50 g to 400 g rusk, biscuit and cake family packs.",
+      description: "Automatic family pack rusk packaging machine manufactured by Jawla Advance Technology. Automatic Family Pack Rusk Packaging Machine packs 50 g to 400 g rusk, biscuit and cake family packs.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
       manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
       weight: { "@type": "QuantitativeValue", value: 1300, unitCode: "KGM" },
@@ -89,7 +87,7 @@ const jsonLd = {
           name: "What is an automatic family pack rusk packaging machine?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "An automatic family pack rusk packaging machine feeds, groups and wraps rusk, biscuits or cakes into larger household packs without manual sealing. Jawla Advance Technology's JAT-312 packs 50 g to 400 g family packs at up to 60 packs per minute with a centre seal and front and back seals.",
+            text: "An automatic family pack rusk packaging machine feeds, groups and wraps rusk, biscuits or cakes into larger household packs without manual sealing. Jawla Advance Technology's Automatic Family Pack Rusk Packaging Machine packs 50 g to 400 g family packs at up to 60 packs per minute with a centre seal and front and back seals.",
           },
         },
         {
@@ -97,36 +95,36 @@ const jsonLd = {
           name: "How much does a family pack rusk packaging machine cost in India?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The Jawla Advance Technology JAT-312 is priced based on pack range, feeding setup and customisation. Contact the Faridabad team with your rusk size and pack weights for the latest quote.",
+            text: "The Jawla Advance Technology Automatic Family Pack Rusk Packaging Machine is priced based on pack range, feeding setup and customisation. Contact the Faridabad team with your rusk size and pack weights for the latest quote.",
           },
         },
         {
           "@type": "Question",
-          name: "How many packs per minute does the JAT-312 produce?",
+          name: "How many packs per minute does the Automatic Family Pack Rusk Packaging Machine produce?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-312 produces up to 60 family packs per minute, which is about 3,600 packs an hour. Automatic feeding keeps output steady and reduces breakage compared with manual packing.",
+            text: "The Automatic Family Pack Rusk Packaging Machine produces up to 60 family packs per minute, which is about 3,600 packs an hour. Automatic feeding keeps output steady and reduces breakage compared with manual packing.",
           },
         },
         {
           "@type": "Question",
-          name: "What pack sizes can the JAT-312 handle?",
+          name: "What pack sizes can the Automatic Family Pack Rusk Packaging Machine handle?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-312 handles family packs from 50 g to 400 g. This covers small trial packs as well as the popular 200 g, 300 g and 400 g rusk and biscuit packs sold in kirana stores and supermarkets.",
+            text: "The Automatic Family Pack Rusk Packaging Machine handles family packs from 50 g to 400 g. This covers small trial packs as well as the popular 200 g, 300 g and 400 g rusk and biscuit packs sold in kirana stores and supermarkets.",
           },
         },
         {
           "@type": "Question",
-          name: "Can the JAT-312 pack biscuits and cakes as well as rusk?",
+          name: "Can the Automatic Family Pack Rusk Packaging Machine pack biscuits and cakes as well as rusk?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. The JAT-312 packs rusk, toast, biscuits, cookies, cakes and similar bakery items in family packs within the 50 g to 400 g range, which lets one machine serve several product lines.",
+            text: "Yes. The Automatic Family Pack Rusk Packaging Machine packs rusk, toast, biscuits, cookies, cakes and similar bakery items in family packs within the 50 g to 400 g range, which lets one machine serve several product lines.",
           },
         },
         {
           "@type": "Question",
-          name: "How does the feeding system on the JAT-312 work?",
+          name: "How does the feeding system on the Automatic Family Pack Rusk Packaging Machine work?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "A pushing chain transfers products onto a feeder belt, and an 8-foot conveyor carries grouped products into the wrapping section. Front and back sealing then wraps them in laminated film, keeping rusk stable and reducing crumbs.",
@@ -134,10 +132,10 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "What are the power and weight of the JAT-312?",
+          name: "What are the power and weight of the Automatic Family Pack Rusk Packaging Machine?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-312 runs at about 3 kW, controlled from an electrical panel with start, stop, reset and speed functions. It weighs about 1,300 kg, which keeps it stable and reduces vibration during long shifts.",
+            text: "The Automatic Family Pack Rusk Packaging Machine runs at about 3 kW, controlled from an electrical panel with start, stop, reset and speed functions. It weighs about 1,300 kg, which keeps it stable and reduces vibration during long shifts.",
           },
         },
         {
@@ -145,7 +143,7 @@ const jsonLd = {
           name: "How much maintenance does a rusk packing machine need?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Very little. The JAT-312 has a rust-proof powder coating and sturdy build, so daily crumb cleaning, regular jaw wiping and a periodic chain check are usually enough to keep it running smoothly.",
+            text: "Very little. The Automatic Family Pack Rusk Packaging Machine has a rust-proof powder coating and sturdy build, so daily crumb cleaning, regular jaw wiping and a periodic chain check are usually enough to keep it running smoothly.",
           },
         },
         {
@@ -153,15 +151,15 @@ const jsonLd = {
           name: "Who is the best automatic family pack rusk packaging machine manufacturer in Faridabad and Delhi NCR?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best automatic family pack rusk packaging machine manufacturers in Faridabad and Delhi NCR. It builds the JAT-312 in-house, lets bakeries test their own rusk before ordering, and provides installation, operator training, genuine spares and fast local service.",
+            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best automatic family pack rusk packaging machine manufacturers in Faridabad and Delhi NCR. It builds the Automatic Family Pack Rusk Packaging Machine in-house, lets bakeries test their own rusk before ordering, and provides installation, operator training, genuine spares and fast local service.",
           },
         },
         {
           "@type": "Question",
-          name: "Does Jawla Advance Technology install the JAT-312 and train operators?",
+          name: "Does Jawla Advance Technology install the Automatic Family Pack Rusk Packaging Machine and train operators?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. Jawla Advance Technology installs and commissions the JAT-312, sets it up for your pack sizes and trains your operators on running, cleaning and changeovers. Preventive maintenance, breakdown support and spares are available locally.",
+            text: "Yes. Jawla Advance Technology installs and commissions the Automatic Family Pack Rusk Packaging Machine, sets it up for your pack sizes and trains your operators on running, cleaning and changeovers. Preventive maintenance, breakdown support and spares are available locally.",
           },
         },
       ],
@@ -266,7 +264,7 @@ export default function ProductDetailSection() {
             "/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/p2.webp"
           }
           productTitle={
-            "Automatic Family Pack Biscuit or Rusk Packaging Machine (JAT-312)"
+            "Automatic Family Pack Biscuit or Rusk Packaging Machine"
           }
           productDescription={"Rusk, Cake, Biscuit"}
           productTagline={
@@ -279,7 +277,7 @@ export default function ProductDetailSection() {
         {/* H1 + Quick Answer */}
         <div className="space-y-3">
           <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">
-            Automatic Family Pack Rusk Packaging Machine (JAT-312) - Jawla Advance Technology
+            Automatic Family Pack Rusk Packaging Machine - Jawla Advance Technology
           </h1>
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
@@ -288,7 +286,7 @@ export default function ProductDetailSection() {
               Automatic Family Pack Rusk Packaging Machine
             </span>{" "}
             manufacturer in Faridabad, Delhi NCR. Its
-            JAT-312 packs rusk, biscuits and cakes into 50 g to 400 g family
+            Automatic Family Pack Rusk Packaging Machine packs rusk, biscuits and cakes into 50 g to 400 g family
             packs at up to 60 packs per minute, with automatic feeding,
             centre sealing and a rust-proof, 1,300 kg frame.
           </p>
@@ -300,7 +298,7 @@ export default function ProductDetailSection() {
               Jawla Advance Technology
             </Link>{" "}
             LLP is an automatic family pack rusk packaging machine
-            manufacturer in Faridabad and Delhi NCR. Our JAT-312 packs
+            manufacturer in Faridabad and Delhi NCR. Our Automatic Family Pack Rusk Packaging Machine packs
             rusk, biscuits and cakes into family-size packs
             from 50 g to 400 g at up to 60 packs per minute. Automatic
             feeding and precise sealing give bakeries neat, attractive packs
@@ -320,7 +318,7 @@ export default function ProductDetailSection() {
                   <th className="p-3 font-bold text-black border-r border-gray-200 w-1/2">
                     Feature
                   </th>
-                  <th className="p-3 font-bold text-black w-1/2">JAT-312</th>
+                  <th className="p-3 font-bold text-black w-1/2">Specification</th>
                 </tr>
               </thead>
               <tbody>
@@ -340,10 +338,10 @@ export default function ProductDetailSection() {
           </div>
         </div>
 
-        {/* How the JAT-312 Works */}
+        {/* How the Automatic Family Pack Rusk Packaging Machine Works */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">
-            How the JAT-312 Works
+            How the Automatic Family Pack Rusk Packaging Machine Works
           </h2>
           <ul className="list-disc pl-5 space-y-2">
             {howItWorks.map((item, index) => (
@@ -425,7 +423,7 @@ export default function ProductDetailSection() {
           <ul className="list-disc pl-5 space-y-2">
             <li>
               <span className="font-bold text-black">
-                JAT-312 (this machine):
+                This machine:
               </span>{" "}
               family packs from 50 g to 400 g, up to 60 packs per minute.
             </li>
@@ -434,7 +432,7 @@ export default function ProductDetailSection() {
                 href="/one-edge-biscuit-packaging-machine"
                 className="font-bold text-[#E13538] hover:underline"
               >
-                JAT-311:
+                One-Edge Biscuit Packaging Machine:
               </Link>{" "}
               one-edge 50 g, 75 g and 100 g biscuit packs, up to 200 packs
               per minute.
@@ -444,7 +442,7 @@ export default function ProductDetailSection() {
                 href="/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine"
                 className="font-bold text-[#E13538] hover:underline"
               >
-                JAT-310:
+                High Speed Pillow Pack Machine:
               </Link>{" "}
               small 2 or 4 biscuit packs, up to 300 packs per minute.
             </li>
@@ -453,7 +451,7 @@ export default function ProductDetailSection() {
                 href="/hotel-pack-packaging-machine"
                 className="font-bold text-[#E13538] hover:underline"
               >
-                JAT-309:
+                Hotel Pack Packaging Machine:
               </Link>{" "}
               pillow and tray packs of cakes and bakery items, up to 80
               packs per minute.
@@ -461,13 +459,13 @@ export default function ProductDetailSection() {
           </ul>
         </div>
 
-        {/* Who Uses the JAT-312 */}
+        {/* Who Uses the Automatic Family Pack Rusk Packaging Machine */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">
-            Who Uses the JAT-312 in Faridabad and Delhi NCR
+            Who Uses the Automatic Family Pack Rusk Packaging Machine in Faridabad and Delhi NCR
           </h2>
           <p className="leading-relaxed">
-            The JAT-312 is chosen by bakeries that sell rusk and biscuits in
+            The Automatic Family Pack Rusk Packaging Machine is chosen by bakeries that sell rusk and biscuits in
             larger household packs. Typical buyers include rusk makers in
             Faridabad, Palwal and Old Delhi, regional bakery brands
             supplying kirana stores across Delhi NCR, and cake and toast

@@ -4,10 +4,10 @@ import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
-  alternates: { canonical: "/normal-ffs-packaging-machine-jat-301" },
-  title: "Normal FFS Packaging Machine (JAT-301)",
+  alternates: { canonical: "/normal-ffs-packaging-machine" },
+  title: "Normal FFS Packaging Machine",
   description:
-    "Buy Normal FFS Packaging Machine (JAT-301) from Jawla Advance Technology. High accuracy volumetric cup filler for spices, tea, coffee & namkeen (2-200g).",
+    "Buy Normal FFS Packaging Machine from Jawla Advance Technology. High accuracy volumetric cup filler for spices, tea, coffee & namkeen (2-200g).",
   keywords: [
     "Normal FFS Packaging Machine",
     "Packaging Machine",
@@ -22,13 +22,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Product",
-      "@id": "https://www.jawlaadvancetechnology.com/normal-ffs-packaging-machine-jat-301#product",
-      name: "Normal FFS Packaging Machine (JAT-301)",
-      model: "JAT-301",
-      sku: "JAT-301",
+      "@id": "https://www.jawlaadvancetechnology.com/normal-ffs-packaging-machine#product",
+      name: "Normal FFS Packaging Machine",
       category: "FFS Packaging Machine",
       image: "https://www.jawlaadvancetechnology.com/PRODUCTS/normal-ffs-packaging-machine-jat-301/p1.webp",
-      description: "Normal FFS packaging machine manufactured in Delhi NCR by Jawla Advance Technology. JAT-301 packs 2 g to 200 g pouches at 30 to 80 pouches per minute for spices, tea and namkeen.",
+      description: "Normal FFS packaging machine manufactured in Delhi NCR by Jawla Advance Technology. Normal FFS Packaging Machine packs 2 g to 200 g pouches at 30 to 80 pouches per minute for spices, tea and namkeen.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
       manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
       weight: { "@type": "QuantitativeValue", value: 500, unitCode: "KGM" },
@@ -40,7 +38,7 @@ const jsonLd = {
       ],
       offers: {
         "@type": "Offer",
-        url: "https://www.jawlaadvancetechnology.com/normal-ffs-packaging-machine-jat-301",
+        url: "https://www.jawlaadvancetechnology.com/normal-ffs-packaging-machine",
         priceCurrency: "INR",
         price: "0",
         priceSpecification: {
@@ -77,7 +75,7 @@ const jsonLd = {
           "@type": "ListItem",
           position: 3,
           name: "Normal FFS Packaging Machine",
-          item: "https://www.jawlaadvancetechnology.com/normal-ffs-packaging-machine-jat-301",
+          item: "https://www.jawlaadvancetechnology.com/normal-ffs-packaging-machine",
         },
       ],
     },
@@ -89,7 +87,7 @@ const jsonLd = {
           name: "What is a normal FFS packaging machine and how does it work?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "A normal FFS packaging machine is a vertical form fill seal machine that makes pouches from a roll of laminated film. It shapes the film into a tube, drops a measured quantity of product in, and seals and cuts the pouch in one continuous cycle. Jawla Advance Technology's JAT-301 does this at 30 to 80 pouches per minute.",
+            text: "A normal FFS packaging machine is a vertical form fill seal machine that makes pouches from a roll of laminated film. It shapes the film into a tube, drops a measured quantity of product in, and seals and cuts the pouch in one continuous cycle. Jawla Advance Technology's Normal FFS Packaging Machine does this at 30 to 80 pouches per minute.",
           },
         },
         {
@@ -102,18 +100,18 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "Which products can I pack with the Jawla Advance Technology JAT-301?",
+          name: "Which products can I pack with the Jawla Advance Technology Normal FFS Packaging Machine?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-301 packs free-flowing powders and granules. Common products are spices, masala, tea, coffee, namkeen, heena, detergent, daal, pulses, sugar, salt and seeds. It is not ideal for sticky flours like besan, which pack better on an auger filler such as the JAT-307.",
+            text: "The Normal FFS Packaging Machine packs free-flowing powders and granules. Common products are spices, masala, tea, coffee, namkeen, heena, detergent, daal, pulses, sugar, salt and seeds. It is not ideal for sticky flours like besan, which pack better on an auger filler such as the Collar Auger Filling Packaging Machine.",
           },
         },
         {
           "@type": "Question",
-          name: "What pouch sizes can the JAT-301 make?",
+          name: "What pouch sizes can the Normal FFS Packaging Machine make?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-301 fills pouches from 2 g to 200 g. You change the pack weight by changing or adjusting the volumetric cups. It can make centre seal, 3-side seal and 4-side seal pouches, so one machine can serve several pack sizes and pouch styles.",
+            text: "The Normal FFS Packaging Machine fills pouches from 2 g to 200 g. You change the pack weight by changing or adjusting the volumetric cups. It can make centre seal, 3-side seal and 4-side seal pouches, so one machine can serve several pack sizes and pouch styles.",
           },
         },
         {
@@ -129,7 +127,7 @@ const jsonLd = {
           name: "Which is better for my business, normal FFS or high speed FFS?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Choose the normal FFS JAT-301 if you pack 2 g to 200 g pouches at moderate volume and want lower cost. Choose the high speed FFS JAT-302 if you sell very small sachets, like pan masala or mouth freshener, in huge volumes, because it runs at 100 to 450 pouches per minute.",
+            text: "Choose the Normal FFS Packaging Machine if you pack 2 g to 200 g pouches at moderate volume and want lower cost. Choose the FFS High Speed Packaging Machine if you sell very small sachets, like pan masala or mouth freshener, in huge volumes, because it runs at 100 to 450 pouches per minute.",
           },
         },
         {
@@ -137,7 +135,7 @@ const jsonLd = {
           name: "Can a normal FFS machine pack sticky powders like besan or maida?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Not reliably. Sticky and very fine powders do not fill volumetric cups evenly, which causes weight variation. For besan, maida and sattu, Jawla Advance Technology recommends the Collar Auger Filling Packaging Machine JAT-307, which uses a rotating screw to measure each pouch accurately.",
+            text: "Not reliably. Sticky and very fine powders do not fill volumetric cups evenly, which causes weight variation. For besan, maida and sattu, Jawla Advance Technology recommends the Collar Auger Filling Packaging Machine, which uses a rotating screw to measure each pouch accurately.",
           },
         },
         {
@@ -145,7 +143,7 @@ const jsonLd = {
           name: "Who is the best normal FFS packaging machine manufacturer in Delhi NCR?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best normal FFS packaging machine manufacturers in Delhi NCR. It builds the JAT-301 in-house, lets buyers test their own product before ordering, and provides installation, operator training, genuine spares and fast local service.",
+            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best normal FFS packaging machine manufacturers in Delhi NCR. It builds the Normal FFS Packaging Machine in-house, lets buyers test their own product before ordering, and provides installation, operator training, genuine spares and fast local service.",
           },
         },
         {
@@ -153,7 +151,7 @@ const jsonLd = {
           name: "Does Jawla Advance Technology provide installation, training and service?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. Jawla Advance Technology's engineers install and commission the JAT-301 at your site, train your operators on running, changeovers and cleaning, and provide preventive maintenance, breakdown support and genuine spare parts. Service across Delhi NCR is fast because the team is based locally.",
+            text: "Yes. Jawla Advance Technology's engineers install and commission the Normal FFS Packaging Machine at your site, train your operators on running, changeovers and cleaning, and provide preventive maintenance, breakdown support and genuine spare parts. Service across Delhi NCR is fast because the team is based locally.",
           },
         },
         {
@@ -161,7 +159,7 @@ const jsonLd = {
           name: "How do I maintain a normal FFS packaging machine?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Clean the hopper and cups after every shift, wipe the sealing jaws regularly, lubricate moving parts on schedule and use good-quality laminated film. Book a preventive service before your peak season. With this routine, the JAT-301 runs with very little unplanned downtime.",
+            text: "Clean the hopper and cups after every shift, wipe the sealing jaws regularly, lubricate moving parts on schedule and use good-quality laminated film. Book a preventive service before your peak season. With this routine, the Normal FFS Packaging Machine runs with very little unplanned downtime.",
           },
         },
       ],
@@ -245,7 +243,7 @@ export default function ProductDetailSection() {
           sampleImage={
             "/PRODUCTS/normal-ffs-packaging-machine-jat-301/chutki.webp"
           }
-          productTitle={"Normal FFS Packaging Machine (JAT-301)"}
+          productTitle={"Normal FFS Packaging Machine"}
           productDescription={
             "Spices, Namkeen, Tea, Coffee, Heena, Powder, All granular & Detergent"
           }
@@ -259,13 +257,13 @@ export default function ProductDetailSection() {
         {/* H1 + Quick Answer */}
         <div>
           <h1 className="text-2xl sm:text-3xl font-bold text-black mb-4">
-            Normal FFS Packaging Machine (JAT-301) - Jawla Advance Technology
+            Normal FFS Packaging Machine - Jawla Advance Technology
           </h1>
           <p className="text-gray-700 leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
             Jawla Advance Technology LLP is a normal FFS packaging machine
             manufacturer in Ballabgarh, Faridabad, serving all of Delhi NCR.
-            Its JAT-301 machine forms, fills and seals 2 g to 200 g pouches at
+            Its Normal FFS Packaging Machine forms, fills and seals 2 g to 200 g pouches at
             30 to 80 pouches per minute, which makes it a practical,
             affordable choice for spice, tea, coffee and namkeen packers.
           </p>
@@ -274,7 +272,7 @@ export default function ProductDetailSection() {
             <span className="font-bold text-black">
               Normal FFS Packaging Machine
             </span>{" "}
-            (JAT-301) so versatile: film forms around the product, fills
+ so versatile: film forms around the product, fills
             2 g to 200 g, then seals, 30 to 80 times a minute. Jawla Advance
             Technology LLP builds it as the most popular choice for spice,
             tea, coffee and namkeen businesses that want reliable automatic
@@ -294,7 +292,7 @@ export default function ProductDetailSection() {
                   <th className="py-2 pr-4 font-bold text-gray-900">
                     Feature
                   </th>
-                  <th className="py-2 font-bold text-gray-900">JAT-301</th>
+                  <th className="py-2 font-bold text-gray-900">Specification</th>
                 </tr>
               </thead>
               <tbody>
@@ -332,7 +330,7 @@ export default function ProductDetailSection() {
             Products You Can Pack
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            The JAT-301 works with free-flowing powders and granules:
+            The Normal FFS Packaging Machine works with free-flowing powders and granules:
           </p>
           <ul className="list-disc list-inside text-gray-700 mt-3 space-y-1">
             {packableProducts.map((item, index) => (
@@ -366,7 +364,7 @@ export default function ProductDetailSection() {
             Built to Last
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            The JAT-301 weighs about 500 kg, so it stays stable at full speed
+            The Normal FFS Packaging Machine weighs about 500 kg, so it stays stable at full speed
             and vibrates less. The outer body has electrostatic powder
             coating that resists scratches, rust and dust. A continuous
             sealing mechanism gives strong seals that stop leakage and keep
@@ -398,7 +396,7 @@ export default function ProductDetailSection() {
               normal FFS packaging machine
             </span>{" "}
             manufacturer based in Ballabgarh, Faridabad, we build every
-            JAT-301 in-house and test
+            Normal FFS Packaging Machine in-house and test
             it before dispatch. Customers in Delhi, Gurugram, Noida,
             Ghaziabad and Palwal choose us because:
           </p>
@@ -415,14 +413,14 @@ export default function ProductDetailSection() {
             Normal FFS or High Speed FFS?
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            The JAT-301 suits most small and medium units with outputs up to
+            The Normal FFS Packaging Machine suits most small and medium units with outputs up to
             80 pouches per minute. If you pack very small sachets in large
             volumes, such as pan masala or mouth freshener, our{" "}
             <Link
               href="/ffs-high-speed-packaging-machine"
               className="text-red-600 hover:text-[#BB2426] font-semibold"
             >
-              FFS High Speed Packaging Machine (JAT-302)
+              FFS High Speed Packaging Machine
             </Link>{" "}
             can produce 100 to 450 pouches per minute. Our team will help you
             compare both based on your daily target.
@@ -441,13 +439,13 @@ export default function ProductDetailSection() {
           </ul>
         </div>
 
-        {/* Who Uses the JAT-301 */}
+        {/* Who Uses the Normal FFS Packaging Machine */}
         <div>
           <h2 className="text-xl sm:text-xl md:2xl font-bold text-[#BB2426] mb-4">
-            Who Uses the JAT-301 in Delhi NCR
+            Who Uses the Normal FFS Packaging Machine in Delhi NCR
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Most JAT-301 buyers are growing food businesses that have
+            Most Normal FFS Packaging Machine buyers are growing food businesses that have
             outgrown hand packing. Typical users include masala and spice
             grinders in Faridabad and Palwal, tea and coffee packers in
             Delhi, namkeen makers in Ghaziabad and Noida, and detergent units

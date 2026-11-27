@@ -20,14 +20,15 @@ const productRoutes = [
   "/ffs-half-pneumatic-packaging-machine",
   "/ffs-high-speed-packaging-machine",
   "/ffs-liquid-packaging-machine",
-  "/fully-automatic-multi-head-weighing-packaging-machine-jat-306",
+  "/fully-automatic-multi-head-weighing-packaging-machine",
   "/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine",
   "/horizontal-flow-wrap-pillow-pack-machine",
   "/horizontal-rotary-machine",
   "/hotel-pack-packaging-machine",
-  "/normal-ffs-packaging-machine-jat-301",
+  "/normal-ffs-packaging-machine",
   "/one-edge-biscuit-packaging-machine",
   "/one-edge-packaging-machine-with-cream-biscuit-feeder",
+  "/small-pouch-packing-machine",
 ];
 
 const blogRoutes = [

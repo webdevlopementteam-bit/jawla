@@ -6,9 +6,9 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/collar-type-cup-filler-packaging-machine" },
-  title: "Collar Type Cup Filler Packaging Machine (JAT-314)",
+  title: "Collar Type Cup Filler Packaging Machine",
   description:
-    "Buy Collar Type Cup Filler Packaging Machine (JAT-314) from Jawla Advance Technology. High accuracy volumetric cup filler for rice, pulses, namkeen & spices (100g–1kg).",
+    "Buy Collar Type Cup Filler Packaging Machine from Jawla Advance Technology. High accuracy volumetric cup filler for rice, pulses, namkeen & spices (100g–1kg).",
   keywords: [
     "Collar Type Cup Filler Packaging Machine",
     "Packaging Machine",
@@ -36,7 +36,7 @@ export default function ProductDetailSection() {
           sampleImage={
             "/PRODUCTS/collar-type-cup-filler-packaging-machine/p2.webp"
           }
-          productTitle={"Collar Type Cup Filler Packaging Machine (JAT-314)"}
+          productTitle={"Collar Type Cup Filler Packaging Machine"}
           productDescription={"Spices, Namkeen, Rice, Pulses etc."}
           productTagline={"High Degree of Tolerance with Optimum Runtime"}
         />
@@ -44,7 +44,7 @@ export default function ProductDetailSection() {
 
       <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
         <h1 className="text-2xl md:text-3xl font-bold text-black">
-          Collar Type Cup Filler Packaging Machine (JAT-314) - Jawla Advance Technology
+          Collar Type Cup Filler Packaging Machine - Jawla Advance Technology
         </h1>
       </section>
       <SuppliedProductContent page={suppliedProductContent.collarCup} />

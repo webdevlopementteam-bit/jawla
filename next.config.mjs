@@ -29,8 +29,8 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/normal-ffs-packaging-machine",
-        destination: "/normal-ffs-packaging-machine-jat-301",
+        source: "/normal-ffs-packaging-machine-jat-301",
+        destination: "/normal-ffs-packaging-machine",
         permanent: true,
       },
       {
@@ -39,9 +39,14 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: "/fully-automatic-multi-head-weighing-packaging-machine-jat-306",
+        destination: "/fully-automatic-multi-head-weighing-packaging-machine",
+        permanent: true,
+      },
+      {
         source:
           "/index.php/fully-automatic-multi-head-weighing-packaging-machine-jat-306",
-        destination: "/fully-automatic-multi-head-weighing-packaging-machine-jat-306",
+        destination: "/fully-automatic-multi-head-weighing-packaging-machine",
         permanent: true,
       },
       {

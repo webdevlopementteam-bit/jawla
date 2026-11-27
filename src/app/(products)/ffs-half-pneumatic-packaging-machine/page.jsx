@@ -5,9 +5,9 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/ffs-half-pneumatic-packaging-machine" },
-  title: "Half Pneumatic Packaging Machine (JAT-304)",
+  title: "Half Pneumatic Packaging Machine",
   description:
-    "Buy Half Pneumatic Packaging Machine (JAT-304) from Jawla Advance Technology. Packs 2g to 300g at up to 60 pouches/min with airtight pneumatic sealing.",
+    "Buy Half Pneumatic Packaging Machine from Jawla Advance Technology. Packs 2g to 300g at up to 60 pouches/min with airtight pneumatic sealing.",
   keywords: [
     "Half Pneumatic Packaging Machine",
     "Packaging Machine",
@@ -23,12 +23,10 @@ const jsonLd = {
     {
       "@type": "Product",
       "@id": "https://www.jawlaadvancetechnology.com/ffs-half-pneumatic-packaging-machine#product",
-      name: "Half Pneumatic Packaging Machine (JAT-304)",
-      model: "JAT-304",
-      sku: "JAT-304",
+      name: "Half Pneumatic Packaging Machine",
       category: "Half Pneumatic Packaging Machine",
       image: "https://www.jawlaadvancetechnology.com/PRODUCTS/ffs-half-pneumatic-packaging-machine/p1.webp",
-      description: "Half pneumatic packaging machine manufactured in Delhi NCR by Jawla Advance Technology. JAT-304 packs 2 g to 300 g at up to 60 pouches per minute.",
+      description: "Half pneumatic packaging machine manufactured in Delhi NCR by Jawla Advance Technology. FFS Half Pneumatic Packaging Machine packs 2 g to 300 g at up to 60 pouches per minute.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
       manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
       additionalProperty: [
@@ -88,7 +86,7 @@ const jsonLd = {
           name: "What is a half pneumatic packaging machine?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "A half pneumatic packaging machine uses compressed air for part of its movement, usually sealing, while the rest runs mechanically. This gives firm, even sealing pressure at a lower cost than a fully automatic line. Jawla Advance Technology's JAT-304 uses this design for spice, tea and namkeen pouches.",
+            text: "A half pneumatic packaging machine uses compressed air for part of its movement, usually sealing, while the rest runs mechanically. This gives firm, even sealing pressure at a lower cost than a fully automatic line. Jawla Advance Technology's FFS Half Pneumatic Packaging Machine uses this design for spice, tea and namkeen pouches.",
           },
         },
         {
@@ -96,7 +94,7 @@ const jsonLd = {
           name: "What is a half pneumatic packaging machine used for?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "It is used to pack granular and powder products such as masala, spices, tea, coffee, namkeen, pulses and detergent into airtight pouches. Jawla Advance Technology's JAT-304 is mainly bought by small and medium food units moving from hand packing to machine packing.",
+            text: "It is used to pack granular and powder products such as masala, spices, tea, coffee, namkeen, pulses and detergent into airtight pouches. Jawla Advance Technology's FFS Half Pneumatic Packaging Machine is mainly bought by small and medium food units moving from hand packing to machine packing.",
           },
         },
         {
@@ -104,23 +102,23 @@ const jsonLd = {
           name: "How much does a half pneumatic packaging machine cost in India?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The Jawla Advance Technology JAT-304 half pneumatic packaging machine is priced based on pack range and accessories. It is one of the most affordable ways to start automatic pouch packing. Contact the Faridabad team for an exact quote.",
+            text: "The Jawla Advance Technology FFS Half Pneumatic Packaging Machine half pneumatic packaging machine is priced based on pack range and accessories. It is one of the most affordable ways to start automatic pouch packing. Contact the Faridabad team for an exact quote.",
           },
         },
         {
           "@type": "Question",
-          name: "What pouch sizes can the JAT-304 fill?",
+          name: "What pouch sizes can the FFS Half Pneumatic Packaging Machine fill?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-304 fills pouches from 2 g to 300 g using a volumetric cup system. You adjust or change the cups to change pack weight, so one machine can handle small sachets and larger retail pouches of spices, tea or namkeen.",
+            text: "The FFS Half Pneumatic Packaging Machine fills pouches from 2 g to 300 g using a volumetric cup system. You adjust or change the cups to change pack weight, so one machine can handle small sachets and larger retail pouches of spices, tea or namkeen.",
           },
         },
         {
           "@type": "Question",
-          name: "How many pouches per minute does the JAT-304 produce?",
+          name: "How many pouches per minute does the FFS Half Pneumatic Packaging Machine produce?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-304 produces up to 60 pouches per minute. That is roughly 3,600 pouches an hour, many times faster than manual weighing and sealing, while giving every pouch the same weight and seal quality.",
+            text: "The FFS Half Pneumatic Packaging Machine produces up to 60 pouches per minute. That is roughly 3,600 pouches an hour, many times faster than manual weighing and sealing, while giving every pouch the same weight and seal quality.",
           },
         },
         {
@@ -133,10 +131,10 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "Is the JAT-304 easy for first-time buyers?",
+          name: "Is the FFS Half Pneumatic Packaging Machine easy for first-time buyers?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. The JAT-304 is simple to run, and Jawla Advance Technology provides complete in-house training on operation, cleaning, maintenance and troubleshooting. Most operators become comfortable within a few days, even if they have never used a packaging machine before.",
+            text: "Yes. The FFS Half Pneumatic Packaging Machine is simple to run, and Jawla Advance Technology provides complete in-house training on operation, cleaning, maintenance and troubleshooting. Most operators become comfortable within a few days, even if they have never used a packaging machine before.",
           },
         },
         {
@@ -149,10 +147,10 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "Can I upgrade from the JAT-304 to a fully automatic machine later?",
+          name: "Can I upgrade from the FFS Half Pneumatic Packaging Machine to a fully automatic machine later?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. Many Jawla Advance Technology customers start with the JAT-304 and add a fully automatic machine such as the Normal FFS JAT-301 or FFS High Speed JAT-302 when orders grow. The controls are familiar, so operators adapt quickly.",
+            text: "Yes. Many Jawla Advance Technology customers start with the FFS Half Pneumatic Packaging Machine and add a fully automatic machine such as the Normal FFS Packaging Machine or FFS High Speed FFS High Speed Packaging Machine when orders grow. The controls are familiar, so operators adapt quickly.",
           },
         },
         {
@@ -160,7 +158,7 @@ const jsonLd = {
           name: "Who is the best half pneumatic packaging machine manufacturer in Delhi NCR?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best half pneumatic packaging machine manufacturers in Delhi NCR. It builds the JAT-304 in-house, lets buyers test their own product before ordering, and provides installation, full operator training, genuine spares and fast local service.",
+            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best half pneumatic packaging machine manufacturers in Delhi NCR. It builds the FFS Half Pneumatic Packaging Machine in-house, lets buyers test their own product before ordering, and provides installation, full operator training, genuine spares and fast local service.",
           },
         },
       ],
@@ -257,7 +255,7 @@ export default function ProductDetailSection() {
         <MainProductDetails
           MachineImage={"/PRODUCTS/ffs-half-pneumatic-packaging-machine/p1.webp"}
           sampleImage={"/PRODUCTS/ffs-half-pneumatic-packaging-machine/p2.webp"}
-          productTitle={"FFS Half Pneumatic Packaging Machine (JAT-304)"}
+          productTitle={"FFS Half Pneumatic Packaging Machine"}
           productDescription={
             "Spices, Namkeen, Tea, Coffee, Heena, Powder, All granular & Detergent"
           }
@@ -271,12 +269,12 @@ export default function ProductDetailSection() {
         {/* H1 + Quick Answer */}
         <div className="space-y-3">
           <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">
-            Half Pneumatic Packaging Machine (JAT-304) - Jawla Advance Technology
+            Half Pneumatic Packaging Machine - Jawla Advance Technology
           </h1>
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
             Jawla Advance Technology LLP is a half pneumatic packaging
-            machine manufacturer in Delhi NCR. Its JAT-304 packs
+            machine manufacturer in Delhi NCR. Its FFS Half Pneumatic Packaging Machine packs
             masala, spices, tea, coffee, namkeen and detergent in 2 g to 300
             g pouches at up to 60 pouches per minute, with an airtight centre
             seal and full operator training included.
@@ -286,7 +284,7 @@ export default function ProductDetailSection() {
             <span className="font-bold text-black">
               Half Pneumatic Packaging Machine
             </span>{" "}
-            (JAT-304) runs on, packing masala, spices, tea, coffee, namkeen,
+ runs on, packing masala, spices, tea, coffee, namkeen,
             detergent and other granular products in pouches from 2 g to 300
             g at up to 60 pouches per minute with a strong centre seal. Jawla
             Advance Technology LLP builds it in Delhi NCR, giving small and
@@ -307,7 +305,7 @@ export default function ProductDetailSection() {
                   <th className="p-3 font-bold text-black border-r border-gray-200 w-1/2">
                     Feature
                   </th>
-                  <th className="p-3 font-bold text-black w-1/2">JAT-304</th>
+                  <th className="p-3 font-bold text-black w-1/2">Specification</th>
                 </tr>
               </thead>
               <tbody>
@@ -364,10 +362,10 @@ export default function ProductDetailSection() {
           </ul>
         </div>
 
-        {/* Who Should Buy the JAT-304 */}
+        {/* Who Should Buy the FFS Half Pneumatic Packaging Machine */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">
-            Who Should Buy the JAT-304?
+            Who Should Buy the FFS Half Pneumatic Packaging Machine?
           </h2>
           <ul className="list-disc pl-5 space-y-2">
             {whoShouldBuy.map((item, index) => (
@@ -383,7 +381,7 @@ export default function ProductDetailSection() {
             Packaging Machine Manufacturer
           </h2>
           <p className="leading-relaxed">
-            Our team of skilled machinists builds each JAT-304 at our
+            Our team of skilled machinists builds each FFS Half Pneumatic Packaging Machine at our
             factory in Sarurpur Industrial Area, Ballabgarh, Faridabad. As a{" "}
             <span className="font-bold text-black">
               half pneumatic packaging machine
@@ -408,23 +406,23 @@ export default function ProductDetailSection() {
             Half Pneumatic vs Fully Automatic
           </h2>
           <p className="leading-relaxed">
-            The JAT-304 is perfect for small to medium output. If your
+            The FFS Half Pneumatic Packaging Machine is perfect for small to medium output. If your
             orders grow beyond 60 pouches per minute, our fully automatic
             range, including the{" "}
             <Link
-              href="/normal-ffs-packaging-machine-jat-301"
+              href="/normal-ffs-packaging-machine"
               className="text-[#E13538] font-bold hover:underline"
             >
-              Normal FFS (JAT-301)
+              Normal FFS
             </Link>{" "}
             and{" "}
             <Link
               href="/ffs-high-speed-packaging-machine"
               className="text-[#E13538] font-bold hover:underline"
             >
-              FFS High Speed (JAT-302)
+              FFS High Speed
             </Link>
-            , offers higher speeds. Many customers start with the JAT-304 and
+            , offers higher speeds. Many customers start with the FFS Half Pneumatic Packaging Machine and
             add a fully automatic machine later.
           </p>
         </div>
@@ -453,13 +451,13 @@ export default function ProductDetailSection() {
           </ul>
         </div>
 
-        {/* Who Uses the JAT-304 */}
+        {/* Who Uses the FFS Half Pneumatic Packaging Machine */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">
-            Who Uses the JAT-304 in Delhi NCR
+            Who Uses the FFS Half Pneumatic Packaging Machine in Delhi NCR
           </h2>
           <p className="leading-relaxed">
-            The JAT-304 is popular with first-time machine buyers. Typical
+            The FFS Half Pneumatic Packaging Machine is popular with first-time machine buyers. Typical
             users include small masala grinders in Faridabad and Ballabgarh,
             tea packers supplying local markets in Delhi, namkeen makers in
             Ghaziabad, and detergent units in Palwal and Sonipat. Most of

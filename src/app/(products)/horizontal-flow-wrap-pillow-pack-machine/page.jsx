@@ -5,9 +5,9 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/horizontal-flow-wrap-pillow-pack-machine" },
-  title: "Horizontal Flow Wrap Pillow Pack Machine (JAT-308)",
+  title: "Horizontal Flow Wrap Pillow Pack Machine",
   description:
-    "Buy Horizontal Flow Wrap Pillow Pack Machine (JAT-308) from Jawla Advance Technology. High speed flow wrapper for biscuits, cakes, soaps, noodles & bakery items.",
+    "Buy Horizontal Flow Wrap Pillow Pack Machine from Jawla Advance Technology. High speed flow wrapper for biscuits, cakes, soaps, noodles & bakery items.",
   keywords: [
     "Horizontal Flow Wrap Pillow Pack Machine",
     "Packaging Machine",
@@ -23,12 +23,10 @@ const jsonLd = {
     {
       "@type": "Product",
       "@id": "https://www.jawlaadvancetechnology.com/horizontal-flow-wrap-pillow-pack-machine#product",
-      name: "Horizontal Flow Wrap Pillow Pack Machine (JAT-308)",
-      model: "JAT-308",
-      sku: "JAT-308",
+      name: "Horizontal Flow Wrap Pillow Pack Machine",
       category: "Horizontal Flow Wrap Machine",
       image: "https://www.jawlaadvancetechnology.com/PRODUCTS/horizontal-flow-wrap-pillow-pack-machine/p1.webp",
-      description: "Horizontal flow wrap pillow pack machine manufactured in Delhi NCR by Jawla Advance Technology. JAT-308 wraps biscuits, bakery and tray-pack items in pillow, family and tray packs.",
+      description: "Horizontal flow wrap pillow pack machine manufactured in Delhi NCR by Jawla Advance Technology. Horizontal Flow Wrap Pillow Pack Machine wraps biscuits, bakery and tray-pack items in pillow, family and tray packs.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
       manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
       additionalProperty: [
@@ -88,15 +86,15 @@ const jsonLd = {
           name: "What is a horizontal flow wrap pillow pack machine?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "A horizontal flow wrap pillow pack machine wraps solid products in a tube of film, sealing along the bottom and at both ends to form a pillow-shaped pack. Products move on a horizontal conveyor and are never dropped. Jawla Advance Technology's JAT-308 uses this method for food and non-food items.",
+            text: "A horizontal flow wrap pillow pack machine wraps solid products in a tube of film, sealing along the bottom and at both ends to form a pillow-shaped pack. Products move on a horizontal conveyor and are never dropped. Jawla Advance Technology's Horizontal Flow Wrap Pillow Pack Machine uses this method for food and non-food items.",
           },
         },
         {
           "@type": "Question",
-          name: "Which products can the JAT-308 pack?",
+          name: "Which products can the Horizontal Flow Wrap Pillow Pack Machine pack?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-308 packs biscuits, cookies, rusk, chocolate bars, noodles, cakes, gur, scotch bars, towels, gauze, bearings, cycle tubes, electronic items and tray pack products. It suits almost any solid item that fits its film width.",
+            text: "The Horizontal Flow Wrap Pillow Pack Machine packs biscuits, cookies, rusk, chocolate bars, noodles, cakes, gur, scotch bars, towels, gauze, bearings, cycle tubes, electronic items and tray pack products. It suits almost any solid item that fits its film width.",
           },
         },
         {
@@ -104,23 +102,23 @@ const jsonLd = {
           name: "How much does a flow wrap pillow pack machine cost in India?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The Jawla Advance Technology JAT-308 flow wrap pillow pack machine is priced based on product size, feeding system and accessories. Share your product dimensions with the Faridabad team for an exact quote.",
+            text: "The Jawla Advance Technology Horizontal Flow Wrap Pillow Pack Machine flow wrap pillow pack machine is priced based on product size, feeding system and accessories. Share your product dimensions with the Faridabad team for an exact quote.",
           },
         },
         {
           "@type": "Question",
-          name: "What is the production speed of the JAT-308?",
+          name: "What is the production speed of the Horizontal Flow Wrap Pillow Pack Machine?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-308 speed depends on product length, pack style and film. For very high-volume 2 or 4 biscuit packs, Jawla Advance Technology's JAT-310 high speed model runs at up to 300 packs per minute.",
+            text: "The Horizontal Flow Wrap Pillow Pack Machine speed depends on product length, pack style and film. For very high-volume 2 or 4 biscuit packs, Jawla Advance Technology's High Speed Pillow Pack Machine high speed model runs at up to 300 packs per minute.",
           },
         },
         {
           "@type": "Question",
-          name: "Can the JAT-308 make family packs?",
+          name: "Can the Horizontal Flow Wrap Pillow Pack Machine make family packs?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. Besides single pillow packs, the JAT-308 can wrap several items together as family or combo packs, and can also wrap products placed in trays. This flexibility makes it useful for bakeries and FMCG units with varied pack formats.",
+            text: "Yes. Besides single pillow packs, the Horizontal Flow Wrap Pillow Pack Machine can wrap several items together as family or combo packs, and can also wrap products placed in trays. This flexibility makes it useful for bakeries and FMCG units with varied pack formats.",
           },
         },
         {
@@ -128,7 +126,7 @@ const jsonLd = {
           name: "What film does a flow wrap machine use?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-308 uses heat-sealable laminated roll film up to 550 mm wide. Continuous sealing creates leak-proof, tamper-resistant packs that protect products from moisture, dust and damage during storage and transport.",
+            text: "The Horizontal Flow Wrap Pillow Pack Machine uses heat-sealable laminated roll film up to 550 mm wide. Continuous sealing creates leak-proof, tamper-resistant packs that protect products from moisture, dust and damage during storage and transport.",
           },
         },
         {
@@ -136,7 +134,7 @@ const jsonLd = {
           name: "Can one flow wrap machine pack both food and non-food items?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. The JAT-308 is used for food items like biscuits and noodles and for non-food items like towels, bearings and electronic parts. Changing pack length and settings for a new product is done on the control panel.",
+            text: "Yes. The Horizontal Flow Wrap Pillow Pack Machine is used for food items like biscuits and noodles and for non-food items like towels, bearings and electronic parts. Changing pack length and settings for a new product is done on the control panel.",
           },
         },
         {
@@ -152,12 +150,12 @@ const jsonLd = {
           name: "Who is the best horizontal flow wrap pillow pack machine manufacturer in Delhi NCR?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best horizontal flow wrap pillow pack machine manufacturers in Delhi NCR. It builds the JAT-308 in-house, lets buyers test their own products before ordering, and provides installation, operator training, genuine spares and fast local service.",
+            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best horizontal flow wrap pillow pack machine manufacturers in Delhi NCR. It builds the Horizontal Flow Wrap Pillow Pack Machine in-house, lets buyers test their own products before ordering, and provides installation, operator training, genuine spares and fast local service.",
           },
         },
         {
           "@type": "Question",
-          name: "Does Jawla Advance Technology provide installation and training for the JAT-308?",
+          name: "Does Jawla Advance Technology provide installation and training for the Horizontal Flow Wrap Pillow Pack Machine?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Yes. Jawla Advance Technology installs the machine, sets it up for your product sizes and film, trains your operators on sealing and changeovers, and provides preventive maintenance, breakdown support and spares across Delhi NCR.",
@@ -253,7 +251,7 @@ export default function ProductDetailSection() {
           sampleImage={
             "/PRODUCTS/horizontal-flow-wrap-pillow-pack-machine/p2.webp"
           }
-          productTitle={"Horizontal Flow Wrap Pillow Pack Machine (JAT-308)"}
+          productTitle={"Horizontal Flow Wrap Pillow Pack Machine"}
           productDescription={
             "Biscuit, Chocolate Bar, Noodles, Cycle Tube, Gauze, Bearing, Maggi, Sataining Towels, Scotch Bar, Gur, Cake, Tray Pack items & Electronic items etc."
           }
@@ -265,7 +263,7 @@ export default function ProductDetailSection() {
         {/* H1 + Quick Answer */}
         <div className="space-y-3">
           <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">
-            Horizontal Flow Wrap Pillow Pack Machine (JAT-308) - Jawla Advance Technology
+            Horizontal Flow Wrap Pillow Pack Machine - Jawla Advance Technology
           </h1>
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
@@ -273,14 +271,14 @@ export default function ProductDetailSection() {
             <span className="font-bold text-black">
               Horizontal Flow Wrap Pillow Pack Machine
             </span>{" "}
-            manufacturer in Delhi NCR. Its JAT-308
+            manufacturer in Delhi NCR. Its Horizontal Flow Wrap Pillow Pack Machine
             wraps biscuits, chocolate bars, noodles, cakes, gur, towels,
             bearings and electronic parts into sealed pillow packs, using
             laminated film up to 550 mm wide and stainless steel contact
             parts.
           </p>
           <p className="leading-relaxed">
-            Continuous sealing is what lets the JAT-308 wrap solid products
+            Continuous sealing is what lets the Horizontal Flow Wrap Pillow Pack Machine wrap solid products
             such as biscuits, chocolate bars, noodles, cakes, rusk, gur,
             towels, bearings and electronic parts into neat, sealed pillow
             packs — a versatile machine for food, FMCG, pharmaceutical and
@@ -308,7 +306,7 @@ export default function ProductDetailSection() {
                   <th className="p-3 font-bold text-black border-r border-gray-200 w-1/2">
                     Feature
                   </th>
-                  <th className="p-3 font-bold text-black w-1/2">JAT-308</th>
+                  <th className="p-3 font-bold text-black w-1/2">Specification</th>
                 </tr>
               </thead>
               <tbody>
@@ -385,7 +383,7 @@ export default function ProductDetailSection() {
             </span>{" "}
             manufacturer with its own factory in Ballabgarh, Faridabad, we
             design, build and
-            test every JAT-308 in-house. Bakery, FMCG and industrial units
+            test every Horizontal Flow Wrap Pillow Pack Machine in-house. Bakery, FMCG and industrial units
             across Delhi NCR choose us because:
           </p>
           <ul className="list-disc pl-5 space-y-2">
@@ -403,7 +401,7 @@ export default function ProductDetailSection() {
           <ul className="list-disc pl-5 space-y-2">
             <li>
               <span className="font-bold text-black">
-                JAT-308 Flow Wrap Pillow Pack Machine:
+                Horizontal Flow Wrap Pillow Pack Machine Flow Wrap Pillow Pack Machine:
               </span>{" "}
               versatile, for many product types and sizes.
             </li>
@@ -412,7 +410,7 @@ export default function ProductDetailSection() {
                 href="/hotel-pack-packaging-machine"
                 className="font-bold text-[#E13538] hover:underline"
               >
-                JAT-309 Hotel Pack Machine:
+                Hotel Pack Machine:
               </Link>{" "}
               pillow and tray packs for bakery and HoReCa items, up to 80
               packs per minute.
@@ -422,7 +420,7 @@ export default function ProductDetailSection() {
                 href="/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine"
                 className="font-bold text-[#E13538] hover:underline"
               >
-                JAT-310 High Speed Flow Wrap Machine:
+                High Speed Flow Wrap Machine:
               </Link>{" "}
               automatic feeding for 2 or 4 biscuit packs at up to 300 packs
               per minute.
@@ -446,13 +444,13 @@ export default function ProductDetailSection() {
           </ul>
         </div>
 
-        {/* Who Uses the JAT-308 */}
+        {/* Who Uses the Horizontal Flow Wrap Pillow Pack Machine */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">
-            Who Uses the JAT-308 in Delhi NCR
+            Who Uses the Horizontal Flow Wrap Pillow Pack Machine in Delhi NCR
           </h2>
           <p className="leading-relaxed">
-            The JAT-308 suits units that wrap solid items of many shapes.
+            The Horizontal Flow Wrap Pillow Pack Machine suits units that wrap solid items of many shapes.
             Typical buyers include bakeries and biscuit makers in Faridabad
             and Delhi, gur and chikki producers, instant noodle packers,
             hospital and hygiene product suppliers packing gauze and towels,

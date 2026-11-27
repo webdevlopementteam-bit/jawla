@@ -5,9 +5,9 @@ import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/ffs-high-speed-packaging-machine" },
-  title: "FFS High Speed Packaging Machine (JAT-302)",
+  title: "FFS High Speed Packaging Machine",
   description:
-    "Buy FFS High Speed Packaging Machine (JAT-302) from Jawla Advance Technology. Produces 100–450 pouches/min for mouth freshener, pan masala, tea & granules.",
+    "Buy FFS High Speed Packaging Machine from Jawla Advance Technology. Produces 100–450 pouches/min for mouth freshener, pan masala, tea & granules.",
   keywords: [
     "FFS High Speed Packaging Machine",
     "Packaging Machine",
@@ -23,12 +23,10 @@ const jsonLd = {
     {
       "@type": "Product",
       "@id": "https://www.jawlaadvancetechnology.com/ffs-high-speed-packaging-machine#product",
-      name: "FFS High Speed Packaging Machine (JAT-302)",
-      model: "JAT-302",
-      sku: "JAT-302",
+      name: "FFS High Speed Packaging Machine",
       category: "FFS Packaging Machine",
       image: "https://www.jawlaadvancetechnology.com/PRODUCTS/ffs-high-speed-packaging-machine/p1.webp",
-      description: "FFS high speed packaging machine manufactured in Delhi NCR by Jawla Advance Technology. JAT-302 makes 100 to 450 pouches per minute, 2 g to 100 g, single phase.",
+      description: "FFS high speed packaging machine manufactured in Delhi NCR by Jawla Advance Technology. FFS High Speed Packaging Machine makes 100 to 450 pouches per minute, 2 g to 100 g, single phase.",
       brand: { "@type": "Brand", name: "Jawla Advance Technology" },
       manufacturer: { "@id": "https://www.jawlaadvancetechnology.com/#organization" },
       weight: { "@type": "QuantitativeValue", value: 700, unitCode: "KGM" },
@@ -89,7 +87,7 @@ const jsonLd = {
           name: "What is an FFS high speed packaging machine?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "An FFS high speed packaging machine is an automatic form fill seal machine built for small sachets in large volumes. It forms pouches from roll film, fills and seals them continuously. Jawla Advance Technology's JAT-302 produces 100 to 450 pouches per minute for 2 g to 100 g packs.",
+            text: "An FFS high speed packaging machine is an automatic form fill seal machine built for small sachets in large volumes. It forms pouches from roll film, fills and seals them continuously. Jawla Advance Technology's FFS High Speed Packaging Machine produces 100 to 450 pouches per minute for 2 g to 100 g packs.",
           },
         },
         {
@@ -97,23 +95,23 @@ const jsonLd = {
           name: "How much does an FFS high speed packaging machine cost in India?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The Jawla Advance Technology JAT-302 FFS high speed packaging machine is priced based on pouch size, seal style and accessories. Share your product and sachet weight with the Faridabad team to get an exact, configuration-based quote.",
+            text: "The Jawla Advance Technology FFS High Speed Packaging Machine FFS high speed packaging machine is priced based on pouch size, seal style and accessories. Share your product and sachet weight with the Faridabad team to get an exact, configuration-based quote.",
           },
         },
         {
           "@type": "Question",
-          name: "How many pouches per minute can the JAT-302 make?",
+          name: "How many pouches per minute can the FFS High Speed Packaging Machine make?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-302 makes 100 to 450 pouches per minute. Very small, light sachets such as mouth freshener run near the top speed, while heavier or slower-flowing products run lower. That can mean up to about 27,000 sachets an hour from one machine.",
+            text: "The FFS High Speed Packaging Machine makes 100 to 450 pouches per minute. Very small, light sachets such as mouth freshener run near the top speed, while heavier or slower-flowing products run lower. That can mean up to about 27,000 sachets an hour from one machine.",
           },
         },
         {
           "@type": "Question",
-          name: "Which products is the JAT-302 best for?",
+          name: "Which products is the FFS High Speed Packaging Machine best for?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-302 is best for small sachets of pan masala, mouth freshener, spices, masala, tea, coffee, namkeen, heena, powders, granules and detergent. It is ideal when you sell 1 to 10 rupee packs and need very high daily output.",
+            text: "The FFS High Speed Packaging Machine is best for small sachets of pan masala, mouth freshener, spices, masala, tea, coffee, namkeen, heena, powders, granules and detergent. It is ideal when you sell 1 to 10 rupee packs and need very high daily output.",
           },
         },
         {
@@ -121,15 +119,15 @@ const jsonLd = {
           name: "What pack sizes can an FFS high speed machine fill?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology's FFS high speed machine fills 2 g to 100 g per pouch, and up to 200 g for granular products. For larger retail packs of 100 g to 1 kg, the Collar Type Cup Filler JAT-314 or the Multi-Head Weigher JAT-306 is a better fit.",
+            text: "Jawla Advance Technology's FFS high speed machine fills 2 g to 100 g per pouch, and up to 200 g for granular products. For larger retail packs of 100 g to 1 kg, the Collar Type Cup Filler Collar Type Cup Filler Packaging Machine or the Multi-Head Weigher Multi-Head Weighing Packaging Machine is a better fit.",
           },
         },
         {
           "@type": "Question",
-          name: "Does the JAT-302 need three-phase power?",
+          name: "Does the FFS High Speed Packaging Machine need three-phase power?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "No. The JAT-302 runs on single-phase power with a 1/2 HP motor, which keeps electricity costs low and makes installation easy even in small units. Jawla Advance Technology still recommends checking voltage stability before installation for smooth high-speed running.",
+            text: "No. The FFS High Speed Packaging Machine runs on single-phase power with a 1/2 HP motor, which keeps electricity costs low and makes installation easy even in small units. Jawla Advance Technology still recommends checking voltage stability before installation for smooth high-speed running.",
           },
         },
         {
@@ -137,15 +135,15 @@ const jsonLd = {
           name: "What is the difference between high speed FFS and normal FFS?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "High speed FFS (JAT-302) runs at 100 to 450 pouches per minute for 2 g to 100 g sachets. Normal FFS (JAT-301) runs at 30 to 80 pouches per minute but covers 2 g to 200 g and costs less. Pick based on sachet size and daily volume.",
+            text: "High speed FFS runs at 100 to 450 pouches per minute for 2 g to 100 g sachets. Normal FFS runs at 30 to 80 pouches per minute but covers 2 g to 200 g and costs less. Pick based on sachet size and daily volume.",
           },
         },
         {
           "@type": "Question",
-          name: "Is the JAT-302 good for a pan masala or mouth freshener business?",
+          name: "Is the FFS High Speed Packaging Machine good for a pan masala or mouth freshener business?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. Pan masala and mouth freshener brands sell huge numbers of tiny sachets, and the JAT-302 is designed exactly for that. Its leak-proof heat seals keep aroma locked in, and its high speed lets one line meet large distributor orders.",
+            text: "Yes. Pan masala and mouth freshener brands sell huge numbers of tiny sachets, and the FFS High Speed Packaging Machine is designed exactly for that. Its leak-proof heat seals keep aroma locked in, and its high speed lets one line meet large distributor orders.",
           },
         },
         {
@@ -153,15 +151,15 @@ const jsonLd = {
           name: "Who is the best FFS high speed packaging machine manufacturer in Delhi NCR?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best FFS high speed packaging machine manufacturers in Delhi NCR. It builds the JAT-302 in-house, lets buyers test their own sachets before ordering, and provides installation, operator training, genuine spares and fast local service.",
+            text: "Jawla Advance Technology LLP in Ballabgarh, Faridabad is one of the best FFS high speed packaging machine manufacturers in Delhi NCR. It builds the FFS High Speed Packaging Machine in-house, lets buyers test their own sachets before ordering, and provides installation, operator training, genuine spares and fast local service.",
           },
         },
         {
           "@type": "Question",
-          name: "What support do I get after buying the JAT-302?",
+          name: "What support do I get after buying the FFS High Speed Packaging Machine?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology installs and commissions the JAT-302, trains your operators on speed settings, film loading and cleaning, and provides preventive maintenance, breakdown visits and genuine spares. Remote support is available for buyers outside Delhi NCR and for export customers.",
+            text: "Jawla Advance Technology installs and commissions the FFS High Speed Packaging Machine, trains your operators on speed settings, film loading and cleaning, and provides preventive maintenance, breakdown visits and genuine spares. Remote support is available for buyers outside Delhi NCR and for export customers.",
           },
         },
       ],
@@ -219,7 +217,7 @@ const speedTips = [
 ];
 
 const buyersChecklist = [
-  "Confirm sachet size: the JAT-302 is optimised for 2 g to 100 g; heavier packs need a different model.",
+  "Confirm sachet size: the FFS High Speed Packaging Machine is optimised for 2 g to 100 g; heavier packs need a different model.",
   "Test real speed: ask for a trial with your product and film, since speed depends on flow and pouch length.",
   "Check film width: the machine takes rolls up to 200 mm wide.",
   "Plan power: it runs on single phase, but check your wiring and voltage stability.",
@@ -248,7 +246,7 @@ export default function ProductDetailSection() {
         <MainProductDetails
           MachineImage={"/PRODUCTS/ffs-high-speed-packaging-machine/p1.webp"}
           sampleImage={"/PRODUCTS/ffs-high-speed-packaging-machine/p2.webp"}
-          productTitle={"FFS High Speed Packaging Machine (JAT-302)"}
+          productTitle={"FFS High Speed Packaging Machine"}
           productDescription={
             "Mouth Freshner, Paan masala, Spices, Namkeen, Tea, Coffee, Heena, Powder, All granular & Detergent"
           }
@@ -263,12 +261,12 @@ export default function ProductDetailSection() {
           {/* H1 + Quick Answer */}
           <div>
             <h1 className="text-2xl md:text-3xl font-bold text-black mb-4">
-              FFS High Speed Packaging Machine (JAT-302) - Jawla Advance Technology
+              FFS High Speed Packaging Machine - Jawla Advance Technology
             </h1>
             <p className="text-gray-700">
               <span className="font-bold text-black">Quick answer: </span>
               Jawla Advance Technology LLP, an FFS high speed packaging
-              machine manufacturer in Delhi NCR, makes the JAT-302, which
+              machine manufacturer in Delhi NCR, makes the FFS High Speed Packaging Machine, which
               packs 2 g to 100 g sachets at 100 to 450 pouches per minute on
               single-phase power with a 1/2 HP motor. It suits pan masala,
               mouth freshener, spice and tea brands selling small sachets in
@@ -279,7 +277,7 @@ export default function ProductDetailSection() {
               <span className="font-bold text-black">
                 FFS High Speed Packaging Machine
               </span>{" "}
-              (JAT-302): 100 to 450 pouches per minute, making it one of the
+: 100 to 450 pouches per minute, making it one of the
               fastest ways to pack small sachets of pan masala, mouth
               freshener, spices, tea and powders. It runs on single-phase
               power with a 1/2 HP motor, so even compact units can achieve
@@ -302,7 +300,7 @@ export default function ProductDetailSection() {
                       Feature
                     </th>
                     <th className="p-3 font-bold text-black text-center w-1/2 text-base md:text-xl">
-                      JAT-302
+                      FFS High Speed Packaging Machine
                     </th>
                   </tr>
                 </thead>
@@ -326,14 +324,14 @@ export default function ProductDetailSection() {
             </div>
           </div>
 
-          {/* Where the JAT-302 Fits Best */}
+          {/* Where the FFS High Speed Packaging Machine Fits Best */}
           <div className="space-y-4">
             <h2 className="text-[#E13538] text-xl font-bold">
-              Where the JAT-302 Fits Best
+              Where the FFS High Speed Packaging Machine Fits Best
             </h2>
             <p className="text-gray-700">
               High-speed FFS machines are built for products sold in huge
-              numbers of small packs. The JAT-302 works as a:
+              numbers of small packs. The FFS High Speed Packaging Machine works as a:
             </p>
             <ul className="list-disc list-inside space-y-1.5 pl-2 text-gray-700">
               {fitsBestList.map((item, index) => (
@@ -404,14 +402,14 @@ export default function ProductDetailSection() {
             <p className="text-gray-700">
               Not every business needs 450 pouches a minute. Our{" "}
               <Link
-                href="/normal-ffs-packaging-machine-jat-301"
+                href="/normal-ffs-packaging-machine"
                 className="text-[#E13538] font-bold hover:underline"
               >
-                Normal FFS Packaging Machine (JAT-301)
+                Normal FFS Packaging Machine
               </Link>{" "}
               packs 2 g to 200 g at 30 to 80 pouches per minute and costs
-              less. Choose the JAT-302 when you sell very small sachets in
-              high volume, and the JAT-301 when you need more pack-size
+              less. Choose the FFS High Speed Packaging Machine when you sell very small sachets in
+              high volume, and the Normal FFS Packaging Machine when you need more pack-size
               flexibility at moderate output. We will help you decide based
               on your sales plan.
             </p>
@@ -423,7 +421,7 @@ export default function ProductDetailSection() {
               Installation, Training and Service
             </h2>
             <p className="text-gray-700">
-              Our engineers install and commission the JAT-302 at your site
+              Our engineers install and commission the FFS High Speed Packaging Machine at your site
               and train your operators on speed settings, film loading,
               changeovers and cleaning. After installation, we provide
               preventive maintenance, breakdown support and genuine spares.
@@ -445,13 +443,13 @@ export default function ProductDetailSection() {
             </ul>
           </div>
 
-          {/* Who Uses the JAT-302 */}
+          {/* Who Uses the FFS High Speed Packaging Machine */}
           <div className="space-y-4">
             <h2 className="text-[#E13538] text-xl font-bold">
-              Who Uses the JAT-302 in Delhi NCR
+              Who Uses the FFS High Speed Packaging Machine in Delhi NCR
             </h2>
             <p className="text-gray-700">
-              The JAT-302 is chosen by brands that sell low-price sachets in
+              The FFS High Speed Packaging Machine is chosen by brands that sell low-price sachets in
               very large numbers. Typical buyers include mouth freshener and
               pan masala units around Delhi, spice brands supplying ₹5 and
               ₹10 packs to kirana stores, tea packers making single-cup

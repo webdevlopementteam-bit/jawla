@@ -66,19 +66,19 @@ export default function Footer() {
             <ul className="space-y-5 text-sm sm:text-base">
               {[
                 {
-                  name: "Normal FFS Packaging Machine (JAT-301)",
-                  href: "/normal-ffs-packaging-machine-jat-301",
+                  name: "Normal FFS Packaging Machine",
+                  href: "/normal-ffs-packaging-machine",
                 },
                 {
-                  name: "FFS High Speed Packaging Machine (JAT-302)",
+                  name: "FFS High Speed Packaging Machine",
                   href: "/ffs-high-speed-packaging-machine",
                 },
                 {
-                  name: "FFS D-Motion Type Packaging Machine (JAT-303)",
+                  name: "FFS D-Motion Type Packaging Machine",
                   href: "/ffs-d-motion-type-packaging-machine",
                 },
                 {
-                  name: "FFS Half Pneumatic Packaging Machine (JAT-304)",
+                  name: "FFS Half Pneumatic Packaging Machine",
                   href: "/ffs-half-pneumatic-packaging-machine",
                 },
               ].map((product, idx) => (

@@ -95,15 +95,15 @@ const jsonLd = {
           name: "How many packs per minute can a one-edge machine make?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla's JAT-311 makes up to 200 packs per minute, which is about 12,000 packs per hour. The real speed depends on your biscuit size and pack weight. This output is enough to keep pace with most single-oven biscuit lines.",
+            text: "Jawla's One-Edge Biscuit Packaging Machine makes up to 200 packs per minute, which is about 12,000 packs per hour. The real speed depends on your biscuit size and pack weight. This output is enough to keep pace with most single-oven biscuit lines.",
           },
         },
         {
           "@type": "Question",
-          name: "Which pack sizes can the JAT-311 make?",
+          name: "Which pack sizes can the One-Edge Biscuit Packaging Machine make?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-311 is designed for 50 g, 75 g and 100 g biscuit packs. Its feeder belt groups biscuits automatically for each size, so switching between these weights is quick. For other pack sizes, share your requirement with our team.",
+            text: "The One-Edge Biscuit Packaging Machine is designed for 50 g, 75 g and 100 g biscuit packs. Its feeder belt groups biscuits automatically for each size, so switching between these weights is quick. For other pack sizes, share your requirement with our team.",
           },
         },
         {
@@ -111,7 +111,7 @@ const jsonLd = {
           name: "Who is the best one-edge biscuit packaging machine manufacturer in India?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Jawla Advance Technology LLP, based in Ballabgarh, Faridabad, is one of the leading names in India. It has 19+ years of experience, 500+ clients and supply to 25+ countries. It builds the JAT-311 in-house, lets buyers test their own biscuits before ordering, and provides installation, training and genuine spare parts.",
+            text: "Jawla Advance Technology LLP, based in Ballabgarh, Faridabad, is one of the leading names in India. It has 19+ years of experience, 500+ clients and supply to 25+ countries. It builds the One-Edge Biscuit Packaging Machine in-house, lets buyers test their own biscuits before ordering, and provides installation, training and genuine spare parts.",
           },
         },
         {
@@ -119,15 +119,15 @@ const jsonLd = {
           name: "What packing film does the machine use?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-311 uses 250 mm heat-sealable laminated roll film. This film is common in food packaging. Along with the centre, front and back seals, it protects biscuits from moisture, dust and air, so they stay crisp and fresh for longer.",
+            text: "The One-Edge Biscuit Packaging Machine uses 250 mm heat-sealable laminated roll film. This film is common in food packaging. Along with the centre, front and back seals, it protects biscuits from moisture, dust and air, so they stay crisp and fresh for longer.",
           },
         },
         {
           "@type": "Question",
-          name: "How much power and space does the JAT-311 need?",
+          name: "How much power and space does the One-Edge Biscuit Packaging Machine need?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The JAT-311 uses about 3 kW of power and weighs about 1,400 kg. Plan a solid, level floor area for the machine and the space to connect it with your biscuit line. Our team helps with the layout before installation.",
+            text: "The One-Edge Biscuit Packaging Machine uses about 3 kW of power and weighs about 1,400 kg. Plan a solid, level floor area for the machine and the space to connect it with your biscuit line. Our team helps with the layout before installation.",
           },
         },
         {
@@ -148,7 +148,7 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "How do I get a price quote for the JAT-311?",
+          name: "How do I get a price quote for the One-Edge Biscuit Packaging Machine?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "Share your biscuit size, pack weights and required line speed with Jawla Advance Technology. Call +91 99900 33381, email sales@jawlatechnology.in, or use the contact page. The team will recommend the right setup and send a detailed quotation.",
@@ -212,7 +212,7 @@ const keySpecs = [
 ];
 
 const manualVsMachine = [
-  { point: "Speed", manual: "Slow, depends on workers", machine: "Up to 200 packs per minute (JAT-311)" },
+  { point: "Speed", manual: "Slow, depends on workers", machine: "Up to 200 packs per minute" },
   { point: "Biscuit count", manual: "Can vary pack to pack", machine: "Same count in every pack" },
   { point: "Seal quality", manual: "Uneven", machine: "Strong centre, front and back seals" },
   { point: "Breakage", manual: "Higher, due to handling", machine: "Lower, gentle feeding and clean cutting" },
@@ -222,28 +222,28 @@ const manualVsMachine = [
 
 const modelComparison = [
   {
-    model: "JAT-311 One-Edge",
+    model: "One-Edge",
     href: "/one-edge-biscuit-packaging-machine",
     best: "Slug packs of plain biscuits",
     pack: "50 g, 75 g, 100 g",
     speed: "Up to 200 packs/min",
   },
   {
-    model: "JAT-310 High Speed Pillow Pack",
+    model: "High Speed Pillow Pack",
     href: "/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine",
     best: "Small packs of 2 or 4 biscuits",
     pack: "Small pillow packs",
     speed: "Up to 300 packs/min",
   },
   {
-    model: "JAT-312 Family Pack",
+    model: "Family Pack",
     href: "/best-automatic-family-pack-rusk-packaging-machine",
     best: "Rusk, biscuit and cake family packs",
     pack: "50 g to 400 g",
     speed: "Continuous feeding",
   },
   {
-    model: "JAT-313 with Cream Feeder",
+    model: "One-Edge Packaging Machine with Cream Biscuit Feeder with Cream Feeder",
     href: "/one-edge-packaging-machine-with-cream-biscuit-feeder",
     best: "Cream sandwich biscuits",
     pack: "One-edge packs",
@@ -351,7 +351,7 @@ export default function OneEdgeBiscuitBuyersGuide() {
           A one-edge biscuit packaging machine stacks biscuits on their edge,
           wraps them in a film roll, and seals the pack along the centre and
           at both ends. This gives you the slug-style biscuit pack you see in
-          most shops. Our JAT-311 model makes 50 g, 75 g and 100 g packs at
+          most shops. Our One-Edge Biscuit Packaging Machine makes 50 g, 75 g and 100 g packs at
           up to 200 packs per minute.
         </p>
       </header>
@@ -404,7 +404,7 @@ export default function OneEdgeBiscuitBuyersGuide() {
           ))}
         </div>
         <p className="text-sm sm:text-[15px] md:text-base text-gray-800 leading-7">
-          In our JAT-311, a dual feeder keeps the wrapper supplied all the
+          In our One-Edge Biscuit Packaging Machine, a dual feeder keeps the wrapper supplied all the
           time. That is how it reaches up to 200 packs per minute.
         </p>
       </section>
@@ -432,10 +432,10 @@ export default function OneEdgeBiscuitBuyersGuide() {
       {/* Key Specifications */}
       <section className="mb-1 border-t border-gray-100 pt-6 sm:pt-8">
         <h2 className="text-xl sm:text-2xl md:text-3xl font-extrabold mb-1 sm:mb-5 tracking-tight leading-tight text-gray-900">
-          Key Specifications of the Jawla JAT-311
+          Key Specifications of the Jawla One-Edge Biscuit Packaging Machine
         </h2>
         <p className="text-sm sm:text-[15px] md:text-base text-gray-800 mb-5 leading-7">
-          The JAT-311 is our one-edge model with a dual feeder, built for
+          The One-Edge Biscuit Packaging Machine is our one-edge model with a dual feeder, built for
           high-volume biscuit plants.
         </p>
         <div className="overflow-x-auto border border-gray-200 rounded-sm mb-5">
@@ -445,7 +445,7 @@ export default function OneEdgeBiscuitBuyersGuide() {
                 <th className="p-3 font-bold text-black border-r border-gray-200">
                   Feature
                 </th>
-                <th className="p-3 font-bold text-black">JAT-311</th>
+                <th className="p-3 font-bold text-black">Specification</th>
               </tr>
             </thead>
             <tbody>
@@ -466,7 +466,7 @@ export default function OneEdgeBiscuitBuyersGuide() {
             href="/one-edge-biscuit-packaging-machine"
             className="text-red-600 font-bold hover:no-underline"
           >
-            JAT-311 product page
+            product page
           </Link>
           .
         </p>
@@ -566,9 +566,9 @@ export default function OneEdgeBiscuitBuyersGuide() {
           </table>
         </div>
         <p className="text-sm sm:text-[15px] md:text-base text-gray-800 leading-7">
-          If you sell plain biscuits in 50 g to 100 g packs, the JAT-311 is
+          If you sell plain biscuits in 50 g to 100 g packs, the One-Edge Biscuit Packaging Machine is
           usually the right fit. If you make cream biscuits, look at the
-          JAT-313.
+          One-Edge Packaging Machine with Cream Biscuit Feeder.
         </p>
       </section>
 

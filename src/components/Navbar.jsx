@@ -14,63 +14,63 @@ export default function Navbar() {
 
   const productsList = [
     {
-      name: "Normal FFS Packaging Machine (JAT-301)",
-      slug: "normal-ffs-packaging-machine-jat-301",
+      name: "Normal FFS Packaging Machine",
+      slug: "normal-ffs-packaging-machine",
     },
     {
-      name: "FFS Liquid Packaging Machine (JAT-301A)",
+      name: "FFS Liquid Packaging Machine",
       slug: "ffs-liquid-packaging-machine",
     },
     {
-      name: "FFS High Speed Packaging Machine (JAT-302)",
+      name: "FFS High Speed Packaging Machine",
       slug: "ffs-high-speed-packaging-machine",
     },
     {
-      name: "FFS D-Motion Type Packaging Machine (JAT-303)",
+      name: "FFS D-Motion Type Packaging Machine",
       slug: "ffs-d-motion-type-packaging-machine",
     },
     {
-      name: "FFS Half Pneumatic Packaging Machine (JAT-304)",
+      name: "FFS Half Pneumatic Packaging Machine",
       slug: "ffs-half-pneumatic-packaging-machine",
     },
     {
-      name: "Horizontal Rotary Machine (JAT-305)",
+      name: "Horizontal Rotary Machine",
       slug: "horizontal-rotary-machine",
     },
     {
-      name: "Fully Automatic Multi-head Weighing, Packaging Machine (JAT-306)",
-      slug: "fully-automatic-multi-head-weighing-packaging-machine-jat-306",
+      name: "Fully Automatic Multi-head Weighing, Packaging Machine",
+      slug: "fully-automatic-multi-head-weighing-packaging-machine",
     },
     {
-      name: "Collar Auger Filling Packaging Machine (JAT-307)",
+      name: "Collar Auger Filling Packaging Machine",
       slug: "collar-auger-filling-packaging-machine",
     },
     {
-      name: "Horizontal Flow Wrape Pillopack Machine (JAT-308)",
+      name: "Horizontal Flow Wrape Pillopack Machine",
       slug: "horizontal-flow-wrap-pillow-pack-machine",
     },
     {
-      name: "Hotel Pack Packaging Machine (JAT-309)",
+      name: "Hotel Pack Packaging Machine",
       slug: "hotel-pack-packaging-machine",
     },
     {
-      name: "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine (JAT-310)",
+      name: "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine",
       slug: "horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine",
     },
     {
-      name: "One-edge Biscuit Packaging Machine with Dual Feeder for 50gm, 75gm & 100gm (JAT-311)",
+      name: "One-edge Biscuit Packaging Machine with Dual Feeder for 50gm, 75gm & 100gm",
       slug: "one-edge-biscuit-packaging-machine",
     },
     {
-      name: "Automatic Family Pack Biscuit or Rusk Packaging Machine (JAT-312)",
+      name: "Automatic Family Pack Biscuit or Rusk Packaging Machine",
       slug: "best-automatic-family-pack-rusk-packaging-machine",
     },
     {
-      name: "One-edge Packaging Machine with Cream Biscuit Feeder (JAT-313)",
+      name: "One-edge Packaging Machine with Cream Biscuit Feeder",
       slug: "one-edge-packaging-machine-with-cream-biscuit-feeder",
     },
     {
-      name: "Collar Type Cup Filler Packaging Machine (JAT-314)",
+      name: "Collar Type Cup Filler Packaging Machine",
       slug: "collar-type-cup-filler-packaging-machine",
     },
   ];

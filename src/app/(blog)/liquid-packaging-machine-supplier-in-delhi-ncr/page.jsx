@@ -100,15 +100,15 @@ const jsonLd = {
         },
         {
           "@type": "Question",
-          name: "What is the filling range of Jawla Advance Technology's JAT-301A?",
+          name: "What is the filling range of Jawla Advance Technology's Liquid Packaging Machine?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "The listed filling range of the JAT-301A is 2 ml to 100 ml. Confirm the suitability of your exact product and pack size with the company.",
+            text: "The listed filling range of the Liquid Packaging Machine is 2 ml to 100 ml. Confirm the suitability of your exact product and pack size with the company.",
           },
         },
         {
           "@type": "Question",
-          name: "What is the production speed of the JAT-301A?",
+          name: "What is the production speed of the Liquid Packaging Machine?",
           acceptedAnswer: {
             "@type": "Answer",
             text: "The listed speed is 50–60 pouches per minute. Actual output may vary depending on the liquid, fill quantity, film and operating conditions.",
@@ -318,7 +318,7 @@ export default function LiquidPackagingMachineSupplierGuide() {
           appropriate for your product.
         </p>
         <p className="text-sm sm:text-[15px] md:text-base text-gray-800 mb-3 leading-7">
-          For example, Jawla Advance Technology lists its JAT-301A model
+          For example, Jawla Advance Technology lists its Liquid Packaging Machine
           with these specifications:
         </p>
         <div className="overflow-x-auto border border-gray-200 rounded-sm mb-5">
@@ -329,7 +329,7 @@ export default function LiquidPackagingMachineSupplierGuide() {
                   Specification
                 </th>
                 <th className="p-3 font-bold text-black">
-                  JAT-301A details
+                  Liquid Packaging Machine details
                 </th>
               </tr>
             </thead>
@@ -476,7 +476,7 @@ export default function LiquidPackagingMachineSupplierGuide() {
             </strong>
           </Link>{" "}
           is based in Ballabgarh, Faridabad, and offers packaging machinery
-          for different product applications. Its listed JAT-301A model is
+          for different product applications. Its listed Liquid Packaging Machine is
           designed for small-volume liquid pouch packaging, with a 2 ml to
           100 ml filling range, piston dosing and a stated speed of 50–60
           pouches per minute.
@@ -530,7 +530,7 @@ export default function LiquidPackagingMachineSupplierGuide() {
           >
             Contact Jawla Advance Technology
           </Link>{" "}
-          to discuss whether the JAT-301A or another packaging solution
+          to discuss whether the Liquid Packaging Machine or another packaging solution
           matches your requirements.
         </p>
       </section>

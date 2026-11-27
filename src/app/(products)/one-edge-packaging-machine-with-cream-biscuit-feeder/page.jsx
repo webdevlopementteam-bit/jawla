@@ -6,9 +6,9 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/one-edge-packaging-machine-with-cream-biscuit-feeder" },
-  title: "One-Edge Packaging Machine With Cream Biscuit Feeder (JAT-313)",
+  title: "One-Edge Packaging Machine With Cream Biscuit Feeder",
   description:
-    "Buy One-Edge Packaging Machine With Cream Biscuit Feeder (JAT-313) from Jawla Advance Technology. Dedicated feeder for sandwich & cream biscuits (80–150 packs/min).",
+    "Buy One-Edge Packaging Machine With Cream Biscuit Feeder from Jawla Advance Technology. Dedicated feeder for sandwich & cream biscuits (80–150 packs/min).",
   keywords: [
     "One-Edge Packaging Machine With Cream Biscuit Feeder",
     "Packaging Machine",
@@ -39,7 +39,7 @@ export default function ProductDetailSection() {
             "/PRODUCTS/one-edge-packaging-machine-with-cream-biscuit-feeder/p2.webp"
           }
           productTitle={
-            "One-edge Packaging Machine with Cream Biscuit Feeder (JAT-313)"
+            "One-edge Packaging Machine with Cream Biscuit Feeder"
           }
           productDescription={"Cream Biscuit"}
           productTagline={
@@ -50,7 +50,7 @@ export default function ProductDetailSection() {
 
       <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
         <h1 className="text-2xl md:text-3xl font-bold text-black">
-          One-Edge Packaging Machine With Cream Biscuit Feeder (JAT-313) - Jawla Advance Technology
+          One-Edge Packaging Machine With Cream Biscuit Feeder - Jawla Advance Technology
         </h1>
       </section>
       <SuppliedProductContent page={suppliedProductContent.creamBiscuit} />

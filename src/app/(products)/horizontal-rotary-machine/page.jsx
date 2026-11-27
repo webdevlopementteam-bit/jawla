@@ -7,9 +7,9 @@ import { suppliedProductContent } from "@/lib/suppliedProductContent";
 
 export const metadata = {
   alternates: { canonical: "/horizontal-rotary-machine" },
-  title: "Horizontal Rotary Machine (JAT-305)",
+  title: "Horizontal Rotary Machine",
   description:
-    "Buy Horizontal Rotary Machine (JAT-305) from Jawla Advance Technology. High speed rotary pouch packing machine for tea, sugar, spices & mouth freshener.",
+    "Buy Horizontal Rotary Machine from Jawla Advance Technology. High speed rotary pouch packing machine for tea, sugar, spices & mouth freshener.",
   keywords: [
     "Horizontal Rotary Machine",
     "Packaging Machine",
@@ -33,7 +33,7 @@ export default function ProductDetailSection() {
         <MainProductDetails
           MachineImage={"/PRODUCTS/horizontal-rotary-machine/p1.webp"}
           sampleImage={"/PRODUCTS/horizontal-rotary-machine/p2.webp"}
-          productTitle={"Horizontal Rotary Machine (JAT-305)"}
+          productTitle={"Horizontal Rotary Machine"}
           productDescription={
             "Tea, Washing Powder, Spices, Sugar, Mouth Freshner, Pan Masala, Khaini etc."
           }
@@ -45,7 +45,7 @@ export default function ProductDetailSection() {
 
       <section className="w-full bg-white font-sans px-4 md:px-8 lg:px-20 pt-10">
         <h1 className="text-2xl md:text-3xl font-bold text-black">
-          Horizontal Rotary Machine (JAT-305) - Jawla Advance Technology
+          Horizontal Rotary Machine - Jawla Advance Technology
         </h1>
       </section>
 

@@ -411,7 +411,7 @@ export default function CollarAugerBuyersGuide() {
           supplied machines to 500+ clients in 25+ countries, including food
           brands such as SBM Group, Nathu&apos;s and Priyagold. We build
           every model in-house, from FFS pouch machines to this collar auger
-          filler (model JAT-307), and we write this guide from what we see on
+          filler, and we write this guide from what we see on
           the factory floor and at customer sites.
         </p>
         <div className="overflow-x-auto border border-gray-200 rounded-sm">
@@ -788,24 +788,24 @@ export default function CollarAugerBuyersGuide() {
         <p className="text-sm sm:text-[15px] md:text-base text-gray-800 leading-7">
           Looking at other products? Explore our{" "}
           <Link
-            href="/normal-ffs-packaging-machine-jat-301"
+            href="/normal-ffs-packaging-machine"
             className="text-red-600 font-bold hover:no-underline"
           >
-            normal FFS packaging machine (JAT-301)
+            normal FFS packaging machine
           </Link>
           ,{" "}
           <Link
             href="/collar-type-cup-filler-packaging-machine"
             className="text-red-600 font-bold hover:no-underline"
           >
-            collar type cup filler packaging machine (JAT-314)
+            collar type cup filler packaging machine
           </Link>{" "}
           or{" "}
           <Link
-            href="/fully-automatic-multi-head-weighing-packaging-machine-jat-306"
+            href="/fully-automatic-multi-head-weighing-packaging-machine"
             className="text-red-600 font-bold hover:no-underline"
           >
-            multi-head weighing packaging machine (JAT-306)
+            multi-head weighing packaging machine
           </Link>
           .
         </p>
