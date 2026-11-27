@@ -3,6 +3,7 @@ import "./globals.css";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Breadcrumb from "@/components/Breadcrumb";
+import InquiryPopup from "@/components/InquiryPopup";
 
 const oxanium = Oxanium({
   variable: "--font-oxanium",
@@ -180,6 +181,7 @@ export default function RootLayout({ children }) {
         <Breadcrumb />
         <main className="flex-1 w-full">{children}</main>
         <Footer />
+        <InquiryPopup />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}

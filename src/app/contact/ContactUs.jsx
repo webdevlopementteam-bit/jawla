@@ -2,6 +2,7 @@
 
 import { useRef, useState } from "react";
 import Image from "next/image";
+import { submitContact } from "@/lib/submitContact";
 import {
   FaPhone,
   FaMobileScreenButton,
@@ -44,30 +45,13 @@ function ContactUs() {
     try {
       const formDataToSend = new FormData();
 
-      formDataToSend.append(
-        "access_key",
-        "341b1c15-a810-4253-bb25-62c834cc1a6d",
-      );
-
       formDataToSend.append("firstName", formData.firstName);
       formDataToSend.append("lastName", formData.lastName);
       formDataToSend.append("email", formData.email);
       formDataToSend.append("numbers", formData.numbers);
       formDataToSend.append("message", formData.message);
 
-      formDataToSend.append(
-        "subject",
-        "New Contact Form Submission - Jawla Advance Technology",
-      );
-
-      formDataToSend.append("from_name", "Jawla Advance Technology Website");
-
-      const response = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        body: formDataToSend,
-      });
-
-      const data = await response.json();
+      const data = await submitContact(formDataToSend);
 
       if (data.success) {
         window.location.href = "/thank-you";
