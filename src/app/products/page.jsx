@@ -8,6 +8,7 @@ export const metadata = {
   title: "Packaging Machines - Fully & Semi Automatic Systems",
   description:
     "Explore 15+ high-performance packaging machine models by Jawla Advance Technology. Featuring powder packaging machines, liquid packaging machines, FFS & flow wrap systems.",
+  keywords: ["packaging machine"],
 };
 
 export default function ProductsGrid() {
@@ -53,56 +54,6 @@ export default function ProductsGrid() {
               </div>
             );
           })}
-        </div>
-
-        {/* Informative Content Section for SEO */}
-        <div className="mt-16 bg-white border border-gray-200 rounded-2xl p-6 sm:p-10 shadow-sm space-y-8">
-          <div>
-            <h2 className="text-xl sm:text-2xl font-bold text-black mb-3">
-              Comprehensive Packaging Machine Range for Every Production Scale
-            </h2>
-            <p className="text-gray-700 text-sm sm:text-base leading-relaxed">
-              At Jawla Advance Technology, we build advanced machinery engineered to meet diverse industrial packaging requirements across India and overseas. From single-sachet pouch packaging to automated family-pack flows, our machines deliver continuous output, airtight seal integrity, and minimal product wastage.
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 border-t border-gray-100">
-            <div>
-              <h3 className="text-lg font-bold text-[#bd2a2a] mb-2">
-                Fully Automatic Packaging Machine
-              </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Our fully automatic packaging machine systems handle film forming, precise dosing, continuous heat-sealing, batch coding, and cutting in one synchronized cycle. Ideal for medium to high-volume manufacturing lines in food processing, snacks, cosmetics, and pharmaceuticals.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-lg font-bold text-[#bd2a2a] mb-2">
-                Semi Automatic Packaging Machine
-              </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Designed for flexible batch runs and growing enterprises, our semi automatic packaging machine series provides rugged durability with user-friendly operation, allowing fast changeovers between different pack sizes and granular products.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4 border-t border-gray-100">
-            <div>
-              <h3 className="text-lg font-bold text-[#bd2a2a] mb-2">
-                Powder Packaging Machine
-              </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Equipped with high-precision servo auger fillers, our powder packaging machines accurately fill spices, flour, coffee, detergent, and chemical powders without dust leakage or weight variation.
-              </p>
-            </div>
-            <div>
-              <h3 className="text-lg font-bold text-[#bd2a2a] mb-2">
-                Liquid Packaging Machine
-              </h3>
-              <p className="text-gray-600 text-sm leading-relaxed">
-                Utilizing anti-corrosion stainless steel contact parts and positive displacement piston dosers, our liquid packaging machines pack edible oils, shampoos, juices, lubricants, and syrups into leak-proof pouches.
-              </p>
-            </div>
-          </div>
         </div>
       </div>
     </section>
