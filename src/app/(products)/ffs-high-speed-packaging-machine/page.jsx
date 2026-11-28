@@ -1,19 +1,20 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
+import { FaStar } from "react-icons/fa";
 import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/ffs-high-speed-packaging-machine" },
-  title: "FFS High Speed Packaging Machine",
+  title: "Best FFS High Speed Packaging Machine Manufacturer In Delhi Ncr",
   description:
     "Buy FFS High Speed Packaging Machine from Jawla Advance Technology. Produces 100–450 pouches/min for mouth freshener, pan masala, tea & granules.",
   keywords: [
     "FFS High Speed Packaging Machine",
-    "Packaging Machine",
-    "Jawla Advance Technology",
-    "Best Packaging Machine Manufacturer",
-    "High Speed Packaging Machine",
+    "FFS High Speed Packaging Machine Price",
+    "FFS High Speed Packaging Machine Manufacturer",
+    "FFS High Speed Packaging Machine Supplier in Delhi Ncr",
   ],
 };
 
@@ -168,18 +169,24 @@ const jsonLd = {
 };
 
 const techSpecs = [
-  {
-    feature: "Filling capacity",
-    spec: "2 g to 100 g (up to 200 g for granules)",
-  },
-  { feature: "Production speed", spec: "100 to 450 pouches per minute" },
-  { feature: "Power requirement", spec: "Single phase" },
-  { feature: "Motor", spec: "1/2 HP" },
-  { feature: "Machine weight", spec: "About 700 kg" },
-  { feature: "Film", spec: "Heat-sealable laminated roll film" },
-  { feature: "Maximum roll width", spec: "200 mm" },
-  { feature: "Operation", spec: "Fully automatic" },
-  { feature: "Sealing", spec: "Heat seal, leak-proof" },
+  { feature: "Machine Name", spec: "FFS High Speed Packaging Machine" },
+  { feature: "Price", spec: "₹2,50,000 / Unit" },
+  { feature: "Minimum Order Quantity", spec: "1 Unit" },
+  { feature: "Warranty", spec: "1 Year" },
+  { feature: "Delivery Time", spec: "10 Days" },
+  { feature: "Supply Ability", spec: "50 Units Per Month" },
+];
+
+const machineTechnicalSpecs = [
+  { feature: "Usage", spec: "Industrial" },
+  { feature: "Material", spec: "Mild Steel" },
+  { feature: "Feature", spec: "Highly Efficient" },
+  { feature: "Computerized", spec: "No" },
+  { feature: "Automatic Grade", spec: "Semi-Automatic" },
+  { feature: "Control System", spec: "Frequency Speed Control" },
+  { feature: "Drive Type", spec: "Electric" },
+  { feature: "Voltage", spec: "220 Volt (v)" },
+  { feature: "Warranty", spec: "1 Year" },
 ];
 
 const fitsBestList = [
@@ -238,6 +245,7 @@ export default function ProductDetailSection() {
       <section className="w-full bg-white font-sans">
         {/* Top Red Header Container */}
         <TopCard
+          as="h1"
           title={"FFS High Speed Packaging Machine"}
           image={"/PRODUCTS/ffs-high-speed-packaging-machine/top.webp"}
         />
@@ -245,24 +253,85 @@ export default function ProductDetailSection() {
         {/* Main Details Section */}
         <MainProductDetails
           MachineImage={"/PRODUCTS/ffs-high-speed-packaging-machine/p1.webp"}
-          sampleImage={"/PRODUCTS/ffs-high-speed-packaging-machine/p2.webp"}
-          productTitle={"FFS High Speed Packaging Machine"}
-          productDescription={
-            "Mouth Freshner, Paan masala, Spices, Namkeen, Tea, Coffee, Heena, Powder, All granular & Detergent"
-          }
-          productTagline={
-            "Controlled Automation Technology armed with Seasoned Machinist"
-          }
-        />
+          showRating={false}
+        >
+          <div className="pt-1">
+            <h2 className="text-black font-bold text-sm sm:text-base md:text-base lg:text-lg mb-3">
+              Technical Specification of FFS High Speed Packaging Machine
+            </h2>
+            <div className="overflow-x-auto border border-gray-200 rounded-lg">
+              <table className="w-full border-collapse text-left text-sm sm:text-base">
+                <thead>
+                  <tr className="bg-gray-100 border-b border-gray-200">
+                    <th className="py-2.5 px-4 font-bold text-gray-900">
+                      Parameter
+                    </th>
+                    <th className="py-2.5 px-4 font-bold text-gray-900">
+                      Details
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {machineTechnicalSpecs.map((spec, index) => (
+                    <tr
+                      key={index}
+                      className="border-b border-gray-100 last:border-b-0"
+                    >
+                      <td className="py-2.5 px-4 font-medium text-gray-800">
+                        {spec.feature}
+                      </td>
+                      <td className="py-2.5 px-4 text-gray-700">
+                        {spec.spec}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </MainProductDetails>
+
+        {/* Title, Rating, Packing Products */}
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 pt-6 sm:pt-8 space-y-3 sm:space-y-4">
+          <h3 className="text-2xl md:text-3xl font-bold text-black mb-4">
+              FFS High Speed Packaging Machine Manufacturer in Delhi NCR
+            </h3>
+          <div className="flex items-center gap-1 text-yellow-500 text-xs sm:text-sm">
+            {[...Array(5)].map((_, index) => (
+              <FaStar key={index} />
+            ))}
+          </div>
+          <h3 className="text-black font-bold text-sm sm:text-base md:text-base lg:text-lg pt-1 sm:pt-2">
+            Packing Products
+          </h3>
+          <p className="text-gray-500 text-sm sm:text-base md:text-sm lg:text-base leading-relaxed max-w-2xl">
+            Mouth Freshner, Paan masala, Spices, Namkeen, Tea, Coffee, Heena,
+            Powder, All granular &amp; Detergent
+          </p>
+          <p className="text-gray-500 font-bold text-sm sm:text-base md:text-sm lg:text-base leading-relaxed pt-1">
+            Controlled Automation Technology armed with Seasoned Machinist
+          </p>
+        </div>
+
+        {/* Sample Packaging Products */}
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 pt-6 sm:pt-8 pb-8 sm:pb-10 md:pb-12">
+          <div className="relative w-full max-w-2xl h-64 sm:h-72 md:h-68 lg:h-80">
+            <Image
+              src="/PRODUCTS/ffs-high-speed-packaging-machine/p2.webp"
+              alt="Sample Packaging Products"
+              fill
+              sizes="(max-width: 767px) 100vw, (max-width: 1024px) 60vw, 650px"
+              className="object-contain object-left"
+            />
+          </div>
+        </div>
       </section>
 
       <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 leading-relaxed font-sans">
         <div className="w-full mx-auto space-y-8">
-          {/* H1 + Quick Answer */}
+          {/* Quick Answer */}
           <div>
-            <h1 className="text-2xl md:text-3xl font-bold text-black mb-4">
-              FFS High Speed Packaging Machine - Jawla Advance Technology
-            </h1>
+           
             <p className="text-gray-700">
               <span className="font-bold text-black">Quick answer: </span>
               Jawla Advance Technology LLP, an FFS high speed packaging
@@ -274,9 +343,9 @@ export default function ProductDetailSection() {
             </p>
             <p className="text-gray-700 mt-3">
               Speed is the whole point of the{" "}
-              <span className="font-bold text-black">
+              <a href="/contact"><span className="font-bold text-red-500 underline">
                 FFS High Speed Packaging Machine
-              </span>{" "}
+              </span>{" "}</a>
 : 100 to 450 pouches per minute, making it one of the
               fastest ways to pack small sachets of pan masala, mouth
               freshener, spices, tea and powders. It runs on single-phase
@@ -286,21 +355,28 @@ export default function ProductDetailSection() {
             </p>
           </div>
 
-          {/* Technical Specifications */}
+          {/* Price / Product Details */}
           <div className="space-y-6">
             <h2 className="text-[#E13538] text-xl font-bold">
-              Technical Specifications
+              FFS High Speed Packaging Machine Price
             </h2>
+            <p className="text-base md:text-lg text-gray-700 leading-relaxed">
+              The FFS High Speed Packaging Machine is designed for
+              industrial packaging applications. It offers semi-automatic
+              operation, frequency speed control, and durable mild steel
+              construction. Check the machine price and purchasing details
+              below.
+            </p>
 
             <div className="overflow-x-auto border border-gray-200 rounded-sm">
               <table className="w-full text-left border-collapse text-base md:text-lg text-gray-700">
                 <thead>
                   <tr className="bg-gray-50 border-b border-gray-200">
                     <th className="p-3 font-bold text-black border-r border-gray-200 text-center w-1/2 text-base md:text-xl">
-                      Feature
+                      Product Details
                     </th>
                     <th className="p-3 font-bold text-black text-center w-1/2 text-base md:text-xl">
-                      FFS High Speed Packaging Machine
+                      Information
                     </th>
                   </tr>
                 </thead>

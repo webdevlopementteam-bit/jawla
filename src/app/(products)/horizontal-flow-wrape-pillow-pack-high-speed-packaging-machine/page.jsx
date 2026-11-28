@@ -1,5 +1,7 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
+import { FaStar } from "react-icons/fa";
 import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
@@ -7,15 +9,13 @@ export const metadata = {
   alternates: {
     canonical: "/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine",
   },
-  title: "Horizontal Flow Wrap High Speed Pillow Pack Machine",
+  title: "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine",
   description:
     "Buy Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine from Jawla Advance Technology. Speeds up to 300 packs/min for biscuits & bakery.",
   keywords: [
     "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine",
-    "Packaging Machine",
-    "Flow Wrap Machine",
-    "Jawla Advance Technology",
-    "Best Packaging Machine Manufacturer",
+    "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine Manufacturer In Delhi Ncr",
+    "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine Price",
   ],
 };
 
@@ -168,20 +168,26 @@ const jsonLd = {
   ],
 };
 
-const keySpecs = [
-  { feature: "Output", value: "Up to 300 packs per minute" },
-  {
-    feature: "Pack formats",
-    value: "Single, 2-biscuit and 4-biscuit pillow packs",
-  },
-  {
-    feature: "Feeding",
-    value: "Automatic feeding with long conveyor and hopper",
-  },
-  { feature: "Sealing", value: "Continuous sealing with temperature control" },
-  { feature: "Motor", value: "2 HP Crompton Greaves gear motor, single phase" },
-  { feature: "Body", value: "Stainless steel with non-corrosive powder coating" },
-  { feature: "Film", value: "Heat-sealable laminated roll film" },
+const machineTechnicalSpecs = [
+  { feature: "Usage", spec: "Industrial" },
+  { feature: "Material", spec: "Mild Steel" },
+  { feature: "Feature", spec: "Highly Efficient" },
+  { feature: "Computerized", spec: "No" },
+  { feature: "Automatic Grade", spec: "Semi-Automatic" },
+  { feature: "Control System", spec: "Frequency Speed Control" },
+  { feature: "Drive Type", spec: "Electric" },
+  { feature: "Voltage", spec: "220 Volt (V)" },
+  { feature: "Warranty", spec: "1 Year" },
+];
+
+const priceTradeInfo = [
+  { feature: "Machine Name", value: "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine" },
+  { feature: "Price", value: "₹6,00,000 / Unit" },
+  { feature: "Minimum Order Quantity", value: "1 Unit" },
+  { feature: "Payment Terms", value: "Cash in Advance (CID)" },
+  { feature: "Supply Ability", value: "50 Units Per Month" },
+  { feature: "Delivery Time", value: "10 Days" },
+  { feature: "Main Domestic Market", value: "All India" },
 ];
 
 const machineUses = [
@@ -231,6 +237,7 @@ export default function ProductDetailSection() {
       <section className="w-full bg-white font-sans">
         {/* Top Red Header Container */}
         <TopCard
+          as="h1"
           title={
             "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine"
           }
@@ -244,23 +251,83 @@ export default function ProductDetailSection() {
           MachineImage={
             "/PRODUCTS/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine/p1.webp"
           }
-          sampleImage={
-            "/PRODUCTS/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine/p2.webp"
-          }
-          productTitle={
-            "Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine"
-          }
-          productDescription={"2 OR 4 Biscuit specially in high speed"}
-          productTagline={"High-Speed 2/4 Biscuit Pillow Packaging Machine"}
-        />
+          showRating={false}
+        >
+          <div className="pt-1">
+            <h3 className="text-black font-bold text-sm sm:text-base md:text-base lg:text-lg mb-3">
+              Technical Specifications of Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine
+            </h3>
+            <div className="overflow-x-auto border border-gray-200 rounded-lg">
+              <table className="w-full border-collapse text-left text-sm sm:text-base">
+                <thead>
+                  <tr className="bg-gray-100 border-b border-gray-200">
+                    <th className="py-2.5 px-4 font-bold text-gray-900">
+                      Technical Parameter
+                    </th>
+                    <th className="py-2.5 px-4 font-bold text-gray-900">
+                      Specification
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {machineTechnicalSpecs.map((spec, index) => (
+                    <tr
+                      key={index}
+                      className="border-b border-gray-100 last:border-b-0"
+                    >
+                      <td className="py-2.5 px-4 font-medium text-gray-800">
+                        {spec.feature}
+                      </td>
+                      <td className="py-2.5 px-4 text-gray-700">
+                        {spec.spec}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </MainProductDetails>
+
+        {/* Title, Rating, Packing Products */}
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 pt-6 sm:pt-8 space-y-3 sm:space-y-4">
+         <h3 className="text-2xl md:text-3xl font-bold text-black mb-1">
+           Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine
+          </h3>
+          <div className="flex items-center gap-1 text-yellow-500 text-xs sm:text-sm">
+            {[...Array(5)].map((_, index) => (
+              <FaStar key={index} />
+            ))}
+          </div>
+          <h3 className="text-black font-bold text-sm sm:text-base md:text-base lg:text-lg pt-1 sm:pt-2">
+            Packing Products
+          </h3>
+          <p className="text-gray-500 text-sm sm:text-base md:text-sm lg:text-base leading-relaxed max-w-2xl">
+            2 OR 4 Biscuit specially in high speed
+          </p>
+          <p className="text-gray-500 font-bold text-sm sm:text-base md:text-sm lg:text-base leading-relaxed pt-1">
+            High-Speed 2/4 Biscuit Pillow Packaging Machine
+          </p>
+        </div>
+
+        {/* Sample Packaging Products */}
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 pt-6 sm:pt-8 pb-8 sm:pb-10 md:pb-12">
+          <div className="relative w-full max-w-2xl h-64 sm:h-72 md:h-68 lg:h-80">
+            <Image
+              src="/PRODUCTS/horizontal-flow-wrape-pillow-pack-high-speed-packaging-machine/p2.webp"
+              alt="Sample Packaging Products"
+              fill
+              sizes="(max-width: 767px) 100vw, (max-width: 1024px) 60vw, 650px"
+              className="object-contain object-left"
+            />
+          </div>
+        </div>
       </section>
 
       <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
         {/* H1 + Quick Answer */}
         <div className="space-y-3">
-          <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">
-            Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine - Jawla Advance Technology
-          </h1>
+          
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
             Jawla Advance Technology LLP is a{" "}
@@ -286,23 +353,43 @@ export default function ProductDetailSection() {
           </p>
         </div>
 
-        {/* Key Specifications */}
+        {/* Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine Price */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">
-            Key Specifications
+            Horizontal Flow Wrape Pillow Pack High Speed Packaging Machine
+            Price
           </h2>
+          <p className="leading-relaxed">
+            The price of the Horizontal Flow Wrape Pillow Pack High Speed
+            Packaging Machine is ₹6,00,000 per unit. This machine is
+            designed for high-speed packaging of biscuits, cookies, and
+            other small products in single, 2-piece, and 4-piece pillow
+            pack formats. It provides efficient packaging operations with
+            consistent sealing and accurate product handling.
+          </p>
+          <p className="leading-relaxed">
+            Jawla Advance Technology is a reliable Horizontal Flow Wrape
+            Pillow Pack High Speed Packaging Machine Supplier in Delhi NCR,
+            offering packaging solutions for biscuit manufacturers,
+            bakeries, and food processing industries. The machine is
+            suitable for businesses looking to improve production capacity
+            and maintain consistent packaging quality.
+          </p>
+          <p className="leading-relaxed">
+            Below are the pricing and trade details of the machine:
+          </p>
           <div className="overflow-x-auto border border-gray-200 rounded-sm">
             <table className="w-full text-left border-collapse text-base text-gray-700">
               <thead>
                 <tr className="bg-gray-50 border-b border-gray-200">
                   <th className="p-3 font-bold text-black border-r border-gray-200 w-1/2">
-                    Feature
+                    Product Details
                   </th>
-                  <th className="p-3 font-bold text-black w-1/2">Specification</th>
+                  <th className="p-3 font-bold text-black w-1/2">Information</th>
                 </tr>
               </thead>
               <tbody>
-                {keySpecs.map((spec, index) => (
+                {priceTradeInfo.map((spec, index) => (
                   <tr
                     key={index}
                     className="border-b border-gray-200 last:border-b-0"
@@ -316,6 +403,17 @@ export default function ProductDetailSection() {
               </tbody>
             </table>
           </div>
+          <p className="leading-relaxed">
+            For pricing enquiries, bulk orders, and product details, contact{" "}
+            <Link
+              href="/contact"
+              className="text-[#E13538] font-bold hover:underline"
+            >
+              Jawla Advance Technology
+            </Link>
+            . The company also provides installation assistance and
+            after-sales support for customers.
+          </p>
         </div>
 
         {/* Built for Small Biscuit Packs */}

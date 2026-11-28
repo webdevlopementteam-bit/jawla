@@ -1,19 +1,19 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
+import { FaStar } from "react-icons/fa";
 import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/ffs-half-pneumatic-packaging-machine" },
-  title: "Half Pneumatic Packaging Machine",
+  title: "Best Half Pneumatic Packaging Machine Manufacturer in Delhi NCR",
   description:
     "Buy Half Pneumatic Packaging Machine from Jawla Advance Technology. Packs 2g to 300g at up to 60 pouches/min with airtight pneumatic sealing.",
   keywords: [
     "Half Pneumatic Packaging Machine",
-    "Packaging Machine",
-    "Jawla Advance Technology",
-    "Best Packaging Machine Manufacturer",
-    "FFS Half Pneumatic Packaging Machine",
+    "Half Pneumatic Packaging Machine Manufacturer",
+    "Half Pneumatic Packaging Machine Price",
   ],
 };
 
@@ -166,16 +166,23 @@ const jsonLd = {
   ],
 };
 
-const keySpecs = [
-  { feature: "Pack size", value: "2 g to 300 g" },
-  { feature: "Output", value: "Up to 60 pouches per minute" },
-  { feature: "Filling system", value: "Volumetric cup filler" },
-  { feature: "Sealing", value: "Centre seal, airtight and leak-proof" },
-  {
-    feature: "Build",
-    value: "Non-corrosive parts with powder-coated finish",
-  },
-  { feature: "Operation", value: "Half pneumatic (semi-automatic)" },
+const machineTechnicalSpecs = [
+  { feature: "Usage", spec: "Industrial" },
+  { feature: "Material", spec: "Mild Steel" },
+  { feature: "Feature", spec: "Highly Efficient" },
+  { feature: "Computerized", spec: "No" },
+  { feature: "Automatic Grade", spec: "Semi-Automatic" },
+  { feature: "Control System", spec: "Frequency Speed Control" },
+  { feature: "Drive Type", spec: "Electric" },
+  { feature: "Voltage", spec: "220 Volt (V)" },
+  { feature: "Warranty", spec: "1 Year" },
+];
+
+const priceDetails = [
+  { feature: "Machine Name", value: "FFS Half Pneumatic Packaging Machine" },
+  { feature: "Price", value: "₹2,50,000 / Unit" },
+  { feature: "Minimum Order Quantity", value: "1 Unit" },
+  { feature: "Warranty", value: "1 Year" },
 ];
 
 const packableProducts = [
@@ -247,30 +254,93 @@ export default function ProductDetailSection() {
       <section className="w-full bg-white font-sans">
         {/* Top Red Header Container */}
         <TopCard
-          title={"FFS Half Pneumatic Packaging Machine"}
+          as="h1"
+          title={"Half Pneumatic Packaging Machine"}
           image={"/PRODUCTS/ffs-half-pneumatic-packaging-machine/top.webp"}
         />
 
         {/* Main Details Section */}
         <MainProductDetails
           MachineImage={"/PRODUCTS/ffs-half-pneumatic-packaging-machine/p1.webp"}
-          sampleImage={"/PRODUCTS/ffs-half-pneumatic-packaging-machine/p2.webp"}
-          productTitle={"FFS Half Pneumatic Packaging Machine"}
-          productDescription={
-            "Spices, Namkeen, Tea, Coffee, Heena, Powder, All granular & Detergent"
-          }
-          productTagline={
-            "Granule Packing Machine- Locks the Freshness and maintains Zero Leakage"
-          }
-        />
+          showRating={false}
+        >
+          <div className="pt-1">
+            <h2 className="text-black font-bold text-sm sm:text-base md:text-base lg:text-lg mb-3">
+              Technical Specifications of half pneumatic packaging machine
+            </h2>
+            <div className="overflow-x-auto border border-gray-200 rounded-lg">
+              <table className="w-full border-collapse text-left text-sm sm:text-base">
+                <thead>
+                  <tr className="bg-gray-100 border-b border-gray-200">
+                    <th className="py-2.5 px-4 font-bold text-gray-900">
+                      Technical Parameter
+                    </th>
+                    <th className="py-2.5 px-4 font-bold text-gray-900">
+                      Specification
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {machineTechnicalSpecs.map((spec, index) => (
+                    <tr
+                      key={index}
+                      className="border-b border-gray-100 last:border-b-0"
+                    >
+                      <td className="py-2.5 px-4 font-medium text-gray-800">
+                        {spec.feature}
+                      </td>
+                      <td className="py-2.5 px-4 text-gray-700">
+                        {spec.spec}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </MainProductDetails>
+
+        {/* Title, Rating, Packing Products */}
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 pt-6 sm:pt-8 space-y-3 sm:space-y-4">
+         <h2 className="text-2xl md:text-3xl font-bold text-black mb-1">
+           Half Pneumatic Packaging Machine Supplier In Delhi Ncr
+          </h2>
+          <div className="flex items-center gap-1 text-yellow-500 text-xs sm:text-sm">
+            {[...Array(5)].map((_, index) => (
+              <FaStar key={index} />
+            ))}
+          </div>
+          <h3 className="text-black font-bold text-sm sm:text-base md:text-base lg:text-lg pt-1 sm:pt-2">
+            Packing Products
+          </h3>
+          <p className="text-gray-500 text-sm sm:text-base md:text-sm lg:text-base leading-relaxed max-w-2xl">
+            Spices, Namkeen, Tea, Coffee, Heena, Powder, All granular &amp;
+            Detergent
+          </p>
+          <p className="text-gray-500 font-bold text-sm sm:text-base md:text-sm lg:text-base leading-relaxed pt-1">
+            Granule Packing Machine- Locks the Freshness and maintains Zero
+            Leakage
+          </p>
+        </div>
+
+        {/* Sample Packaging Products */}
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 pt-6 sm:pt-8 pb-8 sm:pb-10 md:pb-12">
+          <div className="relative w-full max-w-2xl h-64 sm:h-72 md:h-68 lg:h-80">
+            <Image
+              src="/PRODUCTS/ffs-half-pneumatic-packaging-machine/p2.webp"
+              alt="Sample Packaging Products"
+              fill
+              sizes="(max-width: 767px) 100vw, (max-width: 1024px) 60vw, 650px"
+              className="object-contain object-left"
+            />
+          </div>
+        </div>
       </section>
 
       <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
         {/* H1 + Quick Answer */}
         <div className="space-y-3">
-          <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">
-            Half Pneumatic Packaging Machine - Jawla Advance Technology
-          </h1>
+          
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
             Jawla Advance Technology LLP is a half pneumatic packaging
@@ -281,9 +351,9 @@ export default function ProductDetailSection() {
           </p>
           <p className="leading-relaxed">
             Cup filling plus a pneumatic seal cycle is what the FFS{" "}
-            <span className="font-bold text-black">
+            <a href="/contact"><span className="font-bold text-red-500 underline">
               Half Pneumatic Packaging Machine
-            </span>{" "}
+            </span></a>{" "}
  runs on, packing masala, spices, tea, coffee, namkeen,
             detergent and other granular products in pouches from 2 g to 300
             g at up to 60 pouches per minute with a strong centre seal. Jawla
@@ -293,23 +363,40 @@ export default function ProductDetailSection() {
           </p>
         </div>
 
-        {/* Key Specifications */}
+        {/* FFS Half Pneumatic Packaging Machine Price */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">
-            Key Specifications
+            FFS Half Pneumatic Packaging Machine Price
           </h2>
+          <p className="leading-relaxed">
+            The FFS Half Pneumatic Packaging Machine is an efficient
+            packaging solution for industrial applications involving
+            spices, namkeen, tea, coffee, henna powder, detergent, and other
+            granular products. It is designed to provide consistent
+            filling, secure sealing, and reliable packaging performance for
+            small and medium-scale manufacturing businesses.
+          </p>
+          <p className="leading-relaxed">
+            If you are looking for an FFS Half Pneumatic Packaging Machine
+            Supplier in Delhi NCR, Jawla Advance Technology offers a
+            reliable machine with semi-automatic operation, frequency speed
+            control, and durable mild steel construction.
+          </p>
+          <p className="leading-relaxed">
+            The machine is available at the following price:
+          </p>
           <div className="overflow-x-auto border border-gray-200 rounded-sm">
             <table className="w-full text-left border-collapse text-base text-gray-700">
               <thead>
                 <tr className="bg-gray-50 border-b border-gray-200">
                   <th className="p-3 font-bold text-black border-r border-gray-200 w-1/2">
-                    Feature
+                    Product Details
                   </th>
-                  <th className="p-3 font-bold text-black w-1/2">Specification</th>
+                  <th className="p-3 font-bold text-black w-1/2">Information</th>
                 </tr>
               </thead>
               <tbody>
-                {keySpecs.map((spec, index) => (
+                {priceDetails.map((spec, index) => (
                   <tr key={index} className="border-b border-gray-200 last:border-b-0">
                     <td className="p-3 font-semibold text-black border-r border-gray-200">
                       {spec.feature}
@@ -320,6 +407,16 @@ export default function ProductDetailSection() {
               </tbody>
             </table>
           </div>
+          <p className="leading-relaxed">
+            Contact{" "}
+            <Link
+              href="/contact"
+              className="text-[#E13538] font-bold hover:underline"
+            >
+              Jawla Advance Technology
+            </Link>{" "}
+            to enquire about machine availability and place your order.
+          </p>
         </div>
 
         {/* What Is a Half Pneumatic Packaging Machine */}

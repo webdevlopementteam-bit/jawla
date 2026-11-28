@@ -1,19 +1,19 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
+import { FaStar } from "react-icons/fa";
 import TopCard from "@/components/TopCard";
 import MainProductDetails from "@/components/MainProductDetails";
 
 export const metadata = {
   alternates: { canonical: "/best-automatic-family-pack-rusk-packaging-machine" },
-  title: "Automatic Family Pack Rusk Packaging Machine",
+  title: "Automatic Family Pack Rusk Packaging Machine Manufacurer In Delhi Ncr",
   description:
     "Buy Automatic Family Pack Rusk Packaging Machine from Jawla Advance Technology. High speed family packs (50g–400g) for rusk, toast & biscuits.",
   keywords: [
     "Automatic Family Pack Rusk Packaging Machine",
-    "Packaging Machine",
-    "Rusk Packaging Machine",
-    "Jawla Advance Technology",
-    "Best Packaging Machine Manufacturer",
+    "Automatic Family Pack Rusk Packaging Machine manufacturer in delhi ncr",
+    "Automatic Family Pack Rusk Packaging Machine price",
   ],
 };
 
@@ -167,23 +167,26 @@ const jsonLd = {
   ],
 };
 
-const keySpecs = [
-  { feature: "Pack size", value: "50 g to 400 g family packs" },
-  { feature: "Output", value: "Up to 60 packs per minute" },
-  {
-    feature: "Feeding",
-    value: "Automatic, with pushing chain and feeder belt",
-  },
-  { feature: "Conveyor", value: "8-foot loading conveyor" },
-  { feature: "Sealing", value: "Centre seal with front and back sealing" },
-  { feature: "Film", value: "Heat-sealable laminated film" },
-  { feature: "Power", value: "About 3 kW" },
-  { feature: "Body", value: "Rust-proof powder coating" },
-  { feature: "Machine weight", value: "About 1,300 kg" },
-  {
-    feature: "Controls",
-    value: "Electrical panel for speed, start, stop and reset",
-  },
+const machineTechnicalSpecs = [
+  { feature: "Usage", spec: "Industrial" },
+  { feature: "Material", spec: "Mild Steel" },
+  { feature: "Feature", spec: "Highly Efficient" },
+  { feature: "Computerized", spec: "No" },
+  { feature: "Automatic Grade", spec: "Semi-Automatic" },
+  { feature: "Control System", spec: "Frequency Speed Control" },
+  { feature: "Drive Type", spec: "Electric" },
+  { feature: "Voltage", spec: "220 Volt (V)" },
+  { feature: "Warranty", spec: "1 Year" },
+];
+
+const priceTradeInfo = [
+  { feature: "Machine Name", value: "Automatic Family Pack Rusk Packaging Machine" },
+  { feature: "Price", value: "₹7,50,000 / Unit" },
+  { feature: "Minimum Order Quantity", value: "1 Unit" },
+  { feature: "Payment Terms", value: "Cash in Advance (CID)" },
+  { feature: "Supply Ability", value: "50 Units Per Month" },
+  { feature: "Delivery Time", value: "10 Days" },
+  { feature: "Main Domestic Market", value: "All India" },
 ];
 
 const howItWorks = [
@@ -249,6 +252,7 @@ export default function ProductDetailSection() {
       <section className="w-full bg-white font-sans">
         {/* Top Red Header Container */}
         <TopCard
+          as="h1"
           title={"Automatic Family Pack Rusk Packaging Machine"}
           image={
             "/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/top.webp"
@@ -260,31 +264,89 @@ export default function ProductDetailSection() {
           MachineImage={
             "/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/p1.webp"
           }
-          sampleImage={
-            "/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/p2.webp"
-          }
-          productTitle={
-            "Automatic Family Pack Biscuit or Rusk Packaging Machine"
-          }
-          productDescription={"Rusk, Cake, Biscuit"}
-          productTagline={
-            "Quickly Packing Cake, Rusk, and Biscuits in Larger Packets"
-          }
-        />
+          showRating={false}
+        >
+          <div className="pt-1">
+            <h3 className="text-black font-bold text-sm sm:text-base md:text-base lg:text-lg mb-3">
+              Technical Specifications of Automatic Family Pack Rusk Packaging Machine
+            </h3>
+            <div className="overflow-x-auto border border-gray-200 rounded-lg">
+              <table className="w-full border-collapse text-left text-sm sm:text-base">
+                <thead>
+                  <tr className="bg-gray-100 border-b border-gray-200">
+                    <th className="py-2.5 px-4 font-bold text-gray-900">
+                      Technical Parameter
+                    </th>
+                    <th className="py-2.5 px-4 font-bold text-gray-900">
+                      Specification
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {machineTechnicalSpecs.map((spec, index) => (
+                    <tr
+                      key={index}
+                      className="border-b border-gray-100 last:border-b-0"
+                    >
+                      <td className="py-2.5 px-4 font-medium text-gray-800">
+                        {spec.feature}
+                      </td>
+                      <td className="py-2.5 px-4 text-gray-700">
+                        {spec.spec}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </MainProductDetails>
+
+        {/* Title, Rating, Packing Products */}
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 pt-6 sm:pt-8 space-y-3 sm:space-y-4">
+          <h3 className="text-2xl md:text-3xl font-bold text-black mb-1">
+           Automatic Family Pack Rusk Packaging Machine Manufacturer 
+          </h3>
+          <div className="flex items-center gap-1 text-yellow-500 text-xs sm:text-sm">
+            {[...Array(5)].map((_, index) => (
+              <FaStar key={index} />
+            ))}
+          </div>
+          <h3 className="text-black font-bold text-sm sm:text-base md:text-base lg:text-lg pt-1 sm:pt-2">
+            Packing Products
+          </h3>
+          <p className="text-gray-500 text-sm sm:text-base md:text-sm lg:text-base leading-relaxed max-w-2xl">
+            Rusk, Cake, Biscuit
+          </p>
+          <p className="text-gray-500 font-bold text-sm sm:text-base md:text-sm lg:text-base leading-relaxed pt-1">
+            Quickly Packing Cake, Rusk, and Biscuits in Larger Packets
+          </p>
+        </div>
+
+        {/* Sample Packaging Products */}
+        <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 pt-6 sm:pt-8 pb-8 sm:pb-10 md:pb-12">
+          <div className="relative w-full max-w-2xl h-64 sm:h-72 md:h-68 lg:h-80">
+            <Image
+              src="/PRODUCTS/best-automatic-family-pack-rusk-packaging-machine/p2.webp"
+              alt="Sample Packaging Products"
+              fill
+              sizes="(max-width: 767px) 100vw, (max-width: 1024px) 60vw, 650px"
+              className="object-contain object-left"
+            />
+          </div>
+        </div>
       </section>
 
       <section className="w-full bg-[#FBFBFB] py-12 px-4 md:px-8 lg:px-20 text-gray-700 border-t border-gray-200 font-sans space-y-10">
         {/* H1 + Quick Answer */}
         <div className="space-y-3">
-          <h1 className="text-2xl md:text-3xl font-bold text-black mb-1">
-            Automatic Family Pack Rusk Packaging Machine - Jawla Advance Technology
-          </h1>
+         
           <p className="leading-relaxed">
             <span className="font-bold text-black">Quick answer: </span>
             Jawla Advance Technology LLP is an{" "}
-            <span className="font-bold text-black">
+           <a href="/contact"><span className="font-bold text-red-500 underline">
               Automatic Family Pack Rusk Packaging Machine
-            </span>{" "}
+            </span></a>{" "}
             manufacturer in Faridabad, Delhi NCR. Its
             Automatic Family Pack Rusk Packaging Machine packs rusk, biscuits and cakes into 50 g to 400 g family
             packs at up to 60 packs per minute, with automatic feeding,
@@ -306,23 +368,43 @@ export default function ProductDetailSection() {
           </p>
         </div>
 
-        {/* Key Specifications */}
+        {/* Automatic Family Pack Rusk Packaging Machine Price */}
         <div className="space-y-3">
           <h2 className="text-[#BB2426] text-xl font-bold mb-3">
-            Key Specifications
+            Automatic Family Pack Rusk Packaging Machine Price
           </h2>
+          <p className="leading-relaxed">
+            The price of the Automatic Family Pack Rusk Packaging Machine
+            is ₹7,50,000 per unit. This machine is designed for packaging
+            rusk, biscuits, cakes, and other bakery products in
+            family-size packets ranging from 50g to 400g. It offers
+            efficient product feeding, smooth wrapping, and secure sealing
+            to help manufacturers maintain consistent packaging quality.
+          </p>
+          <p className="leading-relaxed">
+            Jawla Advance Technology is a trusted Automatic Family Pack
+            Rusk Packaging Machine Manufacturer in Delhi NCR, providing
+            packaging solutions for bakeries, food processing companies,
+            and biscuit manufacturers. The machine is suitable for
+            businesses looking to improve their packaging operations and
+            handle larger product packs efficiently.
+          </p>
+          <p className="leading-relaxed">
+            The pricing and trade details of the machine are provided
+            below:
+          </p>
           <div className="overflow-x-auto border border-gray-200 rounded-sm">
             <table className="w-full text-left border-collapse text-base text-gray-700">
               <thead>
                 <tr className="bg-gray-50 border-b border-gray-200">
                   <th className="p-3 font-bold text-black border-r border-gray-200 w-1/2">
-                    Feature
+                    Product Details
                   </th>
-                  <th className="p-3 font-bold text-black w-1/2">Specification</th>
+                  <th className="p-3 font-bold text-black w-1/2">Information</th>
                 </tr>
               </thead>
               <tbody>
-                {keySpecs.map((spec, index) => (
+                {priceTradeInfo.map((spec, index) => (
                   <tr
                     key={index}
                     className="border-b border-gray-200 last:border-b-0"
@@ -336,6 +418,18 @@ export default function ProductDetailSection() {
               </tbody>
             </table>
           </div>
+          <p className="leading-relaxed">
+            For product enquiries, bulk orders, and purchasing details,
+            contact{" "}
+            <Link
+              href="/contact"
+              className="text-[#E13538] font-bold hover:underline"
+            >
+              Jawla Advance Technology
+            </Link>
+            . The company also provides machine installation, operator
+            training, and after-sales support.
+          </p>
         </div>
 
         {/* How the Automatic Family Pack Rusk Packaging Machine Works */}
